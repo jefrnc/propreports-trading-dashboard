@@ -21,3 +21,5 @@ jobs:
         propreports-domain: ${{ secrets.PROPREPORTS_DOMAIN }}
         propreports-user: ${{ secrets.PROPREPORTS_USER }}
         propreports-pass: ${{ secrets.PROPREPORTS_PASS }}
+        reprocess-days: '3'      # Test reprocessing last 3 days
+        obfuscate-account: 'true' # Test account obfuscation
