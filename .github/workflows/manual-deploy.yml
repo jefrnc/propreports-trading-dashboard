@@ -1,4 +1,4 @@
-name: 05 - Manual Deploy to GitHub Pages
+name: Manual Deploy to GitHub Pages
 # Purpose: Force deployment to GitHub Pages without updating stats
 # Use when:
 #   - You manually edited the dashboard HTML/CSS

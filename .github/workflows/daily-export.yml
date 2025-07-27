@@ -1,33 +1,32 @@
-name: 02 - Reprocess Last 6 Months
-# Purpose: Manual workflow to reprocess 6 months of historical data
-# Use when:
-#   - You need to fix data issues
-#   - You started using the action recently
-#   - You want to recover missing data
+name: Daily Export
+# Purpose: Runs every day at 10 PM EST to export trading data from PropReports
 # What it does:
-#   1. Exports 180 days of trading data
-#   2. Triggers stats update and GitHub Pages deployment
+#   1. Exports today's trades
+#   2. Reprocesses last 3 days (for late-reported trades)
+#   3. Triggers stats update and GitHub Pages deployment
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *' # Daily at 10 PM EST
 
 jobs:
-  reprocess:
+  export:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
-    - name: Export PropReports Data (Last 6 Months)
+    - name: Export PropReports Data
       uses: jefrnc/propreports-auto-exporter@v1
       with:
         propreports-domain: ${{ secrets.PROPREPORTS_DOMAIN }}
         propreports-user: ${{ secrets.PROPREPORTS_USER }}
         propreports-pass: ${{ secrets.PROPREPORTS_PASS }}
-        reprocess-days: '180'     # 6 months
+        reprocess-days: '3'
         obfuscate-account: 'true'
     
     - name: Trigger Stats Update

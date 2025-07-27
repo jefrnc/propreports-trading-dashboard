@@ -1,4 +1,4 @@
-name: 04 - Update Stats and Deploy
+name: Update Stats and Deploy
 # Purpose: Updates all statistics and deploys to GitHub Pages
 # Triggers:
 #   - Automatically after any export workflow
