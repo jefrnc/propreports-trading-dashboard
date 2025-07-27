@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 04:29:22",
+  "exportDate": "2025-07-27 05:08:07",
   "account": "ZI*******64",
   "date": "2025-07-23",
   "trades": [
@@ -156,16 +156,16 @@
     "winningTrades": 8,
     "losingTrades": 0,
     "symbols": [
-      "GPRO",
       "PLRZ",
-      "AMOD",
-      "303",
       "CTOR",
+      "303",
+      "AMOD",
+      "GPRO",
       "CLSD"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 04:29:22"
+    "processedAt": "2025-07-27 05:08:07"
   }
 }

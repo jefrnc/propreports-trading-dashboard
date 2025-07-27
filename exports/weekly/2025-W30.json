@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-07-27 04:40:48",
+  "generateDate": "2025-07-27 05:08:07",
   "weekPeriod": "2025-07-21 to 2025-07-27",
   "weekNumber": 30,
   "year": 2025,
@@ -35,11 +35,11 @@
       "trades": 8,
       "pnl": 0.03,
       "symbols": [
-        "GPRO",
         "PLRZ",
-        "AMOD",
-        "303",
         "CTOR",
+        "303",
+        "AMOD",
+        "GPRO",
         "CLSD"
       ]
     },
@@ -180,11 +180,11 @@
       "trades": 8,
       "pnl": 0.03,
       "symbols": [
-        "GPRO",
         "PLRZ",
-        "AMOD",
-        "303",
         "CTOR",
+        "303",
+        "AMOD",
+        "GPRO",
         "CLSD"
       ]
     },
@@ -193,12 +193,12 @@
       "trades": 17,
       "pnl": 0.0,
       "symbols": [
-        "AGH",
-        "281",
-        "BMNR",
         "UAVS",
-        "CYCC",
-        "LIDR"
+        "281",
+        "AGH",
+        "LIDR",
+        "BMNR",
+        "CYCC"
       ]
     },
     {
@@ -207,13 +207,13 @@
       "pnl": 0.0,
       "symbols": [
         "OCTO",
-        "BMNR",
-        "IXHL",
         "ICCM",
         "PHIO",
-        "SMX",
-        "531",
+        "IXHL",
         "LIDR",
+        "SMX",
+        "BMNR",
+        "531",
         "SOWG"
       ]
     },

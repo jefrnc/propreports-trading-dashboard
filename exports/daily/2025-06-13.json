@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 04:29:15",
+  "exportDate": "2025-07-27 05:08:02",
   "account": "ZI*******64",
   "date": "2025-06-13",
   "trades": [
@@ -480,21 +480,21 @@
     "winningTrades": 18,
     "losingTrades": 8,
     "symbols": [
-      "225",
-      "TPET",
-      "TMDE",
-      "TORO",
       "IMPP",
-      "RBNE",
-      "PRZO",
+      "225",
+      "USEG",
       "HUSA",
       "ICON",
-      "USEG",
-      "INDO"
+      "TPET",
+      "RBNE",
+      "INDO",
+      "TMDE",
+      "PRZO",
+      "TORO"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 04:29:15"
+    "processedAt": "2025-07-27 05:08:02"
   }
 }
