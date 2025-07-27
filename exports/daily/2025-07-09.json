@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:47",
+  "exportDate": "2025-07-27 00:33:32",
   "account": "ZI*******64",
   "date": "2025-07-09",
   "trades": [
@@ -200,44 +200,25 @@
       "side": "BUY",
       "quantity": 21.0,
       "price": 7.61
-    },
-    {
-      "date": "2025-07-09",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "173",
-      "type": "40.26",
-      "entry": 0.52,
-      "exit": 0.01,
-      "size": 0.0,
-      "pnl": 0.03,
-      "commission": 0.38,
-      "net": 0.0,
-      "account": "0.01",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.52
     }
   ],
   "summary": {
-    "totalTrades": 12,
-    "totalPnL": 40.29,
-    "totalCommissions": 0.9,
+    "totalTrades": 11,
+    "totalPnL": 40.26,
+    "totalCommissions": 0.52,
     "netPnL": 0.01,
-    "winningTrades": 10,
+    "winningTrades": 9,
     "losingTrades": 2,
     "symbols": [
-      "173",
-      "KZIA",
-      "BTCS",
       "PROK",
+      "CLDI",
+      "BTCS",
       "EVOK",
-      "CLDI"
+      "KZIA"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:47"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:32"
   }
 }

@@ -1,23 +1,23 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "month": 6,
   "monthName": "June",
   "year": 2025,
   "account": "",
   "overview": {
     "totalTradingDays": 30,
-    "totalTrades": 127,
-    "grossPnL": -52.11,
-    "totalCommissions": 5.58,
-    "netPnL": -57.69,
-    "avgDailyPnL": -1.92,
-    "winningTrades": 79,
+    "totalTrades": 117,
+    "grossPnL": -52.34,
+    "totalCommissions": 3.86,
+    "netPnL": -56.2,
+    "avgDailyPnL": -1.87,
+    "winningTrades": 69,
     "losingTrades": 46,
-    "winRate": 0.622,
-    "avgWin": 1.55,
+    "winRate": 0.5897,
+    "avgWin": 1.77,
     "avgLoss": -3.79,
     "profitFactor": 0.7,
-    "expectancy": -0.41
+    "expectancy": -0.45
   },
   "performanceAnalysis": {
     "profitability_curve": [
@@ -194,16 +194,6 @@
         "win_rate": 0.25,
         "expectancy": 0.49
       },
-      "34": {
-        "trades": 2,
-        "pnl": 0.02,
-        "wins": 2,
-        "losses": 0,
-        "avg_win": 0.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "TRAW": {
         "trades": 1,
         "pnl": 0.72,
@@ -274,16 +264,6 @@
         "win_rate": 0.0,
         "expectancy": 0
       },
-      "80": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "HCTI": {
         "trades": 1,
         "pnl": 0.0,
@@ -330,16 +310,6 @@
         "wins": 3,
         "losses": 0,
         "avg_win": 2.02,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "57": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
         "avg_loss": 0,
         "win_rate": 1.0,
         "expectancy": 0
@@ -444,16 +414,6 @@
         "win_rate": 1.0,
         "expectancy": 0
       },
-      "225": {
-        "trades": 1,
-        "pnl": 0.04,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.04,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "LSE": {
         "trades": 4,
         "pnl": -12.81,
@@ -494,16 +454,6 @@
         "win_rate": 0.8,
         "expectancy": 0.33
       },
-      "122": {
-        "trades": 1,
-        "pnl": 0.02,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.02,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "GURE": {
         "trades": 1,
         "pnl": -0.58,
@@ -533,16 +483,6 @@
         "avg_loss": -3.16,
         "win_rate": 0.6667,
         "expectancy": -0.81
-      },
-      "51": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
       },
       "BIYA": {
         "trades": 1,
@@ -574,16 +514,6 @@
         "win_rate": 0.5,
         "expectancy": 1.06
       },
-      "134": {
-        "trades": 1,
-        "pnl": 0.02,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.02,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "ULY": {
         "trades": 8,
         "pnl": 6.06,
@@ -604,16 +534,6 @@
         "win_rate": 0.5,
         "expectancy": 2.88
       },
-      "213": {
-        "trades": 1,
-        "pnl": 0.04,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.04,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "ALT": {
         "trades": 1,
         "pnl": 0.45,
@@ -633,21 +553,11 @@
         "avg_loss": -0.5,
         "win_rate": 0.0,
         "expectancy": 0
-      },
-      "335": {
-        "trades": 1,
-        "pnl": 0.06,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.06,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
       }
     },
     "time_analysis": {},
     "risk_metrics": {
-      "sharpe_ratio": -0.89,
+      "sharpe_ratio": -0.94,
       "max_consecutive_losses": 4,
       "risk_reward_ratio": 1.7500000000000002
     }
@@ -656,37 +566,37 @@
     {
       "week": 22,
       "period": "2025-05-26 to 2025-06-01",
-      "trades": 51,
-      "netPnL": 9.7,
-      "winRate": 0.7059
+      "trades": 47,
+      "netPnL": 10.29,
+      "winRate": 0.7021
     },
     {
       "week": 23,
       "period": "2025-06-02 to 2025-06-08",
-      "trades": 35,
-      "netPnL": -10.87,
-      "winRate": 0.5429
+      "trades": 32,
+      "netPnL": -10.51,
+      "winRate": 0.5
     },
     {
       "week": 24,
       "period": "2025-06-09 to 2025-06-15",
-      "trades": 35,
-      "netPnL": -58.9,
-      "winRate": 0.6286
+      "trades": 33,
+      "netPnL": -58.52,
+      "winRate": 0.6061
     },
     {
       "week": 26,
       "period": "2025-06-23 to 2025-06-29",
-      "trades": 14,
-      "netPnL": 9.82,
-      "winRate": 0.7857
+      "trades": 12,
+      "netPnL": 10.14,
+      "winRate": 0.75
     },
     {
       "week": 27,
       "period": "2025-06-30 to 2025-07-06",
-      "trades": 23,
-      "netPnL": 26.92,
-      "winRate": 0.5652
+      "trades": 20,
+      "netPnL": 27.27,
+      "winRate": 0.6
     }
   ],
   "recommendations": [

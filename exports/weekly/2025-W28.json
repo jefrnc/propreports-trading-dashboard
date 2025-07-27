@@ -1,23 +1,23 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "weekPeriod": "2025-07-07 to 2025-07-13",
   "weekNumber": 28,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 56,
-    "grossPnL": 69.3,
-    "totalCommissions": 3.29,
-    "netPnL": 66.01,
-    "avgDailyPnL": 9.43,
-    "avgTradePerDay": 8.0,
-    "winningTrades": 44,
+    "totalTrades": 52,
+    "grossPnL": 69.19,
+    "totalCommissions": 1.91,
+    "netPnL": 67.28,
+    "avgDailyPnL": 9.61,
+    "avgTradePerDay": 7.43,
+    "winningTrades": 40,
     "losingTrades": 11,
-    "winRate": 0.7857,
-    "avgWin": 2.37,
+    "winRate": 0.7692,
+    "avgWin": 2.61,
     "avgLoss": -3.19,
-    "profitFactor": 2.98
+    "profitFactor": 2.97
   },
   "extremes": {
     "bestTrade": {
@@ -32,16 +32,15 @@
     },
     "bestDay": {
       "date": "2025-07-11",
-      "trades": 19,
+      "trades": 18,
       "pnl": 0.1,
       "symbols": [
-        "SGN",
-        "FTFT",
-        "INKT",
         "LMFA",
-        "152",
         "ZBAI",
-        "ABVE"
+        "INKT",
+        "ABVE",
+        "FTFT",
+        "SGN"
       ]
     },
     "worstDay": {
@@ -52,7 +51,7 @@
     }
   },
   "patterns": {
-    "maxConsecutiveWins": 19,
+    "maxConsecutiveWins": 18,
     "maxConsecutiveLosses": 2,
     "topSymbols": [
       [
@@ -170,55 +169,51 @@
     },
     {
       "date": "2025-07-08",
-      "trades": 11,
+      "trades": 10,
       "pnl": 0.0,
       "symbols": [
-        "100",
         "NDRA",
-        "SQNS",
         "WOLF",
+        "SQNS",
         "PROK"
       ]
     },
     {
       "date": "2025-07-09",
-      "trades": 12,
+      "trades": 11,
       "pnl": 0.01,
       "symbols": [
-        "173",
-        "KZIA",
-        "BTCS",
         "PROK",
+        "CLDI",
+        "BTCS",
         "EVOK",
-        "CLDI"
+        "KZIA"
       ]
     },
     {
       "date": "2025-07-10",
-      "trades": 14,
+      "trades": 13,
       "pnl": 0.05,
       "symbols": [
-        "193",
-        "AIRI",
-        "KLTO",
         "STKH",
+        "KLTO",
+        "PROK",
         "BTCM",
         "SAFX",
-        "PROK"
+        "AIRI"
       ]
     },
     {
       "date": "2025-07-11",
-      "trades": 19,
+      "trades": 18,
       "pnl": 0.1,
       "symbols": [
-        "SGN",
-        "FTFT",
-        "INKT",
         "LMFA",
-        "152",
         "ZBAI",
-        "ABVE"
+        "INKT",
+        "ABVE",
+        "FTFT",
+        "SGN"
       ]
     },
     {

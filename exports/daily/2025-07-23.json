@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:52",
+  "exportDate": "2025-07-27 00:33:37",
   "account": "ZI*******64",
   "date": "2025-07-23",
   "trades": [
@@ -128,44 +128,25 @@
       "side": "SELL",
       "quantity": 14.0,
       "price": 1.6571
-    },
-    {
-      "date": "2025-07-23",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "303",
-      "type": "47.70",
-      "entry": 0.91,
-      "exit": 0.03,
-      "size": 0.0,
-      "pnl": 0.05,
-      "commission": 0.57,
-      "net": 0.0,
-      "account": "0.02",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.91
     }
   ],
   "summary": {
-    "totalTrades": 8,
-    "totalPnL": 47.75,
-    "totalCommissions": 1.49,
+    "totalTrades": 7,
+    "totalPnL": 47.7,
+    "totalCommissions": 0.92,
     "netPnL": 0.03,
-    "winningTrades": 8,
+    "winningTrades": 7,
     "losingTrades": 0,
     "symbols": [
+      "GPRO",
       "CLSD",
       "PLRZ",
-      "GPRO",
-      "CTOR",
-      "303",
-      "AMOD"
+      "AMOD",
+      "CTOR"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:52"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:37"
   }
 }

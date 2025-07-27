@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:35",
+  "exportDate": "2025-07-27 00:33:20",
   "account": "ZI*******64",
   "date": "2025-06-04",
   "trades": [
@@ -326,43 +326,24 @@
       "side": "BUY",
       "quantity": 4.0,
       "price": 1.325
-    },
-    {
-      "date": "2025-06-04",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "80",
-      "type": "(19.07)",
-      "entry": 0.24,
-      "exit": -0.02,
-      "size": 0.0,
-      "pnl": 0.01,
-      "commission": 0.21,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.24
     }
   ],
   "summary": {
-    "totalTrades": 19,
-    "totalPnL": -19.06,
-    "totalCommissions": 0.47,
+    "totalTrades": 18,
+    "totalPnL": -19.07,
+    "totalCommissions": 0.26,
     "netPnL": -0.01,
-    "winningTrades": 9,
+    "winningTrades": 8,
     "losingTrades": 10,
     "symbols": [
-      "80",
-      "MULN",
-      "SXTC",
       "KWM",
-      "VCIG"
+      "VCIG",
+      "MULN",
+      "SXTC"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:35"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:20"
   }
 }

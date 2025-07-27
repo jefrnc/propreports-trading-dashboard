@@ -1,23 +1,23 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "month": 5,
   "monthName": "May",
   "year": 2025,
   "account": "",
   "overview": {
     "totalTradingDays": 31,
-    "totalTrades": 86,
-    "grossPnL": -113.88,
-    "totalCommissions": 3.06,
-    "netPnL": -116.94,
-    "avgDailyPnL": -3.77,
-    "winningTrades": 56,
+    "totalTrades": 74,
+    "grossPnL": -113.97,
+    "totalCommissions": 2.0,
+    "netPnL": -115.97,
+    "avgDailyPnL": -3.74,
+    "winningTrades": 49,
     "losingTrades": 24,
-    "winRate": 0.6512,
-    "avgWin": 0.71,
+    "winRate": 0.6622,
+    "avgWin": 0.81,
     "avgLoss": -6.39,
     "profitFactor": 0.26,
-    "expectancy": -1.32
+    "expectancy": -1.54
   },
   "performanceAnalysis": {
     "profitability_curve": [
@@ -199,16 +199,6 @@
         "win_rate": 0.5,
         "expectancy": -1.2
       },
-      "65": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "QBTS": {
         "trades": 1,
         "pnl": 0.23,
@@ -239,16 +229,6 @@
         "win_rate": 0.75,
         "expectancy": 0
       },
-      "124": {
-        "trades": 1,
-        "pnl": 0.02,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.02,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "NVVE": {
         "trades": 3,
         "pnl": 3.03,
@@ -257,16 +237,6 @@
         "avg_win": 1.01,
         "avg_loss": 0,
         "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "20": {
-        "trades": 1,
-        "pnl": 0.0,
-        "wins": 0,
-        "losses": 0,
-        "avg_win": 0,
-        "avg_loss": 0,
-        "win_rate": 0.0,
         "expectancy": 0
       },
       "KDLY": {
@@ -289,16 +259,6 @@
         "win_rate": 0.0,
         "expectancy": 0
       },
-      "106": {
-        "trades": 1,
-        "pnl": 0.02,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.02,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "XHG": {
         "trades": 1,
         "pnl": -2.32,
@@ -317,16 +277,6 @@
         "avg_win": 0.3,
         "avg_loss": 0,
         "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "8": {
-        "trades": 1,
-        "pnl": 0.0,
-        "wins": 0,
-        "losses": 0,
-        "avg_win": 0,
-        "avg_loss": 0,
-        "win_rate": 0.0,
         "expectancy": 0
       },
       "EDBL": {
@@ -349,16 +299,6 @@
         "win_rate": 1.0,
         "expectancy": 0
       },
-      "58": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "BDRX": {
         "trades": 1,
         "pnl": -0.38,
@@ -366,16 +306,6 @@
         "losses": 1,
         "avg_win": 0,
         "avg_loss": -0.38,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "4": {
-        "trades": 2,
-        "pnl": 0.0,
-        "wins": 0,
-        "losses": 0,
-        "avg_win": 0,
-        "avg_loss": 0,
         "win_rate": 0.0,
         "expectancy": 0
       },
@@ -387,16 +317,6 @@
         "avg_win": 0.27,
         "avg_loss": 0,
         "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "12": {
-        "trades": 1,
-        "pnl": 0.0,
-        "wins": 0,
-        "losses": 0,
-        "avg_win": 0,
-        "avg_loss": 0,
-        "win_rate": 0.0,
         "expectancy": 0
       },
       "WORX": {
@@ -435,16 +355,6 @@
         "wins": 2,
         "losses": 0,
         "avg_win": 0.23,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "80": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
         "avg_loss": 0,
         "win_rate": 1.0,
         "expectancy": 0
@@ -499,16 +409,6 @@
         "win_rate": 1.0,
         "expectancy": 0
       },
-      "84": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
       "RRGB": {
         "trades": 1,
         "pnl": -3.32,
@@ -558,22 +458,12 @@
         "avg_loss": 0,
         "win_rate": 1.0,
         "expectancy": 0
-      },
-      "81": {
-        "trades": 1,
-        "pnl": 0.01,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
       }
     },
     "time_analysis": {},
     "risk_metrics": {
-      "sharpe_ratio": -2.03,
-      "max_consecutive_losses": 3,
+      "sharpe_ratio": -2.19,
+      "max_consecutive_losses": 4,
       "risk_reward_ratio": 2.5
     }
   },
@@ -588,30 +478,30 @@
     {
       "week": 19,
       "period": "2025-05-05 to 2025-05-11",
-      "trades": 17,
-      "netPnL": -11.02,
-      "winRate": 0.7059
+      "trades": 14,
+      "netPnL": -10.86,
+      "winRate": 0.7143
     },
     {
       "week": 20,
       "period": "2025-05-12 to 2025-05-18",
-      "trades": 7,
-      "netPnL": -101.39,
-      "winRate": 0.2857
+      "trades": 5,
+      "netPnL": -101.3,
+      "winRate": 0.2
     },
     {
       "week": 21,
       "period": "2025-05-19 to 2025-05-25",
-      "trades": 11,
-      "netPnL": -14.23,
-      "winRate": 0.5455
+      "trades": 8,
+      "netPnL": -14.1,
+      "winRate": 0.625
     },
     {
       "week": 22,
       "period": "2025-05-26 to 2025-06-01",
-      "trades": 51,
-      "netPnL": 9.7,
-      "winRate": 0.7059
+      "trades": 47,
+      "netPnL": 10.29,
+      "winRate": 0.7021
     }
   ],
   "recommendations": [

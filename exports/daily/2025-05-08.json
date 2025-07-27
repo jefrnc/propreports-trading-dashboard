@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:26",
+  "exportDate": "2025-07-27 00:33:11",
   "account": "ZI*******64",
   "date": "2025-05-08",
   "trades": [
@@ -146,43 +146,24 @@
       "side": "BUY",
       "quantity": 4.0,
       "price": 7.88
-    },
-    {
-      "date": "2025-05-08",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "124",
-      "type": "(19.78)",
-      "entry": 0.37,
-      "exit": 0.14,
-      "size": 0.01,
-      "pnl": 0.02,
-      "commission": 0.08,
-      "net": 0.0,
-      "account": "0.01",
-      "side": "SELL",
-      "quantity": 0.01,
-      "price": 0.37
     }
   ],
   "summary": {
-    "totalTrades": 9,
-    "totalPnL": -19.76,
-    "totalCommissions": 0.46,
+    "totalTrades": 8,
+    "totalPnL": -19.78,
+    "totalCommissions": 0.38,
     "netPnL": 0.15,
-    "winningTrades": 6,
+    "winningTrades": 5,
     "losingTrades": 2,
     "symbols": [
-      "124",
+      "QBTS",
       "JZ",
       "VEEE",
-      "QBTS",
       "ASST"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:26"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:11"
   }
 }

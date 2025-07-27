@@ -17,21 +17,21 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 30** | 49 | **+$138.45** | 71.4% |
+| **Week 30** | 45 | **+$140.85** | 68.9% |
 | Week 29 | 0 | $0.00 | 0% |
-| **July (partial)** | 213 | **+$0.72** | 74.2% |
-| June | 127 | **-$57.69** | 62.2% |
+| **July (partial)** | 197 | **+$0.72** | 73.1% |
+| June | 117 | **-$56.20** | 59.0% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 639 | 1,121 |
-| **P&L** | **+$264.03** | **+$463.32** |
+| **Trades** | 585 | 1,026 |
+| **P&L** | **+$272.84** | **+$478.78** |
 
 *Based on current performance with 157 days remaining*
 
-*Last updated: 2025-07-27 00:08 UTC*
+*Last updated: 2025-07-27 00:33 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -47,7 +47,7 @@ This is a live example of:
 | Metric | Value |
 |--------|-------|
 | **Total Trading Days** | 38 |
-| **Total Trades** | 426 |
+| **Total Trades** | 388 |
 | **Total P&L** | $2.13 |
 | **Win Rate** | 65.8% |
 | **Profit Days** | 25 (65.8%) |
@@ -60,9 +60,9 @@ This is a live example of:
 
 | Month | Trades | P&L | Win Rate |
 |-------|--------|-----|----------|
-| May | 86 | **$-116.94** | 65.1% |
-| June | 127 | **$-57.69** | 62.2% |
-| July | 213 | **$+437.94** | 74.2% |
+| May | 74 | **$-115.97** | 66.2% |
+| June | 117 | **$-56.20** | 59.0% |
+| July | 197 | **$+444.29** | 73.1% |
 
 <!-- CALENDAR_END -->
 
@@ -103,7 +103,7 @@ exports/
 
 ## 📈 View the Dashboard
 
-Check out the [interactive dashboard](https://jefrnc.github.io/propreports-trading-data/) for:
+Check out the [interactive dashboard](https://jefrnc.github.io/propreports-trading-dashboard/) for:
 - Daily P&L charts
 - Cumulative performance
 - Monthly breakdowns

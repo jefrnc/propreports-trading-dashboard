@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:28",
+  "exportDate": "2025-07-27 00:33:13",
   "account": "ZI*******64",
   "date": "2025-05-13",
   "trades": [
@@ -38,41 +38,22 @@
       "side": "BUY",
       "quantity": 4.0,
       "price": 2.375
-    },
-    {
-      "date": "2025-05-13",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "8",
-      "type": "(2.02)",
-      "entry": 0.02,
-      "exit": 0.02,
-      "size": 0.0,
-      "pnl": 0.0,
-      "commission": 0.01,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.02
     }
   ],
   "summary": {
-    "totalTrades": 3,
+    "totalTrades": 2,
     "totalPnL": -2.02,
-    "totalCommissions": 0.03,
+    "totalCommissions": 0.02,
     "netPnL": 0.02,
     "winningTrades": 1,
     "losingTrades": 1,
     "symbols": [
-      "MOGO",
-      "8",
-      "XHG"
+      "XHG",
+      "MOGO"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:28"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:13"
   }
 }

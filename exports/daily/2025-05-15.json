@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:28",
+  "exportDate": "2025-07-27 00:33:13",
   "account": "ZI*******64",
   "date": "2025-05-15",
   "trades": [],
@@ -13,7 +13,7 @@
     "symbols": []
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:28"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:13"
   }
 }

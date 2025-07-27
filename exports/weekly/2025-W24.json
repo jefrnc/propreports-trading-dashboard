@@ -1,21 +1,21 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "weekPeriod": "2025-06-09 to 2025-06-15",
   "weekNumber": 24,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 35,
-    "grossPnL": -57.62,
-    "totalCommissions": 1.28,
-    "netPnL": -58.9,
-    "avgDailyPnL": -8.41,
-    "avgTradePerDay": 5.0,
-    "winningTrades": 22,
+    "totalTrades": 33,
+    "grossPnL": -57.67,
+    "totalCommissions": 0.85,
+    "netPnL": -58.52,
+    "avgDailyPnL": -8.36,
+    "avgTradePerDay": 4.71,
+    "winningTrades": 20,
     "losingTrades": 12,
-    "winRate": 0.6286,
-    "avgWin": 1.37,
+    "winRate": 0.6061,
+    "avgWin": 1.51,
     "avgLoss": -7.32,
     "profitFactor": 0.34
   },
@@ -32,32 +32,30 @@
     },
     "bestDay": {
       "date": "2025-06-12",
-      "trades": 9,
+      "trades": 8,
       "pnl": 0.03,
       "symbols": [
-        "57",
-        "KLTO",
+        "NEHC",
         "CGTL",
+        "KLTO",
         "HCTI",
-        "RSLS",
-        "NEHC"
+        "RSLS"
       ]
     },
     "worstDay": {
       "date": "2025-06-13",
-      "trades": 26,
+      "trades": 25,
       "pnl": -0.14,
       "symbols": [
-        "225",
-        "ICON",
-        "USEG",
-        "INDO",
-        "HUSA",
-        "PRZO",
-        "TPET",
         "IMPP",
-        "TMDE",
+        "TPET",
+        "PRZO",
         "TORO",
+        "INDO",
+        "USEG",
+        "TMDE",
+        "ICON",
+        "HUSA",
         "RBNE"
       ]
     }
@@ -201,32 +199,30 @@
     },
     {
       "date": "2025-06-12",
-      "trades": 9,
+      "trades": 8,
       "pnl": 0.03,
       "symbols": [
-        "57",
-        "KLTO",
+        "NEHC",
         "CGTL",
+        "KLTO",
         "HCTI",
-        "RSLS",
-        "NEHC"
+        "RSLS"
       ]
     },
     {
       "date": "2025-06-13",
-      "trades": 26,
+      "trades": 25,
       "pnl": -0.14,
       "symbols": [
-        "225",
-        "ICON",
-        "USEG",
-        "INDO",
-        "HUSA",
-        "PRZO",
-        "TPET",
         "IMPP",
-        "TMDE",
+        "TPET",
+        "PRZO",
         "TORO",
+        "INDO",
+        "USEG",
+        "TMDE",
+        "ICON",
+        "HUSA",
         "RBNE"
       ]
     },

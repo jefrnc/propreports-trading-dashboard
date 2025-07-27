@@ -1,21 +1,21 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "weekPeriod": "2025-05-12 to 2025-05-18",
   "weekNumber": 20,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 7,
-    "grossPnL": -100.94,
-    "totalCommissions": 0.45,
-    "netPnL": -101.39,
-    "avgDailyPnL": -14.48,
-    "avgTradePerDay": 1.0,
-    "winningTrades": 2,
+    "totalTrades": 5,
+    "grossPnL": -100.96,
+    "totalCommissions": 0.34,
+    "netPnL": -101.3,
+    "avgDailyPnL": -14.47,
+    "avgTradePerDay": 0.71,
+    "winningTrades": 1,
     "losingTrades": 4,
-    "winRate": 0.2857,
-    "avgWin": 0.16,
+    "winRate": 0.2,
+    "avgWin": 0.3,
     "avgLoss": -25.31,
     "profitFactor": 0.0
   },
@@ -32,12 +32,11 @@
     },
     "bestDay": {
       "date": "2025-05-12",
-      "trades": 4,
+      "trades": 3,
       "pnl": 0.05,
       "symbols": [
         "VFF",
         "KDLY",
-        "106",
         "ASST"
       ]
     },
@@ -50,7 +49,7 @@
   },
   "patterns": {
     "maxConsecutiveWins": 1,
-    "maxConsecutiveLosses": 3,
+    "maxConsecutiveLosses": 4,
     "topSymbols": [
       [
         "MOGO",
@@ -58,22 +57,6 @@
           "count": 1,
           "pnl": 0.3,
           "win_rate": 1.0
-        }
-      ],
-      [
-        "106",
-        {
-          "count": 1,
-          "pnl": 0.02,
-          "win_rate": 1.0
-        }
-      ],
-      [
-        "8",
-        {
-          "count": 1,
-          "pnl": 0.0,
-          "win_rate": 0.0
         }
       ],
       [
@@ -89,6 +72,22 @@
         {
           "count": 1,
           "pnl": -2.32,
+          "win_rate": 0.0
+        }
+      ],
+      [
+        "ASST",
+        {
+          "count": 1,
+          "pnl": -5.06,
+          "win_rate": 0.0
+        }
+      ],
+      [
+        "KDLY",
+        {
+          "count": 1,
+          "pnl": -92.85,
           "win_rate": 0.0
         }
       ]
@@ -129,23 +128,21 @@
   "dailyBreakdown": [
     {
       "date": "2025-05-12",
-      "trades": 4,
+      "trades": 3,
       "pnl": 0.05,
       "symbols": [
         "VFF",
         "KDLY",
-        "106",
         "ASST"
       ]
     },
     {
       "date": "2025-05-13",
-      "trades": 3,
+      "trades": 2,
       "pnl": 0.02,
       "symbols": [
-        "MOGO",
-        "8",
-        "XHG"
+        "XHG",
+        "MOGO"
       ]
     },
     {

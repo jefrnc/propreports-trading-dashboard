@@ -1,21 +1,21 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "weekPeriod": "2025-06-02 to 2025-06-08",
   "weekNumber": 23,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 35,
-    "grossPnL": -10.01,
-    "totalCommissions": 0.86,
-    "netPnL": -10.87,
-    "avgDailyPnL": -1.55,
-    "avgTradePerDay": 5.0,
-    "winningTrades": 19,
+    "totalTrades": 32,
+    "grossPnL": -10.04,
+    "totalCommissions": 0.47,
+    "netPnL": -10.51,
+    "avgDailyPnL": -1.5,
+    "avgTradePerDay": 4.57,
+    "winningTrades": 16,
     "losingTrades": 16,
-    "winRate": 0.5429,
-    "avgWin": 2.28,
+    "winRate": 0.5,
+    "avgWin": 2.7,
     "avgLoss": -3.33,
     "profitFactor": 0.81
   },
@@ -32,28 +32,26 @@
     },
     "bestDay": {
       "date": "2025-06-02",
-      "trades": 5,
+      "trades": 4,
       "pnl": 0.05,
       "symbols": [
-        "34",
         "INM"
       ]
     },
     "worstDay": {
       "date": "2025-06-04",
-      "trades": 19,
+      "trades": 18,
       "pnl": -0.01,
       "symbols": [
-        "80",
-        "MULN",
-        "SXTC",
         "KWM",
-        "VCIG"
+        "VCIG",
+        "MULN",
+        "SXTC"
       ]
     }
   },
   "patterns": {
-    "maxConsecutiveWins": 4,
+    "maxConsecutiveWins": 3,
     "maxConsecutiveLosses": 4,
     "topSymbols": [
       [
@@ -89,11 +87,11 @@
         }
       ],
       [
-        "34",
+        "SXTC",
         {
-          "count": 2,
-          "pnl": 0.02,
-          "win_rate": 1.0
+          "count": 1,
+          "pnl": -0.12,
+          "win_rate": 0.0
         }
       ]
     ],
@@ -165,34 +163,31 @@
   "dailyBreakdown": [
     {
       "date": "2025-06-02",
-      "trades": 5,
+      "trades": 4,
       "pnl": 0.05,
       "symbols": [
-        "34",
         "INM"
       ]
     },
     {
       "date": "2025-06-03",
-      "trades": 11,
+      "trades": 10,
       "pnl": 0.05,
       "symbols": [
-        "34",
-        "MCTR",
         "TRAW",
+        "MCTR",
         "KPRX"
       ]
     },
     {
       "date": "2025-06-04",
-      "trades": 19,
+      "trades": 18,
       "pnl": -0.01,
       "symbols": [
-        "80",
-        "MULN",
-        "SXTC",
         "KWM",
-        "VCIG"
+        "VCIG",
+        "MULN",
+        "SXTC"
       ]
     },
     {

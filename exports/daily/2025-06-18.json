@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:39",
+  "exportDate": "2025-07-27 00:33:24",
   "account": "ZI*******64",
   "date": "2025-06-18",
   "trades": [
@@ -128,43 +128,24 @@
       "side": "BUY",
       "quantity": 4.0,
       "price": 8.19
-    },
-    {
-      "date": "2025-06-18",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "51",
-      "type": "(14.26)",
-      "entry": 0.15,
-      "exit": 0.04,
-      "size": 0.0,
-      "pnl": 0.01,
-      "commission": 0.07,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.15
     }
   ],
   "summary": {
-    "totalTrades": 8,
-    "totalPnL": -14.25,
-    "totalCommissions": 0.21,
+    "totalTrades": 7,
+    "totalPnL": -14.26,
+    "totalCommissions": 0.14,
     "netPnL": 0.03,
-    "winningTrades": 4,
+    "winningTrades": 3,
     "losingTrades": 4,
     "symbols": [
-      "APVO",
       "GURE",
       "LSE",
-      "RELI",
-      "51"
+      "APVO",
+      "RELI"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:39"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:24"
   }
 }

@@ -1,21 +1,21 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "weekPeriod": "2025-05-05 to 2025-05-11",
   "weekNumber": 19,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 17,
-    "grossPnL": -10.18,
-    "totalCommissions": 0.84,
-    "netPnL": -11.02,
-    "avgDailyPnL": -1.57,
-    "avgTradePerDay": 2.43,
-    "winningTrades": 12,
+    "totalTrades": 14,
+    "grossPnL": -10.21,
+    "totalCommissions": 0.65,
+    "netPnL": -10.86,
+    "avgDailyPnL": -1.55,
+    "avgTradePerDay": 2.0,
+    "winningTrades": 10,
     "losingTrades": 3,
-    "winRate": 0.7059,
-    "avgWin": 1.19,
+    "winRate": 0.7143,
+    "avgWin": 1.43,
     "avgLoss": -8.17,
     "profitFactor": 0.58
   },
@@ -32,28 +32,26 @@
     },
     "bestDay": {
       "date": "2025-05-08",
-      "trades": 9,
+      "trades": 8,
       "pnl": 0.15,
       "symbols": [
-        "124",
+        "QBTS",
         "JZ",
         "VEEE",
-        "QBTS",
         "ASST"
       ]
     },
     "worstDay": {
       "date": "2025-05-09",
-      "trades": 4,
+      "trades": 3,
       "pnl": -0.02,
       "symbols": [
-        "NVVE",
-        "20"
+        "NVVE"
       ]
     }
   },
   "patterns": {
-    "maxConsecutiveWins": 7,
+    "maxConsecutiveWins": 6,
     "maxConsecutiveLosses": 1,
     "topSymbols": [
       [
@@ -89,11 +87,11 @@
         }
       ],
       [
-        "124",
+        "JZ",
         {
           "count": 1,
-          "pnl": 0.02,
-          "win_rate": 1.0
+          "pnl": -21.25,
+          "win_rate": 0.0
         }
       ]
     ],
@@ -165,32 +163,29 @@
     },
     {
       "date": "2025-05-07",
-      "trades": 4,
+      "trades": 3,
       "pnl": 0.12,
       "symbols": [
-        "65",
         "ASST"
       ]
     },
     {
       "date": "2025-05-08",
-      "trades": 9,
+      "trades": 8,
       "pnl": 0.15,
       "symbols": [
-        "124",
+        "QBTS",
         "JZ",
         "VEEE",
-        "QBTS",
         "ASST"
       ]
     },
     {
       "date": "2025-05-09",
-      "trades": 4,
+      "trades": 3,
       "pnl": -0.02,
       "symbols": [
-        "NVVE",
-        "20"
+        "NVVE"
       ]
     },
     {

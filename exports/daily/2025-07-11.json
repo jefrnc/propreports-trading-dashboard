@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:48",
+  "exportDate": "2025-07-27 00:33:33",
   "account": "ZI*******64",
   "date": "2025-07-11",
   "trades": [
@@ -326,45 +326,26 @@
       "side": "SELL",
       "quantity": 1.0,
       "price": 52.27
-    },
-    {
-      "date": "2025-07-11",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "152",
-      "type": "(6.78)",
-      "entry": 0.46,
-      "exit": 0.1,
-      "size": 0.0,
-      "pnl": 0.03,
-      "commission": 0.31,
-      "net": 0.0,
-      "account": "0.01",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.46
     }
   ],
   "summary": {
-    "totalTrades": 19,
-    "totalPnL": -6.75,
-    "totalCommissions": 0.78,
+    "totalTrades": 18,
+    "totalPnL": -6.78,
+    "totalCommissions": 0.47,
     "netPnL": 0.1,
-    "winningTrades": 12,
+    "winningTrades": 11,
     "losingTrades": 6,
     "symbols": [
-      "SGN",
-      "FTFT",
-      "INKT",
       "LMFA",
-      "152",
       "ZBAI",
-      "ABVE"
+      "INKT",
+      "ABVE",
+      "FTFT",
+      "SGN"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:48"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:33"
   }
 }

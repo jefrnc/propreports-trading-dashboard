@@ -3,16 +3,16 @@ July 2025
 ==================================================
 
 RESUMEN GENERAL:
-  Total de trades: 213
-  P&L Neto: $437.94
-  Win Rate: 74.2%
-  Profit Factor: 3.2
-  Expectancy: $2.14
+  Total de trades: 197
+  P&L Neto: $444.29
+  Win Rate: 73.1%
+  Profit Factor: 3.19
+  Expectancy: $2.31
 
 DESGLOSE SEMANAL:
-  Semana 27: 23 trades, $26.92, WR: 56.5%
-  Semana 28: 56 trades, $66.01, WR: 78.6%
-  Semana 30: 49 trades, $138.45, WR: 71.4%
+  Semana 27: 20 trades, $27.27, WR: 60.0%
+  Semana 28: 52 trades, $67.28, WR: 76.9%
+  Semana 30: 45 trades, $140.85, WR: 68.9%
 
 RECOMENDACIONES:
   🔵 [Symbol Selection] Revisar estrategia para: DPRO, SGN, SONN (pérdidas consistentes)

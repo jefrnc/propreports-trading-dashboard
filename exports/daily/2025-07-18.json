@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:50",
+  "exportDate": "2025-07-27 00:33:35",
   "account": "ZI*******64",
   "date": "2025-07-18",
   "trades": [
@@ -128,43 +128,24 @@
       "side": "BUY",
       "quantity": 2.0,
       "price": 2.21
-    },
-    {
-      "date": "2025-07-18",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "38",
-      "type": "18.42",
-      "entry": 0.11,
-      "exit": 0.0,
-      "size": 0.0,
-      "pnl": 0.01,
-      "commission": 0.1,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.11
     }
   ],
   "summary": {
-    "totalTrades": 8,
-    "totalPnL": 18.43,
-    "totalCommissions": 0.23,
+    "totalTrades": 7,
+    "totalPnL": 18.42,
+    "totalCommissions": 0.13,
     "netPnL": 0.0,
-    "winningTrades": 5,
+    "winningTrades": 4,
     "losingTrades": 3,
     "symbols": [
       "SBET",
       "MEIP",
       "BMNR",
-      "UAVS",
-      "38"
+      "UAVS"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:50"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:35"
   }
 }

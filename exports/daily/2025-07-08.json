@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:47",
+  "exportDate": "2025-07-27 00:33:32",
   "account": "ZI*******64",
   "date": "2025-07-08",
   "trades": [
@@ -182,43 +182,24 @@
       "side": "SELL",
       "quantity": 2.0,
       "price": 3.11
-    },
-    {
-      "date": "2025-07-08",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "100",
-      "type": "19.20",
-      "entry": 0.3,
-      "exit": 0.0,
-      "size": 0.0,
-      "pnl": 0.02,
-      "commission": 0.23,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.3
     }
   ],
   "summary": {
-    "totalTrades": 11,
-    "totalPnL": 19.21,
-    "totalCommissions": 0.54,
+    "totalTrades": 10,
+    "totalPnL": 19.19,
+    "totalCommissions": 0.31,
     "netPnL": 0.0,
-    "winningTrades": 11,
+    "winningTrades": 10,
     "losingTrades": 0,
     "symbols": [
-      "100",
       "NDRA",
-      "SQNS",
       "WOLF",
+      "SQNS",
       "PROK"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:47"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:32"
   }
 }

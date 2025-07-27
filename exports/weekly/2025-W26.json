@@ -1,23 +1,23 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "weekPeriod": "2025-06-23 to 2025-06-29",
   "weekNumber": 26,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 14,
-    "grossPnL": 11.88,
-    "totalCommissions": 2.06,
-    "netPnL": 9.82,
-    "avgDailyPnL": 1.4,
-    "avgTradePerDay": 2.0,
-    "winningTrades": 11,
+    "totalTrades": 12,
+    "grossPnL": 11.78,
+    "totalCommissions": 1.64,
+    "netPnL": 10.14,
+    "avgDailyPnL": 1.45,
+    "avgTradePerDay": 1.71,
+    "winningTrades": 9,
     "losingTrades": 3,
-    "winRate": 0.7857,
-    "avgWin": 1.31,
+    "winRate": 0.75,
+    "avgWin": 1.59,
     "avgLoss": -0.83,
-    "profitFactor": 5.75
+    "profitFactor": 5.71
   },
   "extremes": {
     "bestTrade": {
@@ -32,13 +32,12 @@
     },
     "bestDay": {
       "date": "2025-06-26",
-      "trades": 4,
+      "trades": 3,
       "pnl": 0.83,
       "symbols": [
-        "PSTV",
-        "335",
+        "ALT",
         "ICU",
-        "ALT"
+        "PSTV"
       ]
     },
     "worstDay": {
@@ -49,7 +48,7 @@
     }
   },
   "patterns": {
-    "maxConsecutiveWins": 9,
+    "maxConsecutiveWins": 8,
     "maxConsecutiveLosses": 2,
     "topSymbols": [
       [
@@ -77,19 +76,11 @@
         }
       ],
       [
-        "335",
+        "ICU",
         {
           "count": 1,
-          "pnl": 0.06,
-          "win_rate": 1.0
-        }
-      ],
-      [
-        "213",
-        {
-          "count": 1,
-          "pnl": 0.04,
-          "win_rate": 1.0
+          "pnl": -0.5,
+          "win_rate": 0.0
         }
       ]
     ],
@@ -145,23 +136,21 @@
     },
     {
       "date": "2025-06-25",
-      "trades": 10,
+      "trades": 9,
       "pnl": 0.07,
       "symbols": [
-        "213",
         "ULY",
         "PSTV"
       ]
     },
     {
       "date": "2025-06-26",
-      "trades": 4,
+      "trades": 3,
       "pnl": 0.83,
       "symbols": [
-        "PSTV",
-        "335",
+        "ALT",
         "ICU",
-        "ALT"
+        "PSTV"
       ]
     },
     {

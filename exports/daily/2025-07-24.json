@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:52",
+  "exportDate": "2025-07-27 00:33:37",
   "account": "ZI*******64",
   "date": "2025-07-24",
   "trades": [
@@ -290,44 +290,25 @@
       "side": "SELL",
       "quantity": 36.0,
       "price": 3.0367
-    },
-    {
-      "date": "2025-07-24",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "281",
-      "type": "42.51",
-      "entry": 0.84,
-      "exit": 0.0,
-      "size": 0.0,
-      "pnl": 0.05,
-      "commission": 0.65,
-      "net": 0.0,
-      "account": "0.01",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.84
     }
   ],
   "summary": {
-    "totalTrades": 17,
-    "totalPnL": 42.55,
-    "totalCommissions": 1.49,
+    "totalTrades": 16,
+    "totalPnL": 42.5,
+    "totalCommissions": 0.84,
     "netPnL": 0.0,
-    "winningTrades": 12,
+    "winningTrades": 11,
     "losingTrades": 5,
     "symbols": [
-      "281",
       "BMNR",
-      "LIDR",
       "UAVS",
+      "LIDR",
       "CYCC",
       "AGH"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:52"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:37"
   }
 }

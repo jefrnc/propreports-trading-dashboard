@@ -1,21 +1,21 @@
 {
-  "generateDate": "2025-07-27 00:03:53",
+  "generateDate": "2025-07-27 00:33:38",
   "weekPeriod": "2025-07-21 to 2025-07-27",
   "weekNumber": 30,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 49,
-    "grossPnL": 144.84,
-    "totalCommissions": 6.39,
-    "netPnL": 138.45,
-    "avgDailyPnL": 19.78,
-    "avgTradePerDay": 7.0,
-    "winningTrades": 35,
+    "totalTrades": 45,
+    "grossPnL": 144.63,
+    "totalCommissions": 3.78,
+    "netPnL": 140.85,
+    "avgDailyPnL": 20.12,
+    "avgTradePerDay": 6.43,
+    "winningTrades": 31,
     "losingTrades": 14,
-    "winRate": 0.7143,
-    "avgWin": 5.46,
+    "winRate": 0.6889,
+    "avgWin": 6.16,
     "avgLoss": -3.31,
     "profitFactor": 4.12
   },
@@ -32,31 +32,29 @@
     },
     "bestDay": {
       "date": "2025-07-23",
-      "trades": 8,
+      "trades": 7,
       "pnl": 0.03,
       "symbols": [
+        "GPRO",
         "CLSD",
         "PLRZ",
-        "GPRO",
-        "CTOR",
-        "303",
-        "AMOD"
+        "AMOD",
+        "CTOR"
       ]
     },
     "worstDay": {
       "date": "2025-07-21",
-      "trades": 10,
+      "trades": 9,
       "pnl": 0.0,
       "symbols": [
-        "HSDT",
-        "144",
+        "IPDN",
         "LMFA",
-        "IPDN"
+        "HSDT"
       ]
     }
   },
   "patterns": {
-    "maxConsecutiveWins": 11,
+    "maxConsecutiveWins": 9,
     "maxConsecutiveLosses": 4,
     "topSymbols": [
       [
@@ -160,13 +158,12 @@
   "dailyBreakdown": [
     {
       "date": "2025-07-21",
-      "trades": 10,
+      "trades": 9,
       "pnl": 0.0,
       "symbols": [
-        "HSDT",
-        "144",
+        "IPDN",
         "LMFA",
-        "IPDN"
+        "HSDT"
       ]
     },
     {
@@ -177,43 +174,40 @@
     },
     {
       "date": "2025-07-23",
-      "trades": 8,
+      "trades": 7,
       "pnl": 0.03,
       "symbols": [
+        "GPRO",
         "CLSD",
         "PLRZ",
-        "GPRO",
-        "CTOR",
-        "303",
-        "AMOD"
+        "AMOD",
+        "CTOR"
       ]
     },
     {
       "date": "2025-07-24",
-      "trades": 17,
+      "trades": 16,
       "pnl": 0.0,
       "symbols": [
-        "281",
         "BMNR",
-        "LIDR",
         "UAVS",
+        "LIDR",
         "CYCC",
         "AGH"
       ]
     },
     {
       "date": "2025-07-25",
-      "trades": 14,
+      "trades": 13,
       "pnl": 0.0,
       "symbols": [
-        "SMX",
-        "SOWG",
-        "ICCM",
-        "BMNR",
-        "IXHL",
-        "531",
-        "LIDR",
         "PHIO",
+        "SMX",
+        "ICCM",
+        "IXHL",
+        "BMNR",
+        "LIDR",
+        "SOWG",
         "OCTO"
       ]
     },

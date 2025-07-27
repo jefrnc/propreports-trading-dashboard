@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:42",
+  "exportDate": "2025-07-27 00:33:27",
   "account": "ZI*******64",
   "date": "2025-06-25",
   "trades": [
@@ -164,41 +164,22 @@
       "side": "SELL",
       "quantity": 2.0,
       "price": 8.75
-    },
-    {
-      "date": "2025-06-25",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "213",
-      "type": "11.87",
-      "entry": 0.64,
-      "exit": 0.06,
-      "size": 0.0,
-      "pnl": 0.04,
-      "commission": 0.37,
-      "net": 0.0,
-      "account": "0.02",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.64
     }
   ],
   "summary": {
-    "totalTrades": 10,
-    "totalPnL": 11.91,
-    "totalCommissions": 1.01,
+    "totalTrades": 9,
+    "totalPnL": 11.87,
+    "totalCommissions": 0.64,
     "netPnL": 0.07,
-    "winningTrades": 9,
+    "winningTrades": 8,
     "losingTrades": 1,
     "symbols": [
-      "213",
       "ULY",
       "PSTV"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:42"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:27"
   }
 }

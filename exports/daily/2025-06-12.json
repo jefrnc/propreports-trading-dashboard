@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:38",
+  "exportDate": "2025-07-27 00:33:22",
   "account": "ZI*******64",
   "date": "2025-06-12",
   "trades": [
@@ -146,44 +146,25 @@
       "side": "SELL",
       "quantity": 21.0,
       "price": 2.1729
-    },
-    {
-      "date": "2025-06-12",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "57",
-      "type": "5.86",
-      "entry": 0.17,
-      "exit": 0.01,
-      "size": 0.0,
-      "pnl": 0.01,
-      "commission": 0.13,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.17
     }
   ],
   "summary": {
-    "totalTrades": 9,
-    "totalPnL": 5.87,
-    "totalCommissions": 0.29,
+    "totalTrades": 8,
+    "totalPnL": 5.86,
+    "totalCommissions": 0.16,
     "netPnL": 0.03,
-    "winningTrades": 4,
+    "winningTrades": 3,
     "losingTrades": 4,
     "symbols": [
-      "57",
-      "KLTO",
+      "NEHC",
       "CGTL",
+      "KLTO",
       "HCTI",
-      "RSLS",
-      "NEHC"
+      "RSLS"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:38"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:22"
   }
 }

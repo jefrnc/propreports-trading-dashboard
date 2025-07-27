@@ -3,18 +3,18 @@ May 2025
 ==================================================
 
 RESUMEN GENERAL:
-  Total de trades: 86
-  P&L Neto: $-116.94
-  Win Rate: 65.1%
+  Total de trades: 74
+  P&L Neto: $-115.97
+  Win Rate: 66.2%
   Profit Factor: 0.26
-  Expectancy: $-1.32
+  Expectancy: $-1.54
 
 DESGLOSE SEMANAL:
   Semana 18: 0 trades, $0, WR: 0.0%
-  Semana 19: 17 trades, $-11.02, WR: 70.6%
-  Semana 20: 7 trades, $-101.39, WR: 28.6%
-  Semana 21: 11 trades, $-14.23, WR: 54.5%
-  Semana 22: 51 trades, $9.7, WR: 70.6%
+  Semana 19: 14 trades, $-10.86, WR: 71.4%
+  Semana 20: 5 trades, $-101.3, WR: 20.0%
+  Semana 21: 8 trades, $-14.1, WR: 62.5%
+  Semana 22: 47 trades, $10.29, WR: 70.2%
 
 RECOMENDACIONES:
   🔵 [Symbol Selection] Revisar estrategia para: KDLY, JZ, ASST (pérdidas consistentes)

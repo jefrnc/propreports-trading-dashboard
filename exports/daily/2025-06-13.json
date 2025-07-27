@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:38",
+  "exportDate": "2025-07-27 00:33:23",
   "account": "ZI*******64",
   "date": "2025-06-13",
   "trades": [
@@ -452,49 +452,30 @@
       "side": "SELL",
       "quantity": 1.0,
       "price": 12.75
-    },
-    {
-      "date": "2025-06-13",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "225",
-      "type": "(63.53)",
-      "entry": 0.68,
-      "exit": -0.14,
-      "size": 0.0,
-      "pnl": 0.04,
-      "commission": 0.3,
-      "net": 0.0,
-      "account": "0.02",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.68
     }
   ],
   "summary": {
-    "totalTrades": 26,
-    "totalPnL": -63.49,
-    "totalCommissions": 0.99,
+    "totalTrades": 25,
+    "totalPnL": -63.53,
+    "totalCommissions": 0.69,
     "netPnL": -0.14,
-    "winningTrades": 18,
+    "winningTrades": 17,
     "losingTrades": 8,
     "symbols": [
-      "225",
-      "ICON",
-      "USEG",
-      "INDO",
-      "HUSA",
-      "PRZO",
-      "TPET",
       "IMPP",
-      "TMDE",
+      "TPET",
+      "PRZO",
       "TORO",
+      "INDO",
+      "USEG",
+      "TMDE",
+      "ICON",
+      "HUSA",
       "RBNE"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:38"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:23"
   }
 }

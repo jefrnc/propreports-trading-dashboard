@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:26",
+  "exportDate": "2025-07-27 00:33:11",
   "account": "ZI*******64",
   "date": "2025-05-09",
   "trades": [
@@ -56,40 +56,21 @@
       "side": "BUY",
       "quantity": 12.0,
       "price": 2.8567
-    },
-    {
-      "date": "2025-05-09",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "20",
-      "type": "3.03",
-      "entry": 0.06,
-      "exit": -0.02,
-      "size": 0.0,
-      "pnl": 0.0,
-      "commission": 0.03,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.06
     }
   ],
   "summary": {
-    "totalTrades": 4,
+    "totalTrades": 3,
     "totalPnL": 3.03,
-    "totalCommissions": 0.09,
+    "totalCommissions": 0.06,
     "netPnL": -0.02,
     "winningTrades": 3,
     "losingTrades": 0,
     "symbols": [
-      "NVVE",
-      "20"
+      "NVVE"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:26"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:11"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:03:49",
+  "exportDate": "2025-07-27 00:33:34",
   "account": "ZI*******64",
   "date": "2025-07-15",
   "trades": [
@@ -434,49 +434,30 @@
       "side": "SELL",
       "quantity": 2.0,
       "price": 1.22
-    },
-    {
-      "date": "2025-07-15",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "555",
-      "type": "101.89",
-      "entry": 1.67,
-      "exit": 0.05,
-      "size": 0.0,
-      "pnl": 0.09,
-      "commission": 0.91,
-      "net": 0.0,
-      "account": "0.04",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 1.67
     }
   ],
   "summary": {
-    "totalTrades": 25,
-    "totalPnL": 101.97,
-    "totalCommissions": 2.58,
+    "totalTrades": 24,
+    "totalPnL": 101.88,
+    "totalCommissions": 1.67,
     "netPnL": 0.07,
-    "winningTrades": 20,
+    "winningTrades": 19,
     "losingTrades": 5,
     "symbols": [
       "SMX",
-      "INKT",
-      "SGN",
-      "BMNR",
-      "555",
-      "BLMZ",
-      "CYCC",
-      "SXTP",
+      "PROK",
       "GRO",
+      "SXTP",
+      "BLMZ",
+      "BMNR",
       "KAPA",
-      "PROK"
+      "INKT",
+      "CYCC",
+      "SGN"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 00:03:49"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 00:33:34"
   }
 }
