@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-07-27 04:30:37",
+  "generateDate": "2025-07-27 04:40:48",
   "weekPeriod": "2025-07-21 to 2025-07-27",
   "weekNumber": 30,
   "year": 2025,
@@ -193,12 +193,12 @@
       "trades": 17,
       "pnl": 0.0,
       "symbols": [
-        "LIDR",
-        "CYCC",
-        "BMNR",
-        "281",
         "AGH",
-        "UAVS"
+        "281",
+        "BMNR",
+        "UAVS",
+        "CYCC",
+        "LIDR"
       ]
     },
     {
@@ -206,15 +206,15 @@
       "trades": 14,
       "pnl": 0.0,
       "symbols": [
-        "IXHL",
-        "531",
-        "PHIO",
-        "ICCM",
-        "LIDR",
-        "SMX",
+        "OCTO",
         "BMNR",
-        "SOWG",
-        "OCTO"
+        "IXHL",
+        "ICCM",
+        "PHIO",
+        "SMX",
+        "531",
+        "LIDR",
+        "SOWG"
       ]
     },
     {
