@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:25",
+  "exportDate": "2025-07-27 04:25:46",
   "account": "ZI*******64",
   "date": "2025-06-20",
   "trades": [
@@ -146,24 +146,43 @@
       "side": "SELL",
       "quantity": 23.0,
       "price": 4.0448
+    },
+    {
+      "date": "2025-06-20",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "134",
+      "type": "17.15",
+      "entry": 0.4,
+      "exit": 0.04,
+      "size": 0.0,
+      "pnl": 0.02,
+      "commission": 0.21,
+      "net": 0.0,
+      "account": "0.01",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.4
     }
   ],
   "summary": {
-    "totalTrades": 8,
-    "totalPnL": 17.15,
-    "totalCommissions": 0.4,
+    "totalTrades": 9,
+    "totalPnL": 17.17,
+    "totalCommissions": 0.61,
     "netPnL": 0.03,
-    "winningTrades": 5,
+    "winningTrades": 6,
     "losingTrades": 3,
     "symbols": [
-      "LUCY",
-      "GPUS",
+      "BIYA",
+      "134",
       "RBNE",
-      "BIYA"
+      "GPUS",
+      "LUCY"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:25"
+    "processedAt": "2025-07-27 04:25:46"
   }
 }

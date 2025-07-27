@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:34",
+  "exportDate": "2025-07-27 04:25:51",
   "account": "ZI*******64",
   "date": "2025-07-16",
   "trades": [
@@ -272,29 +272,48 @@
       "side": "SELL",
       "quantity": 6.0,
       "price": 36.9833
+    },
+    {
+      "date": "2025-07-16",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "181",
+      "type": "39.86",
+      "entry": 0.54,
+      "exit": 0.0,
+      "size": 0.0,
+      "pnl": 0.03,
+      "commission": 0.38,
+      "net": 0.0,
+      "account": "0.01",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.54
     }
   ],
   "summary": {
-    "totalTrades": 15,
-    "totalPnL": 39.86,
-    "totalCommissions": 0.55,
+    "totalTrades": 16,
+    "totalPnL": 39.89,
+    "totalCommissions": 0.93,
     "netPnL": 0.0,
-    "winningTrades": 13,
+    "winningTrades": 14,
     "losingTrades": 2,
     "symbols": [
+      "QLGN",
+      "181",
+      "NUWE",
+      "ABVE",
       "GAME",
-      "VCIG",
       "CYCC",
       "SBET",
       "DPRO",
-      "NUWE",
       "APM",
-      "QLGN",
-      "ABVE"
+      "VCIG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:34"
+    "processedAt": "2025-07-27 04:25:51"
   }
 }

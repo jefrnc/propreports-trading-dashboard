@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:16",
+  "exportDate": "2025-07-27 04:25:41",
   "account": "ZI*******64",
   "date": "2025-05-23",
   "trades": [
@@ -38,21 +38,40 @@
       "side": "BUY",
       "quantity": 4.0,
       "price": 1.255
+    },
+    {
+      "date": "2025-05-23",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "12",
+      "type": "0.64",
+      "entry": 0.04,
+      "exit": 0.03,
+      "size": 0.0,
+      "pnl": 0.0,
+      "commission": 0.03,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.04
     }
   ],
   "summary": {
-    "totalTrades": 2,
+    "totalTrades": 3,
     "totalPnL": 0.64,
-    "totalCommissions": 0.03,
+    "totalCommissions": 0.06,
     "netPnL": 0.03,
     "winningTrades": 2,
     "losingTrades": 0,
     "symbols": [
-      "IMNN"
+      "IMNN",
+      "12"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:16"
+    "processedAt": "2025-07-27 04:25:41"
   }
 }

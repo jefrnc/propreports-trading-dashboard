@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:24",
+  "exportDate": "2025-07-27 04:25:46",
   "account": "ZI*******64",
   "date": "2025-06-16",
   "trades": [
@@ -452,25 +452,44 @@
       "side": "SELL",
       "quantity": 10.0,
       "price": 1.632
+    },
+    {
+      "date": "2025-06-16",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "122",
+      "type": "0.70",
+      "entry": 0.37,
+      "exit": 0.02,
+      "size": 0.0,
+      "pnl": 0.02,
+      "commission": 0.2,
+      "net": 0.0,
+      "account": "0.01",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.37
     }
   ],
   "summary": {
-    "totalTrades": 25,
-    "totalPnL": 0.7,
-    "totalCommissions": 0.36,
+    "totalTrades": 26,
+    "totalPnL": 0.72,
+    "totalCommissions": 0.56,
     "netPnL": 0.04,
-    "winningTrades": 16,
+    "winningTrades": 17,
     "losingTrades": 8,
     "symbols": [
-      "DWSN",
+      "122",
       "KLTO",
       "LSE",
+      "SRM",
       "SONM",
-      "SRM"
+      "DWSN"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:24"
+    "processedAt": "2025-07-27 04:25:46"
   }
 }

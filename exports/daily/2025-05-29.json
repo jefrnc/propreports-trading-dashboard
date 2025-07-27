@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:18",
+  "exportDate": "2025-07-27 04:25:42",
   "account": "ZI*******64",
   "date": "2025-05-29",
   "trades": [
@@ -254,25 +254,44 @@
       "side": "BUY",
       "quantity": 6.0,
       "price": 8.2033
+    },
+    {
+      "date": "2025-05-29",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "84",
+      "type": "6.57",
+      "entry": 0.25,
+      "exit": 0.02,
+      "size": 0.0,
+      "pnl": 0.01,
+      "commission": 0.21,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.25
     }
   ],
   "summary": {
-    "totalTrades": 14,
-    "totalPnL": 6.57,
-    "totalCommissions": 0.26,
+    "totalTrades": 15,
+    "totalPnL": 6.58,
+    "totalCommissions": 0.47,
     "netPnL": 0.03,
-    "winningTrades": 11,
+    "winningTrades": 12,
     "losingTrades": 3,
     "symbols": [
-      "VCIG",
-      "ZEO",
       "ALZN",
       "PLRZ",
-      "NAOV"
+      "NAOV",
+      "ZEO",
+      "84",
+      "VCIG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:18"
+    "processedAt": "2025-07-27 04:25:42"
   }
 }

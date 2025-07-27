@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:15",
+  "exportDate": "2025-07-27 04:25:41",
   "account": "ZI*******64",
   "date": "2025-05-21",
   "trades": [
@@ -92,23 +92,42 @@
       "side": "BUY",
       "quantity": 10.0,
       "price": 5.912
+    },
+    {
+      "date": "2025-05-21",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "58",
+      "type": "(14.15)",
+      "entry": 0.17,
+      "exit": 0.04,
+      "size": 0.0,
+      "pnl": 0.01,
+      "commission": 0.1,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.17
     }
   ],
   "summary": {
-    "totalTrades": 5,
-    "totalPnL": -14.15,
-    "totalCommissions": 0.17,
+    "totalTrades": 6,
+    "totalPnL": -14.14,
+    "totalCommissions": 0.27,
     "netPnL": 0.04,
-    "winningTrades": 3,
+    "winningTrades": 4,
     "losingTrades": 2,
     "symbols": [
-      "GCL",
+      "58",
       "EDBL",
+      "GCL",
       "ASST"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:15"
+    "processedAt": "2025-07-27 04:25:41"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:32",
+  "exportDate": "2025-07-27 04:25:50",
   "account": "ZI*******64",
   "date": "2025-07-10",
   "trades": [
@@ -236,26 +236,45 @@
       "side": "SELL",
       "quantity": 2.0,
       "price": 3.43
+    },
+    {
+      "date": "2025-07-10",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "193",
+      "type": "16.53",
+      "entry": 0.58,
+      "exit": 0.04,
+      "size": 0.0,
+      "pnl": 0.03,
+      "commission": 0.46,
+      "net": 0.0,
+      "account": "0.01",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.58
     }
   ],
   "summary": {
-    "totalTrades": 13,
-    "totalPnL": 16.52,
-    "totalCommissions": 0.61,
+    "totalTrades": 14,
+    "totalPnL": 16.55,
+    "totalCommissions": 1.07,
     "netPnL": 0.05,
-    "winningTrades": 10,
+    "winningTrades": 11,
     "losingTrades": 3,
     "symbols": [
       "STKH",
       "KLTO",
+      "193",
+      "AIRI",
       "PROK",
       "BTCM",
-      "SAFX",
-      "AIRI"
+      "SAFX"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:32"
+    "processedAt": "2025-07-27 04:25:50"
   }
 }

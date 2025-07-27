@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:28",
+  "exportDate": "2025-07-27 04:25:48",
   "account": "ZI*******64",
   "date": "2025-07-01",
   "trades": [
@@ -38,21 +38,40 @@
       "side": "SELL",
       "quantity": 1.0,
       "price": 10.79
+    },
+    {
+      "date": "2025-07-01",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "15",
+      "type": "12.74",
+      "entry": 0.05,
+      "exit": 0.0,
+      "size": 0.0,
+      "pnl": 0.0,
+      "commission": 0.04,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.05
     }
   ],
   "summary": {
-    "totalTrades": 2,
+    "totalTrades": 3,
     "totalPnL": 12.74,
-    "totalCommissions": 0.04,
+    "totalCommissions": 0.08,
     "netPnL": 0.01,
     "winningTrades": 2,
     "losingTrades": 0,
     "symbols": [
+      "15",
       "CLRO"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:28"
+    "processedAt": "2025-07-27 04:25:48"
   }
 }

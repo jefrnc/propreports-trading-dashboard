@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 00:33:29",
+  "exportDate": "2025-07-27 04:25:49",
   "account": "ZI*******64",
   "date": "2025-07-02",
   "trades": [
@@ -308,26 +308,45 @@
       "side": "SELL",
       "quantity": 12.0,
       "price": 1.8083
+    },
+    {
+      "date": "2025-07-02",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "166",
+      "type": "22.46",
+      "entry": 0.5,
+      "exit": 0.0,
+      "size": 0.0,
+      "pnl": 0.03,
+      "commission": 0.32,
+      "net": 0.0,
+      "account": "0.01",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.5
     }
   ],
   "summary": {
-    "totalTrades": 17,
-    "totalPnL": 22.46,
-    "totalCommissions": 0.49,
+    "totalTrades": 18,
+    "totalPnL": 22.49,
+    "totalCommissions": 0.81,
     "netPnL": 0.0,
-    "winningTrades": 10,
+    "winningTrades": 11,
     "losingTrades": 7,
     "symbols": [
-      "DAIC",
-      "MOGO",
       "ELWS",
-      "MIRA",
+      "MOGO",
       "SONN",
-      "BMNR"
+      "BMNR",
+      "DAIC",
+      "166",
+      "MIRA"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 00:33:29"
+    "processedAt": "2025-07-27 04:25:49"
   }
 }
