@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Dashboard - PropReports Auto-Exporter</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <style>
+        .profit { color: #10b981; }
+        .loss { color: #ef4444; }
+        .calendar-day {
+            width: 15px;
+            height: 15px;
+            margin: 1px;
+            display: inline-block;
+            border: 1px solid #e5e7eb;
+        }
+        .calendar-month {
+            display: inline-block;
+            margin: 5px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Trading Dashboard</h1>
+            <p class="text-gray-600">PropReports Auto-Exporter Analytics</p>
+        </header>
+        
+        <!-- Key Metrics -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-sm font-medium text-gray-500">Total P&L</h3>
+                <p id="totalPnl" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-sm font-medium text-gray-500">Total Trades</h3>
+                <p id="totalTrades" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-sm font-medium text-gray-500">Win Rate</h3>
+                <p id="winRate" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-sm font-medium text-gray-500">Daily Average</h3>
+                <p id="dailyAvg" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+            </div>
+        </div>
+        
+        <!-- Simple Calendar -->
+        <div class="bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">Trading Calendar 2025</h2>
+            <div id="calendar" class="text-center">
+                <div class="mb-4">
+                    <span class="inline-block w-4 h-4 bg-green-500 mr-2"></span>Profit
+                    <span class="inline-block w-4 h-4 bg-red-500 mr-2 ml-4"></span>Loss
+                    <span class="inline-block w-4 h-4 bg-gray-300 mr-2 ml-4"></span>No Trades
+                </div>
+                <div id="calendar-grid"></div>
+            </div>
+        </div>
+        
+        <!-- Charts -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Daily P&L</h2>
+                <canvas id="dailyPnlChart"></canvas>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Cumulative P&L</h2>
+                <canvas id="cumulativePnlChart"></canvas>
+            </div>
+        </div>
+        
+        <!-- Monthly Breakdown -->
+        <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">Monthly Performance</h2>
+            <canvas id="monthlyChart"></canvas>
+        </div>
+    </div>
+    
+    <script>
+        // Load data
+        fetch('dashboard-data.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data loaded:', data);
+                initializeDashboard(data);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById('totalPnl').textContent = 'Error loading data';
+            });
+        
+        function initializeDashboard(data) {
+            const yearData = data.yearData || {};
+            const stats = data.yearStats || {};
+            
+            // Update metrics
+            document.getElementById('totalPnl').textContent = '$' + (stats.total_pnl || 0).toFixed(2);
+            document.getElementById('totalPnl').className = 'text-2xl font-bold mt-2 ' + 
+                (stats.total_pnl >= 0 ? 'text-green-600' : 'text-red-600');
+            
+            document.getElementById('totalTrades').textContent = (stats.total_trades || 0).toLocaleString();
+            document.getElementById('winRate').textContent = (stats.win_rate || 0).toFixed(1) + '%';
+            document.getElementById('dailyAvg').textContent = '$' + (stats.daily_avg || 0).toFixed(2);
+            
+            // Simple Calendar
+            createSimpleCalendar(yearData);
+            
+            // Daily P&L Chart
+            const dailyDates = Object.keys(yearData).filter(date => yearData[date].trades > 0);
+            const dailyPnl = dailyDates.map(date => yearData[date].pnl);
+            
+            new Chart(document.getElementById('dailyPnlChart'), {
+                type: 'bar',
+                data: {
+                    labels: dailyDates.map(d => d.substring(5)), // MM-DD format
+                    datasets: [{
+                        label: 'Daily P&L',
+                        data: dailyPnl,
+                        backgroundColor: dailyPnl.map(pnl => pnl >= 0 ? '#10b981' : '#ef4444')
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            title: { display: true, text: 'P&L ($)' }
+                        }
+                    }
+                }
+            });
+            
+            // Cumulative P&L Chart
+            let cumulative = 0;
+            const cumulativePnl = dailyDates.map(date => {
+                cumulative += yearData[date].pnl;
+                return cumulative;
+            });
+            
+            new Chart(document.getElementById('cumulativePnlChart'), {
+                type: 'line',
+                data: {
+                    labels: dailyDates.map(d => d.substring(5)),
+                    datasets: [{
+                        label: 'Cumulative P&L',
+                        data: cumulativePnl,
+                        borderColor: '#3b82f6',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            title: { display: true, text: 'Cumulative P&L ($)' }
+                        }
+                    }
+                }
+            });
+            
+            // Monthly Chart
+            const monthlyData = {};
+            Object.entries(yearData).forEach(([date, data]) => {
+                const month = date.substring(0, 7);
+                if (!monthlyData[month]) {
+                    monthlyData[month] = { trades: 0, pnl: 0 };
+                }
+                monthlyData[month].trades += data.trades;
+                monthlyData[month].pnl += data.pnl;
+            });
+            
+            const months = Object.keys(monthlyData).sort();
+            const monthlyPnl = months.map(m => monthlyData[m].pnl);
+            const monthlyTrades = months.map(m => monthlyData[m].trades);
+            
+            new Chart(document.getElementById('monthlyChart'), {
+                type: 'bar',
+                data: {
+                    labels: months.map(m => {
+                        const [year, month] = m.split('-');
+                        return new Date(year, month - 1).toLocaleDateString('en', { month: 'short' });
+                    }),
+                    datasets: [{
+                        label: 'P&L',
+                        data: monthlyPnl,
+                        backgroundColor: monthlyPnl.map(pnl => pnl >= 0 ? '#10b981' : '#ef4444'),
+                        yAxisID: 'y'
+                    }, {
+                        label: 'Trades',
+                        data: monthlyTrades,
+                        type: 'line',
+                        borderColor: '#6366f1',
+                        yAxisID: 'y1'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: { display: true, text: 'P&L ($)' }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: { display: true, text: 'Trades' },
+                            grid: { drawOnChartArea: false }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function createSimpleCalendar(yearData) {
+            const calendarGrid = document.getElementById('calendar-grid');
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            
+            months.forEach((monthName, monthIndex) => {
+                const monthDiv = document.createElement('div');
+                monthDiv.className = 'calendar-month';
+                
+                const monthTitle = document.createElement('div');
+                monthTitle.className = 'text-sm font-medium mb-1';
+                monthTitle.textContent = monthName;
+                monthDiv.appendChild(monthTitle);
+                
+                // Create days for the month
+                const year = 2025;
+                const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+                
+                for (let day = 1; day <= daysInMonth; day++) {
+                    const dateStr = `${year}-${String(monthIndex + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                    const dayData = yearData[dateStr];
+                    
+                    const dayDiv = document.createElement('div');
+                    dayDiv.className = 'calendar-day';
+                    dayDiv.title = `${dateStr}: ${dayData ? `$${dayData.pnl.toFixed(2)}` : 'No trades'}`;
+                    
+                    if (dayData && dayData.trades > 0) {
+                        if (dayData.pnl > 0) {
+                            dayDiv.style.backgroundColor = '#10b981';
+                        } else if (dayData.pnl < 0) {
+                            dayDiv.style.backgroundColor = '#ef4444';
+                        } else {
+                            dayDiv.style.backgroundColor = '#fbbf24';
+                        }
+                    } else {
+                        dayDiv.style.backgroundColor = '#e5e7eb';
+                    }
+                    
+                    monthDiv.appendChild(dayDiv);
+                }
+                
+                calendarGrid.appendChild(monthDiv);
+            });
+        }
+    </script>
+    
+    <footer class="text-center mt-8 text-gray-600">
+        <p>Generated on 2025-07-27</p>
+        <p class="mt-2">
+            <a href="https://github.com/jefrnc/propreports-auto-exporter" class="text-blue-600 hover:underline">
+                PropReports Auto-Exporter
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

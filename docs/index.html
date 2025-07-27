@@ -6,80 +6,194 @@
     <title>Trading Dashboard - PropReports Auto-Exporter</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/cal-heatmap/3.6.2/cal-heatmap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/cal-heatmap/3.6.2/cal-heatmap.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
         .profit { color: #10b981; }
         .loss { color: #ef4444; }
-        .cal-heatmap-container { display: flex; justify-content: center; }
+        
+        .cal-heatmap-container {
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+        
+        /* Cal-heatmap custom styles */
+        .graph-label {
+            fill: #4a5568;
+            font-size: 12px;
+        }
+        
+        .subdomain-text {
+            font-size: 10px;
+            fill: #fff;
+        }
+        
+        .q0 { fill: #e5e7eb !important; }
+        .q1 { fill: #fbbf24 !important; }
+        .q2 { fill: #34d399 !important; }
+        .q3 { fill: #10b981 !important; }
+        .q4 { fill: #059669 !important; }
+        .q5 { fill: #ef4444 !important; }
     </style>
 </head>
-<body class="bg-gray-100">
-    <div class="container mx-auto px-4 py-8">
-        <header class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-2">Trading Dashboard</h1>
-            <p class="text-gray-600">PropReports Auto-Exporter Analytics</p>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <header class="text-center mb-10 fade-in">
+            <h1 class="text-5xl font-bold text-gray-800 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-green-600">
+                Trading Dashboard
+            </h1>
+            <p class="text-lg text-gray-600">PropReports Auto-Exporter Analytics</p>
         </header>
         
         <!-- Key Metrics -->
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-            <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-sm font-medium text-gray-500">Total P&L</h3>
-                <p id="totalPnl" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.1s">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total P&L</h3>
+                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <p id="totalPnl" class="text-3xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-2">Lifetime earnings</p>
             </div>
-            <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-sm font-medium text-gray-500">Total Trades</h3>
-                <p id="totalTrades" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+            
+            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.2s">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total Trades</h3>
+                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                    </svg>
+                </div>
+                <p id="totalTrades" class="text-3xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-2">Completed transactions</p>
             </div>
-            <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-sm font-medium text-gray-500">Win Rate</h3>
-                <p id="winRate" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+            
+            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.3s">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Win Rate</h3>
+                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                </div>
+                <p id="winRate" class="text-3xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-2">Success percentage</p>
             </div>
-            <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-sm font-medium text-gray-500">Daily Average</h3>
-                <p id="dailyAvg" class="text-2xl font-bold mt-2 text-gray-800">Loading...</p>
+            
+            <div class="metric-card bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.4s">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Daily Average</h3>
+                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
+                    </svg>
+                </div>
+                <p id="dailyAvg" class="text-3xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-2">Per trading day</p>
             </div>
         </div>
         
         <!-- Calendar Heatmap -->
-        <div class="bg-white rounded-lg shadow p-6 mb-8">
-            <h2 class="text-xl font-bold text-gray-800 mb-4">Trading Calendar 2025</h2>
-            <div id="calendar" class="cal-heatmap-container"></div>
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10 fade-in" style="animation-delay: 0.5s">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Trading Calendar 2025</h2>
+            
+            <div class="flex justify-center mb-6 text-sm">
+                <div class="flex items-center mr-6">
+                    <div class="w-4 h-4 rounded" style="background-color: #10b981"></div>
+                    <span class="text-gray-600 ml-2">Profit</span>
+                </div>
+                <div class="flex items-center mr-6">
+                    <div class="w-4 h-4 rounded" style="background-color: #ef4444"></div>
+                    <span class="text-gray-600 ml-2">Loss</span>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-4 h-4 rounded" style="background-color: #e5e7eb"></div>
+                    <span class="text-gray-600 ml-2">No Trades</span>
+                </div>
+            </div>
+            
+            <div id="cal-heatmap" class="cal-heatmap-container"></div>
         </div>
         
         <!-- Charts -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            <div class="bg-white rounded-lg shadow p-6">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Daily P&L</h2>
-                <canvas id="dailyPnlChart"></canvas>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+            <div class="bg-white rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.6s">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">Daily P&L</h2>
+                <div class="chart-container">
+                    <canvas id="dailyPnlChart"></canvas>
+                </div>
             </div>
-            <div class="bg-white rounded-lg shadow p-6">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Cumulative P&L</h2>
-                <canvas id="cumulativePnlChart"></canvas>
+            
+            <div class="bg-white rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.7s">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">Cumulative P&L</h2>
+                <div class="chart-container">
+                    <canvas id="cumulativePnlChart"></canvas>
+                </div>
             </div>
         </div>
         
         <!-- Monthly Breakdown -->
-        <div class="bg-white rounded-lg shadow p-6">
-            <h2 class="text-xl font-bold text-gray-800 mb-4">Monthly Performance</h2>
-            <canvas id="monthlyChart"></canvas>
+        <div class="bg-white rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.8s">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Monthly Performance</h2>
+            <div class="chart-container" style="height: 400px;">
+                <canvas id="monthlyChart"></canvas>
+            </div>
         </div>
     </div>
     
+    <footer class="text-center py-8 text-gray-600">
+        <p>Generated on 2025-07-27</p>
+        <p class="mt-2">
+            <a href="https://github.com/jefrnc/propreports-auto-exporter" class="text-blue-600 hover:underline font-medium">
+                PropReports Auto-Exporter
+            </a>
+        </p>
+    </footer>
+    
     <script>
-        // Load data from JSON file
+        // Load data
         fetch('dashboard-data.json')
             .then(response => response.json())
             .then(data => {
+                console.log('Data loaded successfully');
                 initializeDashboard(data);
             })
             .catch(error => {
-                console.error('Error loading dashboard data:', error);
-                // Fallback to embedded data
-                const fallbackData = {
-                    yearData: {"2025-03-29": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-03-30": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-03-31": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-01": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-02": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-03": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-04": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-05": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-06": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-07": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-08": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-09": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-10": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-11": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-12": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-13": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-14": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-15": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-16": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-17": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-18": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-19": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-20": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-21": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-22": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-23": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-24": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-25": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-26": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-27": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-28": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-29": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-04-30": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-01": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-02": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-03": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-04": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-05": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-06": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-07": {"trades": 3, "pnl": 0.12, "winRate": 0.6666666666666666}, "2025-05-08": {"trades": 8, "pnl": 0.15, "winRate": 0.625}, "2025-05-09": {"trades": 3, "pnl": -0.02, "winRate": 1.0}, "2025-05-10": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-11": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-12": {"trades": 3, "pnl": 0.05, "winRate": 0.0}, "2025-05-13": {"trades": 2, "pnl": 0.02, "winRate": 0.5}, "2025-05-14": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-15": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-16": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-17": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-18": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-19": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-20": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-21": {"trades": 5, "pnl": 0.04, "winRate": 0.6}, "2025-05-22": {"trades": 1, "pnl": 0.02, "winRate": 0.0}, "2025-05-23": {"trades": 2, "pnl": 0.03, "winRate": 1.0}, "2025-05-24": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-25": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-26": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-05-27": {"trades": 1, "pnl": 0.01, "winRate": 1.0}, "2025-05-28": {"trades": 18, "pnl": 0.0, "winRate": 0.6666666666666666}, "2025-05-29": {"trades": 14, "pnl": 0.03, "winRate": 0.7857142857142857}, "2025-05-30": {"trades": 14, "pnl": -0.02, "winRate": 0.6428571428571429}, "2025-05-31": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-01": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-02": {"trades": 4, "pnl": 0.05, "winRate": 0.25}, "2025-06-03": {"trades": 10, "pnl": 0.05, "winRate": 0.7}, "2025-06-04": {"trades": 18, "pnl": -0.01, "winRate": 0.4444444444444444}, "2025-06-05": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-06": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-07": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-08": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-09": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-10": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-11": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-12": {"trades": 8, "pnl": 0.03, "winRate": 0.375}, "2025-06-13": {"trades": 25, "pnl": -0.14, "winRate": 0.68}, "2025-06-14": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-15": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-16": {"trades": 25, "pnl": 0.04, "winRate": 0.64}, "2025-06-17": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-18": {"trades": 7, "pnl": 0.03, "winRate": 0.42857142857142855}, "2025-06-19": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-20": {"trades": 8, "pnl": 0.03, "winRate": 0.625}, "2025-06-21": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-22": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-23": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-24": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-25": {"trades": 9, "pnl": 0.07, "winRate": 0.8888888888888888}, "2025-06-26": {"trades": 3, "pnl": 0.83, "winRate": 0.3333333333333333}, "2025-06-27": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-28": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-29": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-06-30": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-01": {"trades": 2, "pnl": 0.01, "winRate": 1.0}, "2025-07-02": {"trades": 17, "pnl": 0.0, "winRate": 0.5882352941176471}, "2025-07-03": {"trades": 1, "pnl": 0.0, "winRate": 0.0}, "2025-07-04": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-05": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-06": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-07": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-08": {"trades": 10, "pnl": 0.0, "winRate": 1.0}, "2025-07-09": {"trades": 11, "pnl": 0.01, "winRate": 0.8181818181818182}, "2025-07-10": {"trades": 13, "pnl": 0.05, "winRate": 0.7692307692307693}, "2025-07-11": {"trades": 18, "pnl": 0.1, "winRate": 0.6111111111111112}, "2025-07-12": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-13": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-14": {"trades": 32, "pnl": 0.12, "winRate": 0.75}, "2025-07-15": {"trades": 24, "pnl": 0.07, "winRate": 0.7916666666666666}, "2025-07-16": {"trades": 15, "pnl": 0.0, "winRate": 0.8666666666666667}, "2025-07-17": {"trades": 2, "pnl": 0.33, "winRate": 0.5}, "2025-07-18": {"trades": 7, "pnl": 0.0, "winRate": 0.5714285714285714}, "2025-07-19": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-20": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-21": {"trades": 9, "pnl": 0.0, "winRate": 0.6666666666666666}, "2025-07-22": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-23": {"trades": 7, "pnl": 0.03, "winRate": 1.0}, "2025-07-24": {"trades": 16, "pnl": 0.0, "winRate": 0.6875}, "2025-07-25": {"trades": 13, "pnl": 0.0, "winRate": 0.5384615384615384}, "2025-07-26": {"trades": 0, "pnl": 0, "winRate": 0}, "2025-07-27": {"trades": 0, "pnl": 0, "winRate": 0}},
-                    yearStats: {"trading_days": 38, "total_trades": 388, "total_pnl": 2.13, "win_rate": 65.78947368421053, "profit_days": 25, "profit_days_pct": 65.78947368421053, "loss_days": 4, "loss_days_pct": 10.526315789473683, "best_day": "2025-06-26", "best_day_pnl": 0.83, "worst_day": "2025-06-13", "worst_day_pnl": -0.14, "daily_avg": 0.05605263157894737}
-                };
+                console.error('Error loading data:', error);
+                // Use embedded fallback data
+                const fallbackData = {"yearData":{"2025-03-29":{"trades":0,"pnl":0,"winRate":0},"2025-03-30":{"trades":0,"pnl":0,"winRate":0},"2025-03-31":{"trades":0,"pnl":0,"winRate":0},"2025-04-01":{"trades":0,"pnl":0,"winRate":0},"2025-04-02":{"trades":0,"pnl":0,"winRate":0},"2025-04-03":{"trades":0,"pnl":0,"winRate":0},"2025-04-04":{"trades":0,"pnl":0,"winRate":0},"2025-04-05":{"trades":0,"pnl":0,"winRate":0},"2025-04-06":{"trades":0,"pnl":0,"winRate":0},"2025-04-07":{"trades":0,"pnl":0,"winRate":0},"2025-04-08":{"trades":0,"pnl":0,"winRate":0},"2025-04-09":{"trades":0,"pnl":0,"winRate":0},"2025-04-10":{"trades":0,"pnl":0,"winRate":0},"2025-04-11":{"trades":0,"pnl":0,"winRate":0},"2025-04-12":{"trades":0,"pnl":0,"winRate":0},"2025-04-13":{"trades":0,"pnl":0,"winRate":0},"2025-04-14":{"trades":0,"pnl":0,"winRate":0},"2025-04-15":{"trades":0,"pnl":0,"winRate":0},"2025-04-16":{"trades":0,"pnl":0,"winRate":0},"2025-04-17":{"trades":0,"pnl":0,"winRate":0},"2025-04-18":{"trades":0,"pnl":0,"winRate":0},"2025-04-19":{"trades":0,"pnl":0,"winRate":0},"2025-04-20":{"trades":0,"pnl":0,"winRate":0},"2025-04-21":{"trades":0,"pnl":0,"winRate":0},"2025-04-22":{"trades":0,"pnl":0,"winRate":0},"2025-04-23":{"trades":0,"pnl":0,"winRate":0},"2025-04-24":{"trades":0,"pnl":0,"winRate":0},"2025-04-25":{"trades":0,"pnl":0,"winRate":0},"2025-04-26":{"trades":0,"pnl":0,"winRate":0},"2025-04-27":{"trades":0,"pnl":0,"winRate":0},"2025-04-28":{"trades":0,"pnl":0,"winRate":0},"2025-04-29":{"trades":0,"pnl":0,"winRate":0},"2025-04-30":{"trades":0,"pnl":0,"winRate":0},"2025-05-01":{"trades":0,"pnl":0,"winRate":0},"2025-05-02":{"trades":0,"pnl":0,"winRate":0},"2025-05-03":{"trades":0,"pnl":0,"winRate":0},"2025-05-04":{"trades":0,"pnl":0,"winRate":0},"2025-05-05":{"trades":0,"pnl":0,"winRate":0},"2025-05-06":{"trades":0,"pnl":0,"winRate":0},"2025-05-07":{"trades":3,"pnl":0.12,"winRate":0.6666666666666666},"2025-05-08":{"trades":8,"pnl":0.15,"winRate":0.625},"2025-05-09":{"trades":3,"pnl":-0.02,"winRate":1.0},"2025-05-10":{"trades":0,"pnl":0,"winRate":0},"2025-05-11":{"trades":0,"pnl":0,"winRate":0},"2025-05-12":{"trades":3,"pnl":0.05,"winRate":0.0},"2025-05-13":{"trades":2,"pnl":0.02,"winRate":0.5},"2025-05-14":{"trades":0,"pnl":0,"winRate":0},"2025-05-15":{"trades":0,"pnl":0,"winRate":0},"2025-05-16":{"trades":0,"pnl":0,"winRate":0},"2025-05-17":{"trades":0,"pnl":0,"winRate":0},"2025-05-18":{"trades":0,"pnl":0,"winRate":0},"2025-05-19":{"trades":0,"pnl":0,"winRate":0},"2025-05-20":{"trades":0,"pnl":0,"winRate":0},"2025-05-21":{"trades":5,"pnl":0.04,"winRate":0.6},"2025-05-22":{"trades":1,"pnl":0.02,"winRate":0.0},"2025-05-23":{"trades":2,"pnl":0.03,"winRate":1.0},"2025-05-24":{"trades":0,"pnl":0,"winRate":0},"2025-05-25":{"trades":0,"pnl":0,"winRate":0},"2025-05-26":{"trades":0,"pnl":0,"winRate":0},"2025-05-27":{"trades":1,"pnl":0.01,"winRate":1.0},"2025-05-28":{"trades":18,"pnl":0.0,"winRate":0.6666666666666666},"2025-05-29":{"trades":14,"pnl":0.03,"winRate":0.7857142857142857},"2025-05-30":{"trades":14,"pnl":-0.02,"winRate":0.6428571428571429},"2025-05-31":{"trades":0,"pnl":0,"winRate":0},"2025-06-01":{"trades":0,"pnl":0,"winRate":0},"2025-06-02":{"trades":4,"pnl":0.05,"winRate":0.25},"2025-06-03":{"trades":10,"pnl":0.05,"winRate":0.7},"2025-06-04":{"trades":18,"pnl":-0.01,"winRate":0.4444444444444444},"2025-06-05":{"trades":0,"pnl":0,"winRate":0},"2025-06-06":{"trades":0,"pnl":0,"winRate":0},"2025-06-07":{"trades":0,"pnl":0,"winRate":0},"2025-06-08":{"trades":0,"pnl":0,"winRate":0},"2025-06-09":{"trades":0,"pnl":0,"winRate":0},"2025-06-10":{"trades":0,"pnl":0,"winRate":0},"2025-06-11":{"trades":0,"pnl":0,"winRate":0},"2025-06-12":{"trades":8,"pnl":0.03,"winRate":0.375},"2025-06-13":{"trades":25,"pnl":-0.14,"winRate":0.68},"2025-06-14":{"trades":0,"pnl":0,"winRate":0},"2025-06-15":{"trades":0,"pnl":0,"winRate":0},"2025-06-16":{"trades":25,"pnl":0.04,"winRate":0.64},"2025-06-17":{"trades":0,"pnl":0,"winRate":0},"2025-06-18":{"trades":7,"pnl":0.03,"winRate":0.42857142857142855},"2025-06-19":{"trades":0,"pnl":0,"winRate":0},"2025-06-20":{"trades":8,"pnl":0.03,"winRate":0.625},"2025-06-21":{"trades":0,"pnl":0,"winRate":0},"2025-06-22":{"trades":0,"pnl":0,"winRate":0},"2025-06-23":{"trades":0,"pnl":0,"winRate":0},"2025-06-24":{"trades":0,"pnl":0,"winRate":0},"2025-06-25":{"trades":9,"pnl":0.07,"winRate":0.8888888888888888},"2025-06-26":{"trades":3,"pnl":0.83,"winRate":0.3333333333333333},"2025-06-27":{"trades":0,"pnl":0,"winRate":0},"2025-06-28":{"trades":0,"pnl":0,"winRate":0},"2025-06-29":{"trades":0,"pnl":0,"winRate":0},"2025-06-30":{"trades":0,"pnl":0,"winRate":0},"2025-07-01":{"trades":2,"pnl":0.01,"winRate":1.0},"2025-07-02":{"trades":17,"pnl":0.0,"winRate":0.5882352941176471},"2025-07-03":{"trades":1,"pnl":0.0,"winRate":0.0},"2025-07-04":{"trades":0,"pnl":0,"winRate":0},"2025-07-05":{"trades":0,"pnl":0,"winRate":0},"2025-07-06":{"trades":0,"pnl":0,"winRate":0},"2025-07-07":{"trades":0,"pnl":0,"winRate":0},"2025-07-08":{"trades":10,"pnl":0.0,"winRate":1.0},"2025-07-09":{"trades":11,"pnl":0.01,"winRate":0.8181818181818182},"2025-07-10":{"trades":13,"pnl":0.05,"winRate":0.7692307692307693},"2025-07-11":{"trades":18,"pnl":0.1,"winRate":0.6111111111111112},"2025-07-12":{"trades":0,"pnl":0,"winRate":0},"2025-07-13":{"trades":0,"pnl":0,"winRate":0},"2025-07-14":{"trades":32,"pnl":0.12,"winRate":0.75},"2025-07-15":{"trades":24,"pnl":0.07,"winRate":0.7916666666666666},"2025-07-16":{"trades":15,"pnl":0.0,"winRate":0.8666666666666667},"2025-07-17":{"trades":2,"pnl":0.33,"winRate":0.5},"2025-07-18":{"trades":7,"pnl":0.0,"winRate":0.5714285714285714},"2025-07-19":{"trades":0,"pnl":0,"winRate":0},"2025-07-20":{"trades":0,"pnl":0,"winRate":0},"2025-07-21":{"trades":9,"pnl":0.0,"winRate":0.6666666666666666},"2025-07-22":{"trades":0,"pnl":0,"winRate":0},"2025-07-23":{"trades":7,"pnl":0.03,"winRate":1.0},"2025-07-24":{"trades":16,"pnl":0.0,"winRate":0.6875},"2025-07-25":{"trades":13,"pnl":0.0,"winRate":0.5384615384615384},"2025-07-26":{"trades":0,"pnl":0,"winRate":0},"2025-07-27":{"trades":0,"pnl":0,"winRate":0}},"yearStats":{"trading_days":38,"total_trades":388,"total_pnl":2.13,"win_rate":65.78947368421053,"profit_days":25,"profit_days_pct":65.78947368421053,"loss_days":4,"loss_days_pct":10.526315789473683,"best_day":"2025-06-26","best_day_pnl":0.83,"worst_day":"2025-06-13","worst_day_pnl":-0.14,"daily_avg":0.05605263157894737}};
                 initializeDashboard(fallbackData);
             });
         
@@ -87,171 +201,285 @@
             const yearData = data.yearData || {};
             const stats = data.yearStats || {};
             
-            // Update metrics
-            document.getElementById('totalPnl').textContent = '$' + (stats.total_pnl || 0).toFixed(2);
-            document.getElementById('totalTrades').textContent = (stats.total_trades || 0).toLocaleString();
-            document.getElementById('winRate').textContent = (stats.win_rate || 0).toFixed(1) + '%';
-            document.getElementById('dailyAvg').textContent = '$' + (stats.daily_avg || 0).toFixed(2);
+            // Update metrics with animation
+            animateValue('totalPnl', 0, stats.total_pnl || 0, 1000, true);
+            animateValue('totalTrades', 0, stats.total_trades || 0, 1000);
+            animateValue('winRate', 0, stats.win_rate || 0, 1000, false, '%');
+            animateValue('dailyAvg', 0, stats.daily_avg || 0, 1000, true);
             
-            // Calendar Heatmap
-        const cal = new CalHeatmap();
-        const calData = {};
+            // Create calendar with cal-heatmap
+            createCalHeatmap(yearData);
+            
+            // Create charts
+            createCharts(yearData);
+        }
         
-        Object.entries(yearData).forEach(([date, data]) => {
-            const timestamp = new Date(date).getTime() / 1000;
-            calData[timestamp] = data.pnl;
-        });
-        
-        cal.init({
-            domain: 'month',
-            subDomain: 'day',
-            data: calData,
-            start: new Date(2025, 0, 1),
-            cellSize: 15,
-            range: 12,
-            legend: [-100, -50, 0, 50, 100],
-            legendColors: {
-                min: "#ef4444",
-                max: "#10b981",
-                empty: "#e5e7eb"
-            },
-            itemName: ["trade", "trades"],
-            subDomainTextFormat: "%d",
-            displayLegend: true,
-            tooltip: true,
-            onClick: function(date, value) {
-                const dateStr = new Date(date).toISOString().split('T')[0];
-                const data = yearData[dateStr];
-                if (data) {
-                    alert(`${dateStr}\nTrades: ${data.trades}\nP&L: $${data.pnl.toFixed(2)}`);
+        function animateValue(id, start, end, duration, isCurrency = false, suffix = '') {
+            const element = document.getElementById(id);
+            const range = end - start;
+            const increment = range / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if ((increment > 0 && current >= end) || (increment < 0 && current <= end)) {
+                    current = end;
+                    clearInterval(timer);
                 }
-            }
-        });
+                
+                let displayValue = current;
+                if (isCurrency) {
+                    element.textContent = '$' + displayValue.toFixed(2);
+                    element.className = 'text-3xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600');
+                } else {
+                    element.textContent = displayValue.toFixed(suffix === '%' ? 1 : 0) + suffix;
+                }
+            }, 16);
+        }
         
-        // Daily P&L Chart
-        const dailyDates = Object.keys(yearData).filter(date => yearData[date].trades > 0);
-        const dailyPnl = dailyDates.map(date => yearData[date].pnl);
-        
-        new Chart(document.getElementById('dailyPnlChart'), {
-            type: 'bar',
-            data: {
-                labels: dailyDates,
-                datasets: [{
-                    label: 'Daily P&L',
-                    data: dailyPnl,
-                    backgroundColor: dailyPnl.map(pnl => pnl >= 0 ? '#10b981' : '#ef4444')
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: { display: false }
+        function createCalHeatmap(yearData) {
+            // Prepare data for cal-heatmap
+            const calData = {};
+            Object.entries(yearData).forEach(([date, data]) => {
+                const timestamp = new Date(date).getTime() / 1000;
+                // Use P&L value for coloring
+                if (data.trades > 0) {
+                    calData[timestamp] = data.pnl;
+                }
+            });
+            
+            const cal = new CalHeatmap();
+            cal.init({
+                itemSelector: "#cal-heatmap",
+                domain: "month",
+                subDomain: "day",
+                data: calData,
+                start: new Date(2025, 0, 1),
+                cellSize: 20,
+                cellPadding: 5,
+                domainGutter: 10,
+                range: 12,
+                domainLabelFormat: "%B",
+                legend: [-0.1, -0.05, 0, 0.05, 0.1],
+                legendColors: {
+                    min: "#ef4444",
+                    max: "#10b981",
+                    empty: "#e5e7eb"
                 },
-                scales: {
-                    x: { display: false },
-                    y: {
-                        title: { display: true, text: 'P&L ($)' }
+                legendCellSize: 15,
+                legendVerticalPosition: "center",
+                legendOrientation: "vertical",
+                legendMargin: [0, 20, 0, 0],
+                displayLegend: true,
+                itemName: ["trade", "trades"],
+                tooltip: true,
+                considerMissingDataAsZero: false,
+                onClick: function(date, value) {
+                    const dateStr = new Date(date).toISOString().split('T')[0];
+                    const data = yearData[dateStr];
+                    if (data && data.trades > 0) {
+                        alert(`Date: ${dateStr}\nTrades: ${data.trades}\nP&L: $${data.pnl.toFixed(2)}\nWin Rate: ${(data.winRate * 100).toFixed(1)}%`);
                     }
-                }
-            }
-        });
-        
-        // Cumulative P&L Chart
-        let cumulative = 0;
-        const cumulativePnl = dailyDates.map(date => {
-            cumulative += yearData[date].pnl;
-            return cumulative;
-        });
-        
-        new Chart(document.getElementById('cumulativePnlChart'), {
-            type: 'line',
-            data: {
-                labels: dailyDates,
-                datasets: [{
-                    label: 'Cumulative P&L',
-                    data: cumulativePnl,
-                    borderColor: '#3b82f6',
-                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                    fill: true
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: { display: false }
                 },
-                scales: {
-                    x: { display: false },
-                    y: {
-                        title: { display: true, text: 'Cumulative P&L ($)' }
-                    }
+                afterLoadData: function(data) {
+                    // Color based on P&L value
+                    const parser = function(data) {
+                        const parsed = {};
+                        for (let key in data) {
+                            const value = data[key];
+                            if (value < 0) {
+                                parsed[key] = 5; // Red for losses
+                            } else if (value === 0) {
+                                parsed[key] = 1; // Yellow for break even
+                            } else if (value < 0.05) {
+                                parsed[key] = 2; // Light green
+                            } else if (value < 0.1) {
+                                parsed[key] = 3; // Medium green
+                            } else {
+                                parsed[key] = 4; // Dark green
+                            }
+                        }
+                        return parsed;
+                    };
+                    return parser(data);
                 }
-            }
-        });
+            });
+        }
         
-        // Monthly Chart
-        const monthlyData = {};
-        Object.entries(yearData).forEach(([date, data]) => {
-            const month = date.substring(0, 7);
-            if (!monthlyData[month]) {
-                monthlyData[month] = { trades: 0, pnl: 0 };
-            }
-            monthlyData[month].trades += data.trades;
-            monthlyData[month].pnl += data.pnl;
-        });
-        
-        const months = Object.keys(monthlyData).sort();
-        const monthlyPnl = months.map(m => monthlyData[m].pnl);
-        const monthlyTrades = months.map(m => monthlyData[m].trades);
-        
-        new Chart(document.getElementById('monthlyChart'), {
-            type: 'bar',
-            data: {
-                labels: months.map(m => {
-                    const [year, month] = m.split('-');
-                    return new Date(year, month - 1).toLocaleDateString('en', { month: 'short' });
-                }),
-                datasets: [{
-                    label: 'P&L',
-                    data: monthlyPnl,
-                    backgroundColor: monthlyPnl.map(pnl => pnl >= 0 ? '#10b981' : '#ef4444'),
-                    yAxisID: 'y'
-                }, {
-                    label: 'Trades',
-                    data: monthlyTrades,
-                    type: 'line',
-                    borderColor: '#6366f1',
-                    yAxisID: 'y1'
-                }]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    y: {
-                        type: 'linear',
-                        display: true,
-                        position: 'left',
-                        title: { display: true, text: 'P&L ($)' }
+        function createCharts(yearData) {
+            // Prepare data
+            const dailyDates = Object.keys(yearData).filter(date => yearData[date].trades > 0);
+            const dailyPnl = dailyDates.map(date => yearData[date].pnl);
+            
+            // Daily P&L Chart
+            new Chart(document.getElementById('dailyPnlChart'), {
+                type: 'bar',
+                data: {
+                    labels: dailyDates.map(d => {
+                        const date = new Date(d);
+                        return date.toLocaleDateString('en', { month: 'short', day: 'numeric' });
+                    }),
+                    datasets: [{
+                        label: 'Daily P&L',
+                        data: dailyPnl,
+                        backgroundColor: dailyPnl.map(pnl => pnl >= 0 ? 'rgba(16, 185, 129, 0.8)' : 'rgba(239, 68, 68, 0.8)'),
+                        borderColor: dailyPnl.map(pnl => pnl >= 0 ? '#10b981' : '#ef4444'),
+                        borderWidth: 1,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return 'P&L: $' + context.raw.toFixed(2);
+                                }
+                            }
+                        }
                     },
-                    y1: {
-                        type: 'linear',
-                        display: true,
-                        position: 'right',
-                        title: { display: true, text: 'Trades' },
-                        grid: { drawOnChartArea: false }
+                    scales: {
+                        y: {
+                            grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                            title: { display: true, text: 'P&L ($)', font: { weight: 'bold' } }
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
                     }
                 }
-            }
-        });
+            });
+            
+            // Cumulative P&L Chart
+            let cumulative = 0;
+            const cumulativePnl = dailyDates.map(date => {
+                cumulative += yearData[date].pnl;
+                return cumulative;
+            });
+            
+            new Chart(document.getElementById('cumulativePnlChart'), {
+                type: 'line',
+                data: {
+                    labels: dailyDates.map(d => {
+                        const date = new Date(d);
+                        return date.toLocaleDateString('en', { month: 'short', day: 'numeric' });
+                    }),
+                    datasets: [{
+                        label: 'Cumulative P&L',
+                        data: cumulativePnl,
+                        borderColor: '#3b82f6',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 2,
+                        pointHoverRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return 'Total: $' + context.raw.toFixed(2);
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                            title: { display: true, text: 'Cumulative P&L ($)', font: { weight: 'bold' } }
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+            
+            // Monthly Chart
+            const monthlyData = {};
+            Object.entries(yearData).forEach(([date, data]) => {
+                const month = date.substring(0, 7);
+                if (!monthlyData[month]) {
+                    monthlyData[month] = { trades: 0, pnl: 0 };
+                }
+                monthlyData[month].trades += data.trades;
+                monthlyData[month].pnl += data.pnl;
+            });
+            
+            const months = Object.keys(monthlyData).sort();
+            const monthlyPnl = months.map(m => monthlyData[m].pnl);
+            const monthlyTrades = months.map(m => monthlyData[m].trades);
+            
+            new Chart(document.getElementById('monthlyChart'), {
+                type: 'bar',
+                data: {
+                    labels: months.map(m => {
+                        const [year, month] = m.split('-');
+                        return new Date(year, month - 1).toLocaleDateString('en', { month: 'long', year: 'numeric' });
+                    }),
+                    datasets: [{
+                        label: 'P&L',
+                        data: monthlyPnl,
+                        backgroundColor: monthlyPnl.map(pnl => pnl >= 0 ? 'rgba(16, 185, 129, 0.8)' : 'rgba(239, 68, 68, 0.8)'),
+                        borderColor: monthlyPnl.map(pnl => pnl >= 0 ? '#10b981' : '#ef4444'),
+                        borderWidth: 1,
+                        borderRadius: 4,
+                        yAxisID: 'y'
+                    }, {
+                        label: 'Trades',
+                        data: monthlyTrades,
+                        type: 'line',
+                        borderColor: '#6366f1',
+                        backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 5,
+                        pointHoverRadius: 7,
+                        yAxisID: 'y1'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top',
+                            labels: {
+                                usePointStyle: true,
+                                padding: 20
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                            title: { display: true, text: 'P&L ($)', font: { weight: 'bold' } }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            grid: { drawOnChartArea: false },
+                            title: { display: true, text: 'Number of Trades', font: { weight: 'bold' } }
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        }
     </script>
-    
-    <footer class="text-center mt-8 text-gray-600">
-        <p>Generated on 2025-07-27 00:48 UTC</p>
-        <p class="mt-2">
-            <a href="https://github.com/jefrnc/propreports-auto-exporter" class="text-blue-600 hover:underline">
-                PropReports Auto-Exporter
-            </a>
-        </p>
-    </footer>
 </body>
 </html>
