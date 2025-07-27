@@ -1,0 +1,95 @@
+{
+  "exportDate": "2025-07-27 00:03:26",
+  "account": "ZI*******64",
+  "date": "2025-05-09",
+  "trades": [
+    {
+      "date": "2025-05-09",
+      "opened": "05/09/25 12:14:16",
+      "closed": "12:23:50",
+      "held": "00:09:34",
+      "symbol": "NVVE",
+      "type": "Long",
+      "entry": 2.43,
+      "exit": 2.53,
+      "size": 4.0,
+      "pnl": 0.4,
+      "commission": 0.01,
+      "net": -0.01,
+      "account": "",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 2.43
+    },
+    {
+      "date": "2025-05-09",
+      "opened": "05/09/25 12:30:47",
+      "closed": "12:34:38",
+      "held": "00:03:51",
+      "symbol": "NVVE",
+      "type": "Long",
+      "entry": 2.41,
+      "exit": 2.5,
+      "size": 4.0,
+      "pnl": 0.36,
+      "commission": 0.01,
+      "net": 0.0,
+      "account": "",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 2.41
+    },
+    {
+      "date": "2025-05-09",
+      "opened": "05/09/25 14:14:05",
+      "closed": "15:10:10",
+      "held": "00:56:05",
+      "symbol": "NVVE",
+      "type": "Long",
+      "entry": 2.8567,
+      "exit": 3.0459,
+      "size": 12.0,
+      "pnl": 2.27,
+      "commission": 0.04,
+      "net": -0.01,
+      "account": "",
+      "side": "BUY",
+      "quantity": 12.0,
+      "price": 2.8567
+    },
+    {
+      "date": "2025-05-09",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "20",
+      "type": "3.03",
+      "entry": 0.06,
+      "exit": -0.02,
+      "size": 0.0,
+      "pnl": 0.0,
+      "commission": 0.03,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.06
+    }
+  ],
+  "summary": {
+    "totalTrades": 4,
+    "totalPnL": 3.03,
+    "totalCommissions": 0.09,
+    "netPnL": -0.02,
+    "winningTrades": 3,
+    "losingTrades": 0,
+    "symbols": [
+      "NVVE",
+      "20"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 00:03:26"
+  }
+}

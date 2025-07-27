@@ -1,0 +1,186 @@
+{
+  "generateDate": "2025-07-27 00:03:53",
+  "weekPeriod": "2025-06-23 to 2025-06-29",
+  "weekNumber": 26,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 14,
+    "grossPnL": 11.88,
+    "totalCommissions": 2.06,
+    "netPnL": 9.82,
+    "avgDailyPnL": 1.4,
+    "avgTradePerDay": 2.0,
+    "winningTrades": 11,
+    "losingTrades": 3,
+    "winRate": 0.7857,
+    "avgWin": 1.31,
+    "avgLoss": -0.83,
+    "profitFactor": 5.75
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-06-25",
+      "symbol": "PSTV",
+      "pnl": 5.81
+    },
+    "worstTrade": {
+      "date": "2025-06-25",
+      "symbol": "ULY",
+      "pnl": -1.96
+    },
+    "bestDay": {
+      "date": "2025-06-26",
+      "trades": 4,
+      "pnl": 0.83,
+      "symbols": [
+        "PSTV",
+        "335",
+        "ICU",
+        "ALT"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-06-23",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 9,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "ULY",
+        {
+          "count": 8,
+          "pnl": 6.0600000000000005,
+          "win_rate": 0.875
+        }
+      ],
+      [
+        "PSTV",
+        {
+          "count": 2,
+          "pnl": 5.77,
+          "win_rate": 0.5
+        }
+      ],
+      [
+        "ALT",
+        {
+          "count": 1,
+          "pnl": 0.45,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "335",
+        {
+          "count": 1,
+          "pnl": 0.06,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "213",
+        {
+          "count": 1,
+          "pnl": 0.04,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 6,
+        "pnl": 6.839999999999999
+      },
+      "08": {
+        "count": 1,
+        "pnl": 1.72
+      },
+      "09": {
+        "count": 2,
+        "pnl": 3.3099999999999996
+      },
+      "05": {
+        "count": 3,
+        "pnl": -0.09
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 4,
+        "pnl": -0.6399999999999999
+      },
+      "5-15min": {
+        "count": 3,
+        "pnl": 4.03
+      },
+      ">60min": {
+        "count": 1,
+        "pnl": 5.81
+      },
+      "15-60min": {
+        "count": 4,
+        "pnl": 2.58
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-06-23",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-24",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-25",
+      "trades": 10,
+      "pnl": 0.07,
+      "symbols": [
+        "213",
+        "ULY",
+        "PSTV"
+      ]
+    },
+    {
+      "date": "2025-06-26",
+      "trades": 4,
+      "pnl": 0.83,
+      "symbols": [
+        "PSTV",
+        "335",
+        "ICU",
+        "ALT"
+      ]
+    },
+    {
+      "date": "2025-06-27",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-28",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-29",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "generateDate": "2025-07-27 00:03:53",
+  "weekPeriod": "2025-04-28 to 2025-05-04",
+  "weekNumber": 18,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 0,
+    "grossPnL": 0,
+    "totalCommissions": 0,
+    "netPnL": 0,
+    "avgDailyPnL": 0.0,
+    "avgTradePerDay": 0.0,
+    "winningTrades": 0,
+    "losingTrades": 0,
+    "winRate": 0,
+    "avgWin": 0,
+    "avgLoss": 0,
+    "profitFactor": 0
+  },
+  "extremes": {
+    "bestTrade": null,
+    "worstTrade": null,
+    "bestDay": {
+      "date": "2025-04-28",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    "worstDay": {
+      "date": "2025-04-28",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 0,
+    "maxConsecutiveLosses": 0,
+    "topSymbols": [],
+    "tradingHours": {},
+    "tradeDurations": {}
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-04-28",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-04-29",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-04-30",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-02",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-03",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-04",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

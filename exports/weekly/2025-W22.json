@@ -1,0 +1,246 @@
+{
+  "generateDate": "2025-07-27 00:03:53",
+  "weekPeriod": "2025-05-26 to 2025-06-01",
+  "weekNumber": 22,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 51,
+    "grossPnL": 11.12,
+    "totalCommissions": 1.42,
+    "netPnL": 9.7,
+    "avgDailyPnL": 1.39,
+    "avgTradePerDay": 7.29,
+    "winningTrades": 36,
+    "losingTrades": 14,
+    "winRate": 0.7059,
+    "avgWin": 0.56,
+    "avgLoss": -0.65,
+    "profitFactor": 2.22
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-05-30",
+      "symbol": "BLRX",
+      "pnl": 3.32
+    },
+    "worstTrade": {
+      "date": "2025-05-30",
+      "symbol": "RRGB",
+      "pnl": -3.32
+    },
+    "bestDay": {
+      "date": "2025-05-29",
+      "trades": 15,
+      "pnl": 0.03,
+      "symbols": [
+        "84",
+        "NAOV",
+        "PLRZ",
+        "ZEO",
+        "VCIG",
+        "ALZN"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-05-30",
+      "trades": 15,
+      "pnl": -0.02,
+      "symbols": [
+        "BLRX",
+        "SYTA",
+        "IMNN",
+        "81",
+        "LVWR",
+        "RRGB",
+        "BMGL"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 11,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "ALZN",
+        {
+          "count": 7,
+          "pnl": 4.260000000000001,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "BLRX",
+        {
+          "count": 3,
+          "pnl": 4.09,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SGN",
+        {
+          "count": 7,
+          "pnl": 3.8600000000000003,
+          "win_rate": 0.7143
+        }
+      ],
+      [
+        "ZEO",
+        {
+          "count": 2,
+          "pnl": 1.6300000000000001,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "VCIG",
+        {
+          "count": 1,
+          "pnl": 1.4,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 3,
+        "pnl": 1.5599999999999998
+      },
+      "08": {
+        "count": 8,
+        "pnl": 3.99
+      },
+      "09": {
+        "count": 7,
+        "pnl": 0.81
+      },
+      "14": {
+        "count": 8,
+        "pnl": 0.09000000000000008
+      },
+      "15": {
+        "count": 6,
+        "pnl": 0.08000000000000007
+      },
+      "17": {
+        "count": 1,
+        "pnl": 0.13
+      },
+      "04": {
+        "count": 1,
+        "pnl": 0.23
+      },
+      "05": {
+        "count": 2,
+        "pnl": -0.93
+      },
+      "06": {
+        "count": 2,
+        "pnl": 1.55
+      },
+      "10": {
+        "count": 3,
+        "pnl": 2.0999999999999996
+      },
+      "12": {
+        "count": 2,
+        "pnl": 0.77
+      },
+      "13": {
+        "count": 3,
+        "pnl": 0.6
+      },
+      "16": {
+        "count": 1,
+        "pnl": 0.11
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 27,
+        "pnl": 5.349999999999999
+      },
+      "5-15min": {
+        "count": 7,
+        "pnl": 3.61
+      },
+      "15-60min": {
+        "count": 12,
+        "pnl": -1.1899999999999997
+      },
+      ">60min": {
+        "count": 1,
+        "pnl": 3.32
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-05-26",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-27",
+      "trades": 2,
+      "pnl": 0.01,
+      "symbols": [
+        "WORX",
+        "4"
+      ]
+    },
+    {
+      "date": "2025-05-28",
+      "trades": 19,
+      "pnl": 0.0,
+      "symbols": [
+        "SPRO",
+        "SGN",
+        "80",
+        "HOLO"
+      ]
+    },
+    {
+      "date": "2025-05-29",
+      "trades": 15,
+      "pnl": 0.03,
+      "symbols": [
+        "84",
+        "NAOV",
+        "PLRZ",
+        "ZEO",
+        "VCIG",
+        "ALZN"
+      ]
+    },
+    {
+      "date": "2025-05-30",
+      "trades": 15,
+      "pnl": -0.02,
+      "symbols": [
+        "BLRX",
+        "SYTA",
+        "IMNN",
+        "81",
+        "LVWR",
+        "RRGB",
+        "BMGL"
+      ]
+    },
+    {
+      "date": "2025-05-31",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

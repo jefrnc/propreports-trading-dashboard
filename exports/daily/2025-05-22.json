@@ -1,0 +1,59 @@
+{
+  "exportDate": "2025-07-27 00:03:31",
+  "account": "ZI*******64",
+  "date": "2025-05-22",
+  "trades": [
+    {
+      "date": "2025-05-22",
+      "opened": "05/22/25 08:51:46",
+      "closed": "08:54:29",
+      "held": "00:02:43",
+      "symbol": "BDRX",
+      "type": "Long",
+      "entry": 2.025,
+      "exit": 1.93,
+      "size": 4.0,
+      "pnl": -0.38,
+      "commission": 0.01,
+      "net": 0.02,
+      "account": "",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 2.025
+    },
+    {
+      "date": "2025-05-22",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "4",
+      "type": "(0.38)",
+      "entry": 0.01,
+      "exit": 0.02,
+      "size": 0.0,
+      "pnl": 0.0,
+      "commission": 0.01,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.01
+    }
+  ],
+  "summary": {
+    "totalTrades": 2,
+    "totalPnL": -0.38,
+    "totalCommissions": 0.02,
+    "netPnL": 0.02,
+    "winningTrades": 0,
+    "losingTrades": 1,
+    "symbols": [
+      "BDRX",
+      "4"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 00:03:31"
+  }
+}

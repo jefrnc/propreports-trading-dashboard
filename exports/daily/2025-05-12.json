@@ -1,0 +1,97 @@
+{
+  "exportDate": "2025-07-27 00:03:27",
+  "account": "ZI*******64",
+  "date": "2025-05-12",
+  "trades": [
+    {
+      "date": "2025-05-12",
+      "opened": "05/12/25 09:26:18",
+      "closed": "18:30:37",
+      "held": "09:04:19",
+      "symbol": "ASST",
+      "type": "Short",
+      "entry": 6.7133,
+      "exit": 6.7867,
+      "size": 69.0,
+      "pnl": -5.06,
+      "commission": 0.21,
+      "net": -0.01,
+      "account": "0.01",
+      "side": "SELL",
+      "quantity": 69.0,
+      "price": 6.7133
+    },
+    {
+      "date": "2025-05-12",
+      "opened": "05/12/25 09:38:22",
+      "closed": "11:37:33",
+      "held": "01:59:11",
+      "symbol": "KDLY",
+      "type": "Long",
+      "entry": 21.7158,
+      "exit": 18.9022,
+      "size": 33.0,
+      "pnl": -92.85,
+      "commission": 0.1,
+      "net": 0.06,
+      "account": "0.02",
+      "side": "BUY",
+      "quantity": 33.0,
+      "price": 21.7158
+    },
+    {
+      "date": "2025-05-12",
+      "opened": "05/12/25 17:19:44",
+      "closed": "17:21:55",
+      "held": "00:02:11",
+      "symbol": "VFF",
+      "type": "Long",
+      "entry": 1.12,
+      "exit": 0.8631,
+      "size": 4.0,
+      "pnl": -1.03,
+      "commission": 0.01,
+      "net": 0.0,
+      "account": "",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 1.12
+    },
+    {
+      "date": "2025-05-12",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "106",
+      "type": "(98.94)",
+      "entry": 0.32,
+      "exit": 0.05,
+      "size": 0.03,
+      "pnl": 0.02,
+      "commission": 0.1,
+      "net": 0.0,
+      "account": "0.01",
+      "side": "SELL",
+      "quantity": 0.03,
+      "price": 0.32
+    }
+  ],
+  "summary": {
+    "totalTrades": 4,
+    "totalPnL": -98.92,
+    "totalCommissions": 0.42,
+    "netPnL": 0.05,
+    "winningTrades": 1,
+    "losingTrades": 3,
+    "symbols": [
+      "VFF",
+      "KDLY",
+      "106",
+      "ASST"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 00:03:27"
+  }
+}

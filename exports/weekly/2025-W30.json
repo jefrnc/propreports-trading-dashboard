@@ -1,0 +1,233 @@
+{
+  "generateDate": "2025-07-27 00:03:53",
+  "weekPeriod": "2025-07-21 to 2025-07-27",
+  "weekNumber": 30,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 49,
+    "grossPnL": 144.84,
+    "totalCommissions": 6.39,
+    "netPnL": 138.45,
+    "avgDailyPnL": 19.78,
+    "avgTradePerDay": 7.0,
+    "winningTrades": 35,
+    "losingTrades": 14,
+    "winRate": 0.7143,
+    "avgWin": 5.46,
+    "avgLoss": -3.31,
+    "profitFactor": 4.12
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-07-23",
+      "symbol": "PLRZ",
+      "pnl": 27.48
+    },
+    "worstTrade": {
+      "date": "2025-07-21",
+      "symbol": "HSDT",
+      "pnl": -18.49
+    },
+    "bestDay": {
+      "date": "2025-07-23",
+      "trades": 8,
+      "pnl": 0.03,
+      "symbols": [
+        "CLSD",
+        "PLRZ",
+        "GPRO",
+        "CTOR",
+        "303",
+        "AMOD"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-07-21",
+      "trades": 10,
+      "pnl": 0.0,
+      "symbols": [
+        "HSDT",
+        "144",
+        "LMFA",
+        "IPDN"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 11,
+    "maxConsecutiveLosses": 4,
+    "topSymbols": [
+      [
+        "HSDT",
+        {
+          "count": 7,
+          "pnl": 39.730000000000004,
+          "win_rate": 0.7143
+        }
+      ],
+      [
+        "LIDR",
+        {
+          "count": 9,
+          "pnl": 33.74,
+          "win_rate": 0.8889
+        }
+      ],
+      [
+        "PLRZ",
+        {
+          "count": 1,
+          "pnl": 27.48,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "BMNR",
+        {
+          "count": 4,
+          "pnl": 13.41,
+          "win_rate": 0.25
+        }
+      ],
+      [
+        "AMOD",
+        {
+          "count": 2,
+          "pnl": 13.32,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 13,
+        "pnl": 21.8
+      },
+      "08": {
+        "count": 9,
+        "pnl": -4.210000000000003
+      },
+      "09": {
+        "count": 8,
+        "pnl": 73.94999999999999
+      },
+      "16": {
+        "count": 1,
+        "pnl": 1.62
+      },
+      "10": {
+        "count": 6,
+        "pnl": 38.86
+      },
+      "12": {
+        "count": 2,
+        "pnl": 7.65
+      },
+      "11": {
+        "count": 3,
+        "pnl": 3.93
+      },
+      "13": {
+        "count": 2,
+        "pnl": 2.11
+      },
+      "14": {
+        "count": 1,
+        "pnl": -1.08
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 12,
+        "pnl": 6.550000000000001
+      },
+      "15-60min": {
+        "count": 9,
+        "pnl": 44.44
+      },
+      ">60min": {
+        "count": 17,
+        "pnl": 92.02000000000001
+      },
+      "5-15min": {
+        "count": 7,
+        "pnl": 1.62
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-07-21",
+      "trades": 10,
+      "pnl": 0.0,
+      "symbols": [
+        "HSDT",
+        "144",
+        "LMFA",
+        "IPDN"
+      ]
+    },
+    {
+      "date": "2025-07-22",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-07-23",
+      "trades": 8,
+      "pnl": 0.03,
+      "symbols": [
+        "CLSD",
+        "PLRZ",
+        "GPRO",
+        "CTOR",
+        "303",
+        "AMOD"
+      ]
+    },
+    {
+      "date": "2025-07-24",
+      "trades": 17,
+      "pnl": 0.0,
+      "symbols": [
+        "281",
+        "BMNR",
+        "LIDR",
+        "UAVS",
+        "CYCC",
+        "AGH"
+      ]
+    },
+    {
+      "date": "2025-07-25",
+      "trades": 14,
+      "pnl": 0.0,
+      "symbols": [
+        "SMX",
+        "SOWG",
+        "ICCM",
+        "BMNR",
+        "IXHL",
+        "531",
+        "LIDR",
+        "PHIO",
+        "OCTO"
+      ]
+    },
+    {
+      "date": "2025-07-26",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-07-27",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

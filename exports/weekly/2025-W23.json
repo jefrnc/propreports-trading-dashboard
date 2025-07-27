@@ -1,0 +1,223 @@
+{
+  "generateDate": "2025-07-27 00:03:53",
+  "weekPeriod": "2025-06-02 to 2025-06-08",
+  "weekNumber": 23,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 35,
+    "grossPnL": -10.01,
+    "totalCommissions": 0.86,
+    "netPnL": -10.87,
+    "avgDailyPnL": -1.55,
+    "avgTradePerDay": 5.0,
+    "winningTrades": 19,
+    "losingTrades": 16,
+    "winRate": 0.5429,
+    "avgWin": 2.28,
+    "avgLoss": -3.33,
+    "profitFactor": 0.81
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-06-04",
+      "symbol": "MULN",
+      "pnl": 11.89
+    },
+    "worstTrade": {
+      "date": "2025-06-04",
+      "symbol": "MULN",
+      "pnl": -13.94
+    },
+    "bestDay": {
+      "date": "2025-06-02",
+      "trades": 5,
+      "pnl": 0.05,
+      "symbols": [
+        "34",
+        "INM"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-06-04",
+      "trades": 19,
+      "pnl": -0.01,
+      "symbols": [
+        "80",
+        "MULN",
+        "SXTC",
+        "KWM",
+        "VCIG"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 4,
+    "maxConsecutiveLosses": 4,
+    "topSymbols": [
+      [
+        "MCTR",
+        {
+          "count": 6,
+          "pnl": 5.78,
+          "win_rate": 0.8333
+        }
+      ],
+      [
+        "INM",
+        {
+          "count": 4,
+          "pnl": 1.959999999999999,
+          "win_rate": 0.25
+        }
+      ],
+      [
+        "TRAW",
+        {
+          "count": 1,
+          "pnl": 0.72,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "KPRX",
+        {
+          "count": 3,
+          "pnl": 0.5700000000000001,
+          "win_rate": 0.3333
+        }
+      ],
+      [
+        "34",
+        {
+          "count": 2,
+          "pnl": 0.02,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 1,
+        "pnl": -4.45
+      },
+      "09": {
+        "count": 2,
+        "pnl": -3.5500000000000007
+      },
+      "10": {
+        "count": 9,
+        "pnl": -2.9500000000000006
+      },
+      "07": {
+        "count": 4,
+        "pnl": 1.2899999999999998
+      },
+      "14": {
+        "count": 1,
+        "pnl": 0.06
+      },
+      "15": {
+        "count": 3,
+        "pnl": 7.550000000000001
+      },
+      "16": {
+        "count": 4,
+        "pnl": 9.940000000000001
+      },
+      "05": {
+        "count": 2,
+        "pnl": -0.9
+      },
+      "11": {
+        "count": 1,
+        "pnl": 1.31
+      },
+      "12": {
+        "count": 3,
+        "pnl": 3.52
+      },
+      "13": {
+        "count": 2,
+        "pnl": -21.86
+      }
+    },
+    "tradeDurations": {
+      "15-60min": {
+        "count": 9,
+        "pnl": 13.32
+      },
+      "5-15min": {
+        "count": 9,
+        "pnl": -28.910000000000004
+      },
+      "<5min": {
+        "count": 12,
+        "pnl": 4.36
+      },
+      ">60min": {
+        "count": 2,
+        "pnl": 1.19
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-06-02",
+      "trades": 5,
+      "pnl": 0.05,
+      "symbols": [
+        "34",
+        "INM"
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "trades": 11,
+      "pnl": 0.05,
+      "symbols": [
+        "34",
+        "MCTR",
+        "TRAW",
+        "KPRX"
+      ]
+    },
+    {
+      "date": "2025-06-04",
+      "trades": 19,
+      "pnl": -0.01,
+      "symbols": [
+        "80",
+        "MULN",
+        "SXTC",
+        "KWM",
+        "VCIG"
+      ]
+    },
+    {
+      "date": "2025-06-05",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-06",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-07",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-06-08",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

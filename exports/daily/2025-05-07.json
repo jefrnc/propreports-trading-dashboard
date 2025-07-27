@@ -1,0 +1,95 @@
+{
+  "exportDate": "2025-07-27 00:03:26",
+  "account": "ZI*******64",
+  "date": "2025-05-07",
+  "trades": [
+    {
+      "date": "2025-05-07",
+      "opened": "05/07/25 12:07:06",
+      "closed": "13:24:10",
+      "held": "01:17:04",
+      "symbol": "ASST",
+      "type": "Long",
+      "entry": 2.1267,
+      "exit": 1.9867,
+      "size": 15.0,
+      "pnl": -2.1,
+      "commission": 0.05,
+      "net": -0.02,
+      "account": "",
+      "side": "BUY",
+      "quantity": 15.0,
+      "price": 2.1267
+    },
+    {
+      "date": "2025-05-07",
+      "opened": "05/07/25 14:12:51",
+      "closed": "14:57:40",
+      "held": "00:44:49",
+      "symbol": "ASST",
+      "type": "Long",
+      "entry": 1.9757,
+      "exit": 2.0715,
+      "size": 35.0,
+      "pnl": 3.35,
+      "commission": 0.11,
+      "net": 0.08,
+      "account": "",
+      "side": "BUY",
+      "quantity": 35.0,
+      "price": 1.9757
+    },
+    {
+      "date": "2025-05-07",
+      "opened": "05/07/25 15:26:24",
+      "closed": "16:20:44",
+      "held": "00:54:20",
+      "symbol": "ASST",
+      "type": "Long",
+      "entry": 2.6767,
+      "exit": 3.0293,
+      "size": 15.0,
+      "pnl": 5.29,
+      "commission": 0.05,
+      "net": 0.06,
+      "account": "",
+      "side": "BUY",
+      "quantity": 15.0,
+      "price": 2.6767
+    },
+    {
+      "date": "2025-05-07",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "65",
+      "type": "6.54",
+      "entry": 0.2,
+      "exit": 0.12,
+      "size": 0.0,
+      "pnl": 0.01,
+      "commission": 0.08,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.2
+    }
+  ],
+  "summary": {
+    "totalTrades": 4,
+    "totalPnL": 6.55,
+    "totalCommissions": 0.29,
+    "netPnL": 0.12,
+    "winningTrades": 3,
+    "losingTrades": 1,
+    "symbols": [
+      "65",
+      "ASST"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 00:03:26"
+  }
+}

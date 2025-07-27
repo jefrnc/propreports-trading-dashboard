@@ -1,0 +1,113 @@
+{
+  "exportDate": "2025-07-27 00:03:34",
+  "account": "ZI*******64",
+  "date": "2025-06-02",
+  "trades": [
+    {
+      "date": "2025-06-02",
+      "opened": "06/02/25 08:13:37",
+      "closed": "08:33:50",
+      "held": "00:20:13",
+      "symbol": "INM",
+      "type": "Long",
+      "entry": 6.274,
+      "exit": 5.8293,
+      "size": 10.0,
+      "pnl": -4.45,
+      "commission": 0.03,
+      "net": 0.02,
+      "account": "",
+      "side": "BUY",
+      "quantity": 10.0,
+      "price": 6.274
+    },
+    {
+      "date": "2025-06-02",
+      "opened": "06/02/25 09:55:05",
+      "closed": "10:16:46",
+      "held": "00:21:41",
+      "symbol": "INM",
+      "type": "Short",
+      "entry": 7.3881,
+      "exit": 7.008,
+      "size": 20.0,
+      "pnl": 7.6,
+      "commission": 0.06,
+      "net": 0.02,
+      "account": "",
+      "side": "SELL",
+      "quantity": 20.0,
+      "price": 7.3881
+    },
+    {
+      "date": "2025-06-02",
+      "opened": "06/02/25 10:16:46",
+      "closed": "10:24:19",
+      "held": "00:07:33",
+      "symbol": "INM",
+      "type": "Long",
+      "entry": 6.32,
+      "exit": 5.95,
+      "size": 3.0,
+      "pnl": -1.11,
+      "commission": 0.01,
+      "net": 0.01,
+      "account": "",
+      "side": "BUY",
+      "quantity": 3.0,
+      "price": 6.32
+    },
+    {
+      "date": "2025-06-02",
+      "opened": "06/02/25 10:24:19",
+      "closed": "10:24:27",
+      "held": "00:00:08",
+      "symbol": "INM",
+      "type": "Short",
+      "entry": 5.95,
+      "exit": 6.03,
+      "size": 1.0,
+      "pnl": -0.08,
+      "commission": 0.0,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 1.0,
+      "price": 5.95
+    },
+    {
+      "date": "2025-06-02",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "34",
+      "type": "1.96",
+      "entry": 0.1,
+      "exit": 0.04,
+      "size": 0.0,
+      "pnl": 0.01,
+      "commission": 0.08,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.1
+    }
+  ],
+  "summary": {
+    "totalTrades": 5,
+    "totalPnL": 1.97,
+    "totalCommissions": 0.18,
+    "netPnL": 0.05,
+    "winningTrades": 2,
+    "losingTrades": 3,
+    "symbols": [
+      "34",
+      "INM"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 00:03:34"
+  }
+}

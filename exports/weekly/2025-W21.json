@@ -1,0 +1,188 @@
+{
+  "generateDate": "2025-07-27 00:03:53",
+  "weekPeriod": "2025-05-19 to 2025-05-25",
+  "weekNumber": 21,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 11,
+    "grossPnL": -13.88,
+    "totalCommissions": 0.35,
+    "netPnL": -14.23,
+    "avgDailyPnL": -2.03,
+    "avgTradePerDay": 1.57,
+    "winningTrades": 6,
+    "losingTrades": 3,
+    "winRate": 0.5455,
+    "avgWin": 0.79,
+    "avgLoss": -6.2,
+    "profitFactor": 0.25
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-05-21",
+      "symbol": "ASST",
+      "pnl": 2.58
+    },
+    "worstTrade": {
+      "date": "2025-05-21",
+      "symbol": "ASST",
+      "pnl": -12.59
+    },
+    "bestDay": {
+      "date": "2025-05-21",
+      "trades": 6,
+      "pnl": 0.04,
+      "symbols": [
+        "58",
+        "GCL",
+        "ASST",
+        "EDBL"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-05-19",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 3,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "GCL",
+        {
+          "count": 1,
+          "pnl": 1.02,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "IMNN",
+        {
+          "count": 2,
+          "pnl": 0.64,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "58",
+        {
+          "count": 1,
+          "pnl": 0.01,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "4",
+        {
+          "count": 1,
+          "pnl": 0.0,
+          "win_rate": 0.0
+        }
+      ],
+      [
+        "12",
+        {
+          "count": 1,
+          "pnl": 0.0,
+          "win_rate": 0.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "04": {
+        "count": 1,
+        "pnl": 0.46
+      },
+      "06": {
+        "count": 1,
+        "pnl": 1.02
+      },
+      "08": {
+        "count": 4,
+        "pnl": -10.05
+      },
+      "12": {
+        "count": 1,
+        "pnl": -5.62
+      },
+      "09": {
+        "count": 1,
+        "pnl": 0.3
+      }
+    },
+    "tradeDurations": {
+      "5-15min": {
+        "count": 5,
+        "pnl": -1.2199999999999995
+      },
+      ">60min": {
+        "count": 1,
+        "pnl": -12.59
+      },
+      "<5min": {
+        "count": 2,
+        "pnl": -0.08000000000000002
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-05-19",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-20",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-21",
+      "trades": 6,
+      "pnl": 0.04,
+      "symbols": [
+        "58",
+        "GCL",
+        "ASST",
+        "EDBL"
+      ]
+    },
+    {
+      "date": "2025-05-22",
+      "trades": 2,
+      "pnl": 0.02,
+      "symbols": [
+        "BDRX",
+        "4"
+      ]
+    },
+    {
+      "date": "2025-05-23",
+      "trades": 3,
+      "pnl": 0.03,
+      "symbols": [
+        "IMNN",
+        "12"
+      ]
+    },
+    {
+      "date": "2025-05-24",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-25",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

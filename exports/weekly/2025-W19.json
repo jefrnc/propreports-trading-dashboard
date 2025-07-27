@@ -1,0 +1,209 @@
+{
+  "generateDate": "2025-07-27 00:03:53",
+  "weekPeriod": "2025-05-05 to 2025-05-11",
+  "weekNumber": 19,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 17,
+    "grossPnL": -10.18,
+    "totalCommissions": 0.84,
+    "netPnL": -11.02,
+    "avgDailyPnL": -1.57,
+    "avgTradePerDay": 2.43,
+    "winningTrades": 12,
+    "losingTrades": 3,
+    "winRate": 0.7059,
+    "avgWin": 1.19,
+    "avgLoss": -8.17,
+    "profitFactor": 0.58
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-05-07",
+      "symbol": "ASST",
+      "pnl": 5.29
+    },
+    "worstTrade": {
+      "date": "2025-05-08",
+      "symbol": "JZ",
+      "pnl": -21.25
+    },
+    "bestDay": {
+      "date": "2025-05-08",
+      "trades": 9,
+      "pnl": 0.15,
+      "symbols": [
+        "124",
+        "JZ",
+        "VEEE",
+        "QBTS",
+        "ASST"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-05-09",
+      "trades": 4,
+      "pnl": -0.02,
+      "symbols": [
+        "NVVE",
+        "20"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 7,
+    "maxConsecutiveLosses": 1,
+    "topSymbols": [
+      [
+        "ASST",
+        {
+          "count": 5,
+          "pnl": 5.4399999999999995,
+          "win_rate": 0.6
+        }
+      ],
+      [
+        "NVVE",
+        {
+          "count": 3,
+          "pnl": 3.0300000000000002,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "VEEE",
+        {
+          "count": 4,
+          "pnl": 2.34,
+          "win_rate": 0.75
+        }
+      ],
+      [
+        "QBTS",
+        {
+          "count": 1,
+          "pnl": 0.23,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "124",
+        {
+          "count": 1,
+          "pnl": 0.02,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "12": {
+        "count": 4,
+        "pnl": 0.07999999999999985
+      },
+      "14": {
+        "count": 2,
+        "pnl": 5.62
+      },
+      "15": {
+        "count": 1,
+        "pnl": 5.29
+      },
+      "07": {
+        "count": 1,
+        "pnl": 0.23
+      },
+      "08": {
+        "count": 1,
+        "pnl": -21.25
+      },
+      "10": {
+        "count": 2,
+        "pnl": -1.0999999999999999
+      },
+      "11": {
+        "count": 2,
+        "pnl": 0.44
+      },
+      "13": {
+        "count": 1,
+        "pnl": 0.48
+      }
+    },
+    "tradeDurations": {
+      ">60min": {
+        "count": 3,
+        "pnl": -22.87
+      },
+      "15-60min": {
+        "count": 4,
+        "pnl": 12.33
+      },
+      "5-15min": {
+        "count": 2,
+        "pnl": 0.63
+      },
+      "<5min": {
+        "count": 5,
+        "pnl": -0.29999999999999993
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-05-05",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-06",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-07",
+      "trades": 4,
+      "pnl": 0.12,
+      "symbols": [
+        "65",
+        "ASST"
+      ]
+    },
+    {
+      "date": "2025-05-08",
+      "trades": 9,
+      "pnl": 0.15,
+      "symbols": [
+        "124",
+        "JZ",
+        "VEEE",
+        "QBTS",
+        "ASST"
+      ]
+    },
+    {
+      "date": "2025-05-09",
+      "trades": 4,
+      "pnl": -0.02,
+      "symbols": [
+        "NVVE",
+        "20"
+      ]
+    },
+    {
+      "date": "2025-05-10",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-05-11",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

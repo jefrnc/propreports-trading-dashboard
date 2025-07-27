@@ -1,0 +1,21 @@
+RESUMEN MENSUAL DE TRADING
+May 2025
+==================================================
+
+RESUMEN GENERAL:
+  Total de trades: 86
+  P&L Neto: $-116.94
+  Win Rate: 65.1%
+  Profit Factor: 0.26
+  Expectancy: $-1.32
+
+DESGLOSE SEMANAL:
+  Semana 18: 0 trades, $0, WR: 0.0%
+  Semana 19: 17 trades, $-11.02, WR: 70.6%
+  Semana 20: 7 trades, $-101.39, WR: 28.6%
+  Semana 21: 11 trades, $-14.23, WR: 54.5%
+  Semana 22: 51 trades, $9.7, WR: 70.6%
+
+RECOMENDACIONES:
+  🔵 [Symbol Selection] Revisar estrategia para: KDLY, JZ, ASST (pérdidas consistentes)
+  🟡 [Consistency] Solo 29.0% de días rentables. Buscar mayor consistencia.

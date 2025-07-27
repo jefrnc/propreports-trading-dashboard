@@ -1,0 +1,763 @@
+{
+  "lastUpdate": "2025-07-27 00:08:52",
+  "year": 2025,
+  "yearData": {
+    "2025-03-29": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-03-30": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-03-31": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-01": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-02": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-03": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-04": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-05": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-06": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-07": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-08": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-09": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-10": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-11": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-12": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-13": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-14": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-15": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-16": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-17": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-18": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-19": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-20": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-21": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-22": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-23": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-24": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-25": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-26": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-27": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-28": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-29": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-04-30": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-01": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-02": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-03": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-04": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-05": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-06": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-07": {
+      "trades": 4,
+      "pnl": 0.12,
+      "winRate": 0.75
+    },
+    "2025-05-08": {
+      "trades": 9,
+      "pnl": 0.15,
+      "winRate": 0.6666666666666666
+    },
+    "2025-05-09": {
+      "trades": 4,
+      "pnl": -0.02,
+      "winRate": 0.75
+    },
+    "2025-05-10": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-11": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-12": {
+      "trades": 4,
+      "pnl": 0.05,
+      "winRate": 0.25
+    },
+    "2025-05-13": {
+      "trades": 3,
+      "pnl": 0.02,
+      "winRate": 0.3333333333333333
+    },
+    "2025-05-14": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-15": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-16": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-17": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-18": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-19": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-20": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-21": {
+      "trades": 6,
+      "pnl": 0.04,
+      "winRate": 0.6666666666666666
+    },
+    "2025-05-22": {
+      "trades": 2,
+      "pnl": 0.02,
+      "winRate": 0.0
+    },
+    "2025-05-23": {
+      "trades": 3,
+      "pnl": 0.03,
+      "winRate": 0.6666666666666666
+    },
+    "2025-05-24": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-25": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-26": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-05-27": {
+      "trades": 2,
+      "pnl": 0.01,
+      "winRate": 0.5
+    },
+    "2025-05-28": {
+      "trades": 19,
+      "pnl": 0.0,
+      "winRate": 0.6842105263157895
+    },
+    "2025-05-29": {
+      "trades": 15,
+      "pnl": 0.03,
+      "winRate": 0.8
+    },
+    "2025-05-30": {
+      "trades": 15,
+      "pnl": -0.02,
+      "winRate": 0.6666666666666666
+    },
+    "2025-05-31": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-01": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-02": {
+      "trades": 5,
+      "pnl": 0.05,
+      "winRate": 0.4
+    },
+    "2025-06-03": {
+      "trades": 11,
+      "pnl": 0.05,
+      "winRate": 0.7272727272727273
+    },
+    "2025-06-04": {
+      "trades": 19,
+      "pnl": -0.01,
+      "winRate": 0.47368421052631576
+    },
+    "2025-06-05": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-06": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-07": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-08": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-09": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-10": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-11": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-12": {
+      "trades": 9,
+      "pnl": 0.03,
+      "winRate": 0.4444444444444444
+    },
+    "2025-06-13": {
+      "trades": 26,
+      "pnl": -0.14,
+      "winRate": 0.6923076923076923
+    },
+    "2025-06-14": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-15": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-16": {
+      "trades": 26,
+      "pnl": 0.04,
+      "winRate": 0.6538461538461539
+    },
+    "2025-06-17": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-18": {
+      "trades": 8,
+      "pnl": 0.03,
+      "winRate": 0.5
+    },
+    "2025-06-19": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-20": {
+      "trades": 9,
+      "pnl": 0.03,
+      "winRate": 0.6666666666666666
+    },
+    "2025-06-21": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-22": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-23": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-24": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-25": {
+      "trades": 10,
+      "pnl": 0.07,
+      "winRate": 0.9
+    },
+    "2025-06-26": {
+      "trades": 4,
+      "pnl": 0.83,
+      "winRate": 0.5
+    },
+    "2025-06-27": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-28": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-29": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-06-30": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-01": {
+      "trades": 3,
+      "pnl": 0.01,
+      "winRate": 0.6666666666666666
+    },
+    "2025-07-02": {
+      "trades": 18,
+      "pnl": 0.0,
+      "winRate": 0.6111111111111112
+    },
+    "2025-07-03": {
+      "trades": 2,
+      "pnl": 0.0,
+      "winRate": 0.0
+    },
+    "2025-07-04": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-05": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-06": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-07": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-08": {
+      "trades": 11,
+      "pnl": 0.0,
+      "winRate": 1.0
+    },
+    "2025-07-09": {
+      "trades": 12,
+      "pnl": 0.01,
+      "winRate": 0.8333333333333334
+    },
+    "2025-07-10": {
+      "trades": 14,
+      "pnl": 0.05,
+      "winRate": 0.7857142857142857
+    },
+    "2025-07-11": {
+      "trades": 19,
+      "pnl": 0.1,
+      "winRate": 0.631578947368421
+    },
+    "2025-07-12": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-13": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-14": {
+      "trades": 33,
+      "pnl": 0.12,
+      "winRate": 0.7575757575757576
+    },
+    "2025-07-15": {
+      "trades": 25,
+      "pnl": 0.07,
+      "winRate": 0.8
+    },
+    "2025-07-16": {
+      "trades": 16,
+      "pnl": 0.0,
+      "winRate": 0.875
+    },
+    "2025-07-17": {
+      "trades": 3,
+      "pnl": 0.33,
+      "winRate": 0.6666666666666666
+    },
+    "2025-07-18": {
+      "trades": 8,
+      "pnl": 0.0,
+      "winRate": 0.625
+    },
+    "2025-07-19": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-20": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-21": {
+      "trades": 10,
+      "pnl": 0.0,
+      "winRate": 0.7
+    },
+    "2025-07-22": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-23": {
+      "trades": 8,
+      "pnl": 0.03,
+      "winRate": 1.0
+    },
+    "2025-07-24": {
+      "trades": 17,
+      "pnl": 0.0,
+      "winRate": 0.7058823529411765
+    },
+    "2025-07-25": {
+      "trades": 14,
+      "pnl": 0.0,
+      "winRate": 0.5714285714285714
+    },
+    "2025-07-26": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-07-27": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    }
+  },
+  "yearStats": {
+    "trading_days": 38,
+    "total_trades": 426,
+    "total_pnl": 2.13,
+    "win_rate": 65.78947368421053,
+    "profit_days": 25,
+    "profit_days_pct": 65.78947368421053,
+    "loss_days": 4,
+    "loss_days_pct": 10.526315789473683,
+    "best_day": "2025-06-26",
+    "best_day_pnl": 0.83,
+    "worst_day": "2025-06-13",
+    "worst_day_pnl": -0.14,
+    "daily_avg": 0.05605263157894737
+  },
+  "monthlyData": [
+    {
+      "month": 5,
+      "monthName": "May",
+      "trades": 86,
+      "pnl": -116.94,
+      "winRate": 0.6512
+    },
+    {
+      "month": 6,
+      "monthName": "June",
+      "trades": 127,
+      "pnl": -57.69,
+      "winRate": 0.622
+    },
+    {
+      "month": 7,
+      "monthName": "July",
+      "trades": 213,
+      "pnl": 437.94,
+      "winRate": 0.7418
+    }
+  ],
+  "weeklyData": [
+    {
+      "week": 13,
+      "period": "2025-03-24 to 2025-03-30",
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    {
+      "week": 14,
+      "period": "2025-03-31 to 2025-04-06",
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    {
+      "week": 15,
+      "period": "2025-04-07 to 2025-04-13",
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    {
+      "week": 16,
+      "period": "2025-04-14 to 2025-04-20",
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    {
+      "week": 17,
+      "period": "2025-04-21 to 2025-04-27",
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    {
+      "week": 18,
+      "period": "2025-04-28 to 2025-05-04",
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    {
+      "week": 19,
+      "period": "2025-05-05 to 2025-05-11",
+      "trades": 17,
+      "pnl": -11.02,
+      "winRate": 0.7059
+    },
+    {
+      "week": 20,
+      "period": "2025-05-12 to 2025-05-18",
+      "trades": 7,
+      "pnl": -101.39,
+      "winRate": 0.2857
+    },
+    {
+      "week": 21,
+      "period": "2025-05-19 to 2025-05-25",
+      "trades": 11,
+      "pnl": -14.23,
+      "winRate": 0.5455
+    },
+    {
+      "week": 22,
+      "period": "2025-05-26 to 2025-06-01",
+      "trades": 51,
+      "pnl": 9.7,
+      "winRate": 0.7059
+    },
+    {
+      "week": 23,
+      "period": "2025-06-02 to 2025-06-08",
+      "trades": 35,
+      "pnl": -10.87,
+      "winRate": 0.5429
+    },
+    {
+      "week": 24,
+      "period": "2025-06-09 to 2025-06-15",
+      "trades": 35,
+      "pnl": -58.9,
+      "winRate": 0.6286
+    },
+    {
+      "week": 26,
+      "period": "2025-06-23 to 2025-06-29",
+      "trades": 14,
+      "pnl": 9.82,
+      "winRate": 0.7857
+    },
+    {
+      "week": 27,
+      "period": "2025-06-30 to 2025-07-06",
+      "trades": 23,
+      "pnl": 26.92,
+      "winRate": 0.5652
+    },
+    {
+      "week": 28,
+      "period": "2025-07-07 to 2025-07-13",
+      "trades": 56,
+      "pnl": 66.01,
+      "winRate": 0.7857
+    },
+    {
+      "week": 30,
+      "period": "2025-07-21 to 2025-07-27",
+      "trades": 49,
+      "pnl": 138.45,
+      "winRate": 0.7143
+    }
+  ]
+}

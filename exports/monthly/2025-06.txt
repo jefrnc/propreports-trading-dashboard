@@ -1,0 +1,22 @@
+RESUMEN MENSUAL DE TRADING
+June 2025
+==================================================
+
+RESUMEN GENERAL:
+  Total de trades: 127
+  P&L Neto: $-57.69
+  Win Rate: 62.2%
+  Profit Factor: 0.7
+  Expectancy: $-0.41
+
+DESGLOSE SEMANAL:
+  Semana 22: 51 trades, $9.7, WR: 70.6%
+  Semana 23: 35 trades, $-10.87, WR: 54.3%
+  Semana 24: 35 trades, $-58.9, WR: 62.9%
+  Semana 26: 14 trades, $9.82, WR: 78.6%
+  Semana 27: 23 trades, $26.92, WR: 56.5%
+
+RECOMENDACIONES:
+  🔴 [Risk Management] Drawdown elevado (14.3%). Implementar stops más ajustados.
+  🔵 [Symbol Selection] Revisar estrategia para: RBNE, LSE, KWM (pérdidas consistentes)
+  🟡 [Consistency] Solo 26.7% de días rentables. Buscar mayor consistencia.

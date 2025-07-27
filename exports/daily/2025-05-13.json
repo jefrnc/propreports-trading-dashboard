@@ -1,0 +1,78 @@
+{
+  "exportDate": "2025-07-27 00:03:28",
+  "account": "ZI*******64",
+  "date": "2025-05-13",
+  "trades": [
+    {
+      "date": "2025-05-13",
+      "opened": "05/13/25 07:08:02",
+      "closed": "07:17:37",
+      "held": "00:09:35",
+      "symbol": "XHG",
+      "type": "Long",
+      "entry": 3.97,
+      "exit": 3.39,
+      "size": 4.0,
+      "pnl": -2.32,
+      "commission": 0.01,
+      "net": 0.0,
+      "account": "",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 3.97
+    },
+    {
+      "date": "2025-05-13",
+      "opened": "05/13/25 10:49:49",
+      "closed": "10:51:20",
+      "held": "00:01:31",
+      "symbol": "MOGO",
+      "type": "Long",
+      "entry": 2.375,
+      "exit": 2.45,
+      "size": 4.0,
+      "pnl": 0.3,
+      "commission": 0.01,
+      "net": 0.02,
+      "account": "",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 2.375
+    },
+    {
+      "date": "2025-05-13",
+      "opened": "Equities",
+      "closed": "",
+      "held": "",
+      "symbol": "8",
+      "type": "(2.02)",
+      "entry": 0.02,
+      "exit": 0.02,
+      "size": 0.0,
+      "pnl": 0.0,
+      "commission": 0.01,
+      "net": 0.0,
+      "account": "",
+      "side": "SELL",
+      "quantity": 0.0,
+      "price": 0.02
+    }
+  ],
+  "summary": {
+    "totalTrades": 3,
+    "totalPnL": -2.02,
+    "totalCommissions": 0.03,
+    "netPnL": 0.02,
+    "winningTrades": 1,
+    "losingTrades": 1,
+    "symbols": [
+      "MOGO",
+      "8",
+      "XHG"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 00:03:28"
+  }
+}
