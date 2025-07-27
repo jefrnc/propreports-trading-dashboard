@@ -1,0 +1,100 @@
+name: Force Reprocess All Data
+# Purpose: Force complete reprocessing from PropReports (overwrites existing data)
+# Use when:
+#   - Data is corrupted
+#   - Net P&L calculations need to be fixed
+#   - You need fresh data from PropReports
+# What it does:
+#   1. Downloads fresh data from PropReports for date range
+#   2. Overwrites any existing JSON files
+#   3. Regenerates all summaries
+#   4. Updates stats and deploys
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Number of days to reprocess'
+        required: true
+        default: '90'
+        type: choice
+        options:
+          - '30'
+          - '60'
+          - '90'
+          - '180'
+          - '365'
+
+jobs:
+  force-reprocess:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4 lxml
+    
+    - name: Download scripts
+      run: |
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/propreports_exporter.py
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/advanced_exporter.py
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/weekly_summary.py
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/monthly_summary.py
+    
+    - name: Force reprocess with fresh data
+      env:
+        PROPREPORTS_DOMAIN: ${{ secrets.PROPREPORTS_DOMAIN }}
+        PROPREPORTS_USER: ${{ secrets.PROPREPORTS_USER }}
+        PROPREPORTS_PASS: ${{ secrets.PROPREPORTS_PASS }}
+        EXPORT_OUTPUT_DIR: 'exports'
+      run: |
+        echo "🔄 Force reprocessing last ${{ inputs.days }} days..."
+        
+        # Calculate date range
+        END_DATE=$(date +%Y-%m-%d)
+        START_DATE=$(date -d "${{ inputs.days }} days ago" +%Y-%m-%d)
+        
+        echo "📅 Date range: $START_DATE to $END_DATE"
+        
+        # Force reprocess (this will overwrite existing files)
+        python advanced_exporter.py range $START_DATE $END_DATE force
+        
+        # Regenerate all summaries
+        echo "📊 Regenerating weekly summaries..."
+        python weekly_summary.py
+        
+        echo "📊 Regenerating monthly summaries..."
+        python monthly_summary.py
+    
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add -A
+        
+        if git diff --quiet --cached; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Force reprocessed ${{ inputs.days }} days of data with correct net P&L"
+          git push
+        fi
+    
+    - name: Trigger Stats Update
+      uses: peter-evans/repository-dispatch@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        event-type: update-stats
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
