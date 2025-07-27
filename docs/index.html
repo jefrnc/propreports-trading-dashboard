@@ -6,9 +6,6 @@
     <title>Trading Dashboard - PropReports Auto-Exporter</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/cal-heatmap/3.6.2/cal-heatmap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/cal-heatmap/3.6.2/cal-heatmap.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         
@@ -49,24 +46,6 @@
         .fade-in {
             animation: fadeIn 0.6s ease-out;
         }
-        
-        /* Cal-heatmap custom styles */
-        .graph-label {
-            fill: #4a5568;
-            font-size: 12px;
-        }
-        
-        .subdomain-text {
-            font-size: 10px;
-            fill: #fff;
-        }
-        
-        .q0 { fill: #e5e7eb !important; }
-        .q1 { fill: #fbbf24 !important; }
-        .q2 { fill: #34d399 !important; }
-        .q3 { fill: #10b981 !important; }
-        .q4 { fill: #059669 !important; }
-        .q5 { fill: #ef4444 !important; }
     </style>
 </head>
 <body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
@@ -240,48 +219,96 @@
         }
         
         function createCalHeatmap(yearData) {
-            // Prepare data for cal-heatmap
-            const calData = {};
-            Object.entries(yearData).forEach(([date, data]) => {
-                const timestamp = new Date(date).getTime() / 1000;
-                // Use P&L value for coloring
-                if (data.trades > 0) {
-                    calData[timestamp] = data.pnl;
+            // Create a simple calendar grid instead
+            const calContainer = document.getElementById('cal-heatmap');
+            calContainer.innerHTML = '';
+            
+            // Create month containers
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            const year = 2025;
+            
+            const gridContainer = document.createElement('div');
+            gridContainer.style.display = 'flex';
+            gridContainer.style.flexWrap = 'wrap';
+            gridContainer.style.gap = '20px';
+            gridContainer.style.justifyContent = 'center';
+            
+            months.forEach((monthName, monthIndex) => {
+                const monthDiv = document.createElement('div');
+                monthDiv.style.display = 'inline-block';
+                
+                const monthTitle = document.createElement('h4');
+                monthTitle.textContent = monthName;
+                monthTitle.style.fontSize = '14px';
+                monthTitle.style.marginBottom = '5px';
+                monthTitle.style.textAlign = 'center';
+                monthDiv.appendChild(monthTitle);
+                
+                // Create days grid
+                const daysGrid = document.createElement('div');
+                daysGrid.style.display = 'grid';
+                daysGrid.style.gridTemplateColumns = 'repeat(7, 20px)';
+                daysGrid.style.gap = '2px';
+                
+                // Add day labels
+                const dayLabels = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+                dayLabels.forEach(label => {
+                    const labelDiv = document.createElement('div');
+                    labelDiv.textContent = label;
+                    labelDiv.style.fontSize = '10px';
+                    labelDiv.style.textAlign = 'center';
+                    labelDiv.style.color = '#666';
+                    daysGrid.appendChild(labelDiv);
+                });
+                
+                // Get first day of month
+                const firstDay = new Date(year, monthIndex, 1).getDay();
+                
+                // Add empty cells for alignment
+                for (let i = 0; i < firstDay; i++) {
+                    const emptyDiv = document.createElement('div');
+                    daysGrid.appendChild(emptyDiv);
                 }
-            });
-            
-            console.log('Calendar data prepared:', calData);
-            console.log('First few timestamps:', Object.keys(calData).slice(0, 5));
-            
-            const cal = new CalHeatmap();
-            cal.init({
-                itemSelector: "#cal-heatmap",
-                domain: "month",
-                subDomain: "day",
-                data: calData,
-                start: new Date(2025, 0, 1),
-                cellSize: 20,
-                cellPadding: 5,
-                domainGutter: 10,
-                range: 12,
-                domainLabelFormat: "%B",
-                legend: [-0.1, -0.05, 0, 0.05, 0.1],
-                legendColors: {
-                    min: "#ef4444",
-                    max: "#10b981",
-                    empty: "#e5e7eb"
-                },
-                displayLegend: false,
-                itemName: ["trade", "trades"],
-                tooltip: true,
-                onClick: function(date, value) {
-                    const dateStr = new Date(date).toISOString().split('T')[0];
-                    const data = yearData[dateStr];
-                    if (data && data.trades > 0) {
-                        alert(`Date: ${dateStr}\nTrades: ${data.trades}\nP&L: $${data.pnl.toFixed(2)}\nWin Rate: ${(data.winRate * 100).toFixed(1)}%`);
+                
+                // Add days
+                const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+                for (let day = 1; day <= daysInMonth; day++) {
+                    const dateStr = `${year}-${String(monthIndex + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                    const dayData = yearData[dateStr];
+                    
+                    const dayDiv = document.createElement('div');
+                    dayDiv.style.width = '20px';
+                    dayDiv.style.height = '20px';
+                    dayDiv.style.borderRadius = '3px';
+                    dayDiv.style.cursor = 'pointer';
+                    dayDiv.title = `${dateStr}: ${dayData && dayData.trades > 0 ? `$${dayData.pnl.toFixed(2)}` : 'No trades'}`;
+                    
+                    if (dayData && dayData.trades > 0) {
+                        if (dayData.pnl > 0) {
+                            dayDiv.style.backgroundColor = '#10b981';
+                        } else if (dayData.pnl < 0) {
+                            dayDiv.style.backgroundColor = '#ef4444';
+                        } else {
+                            dayDiv.style.backgroundColor = '#fbbf24';
+                        }
+                    } else {
+                        dayDiv.style.backgroundColor = '#e5e7eb';
                     }
+                    
+                    dayDiv.onclick = function() {
+                        if (dayData && dayData.trades > 0) {
+                            alert(`Date: ${dateStr}\nTrades: ${dayData.trades}\nP&L: $${dayData.pnl.toFixed(2)}\nWin Rate: ${(dayData.winRate * 100).toFixed(1)}%`);
+                        }
+                    };
+                    
+                    daysGrid.appendChild(dayDiv);
                 }
+                
+                monthDiv.appendChild(daysGrid);
+                gridContainer.appendChild(monthDiv);
             });
+            
+            calContainer.appendChild(gridContainer);
         }
         
         function createCharts(yearData) {
