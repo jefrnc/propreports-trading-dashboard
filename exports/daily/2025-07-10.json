@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 04:25:50",
+  "exportDate": "2025-07-27 04:29:20",
   "account": "ZI*******64",
   "date": "2025-07-10",
   "trades": [
@@ -265,16 +265,16 @@
     "losingTrades": 3,
     "symbols": [
       "STKH",
-      "KLTO",
       "193",
-      "AIRI",
-      "PROK",
+      "SAFX",
+      "KLTO",
       "BTCM",
-      "SAFX"
+      "AIRI",
+      "PROK"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 04:25:50"
+    "processedAt": "2025-07-27 04:29:20"
   }
 }

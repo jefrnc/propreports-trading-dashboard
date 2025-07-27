@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 04:25:41",
+  "exportDate": "2025-07-27 04:29:10",
   "account": "ZI*******64",
   "date": "2025-05-21",
   "trades": [
@@ -120,14 +120,14 @@
     "winningTrades": 4,
     "losingTrades": 2,
     "symbols": [
-      "58",
-      "EDBL",
       "GCL",
-      "ASST"
+      "58",
+      "ASST",
+      "EDBL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 04:25:41"
+    "processedAt": "2025-07-27 04:29:10"
   }
 }

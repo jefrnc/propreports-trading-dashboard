@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-07-27 04:25:53",
+  "generateDate": "2025-07-27 04:29:23",
   "weekPeriod": "2025-07-21 to 2025-07-27",
   "weekNumber": 30,
   "year": 2025,
@@ -35,12 +35,12 @@
       "trades": 8,
       "pnl": 0.03,
       "symbols": [
-        "PLRZ",
         "GPRO",
+        "PLRZ",
         "AMOD",
         "303",
-        "CLSD",
-        "CTOR"
+        "CTOR",
+        "CLSD"
       ]
     },
     "worstDay": {
@@ -48,10 +48,10 @@
       "trades": 10,
       "pnl": 0.0,
       "symbols": [
-        "HSDT",
-        "144",
+        "LMFA",
         "IPDN",
-        "LMFA"
+        "HSDT",
+        "144"
       ]
     }
   },
@@ -163,10 +163,10 @@
       "trades": 10,
       "pnl": 0.0,
       "symbols": [
-        "HSDT",
-        "144",
+        "LMFA",
         "IPDN",
-        "LMFA"
+        "HSDT",
+        "144"
       ]
     },
     {
@@ -180,12 +180,12 @@
       "trades": 8,
       "pnl": 0.03,
       "symbols": [
-        "PLRZ",
         "GPRO",
+        "PLRZ",
         "AMOD",
         "303",
-        "CLSD",
-        "CTOR"
+        "CTOR",
+        "CLSD"
       ]
     },
     {
@@ -193,11 +193,11 @@
       "trades": 17,
       "pnl": 0.0,
       "symbols": [
-        "UAVS",
-        "LIDR",
-        "BMNR",
-        "CYCC",
         "AGH",
+        "LIDR",
+        "CYCC",
+        "UAVS",
+        "BMNR",
         "281"
       ]
     },
@@ -206,15 +206,15 @@
       "trades": 14,
       "pnl": 0.0,
       "symbols": [
+        "PHIO",
+        "OCTO",
+        "IXHL",
         "ICCM",
         "LIDR",
-        "IXHL",
-        "BMNR",
-        "SOWG",
         "SMX",
-        "OCTO",
-        "531",
-        "PHIO"
+        "SOWG",
+        "BMNR",
+        "531"
       ]
     },
     {

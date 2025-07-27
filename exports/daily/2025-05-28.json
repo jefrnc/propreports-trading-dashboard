@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 04:25:42",
+  "exportDate": "2025-07-27 04:29:12",
   "account": "ZI*******64",
   "date": "2025-05-28",
   "trades": [
@@ -355,13 +355,13 @@
     "losingTrades": 6,
     "symbols": [
       "SPRO",
-      "80",
       "HOLO",
-      "SGN"
+      "SGN",
+      "80"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 04:25:42"
+    "processedAt": "2025-07-27 04:29:12"
   }
 }
