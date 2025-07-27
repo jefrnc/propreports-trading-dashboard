@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:22",
+  "exportDate": "2025-07-27 02:14:54",
   "account": "ZI*******64",
   "date": "2025-05-22",
   "trades": [
@@ -15,45 +15,26 @@
       "size": 4.0,
       "pnl": -0.38,
       "commission": 0.01,
-      "net": 0.02,
-      "account": "",
+      "net": -0.42,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 2.025
-    },
-    {
-      "date": "2025-05-22",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "4",
-      "type": "(0.38)",
-      "entry": 0.01,
-      "exit": 0.02,
-      "size": 0.0,
-      "pnl": 0.0,
-      "commission": 0.01,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.01
     }
   ],
   "summary": {
-    "totalTrades": 2,
+    "totalTrades": 1,
     "totalPnL": -0.38,
-    "totalCommissions": 0.02,
-    "netPnL": 0.02,
+    "totalCommissions": 0.01,
+    "netPnL": -0.42,
     "winningTrades": 0,
     "losingTrades": 1,
     "symbols": [
-      "BDRX",
-      "4"
+      "BDRX"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:22"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:14:54"
   }
 }

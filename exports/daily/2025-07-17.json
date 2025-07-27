@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:32",
+  "exportDate": "2025-07-27 02:15:13",
   "account": "ZI*******64",
   "date": "2025-07-17",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 70.0,
       "pnl": -61.74,
       "commission": 0.21,
-      "net": 0.11,
-      "account": "",
+      "net": -62.19,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 70.0,
       "price": 5.0966
@@ -33,45 +33,26 @@
       "size": 36.0,
       "pnl": 0.72,
       "commission": 0.11,
-      "net": 0.22,
-      "account": "",
+      "net": 0.38,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 36.0,
       "price": 6.79
-    },
-    {
-      "date": "2025-07-17",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "106",
-      "type": "(61.02)",
-      "entry": 0.32,
-      "exit": 0.32,
-      "size": 0.0,
-      "pnl": 0.02,
-      "commission": 0.12,
-      "net": 0.0,
-      "account": "0.01",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.32
     }
   ],
   "summary": {
-    "totalTrades": 3,
-    "totalPnL": -61.0,
-    "totalCommissions": 0.44,
-    "netPnL": 0.33,
-    "winningTrades": 2,
+    "totalTrades": 2,
+    "totalPnL": -61.02,
+    "totalCommissions": 0.32,
+    "netPnL": -61.81,
+    "winningTrades": 1,
     "losingTrades": 1,
     "symbols": [
-      "DPRO",
-      "106"
+      "DPRO"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:32"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:15:13"
   }
 }

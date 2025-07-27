@@ -133,6 +133,13 @@ class PropReportsExporter:
                     # Estructura típica de PropReports trades:
                     # Opened | Closed | Held | Symbol | Type | Entry | Exit | Size | P&L | Comm | Net | Account
                     
+                    # Parse individual fields
+                    pnl = self._parse_number(cells[8].text)
+                    commission = self._parse_number(cells[9].text) if len(cells) > 9 else 0
+                    
+                    # PropReports provides net P&L in cell[17]
+                    net = self._parse_number(cells[17].text) if len(cells) > 17 else (pnl - commission)
+                    
                     trade = {
                         'date': current_date,
                         'opened': cells[0].text.strip(),
@@ -143,10 +150,10 @@ class PropReportsExporter:
                         'entry': self._parse_number(cells[5].text),
                         'exit': self._parse_number(cells[6].text),
                         'size': self._parse_number(cells[7].text),
-                        'pnl': self._parse_number(cells[8].text),
-                        'commission': self._parse_number(cells[9].text) if len(cells) > 9 else 0,
-                        'net': self._parse_number(cells[10].text) if len(cells) > 10 else 0,
-                        'account': cells[11].text.strip() if len(cells) > 11 else self.username
+                        'pnl': pnl,
+                        'commission': commission,
+                        'net': net,  # Use provided net or calculate
+                        'account': self.username  # Account not in HTML
                     }
                     
                     # Determinar side basado en type
@@ -154,8 +161,17 @@ class PropReportsExporter:
                     trade['quantity'] = abs(trade['size'])
                     trade['price'] = trade['entry']
                     
-                    # Solo agregar trades válidos
-                    if trade['symbol'] and trade['symbol'] not in ['', 'Total:', 'Totals:']:
+                    # Validar que es un trade real y no una fila de subtotal/header
+                    # Los trades reales tienen tiempos en 'opened' (ej: "09:30:15")
+                    # Las filas de subtotales tienen "Equities" u otros textos
+                    is_valid_trade = (
+                        trade['symbol'] and 
+                        trade['symbol'] not in ['', 'Total:', 'Totals:'] and
+                        ':' in trade['opened'] and  # El campo opened debe tener formato de hora
+                        trade['type'] in ['Long', 'Short', 'long', 'short']  # Type debe ser Long/Short
+                    )
+                    
+                    if is_valid_trade:
                         trades.append(trade)
                         
                 except Exception as e:

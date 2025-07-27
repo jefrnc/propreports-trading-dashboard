@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:22",
+  "exportDate": "2025-07-27 02:14:54",
   "account": "ZI*******64",
   "date": "2025-05-23",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 8.0,
       "pnl": 0.34,
       "commission": 0.02,
-      "net": 0.03,
-      "account": "",
+      "net": 0.26,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 8.0,
       "price": 0.9812
@@ -33,45 +33,26 @@
       "size": 4.0,
       "pnl": 0.3,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 0.28,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 1.255
-    },
-    {
-      "date": "2025-05-23",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "12",
-      "type": "0.64",
-      "entry": 0.04,
-      "exit": 0.03,
-      "size": 0.0,
-      "pnl": 0.0,
-      "commission": 0.03,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.04
     }
   ],
   "summary": {
-    "totalTrades": 3,
+    "totalTrades": 2,
     "totalPnL": 0.64,
-    "totalCommissions": 0.06,
-    "netPnL": 0.03,
+    "totalCommissions": 0.03,
+    "netPnL": 0.54,
     "winningTrades": 2,
     "losingTrades": 0,
     "symbols": [
-      "IMNN",
-      "12"
+      "IMNN"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:22"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:14:54"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:21",
+  "exportDate": "2025-07-27 02:14:51",
   "account": "ZI*******64",
   "date": "2025-05-13",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 4.0,
       "pnl": -2.32,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": -2.34,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 3.97
@@ -33,46 +33,27 @@
       "size": 4.0,
       "pnl": 0.3,
       "commission": 0.01,
-      "net": 0.02,
-      "account": "",
+      "net": 0.26,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 2.375
-    },
-    {
-      "date": "2025-05-13",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "8",
-      "type": "(2.02)",
-      "entry": 0.02,
-      "exit": 0.02,
-      "size": 0.0,
-      "pnl": 0.0,
-      "commission": 0.01,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.02
     }
   ],
   "summary": {
-    "totalTrades": 3,
+    "totalTrades": 2,
     "totalPnL": -2.02,
-    "totalCommissions": 0.03,
-    "netPnL": 0.02,
+    "totalCommissions": 0.02,
+    "netPnL": -2.08,
     "winningTrades": 1,
     "losingTrades": 1,
     "symbols": [
-      "8",
       "XHG",
       "MOGO"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:21"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:14:51"
   }
 }

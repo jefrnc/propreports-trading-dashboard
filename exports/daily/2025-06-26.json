@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:28",
+  "exportDate": "2025-07-27 02:15:05",
   "account": "ZI*******64",
   "date": "2025-06-26",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 1.0,
       "pnl": 0.45,
       "commission": 0.0,
-      "net": 0.01,
-      "account": "",
+      "net": 0.44,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 1.0,
       "price": 9.0
@@ -33,8 +33,8 @@
       "size": 324.0,
       "pnl": -0.5,
       "commission": 0.97,
-      "net": 0.8,
-      "account": "",
+      "net": -2.4,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 324.0,
       "price": 0.4086
@@ -51,47 +51,28 @@
       "size": 10.0,
       "pnl": -0.04,
       "commission": 0.03,
-      "net": 0.02,
-      "account": "",
+      "net": -0.1,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 10.0,
       "price": 0.3586
-    },
-    {
-      "date": "2025-06-26",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "335",
-      "type": "(0.10)",
-      "entry": 1.01,
-      "exit": 0.83,
-      "size": 0.0,
-      "pnl": 0.06,
-      "commission": 0.05,
-      "net": 0.0,
-      "account": "0.03",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 1.01
     }
   ],
   "summary": {
-    "totalTrades": 4,
-    "totalPnL": -0.03,
-    "totalCommissions": 1.05,
-    "netPnL": 0.83,
-    "winningTrades": 2,
+    "totalTrades": 3,
+    "totalPnL": -0.09,
+    "totalCommissions": 1.0,
+    "netPnL": -2.06,
+    "winningTrades": 1,
     "losingTrades": 2,
     "symbols": [
-      "ALT",
-      "ICU",
       "PSTV",
-      "335"
+      "ICU",
+      "ALT"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:28"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:15:05"
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generateDate": "2025-07-27 00:33:38",
+  "generateDate": "2025-07-27 02:15:53",
   "month": 7,
   "monthName": "July",
   "year": 2025,
-  "account": "",
+  "account": "ZIMDASE9C64",
   "overview": {
     "totalTradingDays": 27,
     "totalTrades": 197,
@@ -23,150 +23,150 @@
     "profitability_curve": [
       {
         "date": "2025-07-01",
-        "daily_pnl": 0.01,
-        "cumulative_pnl": 0.01
+        "daily_pnl": 12.65,
+        "cumulative_pnl": 12.65
       },
       {
         "date": "2025-07-02",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.01
+        "daily_pnl": 21.6,
+        "cumulative_pnl": 34.25
       },
       {
         "date": "2025-07-03",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.01
+        "daily_pnl": -7.41,
+        "cumulative_pnl": 26.84
       },
       {
         "date": "2025-07-04",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.01
+        "cumulative_pnl": 26.84
       },
       {
         "date": "2025-07-05",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.01
+        "cumulative_pnl": 26.84
       },
       {
         "date": "2025-07-06",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.01
+        "cumulative_pnl": 26.84
       },
       {
         "date": "2025-07-07",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.01
+        "cumulative_pnl": 26.84
       },
       {
         "date": "2025-07-08",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.01
+        "daily_pnl": 18.66,
+        "cumulative_pnl": 45.5
       },
       {
         "date": "2025-07-09",
-        "daily_pnl": 0.01,
-        "cumulative_pnl": 0.02
+        "daily_pnl": 39.31,
+        "cumulative_pnl": 84.81
       },
       {
         "date": "2025-07-10",
-        "daily_pnl": 0.05,
-        "cumulative_pnl": 0.07
+        "daily_pnl": 15.4,
+        "cumulative_pnl": 100.21
       },
       {
         "date": "2025-07-11",
-        "daily_pnl": 0.1,
-        "cumulative_pnl": 0.17
+        "daily_pnl": -7.68,
+        "cumulative_pnl": 92.53
       },
       {
         "date": "2025-07-12",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.17
+        "cumulative_pnl": 92.53
       },
       {
         "date": "2025-07-13",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.17
+        "cumulative_pnl": 92.53
       },
       {
         "date": "2025-07-14",
-        "daily_pnl": 0.12,
-        "cumulative_pnl": 0.29
+        "daily_pnl": 111.19,
+        "cumulative_pnl": 203.72
       },
       {
         "date": "2025-07-15",
-        "daily_pnl": 0.07,
-        "cumulative_pnl": 0.36
+        "daily_pnl": 99.16,
+        "cumulative_pnl": 302.88
       },
       {
         "date": "2025-07-16",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.36
+        "daily_pnl": 38.89,
+        "cumulative_pnl": 341.77
       },
       {
         "date": "2025-07-17",
-        "daily_pnl": 0.33,
-        "cumulative_pnl": 0.69
+        "daily_pnl": -61.81,
+        "cumulative_pnl": 279.96
       },
       {
         "date": "2025-07-18",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.69
+        "daily_pnl": 18.2,
+        "cumulative_pnl": 298.16
       },
       {
         "date": "2025-07-19",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.69
+        "cumulative_pnl": 298.16
       },
       {
         "date": "2025-07-20",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.69
+        "cumulative_pnl": 298.16
       },
       {
         "date": "2025-07-21",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.69
+        "daily_pnl": 34.16,
+        "cumulative_pnl": 332.32
       },
       {
         "date": "2025-07-22",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.69
+        "cumulative_pnl": 332.32
       },
       {
         "date": "2025-07-23",
-        "daily_pnl": 0.03,
-        "cumulative_pnl": 0.72
+        "daily_pnl": 46.13,
+        "cumulative_pnl": 378.45
       },
       {
         "date": "2025-07-24",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.72
+        "daily_pnl": 40.96,
+        "cumulative_pnl": 419.41
       },
       {
         "date": "2025-07-25",
-        "daily_pnl": 0.0,
-        "cumulative_pnl": 0.72
+        "daily_pnl": 16.72,
+        "cumulative_pnl": 436.13
       },
       {
         "date": "2025-07-26",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.72
+        "cumulative_pnl": 436.13
       },
       {
         "date": "2025-07-27",
         "daily_pnl": 0,
-        "cumulative_pnl": 0.72
+        "cumulative_pnl": 436.13
       }
     ],
     "drawdown_analysis": {
-      "max_drawdown": 0,
-      "max_drawdown_percent": 0.0
+      "max_drawdown": 61.81,
+      "max_drawdown_percent": 14.17
     },
     "consistency_metrics": {
-      "profitable_days": 8,
-      "losing_days": 0,
-      "win_rate_days": 0.2963,
-      "avg_winning_day": 0.09,
-      "avg_losing_day": 0
+      "profitable_days": 13,
+      "losing_days": 3,
+      "win_rate_days": 0.4815,
+      "avg_winning_day": 39.46,
+      "avg_losing_day": -25.63
     },
     "symbol_performance": {
       "CLRO": {
@@ -804,24 +804,10 @@
     "risk_metrics": {
       "sharpe_ratio": 4.43,
       "max_consecutive_losses": 5,
-      "risk_reward_ratio": 0
+      "risk_reward_ratio": 1.5396020288724153
     }
   },
   "weeklyBreakdown": [
-    {
-      "week": 27,
-      "period": "2025-06-30 to 2025-07-06",
-      "trades": 20,
-      "netPnL": 27.27,
-      "winRate": 0.6
-    },
-    {
-      "week": 28,
-      "period": "2025-07-07 to 2025-07-13",
-      "trades": 52,
-      "netPnL": 67.28,
-      "winRate": 0.7692
-    },
     {
       "week": 30,
       "period": "2025-07-21 to 2025-07-27",
@@ -832,6 +818,11 @@
   ],
   "recommendations": [
     {
+      "type": "critical",
+      "area": "Risk Management",
+      "message": "Drawdown elevado (14.2%). Implementar stops más ajustados."
+    },
+    {
       "type": "suggestion",
       "area": "Symbol Selection",
       "message": "Revisar estrategia para: DPRO, SGN, SONN (pérdidas consistentes)"
@@ -839,7 +830,7 @@
     {
       "type": "warning",
       "area": "Consistency",
-      "message": "Solo 29.6% de días rentables. Buscar mayor consistencia."
+      "message": "Solo 48.1% de días rentables. Buscar mayor consistencia."
     }
   ]
 }

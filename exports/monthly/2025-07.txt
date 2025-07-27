@@ -10,10 +10,9 @@ RESUMEN GENERAL:
   Expectancy: $2.31
 
 DESGLOSE SEMANAL:
-  Semana 27: 20 trades, $27.27, WR: 60.0%
-  Semana 28: 52 trades, $67.28, WR: 76.9%
   Semana 30: 45 trades, $140.85, WR: 68.9%
 
 RECOMENDACIONES:
+  🔴 [Risk Management] Drawdown elevado (14.2%). Implementar stops más ajustados.
   🔵 [Symbol Selection] Revisar estrategia para: DPRO, SGN, SONN (pérdidas consistentes)
-  🟡 [Consistency] Solo 29.6% de días rentables. Buscar mayor consistencia.
+  🟡 [Consistency] Solo 48.1% de días rentables. Buscar mayor consistencia.

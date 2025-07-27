@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:29",
+  "exportDate": "2025-07-27 02:15:07",
   "account": "ZI*******64",
   "date": "2025-07-02",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 48.0,
       "pnl": 1.44,
       "commission": 0.14,
-      "net": 0.0,
-      "account": "",
+      "net": 1.23,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 48.0,
       "price": 3.4142
@@ -33,8 +33,8 @@
       "size": 20.0,
       "pnl": 2.54,
       "commission": 0.06,
-      "net": 0.0,
-      "account": "",
+      "net": 2.45,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 20.0,
       "price": 3.344
@@ -51,8 +51,8 @@
       "size": 4.0,
       "pnl": 0.41,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 0.39,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 3.55
@@ -69,8 +69,8 @@
       "size": 4.0,
       "pnl": 0.44,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 0.42,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 3.18
@@ -87,8 +87,8 @@
       "size": 4.0,
       "pnl": 0.23,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 0.21,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 2.16
@@ -105,8 +105,8 @@
       "size": 32.0,
       "pnl": 16.97,
       "commission": 0.1,
-      "net": 0.0,
-      "account": "",
+      "net": 16.78,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 32.0,
       "price": 12.6169
@@ -123,8 +123,8 @@
       "size": 6.0,
       "pnl": -1.06,
       "commission": 0.02,
-      "net": 0.0,
-      "account": "",
+      "net": -1.09,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 6.0,
       "price": 2.7833
@@ -141,8 +141,8 @@
       "size": 1.0,
       "pnl": 0.23,
       "commission": 0.0,
-      "net": 0.0,
-      "account": "",
+      "net": 0.22,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 1.0,
       "price": 10.13
@@ -159,8 +159,8 @@
       "size": 1.0,
       "pnl": 0.22,
       "commission": 0.0,
-      "net": 0.0,
-      "account": "",
+      "net": 0.21,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 1.0,
       "price": 10.36
@@ -177,8 +177,8 @@
       "size": 1.0,
       "pnl": -0.47,
       "commission": 0.0,
-      "net": 0.0,
-      "account": "",
+      "net": -0.48,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 1.0,
       "price": 9.49
@@ -195,8 +195,8 @@
       "size": 11.0,
       "pnl": 10.4,
       "commission": 0.03,
-      "net": 0.0,
-      "account": "",
+      "net": 10.33,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 11.0,
       "price": 9.3582
@@ -213,8 +213,8 @@
       "size": 2.0,
       "pnl": -3.21,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": -3.22,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 2.0,
       "price": 54.61
@@ -231,8 +231,8 @@
       "size": 4.0,
       "pnl": 0.28,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 0.25,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 4.0,
       "price": 2.935
@@ -249,8 +249,8 @@
       "size": 4.0,
       "pnl": -0.34,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": -0.36,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 2.73
@@ -267,8 +267,8 @@
       "size": 2.0,
       "pnl": -0.04,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": -0.05,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 2.0,
       "price": 2.5701
@@ -285,8 +285,8 @@
       "size": 10.0,
       "pnl": -5.52,
       "commission": 0.03,
-      "net": 0.0,
-      "account": "",
+      "net": -5.56,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 10.0,
       "price": 2.6583
@@ -303,50 +303,31 @@
       "size": 12.0,
       "pnl": -0.06,
       "commission": 0.04,
-      "net": 0.0,
-      "account": "",
+      "net": -0.13,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 12.0,
       "price": 1.8083
-    },
-    {
-      "date": "2025-07-02",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "166",
-      "type": "22.46",
-      "entry": 0.5,
-      "exit": 0.0,
-      "size": 0.0,
-      "pnl": 0.03,
-      "commission": 0.32,
-      "net": 0.0,
-      "account": "0.01",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.5
     }
   ],
   "summary": {
-    "totalTrades": 18,
-    "totalPnL": 22.49,
-    "totalCommissions": 0.81,
-    "netPnL": 0.0,
-    "winningTrades": 11,
+    "totalTrades": 17,
+    "totalPnL": 22.46,
+    "totalCommissions": 0.49,
+    "netPnL": 21.6,
+    "winningTrades": 10,
     "losingTrades": 7,
     "symbols": [
-      "ELWS",
-      "BMNR",
+      "SONN",
       "MIRA",
-      "166",
-      "DAIC",
       "MOGO",
-      "SONN"
+      "DAIC",
+      "BMNR",
+      "ELWS"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:29"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:15:07"
   }
 }

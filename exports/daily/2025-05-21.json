@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:22",
+  "exportDate": "2025-07-27 02:14:54",
   "account": "ZI*******64",
   "date": "2025-05-21",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 4.0,
       "pnl": 0.46,
       "commission": 0.01,
-      "net": 0.01,
-      "account": "",
+      "net": 0.43,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 5.505
@@ -33,8 +33,8 @@
       "size": 2.0,
       "pnl": 1.02,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 1.01,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 2.0,
       "price": 3.34
@@ -51,8 +51,8 @@
       "size": 4.0,
       "pnl": 2.58,
       "commission": 0.01,
-      "net": -0.01,
-      "account": "",
+      "net": 2.57,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 4.0,
       "price": 9.39
@@ -69,8 +69,8 @@
       "size": 38.0,
       "pnl": -12.59,
       "commission": 0.11,
-      "net": 0.02,
-      "account": "",
+      "net": -12.8,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 38.0,
       "price": 9.9963
@@ -87,47 +87,28 @@
       "size": 10.0,
       "pnl": -5.62,
       "commission": 0.03,
-      "net": 0.02,
-      "account": "",
+      "net": -5.68,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 10.0,
       "price": 5.912
-    },
-    {
-      "date": "2025-05-21",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "58",
-      "type": "(14.15)",
-      "entry": 0.17,
-      "exit": 0.04,
-      "size": 0.0,
-      "pnl": 0.01,
-      "commission": 0.1,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.17
     }
   ],
   "summary": {
-    "totalTrades": 6,
-    "totalPnL": -14.14,
-    "totalCommissions": 0.27,
-    "netPnL": 0.04,
-    "winningTrades": 4,
+    "totalTrades": 5,
+    "totalPnL": -14.15,
+    "totalCommissions": 0.17,
+    "netPnL": -14.47,
+    "winningTrades": 3,
     "losingTrades": 2,
     "symbols": [
       "GCL",
       "EDBL",
-      "58",
       "ASST"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:22"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:14:54"
   }
 }

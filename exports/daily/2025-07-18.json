@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:32",
+  "exportDate": "2025-07-27 02:15:13",
   "account": "ZI*******64",
   "date": "2025-07-18",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 5.0,
       "pnl": 12.15,
       "commission": 0.02,
-      "net": 0.0,
-      "account": "",
+      "net": 12.12,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 5.0,
       "price": 36.212
@@ -33,8 +33,8 @@
       "size": 16.0,
       "pnl": -2.08,
       "commission": 0.05,
-      "net": 0.0,
-      "account": "",
+      "net": -2.17,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 16.0,
       "price": 1.9844
@@ -51,8 +51,8 @@
       "size": 2.0,
       "pnl": 1.95,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 1.94,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 2.0,
       "price": 46.6001
@@ -69,8 +69,8 @@
       "size": 2.0,
       "pnl": 3.04,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": 3.03,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 2.0,
       "price": 44.0401
@@ -87,8 +87,8 @@
       "size": 10.0,
       "pnl": 3.46,
       "commission": 0.03,
-      "net": 0.0,
-      "account": "",
+      "net": 3.4,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 10.0,
       "price": 6.39
@@ -105,8 +105,8 @@
       "size": 1.0,
       "pnl": -0.02,
       "commission": 0.0,
-      "net": 0.0,
-      "account": "",
+      "net": -0.03,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 1.0,
       "price": 30.04
@@ -123,48 +123,29 @@
       "size": 2.0,
       "pnl": -0.08,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": -0.09,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 2.0,
       "price": 2.21
-    },
-    {
-      "date": "2025-07-18",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "38",
-      "type": "18.42",
-      "entry": 0.11,
-      "exit": 0.0,
-      "size": 0.0,
-      "pnl": 0.01,
-      "commission": 0.1,
-      "net": 0.0,
-      "account": "",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 0.11
     }
   ],
   "summary": {
-    "totalTrades": 8,
-    "totalPnL": 18.43,
-    "totalCommissions": 0.23,
-    "netPnL": 0.0,
-    "winningTrades": 5,
+    "totalTrades": 7,
+    "totalPnL": 18.42,
+    "totalCommissions": 0.13,
+    "netPnL": 18.2,
+    "winningTrades": 4,
     "losingTrades": 3,
     "symbols": [
-      "BMNR",
-      "38",
-      "SBET",
       "MEIP",
-      "UAVS"
+      "BMNR",
+      "UAVS",
+      "SBET"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:32"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:15:13"
   }
 }

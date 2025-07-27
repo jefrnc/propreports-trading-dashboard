@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:10:34",
+  "exportDate": "2025-07-27 02:15:16",
   "account": "ZI*******64",
   "date": "2025-07-25",
   "trades": [
@@ -15,8 +15,8 @@
       "size": 90.0,
       "pnl": 5.73,
       "commission": 0.27,
-      "net": 0.0,
-      "account": "",
+      "net": 5.27,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 90.0,
       "price": 2.1291
@@ -33,8 +33,8 @@
       "size": 14.0,
       "pnl": -0.46,
       "commission": 0.04,
-      "net": 0.0,
-      "account": "",
+      "net": -0.54,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 14.0,
       "price": 1.7486
@@ -51,8 +51,8 @@
       "size": 16.0,
       "pnl": -1.64,
       "commission": 0.05,
-      "net": 0.0,
-      "account": "",
+      "net": -1.72,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 16.0,
       "price": 1.6838
@@ -69,8 +69,8 @@
       "size": 2.0,
       "pnl": -0.2,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": -0.21,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 2.0,
       "price": 1.69
@@ -87,8 +87,8 @@
       "size": 34.0,
       "pnl": -1.74,
       "commission": 0.1,
-      "net": 0.0,
-      "account": "",
+      "net": -1.92,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 34.0,
       "price": 1.7712
@@ -105,8 +105,8 @@
       "size": 69.0,
       "pnl": 2.7,
       "commission": 0.21,
-      "net": 0.0,
-      "account": "",
+      "net": 2.35,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 69.0,
       "price": 1.6996
@@ -123,8 +123,8 @@
       "size": 20.0,
       "pnl": -1.58,
       "commission": 0.06,
-      "net": 0.0,
-      "account": "",
+      "net": -1.7,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 20.0,
       "price": 3.315
@@ -141,8 +141,8 @@
       "size": 104.0,
       "pnl": 2.17,
       "commission": 0.31,
-      "net": 0.0,
-      "account": "",
+      "net": 1.68,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 104.0,
       "price": 1.0763
@@ -159,8 +159,8 @@
       "size": 60.0,
       "pnl": 7.8,
       "commission": 0.18,
-      "net": 0.0,
-      "account": "",
+      "net": 7.48,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 60.0,
       "price": 1.3067
@@ -177,8 +177,8 @@
       "size": 50.0,
       "pnl": 5.66,
       "commission": 0.15,
-      "net": 0.0,
-      "account": "",
+      "net": 5.38,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 50.0,
       "price": 4.4832
@@ -195,8 +195,8 @@
       "size": 24.0,
       "pnl": 0.38,
       "commission": 0.07,
-      "net": 0.0,
-      "account": "",
+      "net": 0.24,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 24.0,
       "price": 2.1367
@@ -213,8 +213,8 @@
       "size": 46.0,
       "pnl": 1.73,
       "commission": 0.14,
-      "net": 0.0,
-      "account": "",
+      "net": 1.5,
+      "account": "ZIMDASE9C64",
       "side": "BUY",
       "quantity": 46.0,
       "price": 4.7115
@@ -231,52 +231,33 @@
       "size": 2.0,
       "pnl": -1.08,
       "commission": 0.01,
-      "net": 0.0,
-      "account": "",
+      "net": -1.09,
+      "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 2.0,
       "price": 39.2
-    },
-    {
-      "date": "2025-07-25",
-      "opened": "Equities",
-      "closed": "",
-      "held": "",
-      "symbol": "531",
-      "type": "19.47",
-      "entry": 1.59,
-      "exit": 0.0,
-      "size": 0.0,
-      "pnl": 0.09,
-      "commission": 1.05,
-      "net": 0.0,
-      "account": "0.03",
-      "side": "SELL",
-      "quantity": 0.0,
-      "price": 1.59
     }
   ],
   "summary": {
-    "totalTrades": 14,
-    "totalPnL": 19.56,
-    "totalCommissions": 2.65,
-    "netPnL": 0.0,
-    "winningTrades": 8,
+    "totalTrades": 13,
+    "totalPnL": 19.47,
+    "totalCommissions": 1.6,
+    "netPnL": 16.72,
+    "winningTrades": 7,
     "losingTrades": 6,
     "symbols": [
-      "PHIO",
-      "OCTO",
-      "BMNR",
-      "531",
-      "SMX",
-      "ICCM",
       "LIDR",
       "SOWG",
-      "IXHL"
+      "ICCM",
+      "OCTO",
+      "IXHL",
+      "SMX",
+      "PHIO",
+      "BMNR"
     ]
   },
   "metadata": {
-    "reprocessed": true,
-    "processedAt": "2025-07-27 05:10:34"
+    "reprocessed": false,
+    "processedAt": "2025-07-27 02:15:16"
   }
 }
