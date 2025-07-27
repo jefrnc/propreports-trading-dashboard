@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 04:29:22",
+  "exportDate": "2025-07-27 04:30:37",
   "account": "ZI*******64",
   "date": "2025-07-24",
   "trades": [
@@ -318,16 +318,16 @@
     "winningTrades": 12,
     "losingTrades": 5,
     "symbols": [
-      "AGH",
       "LIDR",
       "CYCC",
-      "UAVS",
       "BMNR",
-      "281"
+      "281",
+      "AGH",
+      "UAVS"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 04:29:22"
+    "processedAt": "2025-07-27 04:30:37"
   }
 }
