@@ -2,6 +2,8 @@
 
 This repository demonstrates the [PropReports Auto-Exporter](https://github.com/jefrnc/propreports-auto-exporter) GitHub Action in action!
 
+![Dashboard Preview](docs/images/dashboard-preview.png)
+
 ## 🎯 What This Shows
 
 This is a live example of:

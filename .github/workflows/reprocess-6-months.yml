@@ -1,4 +1,4 @@
-name: Reprocess All Data Since April
+name: Reprocess Last 6 Months
 
 on:
   workflow_dispatch:
@@ -13,11 +13,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     
-    - name: Export PropReports Data (Full History)
+    - name: Export PropReports Data (Last 6 Months)
       uses: jefrnc/propreports-auto-exporter@v1
       with:
         propreports-domain: ${{ secrets.PROPREPORTS_DOMAIN }}
         propreports-user: ${{ secrets.PROPREPORTS_USER }}
         propreports-pass: ${{ secrets.PROPREPORTS_PASS }}
-        reprocess-days: '120'     # 4 months to cover from April
+        reprocess-days: '180'     # 6 months
         obfuscate-account: 'true'
