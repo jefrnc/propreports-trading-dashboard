@@ -1,0 +1,76 @@
+{
+  "exportDate": "2025-07-27 05:18:17",
+  "account": "ZI*******64",
+  "date": "2025-05-07",
+  "trades": [
+    {
+      "date": "2025-05-07",
+      "opened": "05/07/25 12:07:06",
+      "closed": "13:24:10",
+      "held": "01:17:04",
+      "symbol": "ASST",
+      "type": "Long",
+      "entry": 2.1267,
+      "exit": 1.9867,
+      "size": 15.0,
+      "pnl": -2.1,
+      "commission": 0.05,
+      "net": -2.15,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 15.0,
+      "price": 2.1267
+    },
+    {
+      "date": "2025-05-07",
+      "opened": "05/07/25 14:12:51",
+      "closed": "14:57:40",
+      "held": "00:44:49",
+      "symbol": "ASST",
+      "type": "Long",
+      "entry": 1.9757,
+      "exit": 2.0715,
+      "size": 35.0,
+      "pnl": 3.35,
+      "commission": 0.11,
+      "net": 3.13,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 35.0,
+      "price": 1.9757
+    },
+    {
+      "date": "2025-05-07",
+      "opened": "05/07/25 15:26:24",
+      "closed": "16:20:44",
+      "held": "00:54:20",
+      "symbol": "ASST",
+      "type": "Long",
+      "entry": 2.6767,
+      "exit": 3.0293,
+      "size": 15.0,
+      "pnl": 5.29,
+      "commission": 0.05,
+      "net": 5.16,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 15.0,
+      "price": 2.6767
+    }
+  ],
+  "summary": {
+    "totalTrades": 3,
+    "totalPnL": 6.54,
+    "totalCommissions": 0.21,
+    "netPnL": 6.14,
+    "winningTrades": 2,
+    "losingTrades": 1,
+    "symbols": [
+      "ASST"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 05:18:17"
+  }
+}

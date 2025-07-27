@@ -1,0 +1,76 @@
+{
+  "exportDate": "2025-07-27 05:18:18",
+  "account": "ZI*******64",
+  "date": "2025-05-09",
+  "trades": [
+    {
+      "date": "2025-05-09",
+      "opened": "05/09/25 12:14:16",
+      "closed": "12:23:50",
+      "held": "00:09:34",
+      "symbol": "NVVE",
+      "type": "Long",
+      "entry": 2.43,
+      "exit": 2.53,
+      "size": 4.0,
+      "pnl": 0.4,
+      "commission": 0.01,
+      "net": 0.39,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 2.43
+    },
+    {
+      "date": "2025-05-09",
+      "opened": "05/09/25 12:30:47",
+      "closed": "12:34:38",
+      "held": "00:03:51",
+      "symbol": "NVVE",
+      "type": "Long",
+      "entry": 2.41,
+      "exit": 2.5,
+      "size": 4.0,
+      "pnl": 0.36,
+      "commission": 0.01,
+      "net": 0.34,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 4.0,
+      "price": 2.41
+    },
+    {
+      "date": "2025-05-09",
+      "opened": "05/09/25 14:14:05",
+      "closed": "15:10:10",
+      "held": "00:56:05",
+      "symbol": "NVVE",
+      "type": "Long",
+      "entry": 2.8567,
+      "exit": 3.0459,
+      "size": 12.0,
+      "pnl": 2.27,
+      "commission": 0.04,
+      "net": 2.23,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 12.0,
+      "price": 2.8567
+    }
+  ],
+  "summary": {
+    "totalTrades": 3,
+    "totalPnL": 3.03,
+    "totalCommissions": 0.06,
+    "netPnL": 2.96,
+    "winningTrades": 3,
+    "losingTrades": 0,
+    "symbols": [
+      "NVVE"
+    ]
+  },
+  "metadata": {
+    "reprocessed": false,
+    "processedAt": "2025-07-27 05:18:18"
+  }
+}

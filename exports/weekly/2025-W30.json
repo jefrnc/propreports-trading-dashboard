@@ -1,0 +1,223 @@
+{
+  "generateDate": "2025-07-27 05:18:29",
+  "weekPeriod": "2025-07-21 to 2025-07-27",
+  "weekNumber": 30,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 45,
+    "grossPnL": 144.63,
+    "totalCommissions": 3.78,
+    "netPnL": 140.85,
+    "avgDailyPnL": 20.12,
+    "avgTradePerDay": 6.43,
+    "winningTrades": 31,
+    "losingTrades": 14,
+    "winRate": 0.6889,
+    "avgWin": 6.16,
+    "avgLoss": -3.31,
+    "profitFactor": 4.12
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-07-23",
+      "symbol": "PLRZ",
+      "pnl": 27.48
+    },
+    "worstTrade": {
+      "date": "2025-07-21",
+      "symbol": "HSDT",
+      "pnl": -18.49
+    },
+    "bestDay": {
+      "date": "2025-07-23",
+      "trades": 7,
+      "pnl": 46.13,
+      "symbols": [
+        "AMOD",
+        "CLSD",
+        "GPRO",
+        "PLRZ",
+        "CTOR"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-07-22",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 9,
+    "maxConsecutiveLosses": 4,
+    "topSymbols": [
+      [
+        "HSDT",
+        {
+          "count": 7,
+          "pnl": 39.730000000000004,
+          "win_rate": 0.7143
+        }
+      ],
+      [
+        "LIDR",
+        {
+          "count": 9,
+          "pnl": 33.74,
+          "win_rate": 0.8889
+        }
+      ],
+      [
+        "PLRZ",
+        {
+          "count": 1,
+          "pnl": 27.48,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "BMNR",
+        {
+          "count": 4,
+          "pnl": 13.41,
+          "win_rate": 0.25
+        }
+      ],
+      [
+        "AMOD",
+        {
+          "count": 2,
+          "pnl": 13.32,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 13,
+        "pnl": 21.8
+      },
+      "08": {
+        "count": 9,
+        "pnl": -4.210000000000003
+      },
+      "09": {
+        "count": 8,
+        "pnl": 73.94999999999999
+      },
+      "16": {
+        "count": 1,
+        "pnl": 1.62
+      },
+      "10": {
+        "count": 6,
+        "pnl": 38.86
+      },
+      "12": {
+        "count": 2,
+        "pnl": 7.65
+      },
+      "11": {
+        "count": 3,
+        "pnl": 3.93
+      },
+      "13": {
+        "count": 2,
+        "pnl": 2.11
+      },
+      "14": {
+        "count": 1,
+        "pnl": -1.08
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 12,
+        "pnl": 6.550000000000001
+      },
+      "15-60min": {
+        "count": 9,
+        "pnl": 44.44
+      },
+      ">60min": {
+        "count": 17,
+        "pnl": 92.02000000000001
+      },
+      "5-15min": {
+        "count": 7,
+        "pnl": 1.62
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-07-21",
+      "trades": 9,
+      "pnl": 34.16,
+      "symbols": [
+        "IPDN",
+        "LMFA",
+        "HSDT"
+      ]
+    },
+    {
+      "date": "2025-07-22",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-07-23",
+      "trades": 7,
+      "pnl": 46.13,
+      "symbols": [
+        "AMOD",
+        "CLSD",
+        "GPRO",
+        "PLRZ",
+        "CTOR"
+      ]
+    },
+    {
+      "date": "2025-07-24",
+      "trades": 16,
+      "pnl": 40.96,
+      "symbols": [
+        "CYCC",
+        "BMNR",
+        "AGH",
+        "UAVS",
+        "LIDR"
+      ]
+    },
+    {
+      "date": "2025-07-25",
+      "trades": 13,
+      "pnl": 16.72,
+      "symbols": [
+        "OCTO",
+        "SOWG",
+        "PHIO",
+        "SMX",
+        "IXHL",
+        "ICCM",
+        "BMNR",
+        "LIDR"
+      ]
+    },
+    {
+      "date": "2025-07-26",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-07-27",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
