@@ -1,0 +1,23 @@
+name: Reprocess All Data Since April
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reprocess:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: Export PropReports Data (Full History)
+      uses: jefrnc/propreports-auto-exporter@v1
+      with:
+        propreports-domain: ${{ secrets.PROPREPORTS_DOMAIN }}
+        propreports-user: ${{ secrets.PROPREPORTS_USER }}
+        propreports-pass: ${{ secrets.PROPREPORTS_PASS }}
+        reprocess-days: '120'     # 4 months to cover from April
+        obfuscate-account: 'true'
