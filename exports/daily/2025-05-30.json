@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:08:00",
+  "exportDate": "2025-07-27 05:10:24",
   "account": "ZI*******64",
   "date": "2025-05-30",
   "trades": [
@@ -282,17 +282,17 @@
     "winningTrades": 10,
     "losingTrades": 5,
     "symbols": [
-      "BMGL",
-      "IMNN",
-      "BLRX",
-      "LVWR",
       "RRGB",
+      "BLRX",
+      "SYTA",
+      "IMNN",
       "81",
-      "SYTA"
+      "LVWR",
+      "BMGL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 05:08:00"
+    "processedAt": "2025-07-27 05:10:24"
   }
 }

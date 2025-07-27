@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:08:03",
+  "exportDate": "2025-07-27 05:10:27",
   "account": "ZI*******64",
   "date": "2025-06-18",
   "trades": [
@@ -157,14 +157,14 @@
     "losingTrades": 4,
     "symbols": [
       "RELI",
-      "GURE",
-      "51",
       "LSE",
-      "APVO"
+      "51",
+      "APVO",
+      "GURE"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 05:08:03"
+    "processedAt": "2025-07-27 05:10:27"
   }
 }
