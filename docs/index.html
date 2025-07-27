@@ -201,6 +201,8 @@
             const yearData = data.yearData || {};
             const stats = data.yearStats || {};
             
+            console.log('Dashboard data loaded:', { yearData, stats });
+            
             // Update metrics with animation
             animateValue('totalPnl', 0, stats.total_pnl || 0, 1000, true);
             animateValue('totalTrades', 0, stats.total_trades || 0, 1000);
@@ -248,6 +250,9 @@
                 }
             });
             
+            console.log('Calendar data prepared:', calData);
+            console.log('First few timestamps:', Object.keys(calData).slice(0, 5));
+            
             const cal = new CalHeatmap();
             cal.init({
                 itemSelector: "#cal-heatmap",
@@ -266,53 +271,30 @@
                     max: "#10b981",
                     empty: "#e5e7eb"
                 },
-                legendCellSize: 15,
-                legendVerticalPosition: "center",
-                legendOrientation: "vertical",
-                legendMargin: [0, 20, 0, 0],
-                displayLegend: true,
+                displayLegend: false,
                 itemName: ["trade", "trades"],
                 tooltip: true,
-                considerMissingDataAsZero: false,
                 onClick: function(date, value) {
                     const dateStr = new Date(date).toISOString().split('T')[0];
                     const data = yearData[dateStr];
                     if (data && data.trades > 0) {
                         alert(`Date: ${dateStr}\nTrades: ${data.trades}\nP&L: $${data.pnl.toFixed(2)}\nWin Rate: ${(data.winRate * 100).toFixed(1)}%`);
                     }
-                },
-                afterLoadData: function(data) {
-                    // Color based on P&L value
-                    const parser = function(data) {
-                        const parsed = {};
-                        for (let key in data) {
-                            const value = data[key];
-                            if (value < 0) {
-                                parsed[key] = 5; // Red for losses
-                            } else if (value === 0) {
-                                parsed[key] = 1; // Yellow for break even
-                            } else if (value < 0.05) {
-                                parsed[key] = 2; // Light green
-                            } else if (value < 0.1) {
-                                parsed[key] = 3; // Medium green
-                            } else {
-                                parsed[key] = 4; // Dark green
-                            }
-                        }
-                        return parsed;
-                    };
-                    return parser(data);
                 }
             });
         }
         
         function createCharts(yearData) {
             // Prepare data
-            const dailyDates = Object.keys(yearData).filter(date => yearData[date].trades > 0);
+            const dailyDates = Object.keys(yearData).filter(date => yearData[date].trades > 0).sort();
             const dailyPnl = dailyDates.map(date => yearData[date].pnl);
             
+            console.log('Creating charts with dates:', dailyDates.length, 'trades');
+            console.log('First few dates:', dailyDates.slice(0, 5));
+            
             // Daily P&L Chart
-            new Chart(document.getElementById('dailyPnlChart'), {
+            const ctx1 = document.getElementById('dailyPnlChart').getContext('2d');
+            new Chart(ctx1, {
                 type: 'bar',
                 data: {
                     labels: dailyDates.map(d => {
@@ -360,7 +342,8 @@
                 return cumulative;
             });
             
-            new Chart(document.getElementById('cumulativePnlChart'), {
+            const ctx2 = document.getElementById('cumulativePnlChart').getContext('2d');
+            new Chart(ctx2, {
                 type: 'line',
                 data: {
                     labels: dailyDates.map(d => {
@@ -418,7 +401,8 @@
             const monthlyPnl = months.map(m => monthlyData[m].pnl);
             const monthlyTrades = months.map(m => monthlyData[m].trades);
             
-            new Chart(document.getElementById('monthlyChart'), {
+            const ctx3 = document.getElementById('monthlyChart').getContext('2d');
+            new Chart(ctx3, {
                 type: 'bar',
                 data: {
                     labels: months.map(m => {
