@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:18:21",
+  "exportDate": "2025-07-27 05:29:51",
   "account": "ZI*******64",
   "date": "2025-06-04",
   "trades": [
@@ -336,14 +336,14 @@
     "winningTrades": 8,
     "losingTrades": 10,
     "symbols": [
-      "SXTC",
-      "VCIG",
+      "MULN",
       "KWM",
-      "MULN"
+      "VCIG",
+      "SXTC"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 05:18:21"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 05:29:51"
   }
 }

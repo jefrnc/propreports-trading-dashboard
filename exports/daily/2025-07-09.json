@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:18:26",
+  "exportDate": "2025-07-27 05:29:56",
   "account": "ZI*******64",
   "date": "2025-07-09",
   "trades": [
@@ -212,13 +212,13 @@
     "symbols": [
       "PROK",
       "KZIA",
+      "BTCS",
       "CLDI",
-      "EVOK",
-      "BTCS"
+      "EVOK"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 05:18:26"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 05:29:56"
   }
 }

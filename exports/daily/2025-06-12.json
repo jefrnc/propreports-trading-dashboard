@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:18:23",
+  "exportDate": "2025-07-27 05:29:52",
   "account": "ZI*******64",
   "date": "2025-06-12",
   "trades": [
@@ -157,14 +157,14 @@
     "losingTrades": 4,
     "symbols": [
       "RSLS",
-      "HCTI",
       "KLTO",
-      "NEHC",
-      "CGTL"
+      "HCTI",
+      "CGTL",
+      "NEHC"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 05:18:23"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 05:29:52"
   }
 }

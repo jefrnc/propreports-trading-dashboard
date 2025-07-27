@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:18:27",
+  "exportDate": "2025-07-27 05:29:57",
   "account": "ZI*******64",
   "date": "2025-07-14",
   "trades": [
@@ -588,22 +588,22 @@
     "winningTrades": 24,
     "losingTrades": 8,
     "symbols": [
+      "ABVE",
       "WINT",
+      "GRO",
+      "BDRX",
       "INKT",
       "SINT",
-      "BDRX",
+      "SQFT",
       "BMNR",
       "TROO",
-      "GRO",
-      "SQFT",
-      "DARE",
       "RANI",
-      "ABVE",
-      "AIFF"
+      "AIFF",
+      "DARE"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 05:18:27"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 05:29:57"
   }
 }

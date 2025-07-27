@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:18:27",
+  "exportDate": "2025-07-27 05:29:57",
   "account": "ZI*******64",
   "date": "2025-07-15",
   "trades": [
@@ -444,20 +444,20 @@
     "winningTrades": 19,
     "losingTrades": 5,
     "symbols": [
+      "KAPA",
       "PROK",
+      "GRO",
       "INKT",
       "SGN",
-      "CYCC",
-      "SMX",
-      "KAPA",
-      "SXTP",
       "BMNR",
-      "GRO",
-      "BLMZ"
+      "SXTP",
+      "SMX",
+      "BLMZ",
+      "CYCC"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 05:18:27"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 05:29:57"
   }
 }

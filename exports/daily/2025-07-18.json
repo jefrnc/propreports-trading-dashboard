@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:18:28",
+  "exportDate": "2025-07-27 05:29:58",
   "account": "ZI*******64",
   "date": "2025-07-18",
   "trades": [
@@ -139,13 +139,13 @@
     "losingTrades": 3,
     "symbols": [
       "MEIP",
+      "UAVS",
       "BMNR",
-      "SBET",
-      "UAVS"
+      "SBET"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 05:18:28"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 05:29:58"
   }
 }

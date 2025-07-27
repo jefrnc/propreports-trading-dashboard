@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:18:28",
+  "exportDate": "2025-07-27 05:29:57",
   "account": "ZI*******64",
   "date": "2025-07-16",
   "trades": [
@@ -282,19 +282,19 @@
     "winningTrades": 13,
     "losingTrades": 2,
     "symbols": [
-      "GAME",
-      "APM",
-      "VCIG",
-      "CYCC",
       "NUWE",
-      "DPRO",
       "SBET",
       "QLGN",
-      "ABVE"
+      "CYCC",
+      "GAME",
+      "APM",
+      "ABVE",
+      "VCIG",
+      "DPRO"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-07-27 05:18:28"
+    "reprocessed": true,
+    "processedAt": "2025-07-27 05:29:57"
   }
 }
