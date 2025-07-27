@@ -2,7 +2,7 @@
 
 This repository demonstrates the [PropReports Auto-Exporter](https://github.com/jefrnc/propreports-auto-exporter) GitHub Action in action!
 
-![Dashboard Preview](docs/images/dashboard-preview.png)
+![Dashboard Preview](docs/images/dashboard-preview.jpg)
 
 ## 🎯 What This Shows
 
