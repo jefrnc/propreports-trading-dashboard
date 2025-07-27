@@ -2,161 +2,163 @@
 
 ## 📋 Overview
 
-This repository has 5 GitHub Actions workflows that work together to automate trading data collection, analysis, and visualization.
+Este repositorio tiene 5 workflows organizados que automatizan la recolección, análisis y visualización de datos de trading.
 
-## 🎯 Workflow Descriptions
+## 🎯 Workflows y sus Propósitos
 
-### 1. **Export Trading Data** (`export.yml`)
-- **Purpose**: Fetches daily trading data from PropReports
-- **Trigger**: 
-  - Automatically at 10 PM EST daily (`cron: '0 3 * * *'`)
-  - Manual via workflow_dispatch
-- **What it does**:
-  - Downloads today's trades
-  - Processes last 3 days (for late-reported trades)
-  - Generates weekly/monthly summaries when needed
-  - Commits data to `exports/` directory
+### 1. **01 - Daily Export** (`01-daily-export.yml`)
+**Propósito**: Exporta datos diarios de trading
+- **Cuándo corre**: Todos los días a las 10 PM EST
+- **Qué hace**:
+  1. Exporta trades del día
+  2. Reprocesa últimos 3 días (por trades reportados tarde)
+  3. Dispara actualización de stats y deploy
+- **Trigger**: Automático diario + Manual
 
-### 2. **Update Trading Statistics** (`update-stats.yml`)
-- **Purpose**: Updates README stats, calendar, and dashboard data
-- **Trigger**:
-  - Automatically after "Export Trading Data" completes
-  - Daily at 11 PM EST (`cron: '0 4 * * *'`)
-  - Manual via workflow_dispatch
-- **What it does**:
-  - Updates live statistics in README
-  - Generates trading calendar SVG
-  - Creates dashboard-data.json
-  - Deploys to GitHub Pages
+### 2. **02 - Reprocess Last 6 Months** (`02-reprocess-6-months.yml`)
+**Propósito**: Reprocesa 6 meses de datos históricos
+- **Cuándo usarlo**:
+  - Necesitas corregir datos
+  - Empezaste a usar la action recientemente
+  - Recuperar datos perdidos
+- **Qué hace**:
+  1. Exporta 180 días de datos
+  2. Dispara actualización de stats y deploy
+- **Trigger**: Solo manual
 
-### 3. **Deploy to GitHub Pages** (`pages.yml`)
-- **Purpose**: Publishes the web dashboard
-- **Trigger**:
-  - On push to main branch
-  - Manual via workflow_dispatch
-- **What it does**:
-  - Deploys `docs/` folder to GitHub Pages
-  - Makes dashboard available at https://jefrnc.github.io/propreports-trading-dashboard/
+### 3. **03 - Reprocess Last Year** (`03-reprocess-1-year.yml`)
+**Propósito**: Reprocesa 1 año completo de datos
+- **Cuándo usarlo**:
+  - Análisis anual
+  - Recuperación mayor de datos
+  - Auditorías completas
+- **Qué hace**:
+  1. Exporta 365 días de datos
+  2. Dispara actualización de stats y deploy
+- **Trigger**: Solo manual
 
-### 4. **Reprocess Last 6 Months** (`reprocess-6-months.yml`)
-- **Purpose**: Bulk reprocess 180 days of historical data
-- **Trigger**: Manual only (workflow_dispatch)
-- **Use case**: When you need to fix data or recover from issues
+### 4. **04 - Update Stats and Deploy** (`04-update-stats-and-deploy.yml`)
+**Propósito**: Actualiza estadísticas y publica en GitHub Pages
+- **Cuándo corre**:
+  - Después de CUALQUIER export workflow
+  - En push a main (carpeta exports/)
+  - Manual
+- **Qué hace**:
+  1. Actualiza estadísticas del README
+  2. Genera calendario SVG
+  3. Crea dashboard-data.json
+  4. Despliega a GitHub Pages
+- **Trigger**: Automático + Manual
 
-### 5. **Reprocess Last Year** (`reprocess-1-year.yml`)
-- **Purpose**: Bulk reprocess 365 days of historical data
-- **Trigger**: Manual only (workflow_dispatch)
-- **Use case**: Annual reviews or major data corrections
+### 5. **05 - Manual Deploy** (`05-manual-deploy.yml`)
+**Propósito**: Deploy manual sin actualizar datos
+- **Cuándo usarlo**:
+  - Editaste HTML/CSS del dashboard
+  - Necesitas redesplegar sin cambiar datos
+  - Troubleshooting
+- **Qué hace**:
+  - Solo despliega docs/ a GitHub Pages
+- **Trigger**: Push a docs/ + Manual
 
-## 🔄 Workflow Execution Flow
+## 🔄 Flujo de Ejecución
 
 ```mermaid
 graph TD
-    A[Daily at 10 PM EST] --> B[Export Trading Data]
-    B --> C[Update Trading Statistics]
-    C --> D[Deploy to GitHub Pages]
+    A[Daily Export<br/>10 PM EST] -->|Trigger| B[Update Stats & Deploy]
+    C[Reprocess 6 Months] -->|Trigger| B
+    D[Reprocess 1 Year] -->|Trigger| B
+    B --> E[GitHub Pages<br/>Dashboard Live]
     
-    E[Manual Trigger] --> B
-    E --> C
-    E --> D
+    F[Push to exports/] --> B
+    G[Manual Trigger] -.-> A
+    G -.-> C
+    G -.-> D
+    G -.-> B
     
-    F[Push to main] --> D
-    
-    G[Manual Reprocess] --> H[Reprocess 6 Months/1 Year]
-    H --> C
+    style A fill:#bbf,stroke:#333,stroke-width:2px
+    style B fill:#bfb,stroke:#333,stroke-width:2px
+    style E fill:#fbf,stroke:#333,stroke-width:2px
 ```
 
-## ⏰ Daily Schedule
+## ⏰ Horario Diario
 
-1. **10:00 PM EST**: Export Trading Data runs
-   - Fetches today's trades
-   - Checks last 3 days for updates
-   - Generates summaries
+| Hora EST | Workflow | Acción |
+|----------|----------|--------|
+| 10:00 PM | 01-Daily Export | Inicia export de datos |
+| 10:03 PM | 04-Update Stats | Se dispara automáticamente |
+| 10:05 PM | GitHub Pages | Dashboard actualizado |
 
-2. **10:05 PM EST** (approx): Export completes
-   - Data committed to repository
+## 🚀 Comandos Útiles
 
-3. **10:06 PM EST**: Update Trading Statistics triggered
-   - Reads all export files
-   - Updates README statistics
-   - Generates calendar and dashboard data
-
-4. **10:08 PM EST**: Pages deployment
-   - Dashboard updated on GitHub Pages
-
-## 🚀 Manual Operations
-
-### Need to reprocess recent data?
 ```bash
-# Trigger export manually
-gh workflow run "Export Trading Data"
-```
+# Ver todos los workflows
+gh workflow list
 
-### Need to update statistics only?
-```bash
-# Update stats without new export
-gh workflow run "Update Trading Statistics"
-```
+# Ejecutar export diario manualmente
+gh workflow run "01 - Daily Export"
 
-### Need historical data?
-```bash
-# Last 6 months
-gh workflow run "Reprocess Last 6 Months"
+# Reprocesar 6 meses
+gh workflow run "02 - Reprocess Last 6 Months"
 
-# Full year
-gh workflow run "Reprocess Last Year"
+# Reprocesar 1 año
+gh workflow run "03 - Reprocess Last Year"
+
+# Actualizar stats manualmente
+gh workflow run "04 - Update Stats and Deploy"
+
+# Ver estado de workflows
+gh run list --limit 5
 ```
 
 ## 🔧 Troubleshooting
 
-### Statistics not updating?
-1. Check if Export Trading Data completed successfully
-2. Run Update Trading Statistics manually
-3. Check workflow logs for errors
+### Stats no se actualizan
+1. Verifica que el export completó exitosamente
+2. Ejecuta manualmente: `gh workflow run "04 - Update Stats and Deploy"`
+3. Revisa los logs del workflow
 
-### Dashboard not showing latest data?
-1. Verify dashboard-data.json was updated
-2. Check GitHub Pages deployment status
-3. Clear browser cache (the dashboard has fallback data)
+### Dashboard no muestra datos nuevos
+1. Verifica que dashboard-data.json se actualizó
+2. Limpia caché del navegador
+3. Espera 5 minutos (GitHub Pages cache)
 
-### Missing historical data?
-1. Run appropriate reprocess workflow
-2. Wait for Update Trading Statistics to run
-3. Check exports/ directory for data files
+### Faltan datos históricos
+```bash
+# Para últimos 6 meses
+gh workflow run "02 - Reprocess Last 6 Months"
 
-## 📁 Data Flow
-
-```
-PropReports API
-    ↓
-Export Trading Data
-    ↓
-exports/
-├── daily/YYYY-MM-DD.json      ← Daily trades
-├── weekly/YYYY-WXX.json       ← Weekly summaries
-└── monthly/YYYY-MM.json       ← Monthly summaries
-    ↓
-Update Trading Statistics
-    ↓
-├── README.md                  ← Live stats
-├── .github/assets/calendar.svg ← Trading calendar
-└── docs/dashboard-data.json   ← Dashboard data
-    ↓
-GitHub Pages
-    ↓
-https://jefrnc.github.io/propreports-trading-dashboard/
+# Para todo el año
+gh workflow run "03 - Reprocess Last Year"
 ```
 
-## 💡 Best Practices
+## 📁 Estructura de Datos
 
-1. **Let workflows run automatically** - The schedule is optimized for daily trading
-2. **Use reprocess workflows sparingly** - They use more API calls
-3. **Check logs if something fails** - Most issues are temporary
-4. **Don't run multiple exports simultaneously** - Can cause data conflicts
+```
+PropReports → Export Workflows → exports/
+                                    ├── daily/
+                                    ├── weekly/
+                                    └── monthly/
+                                         ↓
+                              Update Stats Workflow
+                                         ↓
+                                 ├── README.md (stats)
+                                 ├── calendar.svg
+                                 └── dashboard-data.json
+                                         ↓
+                                  GitHub Pages
+                                         ↓
+                              https://jefrnc.github.io/
+```
 
-## 🔒 Security Notes
+## 💡 Tips
 
-- All credentials stored as GitHub Secrets
-- Account numbers automatically obfuscated
-- Data remains in your private repository
-- GitHub Pages can be made private if needed
+1. **Deja que los workflows corran automáticamente** - El daily export está optimizado
+2. **Usa reprocess con moderación** - Consume más llamadas API
+3. **Si algo falla, espera 5 minutos** - A veces es tema de timing
+4. **GitHub Pages tarda ~5 min** - Ten paciencia después del deploy
+
+## 🔒 Seguridad
+
+- Credenciales en GitHub Secrets
+- Números de cuenta ofuscados automáticamente
+- Datos en tu repositorio privado

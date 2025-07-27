@@ -1,23 +1,32 @@
-name: Update Trading Statistics
+name: 04 - Update Stats and Deploy
+# Purpose: Updates all statistics and deploys to GitHub Pages
+# Triggers:
+#   - Automatically after any export workflow
+#   - On push to main branch (exports folder)
+#   - Manual trigger
+# What it does:
+#   1. Updates README statistics
+#   2. Generates trading calendar SVG
+#   3. Creates dashboard-data.json
+#   4. Deploys everything to GitHub Pages
 
 on:
-  # Run after export workflow completes
-  workflow_run:
-    workflows: ["Export Trading Data"]
-    types:
-      - completed
+  # Triggered by other workflows
+  repository_dispatch:
+    types: [update-stats]
   
-  # Also allow manual trigger
+  # On push to main branch
+  push:
+    branches: [main]
+    paths:
+      - 'exports/**'
+  
+  # Manual trigger
   workflow_dispatch:
-  
-  # Run daily at 11 PM EST (after exports)
-  schedule:
-    - cron: '0 4 * * *'  # 4 AM UTC = 11 PM EST
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
     
     permissions:
       contents: write

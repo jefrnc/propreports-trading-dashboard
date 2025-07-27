@@ -1,0 +1,38 @@
+name: 02 - Reprocess Last 6 Months
+# Purpose: Manual workflow to reprocess 6 months of historical data
+# Use when:
+#   - You need to fix data issues
+#   - You started using the action recently
+#   - You want to recover missing data
+# What it does:
+#   1. Exports 180 days of trading data
+#   2. Triggers stats update and GitHub Pages deployment
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reprocess:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: Export PropReports Data (Last 6 Months)
+      uses: jefrnc/propreports-auto-exporter@v1
+      with:
+        propreports-domain: ${{ secrets.PROPREPORTS_DOMAIN }}
+        propreports-user: ${{ secrets.PROPREPORTS_USER }}
+        propreports-pass: ${{ secrets.PROPREPORTS_PASS }}
+        reprocess-days: '180'     # 6 months
+        obfuscate-account: 'true'
+    
+    - name: Trigger Stats Update
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        event-type: update-stats
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
