@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v3
     
     - name: Export PropReports Data (Last Year)
-      uses: jefrnc/propreports-auto-exporter@v1
+      uses: jefrnc/propreports-auto-exporter@v1.3.0
       with:
         propreports-domain: ${{ secrets.PROPREPORTS_DOMAIN }}
         propreports-user: ${{ secrets.PROPREPORTS_USER }}
