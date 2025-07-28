@@ -311,6 +311,40 @@
                 </div>
             </div>
         </div>
+        
+        <!-- AI Trading Coach Section -->
+        <div id="coachingSection" class="container mx-auto px-4 mb-12" style="display: none;">
+            <div class="content-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 1.1s">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <svg class="w-8 h-8 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                    </svg>
+                    AI Trading Coach - Monthly Review
+                </h2>
+                
+                <div id="monthlyCoachingContent" class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-lg p-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-green-600 mb-2">💪 Strengths</h4>
+                            <ul id="monthlyStrengths" class="space-y-1 text-sm"></ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-orange-600 mb-2">🎯 Areas for Improvement</h4>
+                            <ul id="monthlyImprovements" class="space-y-1 text-sm"></ul>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+                        <h4 class="font-semibold text-purple-600 mb-2">🚀 Next Month Focus</h4>
+                        <ul id="monthlyFocus" class="space-y-1 text-sm"></ul>
+                    </div>
+                    
+                    <div class="mt-4 text-xs text-gray-500">
+                        Last updated: <span id="coachingLastUpdate">N/A</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     <script>
@@ -341,6 +375,9 @@
                     setupNavigation();
                 } catch (fallbackError) {
                     console.error('Error loading fallback data:', fallbackError);
+                    // Display no data available
+                    displayNoData(currentMonth, currentYear);
+                    setupNavigation();
                 }
             }
         }
@@ -425,6 +462,9 @@
                 document.getElementById('monthlyWinners').innerHTML = '<tr><td colspan="4" class="text-center text-gray-500 py-4">No data available</td></tr>';
                 document.getElementById('monthlyLosers').innerHTML = '<tr><td colspan="4" class="text-center text-gray-500 py-4">No data available</td></tr>';
             }
+            
+            // Load coaching data
+            loadMonthlyCoaching(month, year);
         }
         
         function displayMonthDataFallback(data, month, year) {
@@ -700,6 +740,105 @@
                 `;
                 tbody.appendChild(row);
             });
+        }
+        
+        function displayNoData(month, year) {
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
+                               'July', 'August', 'September', 'October', 'November', 'December'];
+            
+            // Update title
+            document.getElementById('monthTitle').textContent = `${monthNames[month - 1]} ${year}`;
+            
+            // Update all metrics to show no data
+            document.getElementById('monthPnl').textContent = '$0.00';
+            document.getElementById('monthPnl').className = 'text-3xl font-bold text-gray-400';
+            document.getElementById('monthTrades').textContent = '0';
+            document.getElementById('monthWinRate').textContent = '0%';
+            document.getElementById('bestDay').textContent = 'N/A';
+            document.getElementById('bestDay').className = 'text-2xl font-bold text-gray-400';
+            document.getElementById('worstDay').textContent = 'N/A';
+            document.getElementById('worstDay').className = 'text-2xl font-bold text-gray-400';
+            document.getElementById('tradingDays').textContent = '0';
+            
+            // Show no data message in calendar
+            const calendarContainer = document.querySelector('.calendar-container');
+            if (calendarContainer) {
+                calendarContainer.innerHTML = '<div class="text-center py-8 text-gray-500">No trading data available for this month</div>';
+            }
+            
+            // Show no data in charts
+            const chartContainer = document.getElementById('dailyChart');
+            if (chartContainer) {
+                chartContainer.innerHTML = '<div class="text-center py-8 text-gray-500">No data to display</div>';
+            }
+            
+            // Show no data in trade tables
+            document.getElementById('monthlyWinners').innerHTML = '<tr><td colspan="4" class="text-center text-gray-500 py-4">No trades available</td></tr>';
+            document.getElementById('monthlyLosers').innerHTML = '<tr><td colspan="4" class="text-center text-gray-500 py-4">No trades available</td></tr>';
+        }
+        
+        async function loadMonthlyCoaching(month, year) {
+            try {
+                // Load dashboard data to check for coaching
+                const response = await fetch('dashboard-data.json');
+                const data = await response.json();
+                
+                if (data.coaching && data.coaching.enabled && data.coaching.monthly) {
+                    // Find coaching for this month
+                    const monthStr = `${year}-${String(month).padStart(2, '0')}`;
+                    const monthlyCoaching = data.coaching.monthly.find(c => c.period === monthStr);
+                    
+                    if (monthlyCoaching) {
+                        displayMonthlyCoaching(monthlyCoaching);
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading coaching data:', error);
+            }
+        }
+        
+        function displayMonthlyCoaching(monthlyData) {
+            const coaching = monthlyData.coaching;
+            if (!coaching) return;
+            
+            // Show coaching section
+            document.getElementById('coachingSection').style.display = 'block';
+            
+            // Populate strengths
+            const strengthsList = document.getElementById('monthlyStrengths');
+            strengthsList.innerHTML = '';
+            (coaching.strengths || []).forEach(strength => {
+                const li = document.createElement('li');
+                li.textContent = strength;
+                li.className = 'text-green-700 dark:text-green-300';
+                strengthsList.appendChild(li);
+            });
+            
+            // Populate improvements
+            const improvementsList = document.getElementById('monthlyImprovements');
+            improvementsList.innerHTML = '';
+            (coaching.areas_for_improvement || []).forEach(improvement => {
+                const li = document.createElement('li');
+                li.textContent = improvement;
+                li.className = 'text-orange-700 dark:text-orange-300';
+                improvementsList.appendChild(li);
+            });
+            
+            // Populate focus areas
+            const focusList = document.getElementById('monthlyFocus');
+            focusList.innerHTML = '';
+            (coaching.next_month_focus || []).forEach(focus => {
+                const li = document.createElement('li');
+                li.textContent = focus;
+                li.className = 'text-purple-700 dark:text-purple-300';
+                focusList.appendChild(li);
+            });
+            
+            // Update last update time
+            if (monthlyData.generated_at) {
+                const date = new Date(monthlyData.generated_at);
+                document.getElementById('coachingLastUpdate').textContent = date.toLocaleDateString();
+            }
         }
         
         function setupNavigation() {
