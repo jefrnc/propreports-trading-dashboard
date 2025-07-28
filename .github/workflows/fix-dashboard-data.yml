@@ -3,6 +3,9 @@ name: Fix Dashboard Data
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fix-data:
     runs-on: ubuntu-latest
