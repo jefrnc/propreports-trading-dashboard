@@ -11,6 +11,7 @@
     "bestDayPnL": -Infinity,
     "worstDay": null,
     "worstDayPnL": Infinity,
-    "tradingDays": 0
+    "tradingDays": 0,
+    "totalCommission": 0
   }
 }
