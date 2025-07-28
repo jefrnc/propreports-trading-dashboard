@@ -1,0 +1,38 @@
+name: Update Dashboard Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Add coaching section to dashboard data
+        run: |
+          # Add coaching section to dashboard-data.json
+          cd docs
+          
+          # Use jq to add coaching section if it doesn't exist
+          if ! jq -e '.coaching' dashboard-data.json > /dev/null 2>&1; then
+            jq '. + {"coaching": {"monthly": [], "weekly": [], "enabled": true}}' dashboard-data.json > temp.json
+            mv temp.json dashboard-data.json
+          fi
+          
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/dashboard-data.json
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "✨ Add coaching section to dashboard data"
+            git push
+          fi
