@@ -1138,5 +1138,10 @@
       "pnl": 0,
       "winRate": 0
     }
-  ]
+  ],
+  "coaching": {
+    "monthly": [],
+    "weekly": [],
+    "enabled": true
+  }
 }
