@@ -647,6 +647,7 @@
                     dayDiv.title = `${dateStr}: ${dayData && dayData.trades > 0 ? `$${dayData.pnl.toFixed(2)}` : 'No trades'}`;
                     
                     if (dayData && dayData.trades > 0) {
+                        dayDiv.style.cursor = 'pointer';
                         if (dayData.pnl > 0) {
                             dayDiv.style.backgroundColor = '#10b981';
                         } else if (dayData.pnl < 0) {
@@ -660,7 +661,8 @@
                     
                     dayDiv.onclick = function() {
                         if (dayData && dayData.trades > 0) {
-                            alert(`Date: ${dateStr}\nTrades: ${dayData.trades}\nP&L: $${dayData.pnl.toFixed(2)}\nWin Rate: ${(dayData.winRate * 100).toFixed(1)}%`);
+                            // Redirect to monthly page
+                            window.location.href = `month.html?month=${month}&year=${year}`;
                         }
                     };
                     
