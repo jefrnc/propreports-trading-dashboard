@@ -92,6 +92,51 @@
         .fade-in {
             animation: fadeIn 0.6s ease-out;
         }
+        
+        /* Tooltip Styles */
+        .tooltip {
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%) scale(0.9);
+            background: rgba(17, 24, 39, 0.95);
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 400;
+            max-width: 220px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s ease;
+            z-index: 50;
+            pointer-events: none;
+            white-space: normal;
+            text-align: center;
+            line-height: 1.5;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: rgba(17, 24, 39, 0.95);
+        }
+        
+        .tooltip-trigger {
+            position: relative;
+        }
+        
+        .tooltip-trigger:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) scale(1);
+        }
     </style>
 </head>
 <body class="min-h-screen">
@@ -104,74 +149,153 @@
     
     <div class="container mx-auto px-4 py-8 max-w-7xl">
         <header class="text-center mb-10 fade-in">
-            <h1 class="text-5xl font-bold text-gray-800 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-green-600">
+            <h1 class="text-5xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-green-600">
                 Trading Dashboard
             </h1>
+            <p class="text-lg" style="color: var(--text-secondary)">Real-time trading performance analytics</p>
         </header>
         
         <!-- Key Metrics -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-            <div class="metric-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.1s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total P&L</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mb-8">
+            <!-- First Row -->
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.1s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Total P&L</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
                 </div>
-                <p id="totalPnl" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Lifetime earnings</p>
+                <p id="totalPnl" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Lifetime earnings</p>
+                <div class="tooltip">Total profit/loss from all trades</div>
             </div>
             
-            <div class="metric-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.2s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Total Trades</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.2s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Total Trades</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                     </svg>
                 </div>
-                <p id="totalTrades" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Completed transactions</p>
+                <p id="totalTrades" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Completed</p>
+                <div class="tooltip">Total number of executed trades</div>
             </div>
             
-            <div class="metric-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.3s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Win Rate</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.3s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Win Rate</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
                     </svg>
                 </div>
-                <p id="winRate" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Success percentage</p>
+                <p id="winRate" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Success rate</p>
+                <div class="tooltip">Percentage of profitable trades</div>
             </div>
             
-            <div class="metric-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.4s">
-                <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Daily Average</h3>
-                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.4s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Daily Avg</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
                     </svg>
                 </div>
-                <p id="dailyAvg" class="text-3xl font-bold text-gray-800">Loading...</p>
-                <p class="text-xs text-gray-500 mt-2">Per trading day</p>
+                <p id="dailyAvg" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Per day</p>
+                <div class="tooltip">Average P&L per trading day</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.5s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Profit Factor</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h10m-5-3v3m6.06 4.19l2.12-2.12a1.5 1.5 0 00-2.12-2.12L15.06 9H9l-.94-.94a1.5 1.5 0 00-2.12 2.12l2.12 2.12"></path>
+                    </svg>
+                </div>
+                <p id="profitFactor" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Ratio</p>
+                <div class="tooltip">Gross profit / Gross loss ratio</div>
+            </div>
+            
+            <!-- Second Row -->
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.6s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Biggest Win</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                    </svg>
+                </div>
+                <p id="biggestWin" class="text-2xl font-bold text-green-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Best trade</p>
+                <div class="tooltip">Largest single profitable trade</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.7s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Biggest Loss</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path>
+                    </svg>
+                </div>
+                <p id="biggestLoss" class="text-2xl font-bold text-red-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Worst trade</p>
+                <div class="tooltip">Largest single losing trade</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.8s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Total Fees</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                </div>
+                <p id="totalFees" class="text-2xl font-bold">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Commissions</p>
+                <div class="tooltip">Total commissions paid</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 0.9s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Win Streak</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <p id="winStreak" class="text-2xl font-bold text-green-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Max consecutive</p>
+                <div class="tooltip">Longest winning streak</div>
+            </div>
+            
+            <div class="metric-card rounded-lg shadow p-4 fade-in tooltip-trigger" style="animation-delay: 1.0s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium uppercase" style="color: var(--text-secondary)">Loss Streak</h3>
+                    <svg class="w-5 h-5" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                </div>
+                <p id="lossStreak" class="text-2xl font-bold text-red-600">Loading...</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary)">Max consecutive</p>
+                <div class="tooltip">Longest losing streak</div>
             </div>
         </div>
         
         <!-- Calendar Heatmap -->
         <div class="content-card rounded-xl shadow-lg p-8 mb-10 fade-in" style="animation-delay: 0.5s">
-            <h2 class="text-2xl font-bold text-gray-800 mb-6">Trading Calendar 2025</h2>
+            <h2 class="text-2xl font-bold mb-6">Trading Calendar 2025</h2>
             
             <div class="flex justify-center mb-6 text-sm">
                 <div class="flex items-center mr-6">
                     <div class="w-4 h-4 rounded" style="background-color: #10b981"></div>
-                    <span class="text-gray-600 ml-2">Profit</span>
+                    <span class="ml-2" style="color: var(--text-secondary)">Profit</span>
                 </div>
                 <div class="flex items-center mr-6">
                     <div class="w-4 h-4 rounded" style="background-color: #ef4444"></div>
-                    <span class="text-gray-600 ml-2">Loss</span>
+                    <span class="ml-2" style="color: var(--text-secondary)">Loss</span>
                 </div>
                 <div class="flex items-center">
-                    <div class="w-4 h-4 rounded" style="background-color: #e5e7eb"></div>
-                    <span class="text-gray-600 ml-2">No Trades</span>
+                    <div class="w-4 h-4 rounded" style="background-color: var(--border-color)"></div>
+                    <span class="ml-2" style="color: var(--text-secondary)">No Trades</span>
                 </div>
             </div>
             
@@ -181,14 +305,14 @@
         <!-- Charts -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
             <div class="content-card rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.6s">
-                <h2 class="text-2xl font-bold text-gray-800 mb-6">Daily P&L</h2>
+                <h2 class="text-2xl font-bold mb-6" style="color: var(--text-primary)">Daily P&L</h2>
                 <div class="chart-container">
                     <canvas id="dailyPnlChart"></canvas>
                 </div>
             </div>
             
             <div class="content-card rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.7s">
-                <h2 class="text-2xl font-bold text-gray-800 mb-6">Cumulative P&L</h2>
+                <h2 class="text-2xl font-bold mb-6" style="color: var(--text-primary)">Cumulative P&L</h2>
                 <div class="chart-container">
                     <canvas id="cumulativePnlChart"></canvas>
                 </div>
@@ -197,14 +321,65 @@
         
         <!-- Monthly Breakdown -->
         <div class="content-card rounded-xl shadow-lg p-8 fade-in" style="animation-delay: 0.8s">
-            <h2 class="text-2xl font-bold text-gray-800 mb-6">Monthly Performance</h2>
+            <h2 class="text-2xl font-bold mb-6" style="color: var(--text-primary)">Monthly Performance</h2>
             <div class="chart-container" style="height: 400px;">
                 <canvas id="monthlyChart"></canvas>
             </div>
         </div>
+        
+        <!-- Top Trades Tables -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+            <!-- Top Winners -->
+            <div class="content-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.9s">
+                <h2 class="text-xl font-bold mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Top 10 Winning Trades
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b" style="border-color: var(--border-color)">
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Symbol</th>
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Date</th>
+                                <th class="text-right py-3 px-2 font-medium" style="color: var(--text-secondary)">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="topWinners" class="divide-y" style="color: var(--text-primary)">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Top Losers -->
+            <div class="content-card rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 1.0s">
+                <h2 class="text-xl font-bold mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Top 10 Losing Trades
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b" style="border-color: var(--border-color)">
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Symbol</th>
+                                <th class="text-left py-3 px-2 font-medium" style="color: var(--text-secondary)">Date</th>
+                                <th class="text-right py-3 px-2 font-medium" style="color: var(--text-secondary)">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="topLosers" class="divide-y" style="color: var(--text-primary)">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
     
-    <footer class="text-center py-8 text-gray-600">
+    <footer class="text-center py-8" style="color: var(--text-secondary)">
         <p>Generated on 2025-07-27</p>
         <p class="mt-2">
             <a href="https://github.com/jefrnc/propreports-auto-exporter" class="text-blue-600 hover:underline font-medium">
@@ -239,12 +414,44 @@
             animateValue('totalTrades', 0, stats.total_trades || 0, 1000);
             animateValue('winRate', 0, stats.win_rate || 0, 1000, false, '%');
             animateValue('dailyAvg', 0, stats.daily_avg || 0, 1000, true);
+            animateValue('profitFactor', 0, stats.profit_factor || 0, 1000);
+            animateValue('biggestWin', 0, stats.biggest_win || 0, 1000, true);
+            animateValue('biggestLoss', 0, stats.biggest_loss || 0, 1000, true);
+            animateValue('totalFees', 0, stats.total_fees || 0, 1000, true);
+            animateValue('winStreak', 0, stats.max_win_streak || 0, 1000);
+            animateValue('lossStreak', 0, stats.max_loss_streak || 0, 1000);
             
             // Create calendar with cal-heatmap
             createCalHeatmap(yearData);
             
             // Create charts
             createCharts(yearData);
+            
+            // Populate top trades tables
+            if (stats.top_winners && stats.top_losers) {
+                populateTopTrades('topWinners', stats.top_winners);
+                populateTopTrades('topLosers', stats.top_losers);
+            }
+        }
+        
+        function populateTopTrades(tableId, trades) {
+            const tbody = document.getElementById(tableId);
+            tbody.innerHTML = '';
+            
+            (trades || []).slice(0, 10).forEach(trade => {
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors';
+                const pnl = trade.net || trade.pnl || 0;
+                
+                row.innerHTML = `
+                    <td class="py-3 px-2 font-medium">${trade.symbol}</td>
+                    <td class="py-3 px-2">${new Date(trade.date).toLocaleDateString()}</td>
+                    <td class="py-3 px-2 text-right font-medium ${pnl >= 0 ? 'text-green-600' : 'text-red-600'}">
+                        ${pnl >= 0 ? '+' : ''}$${pnl.toFixed(2)}
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
         }
         
         function animateValue(id, start, end, duration, isCurrency = false, suffix = '') {
@@ -263,7 +470,9 @@
                 let displayValue = current;
                 if (isCurrency) {
                     element.textContent = '$' + displayValue.toFixed(2);
-                    element.className = 'text-3xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600');
+                    element.className = element.className.includes('text-2xl') ? 
+                        'text-2xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600') :
+                        'text-3xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600');
                 } else {
                     element.textContent = displayValue.toFixed(suffix === '%' ? 1 : 0) + suffix;
                 }
@@ -294,6 +503,20 @@
                 monthTitle.style.fontSize = '14px';
                 monthTitle.style.marginBottom = '5px';
                 monthTitle.style.textAlign = 'center';
+                monthTitle.style.cursor = 'pointer';
+                monthTitle.style.transition = 'all 0.2s ease';
+                monthTitle.style.color = 'var(--text-primary)';
+                monthTitle.addEventListener('mouseenter', () => {
+                    monthTitle.style.color = '#3b82f6';
+                    monthTitle.style.transform = 'scale(1.1)';
+                });
+                monthTitle.addEventListener('mouseleave', () => {
+                    monthTitle.style.color = 'var(--text-primary)';
+                    monthTitle.style.transform = 'scale(1)';
+                });
+                monthTitle.addEventListener('click', () => {
+                    window.location.href = `month.html?month=${monthIndex + 1}&year=${year}`;
+                });
                 monthDiv.appendChild(monthTitle);
                 
                 // Create days grid
@@ -309,7 +532,7 @@
                     labelDiv.textContent = label;
                     labelDiv.style.fontSize = '10px';
                     labelDiv.style.textAlign = 'center';
-                    labelDiv.style.color = '#666';
+                    labelDiv.style.color = 'var(--text-secondary)';
                     daysGrid.appendChild(labelDiv);
                 });
                 
@@ -539,6 +762,14 @@
                         x: {
                             grid: { display: false }
                         }
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const monthData = months[index];
+                            const [year, month] = monthData.split('-');
+                            window.location.href = `month.html?month=${parseInt(month)}&year=${year}`;
+                        }
                     }
                 }
             });
@@ -567,7 +798,7 @@
         
         // Load saved theme on page load
         document.addEventListener('DOMContentLoaded', function() {
-            const savedTheme = localStorage.getItem('theme') || 'light';
+            const savedTheme = localStorage.getItem('theme') || 'dark';
             document.documentElement.setAttribute('data-theme', savedTheme);
             
             if (savedTheme === 'dark') {
