@@ -626,20 +626,37 @@
             trades.forEach(trade => {
                 const row = document.createElement('tr');
                 row.className = 'hover:bg-gray-50 transition-colors';
-                const pnl = trade.net || trade.pnl || 0;
+                const pnl = trade.net || trade.pnl || trade.fifoPnlRealized || 0;
+                
+                // Determine trade type based on quantity or side
+                let tradeType = trade.type;
+                if (!tradeType) {
+                    if (trade.side) {
+                        tradeType = trade.side === 'BUY' ? 'Long' : 'Short';
+                    } else if (trade.quantity !== undefined) {
+                        tradeType = trade.quantity > 0 ? 'Long' : 'Short';
+                    } else {
+                        tradeType = 'N/A';
+                    }
+                }
+                
+                // Get date field (handle both formats)
+                const tradeDate = trade.date || trade.tradeDate || '';
                 
                 row.innerHTML = `
-                    <td class="py-3 px-2 font-medium text-gray-900">${trade.symbol}</td>
-                    <td class="py-3 px-2 text-gray-600">${formatDate(trade.date)}</td>
+                    <td class="py-3 px-2 font-medium text-gray-900">${trade.symbol || 'N/A'}</td>
+                    <td class="py-3 px-2 text-gray-600">${formatDate(tradeDate)}</td>
                     <td class="py-3 px-2">
                         <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                            trade.type === 'Long' ? 'bg-blue-100 text-blue-800' : 'bg-purple-100 text-purple-800'
+                            tradeType === 'Long' ? 'bg-blue-100 text-blue-800' : 
+                            tradeType === 'Short' ? 'bg-purple-100 text-purple-800' : 
+                            'bg-gray-100 text-gray-800'
                         }">
-                            ${trade.type}
+                            ${tradeType}
                         </span>
                     </td>
                     <td class="py-3 px-2 text-right font-medium ${pnl >= 0 ? 'text-green-600' : 'text-red-600'}">
-                        ${pnl >= 0 ? '+' : ''}$${pnl.toFixed(2)}
+                        ${pnl >= 0 ? '+' : ''}$${Math.abs(pnl).toFixed(2)}
                     </td>
                 `;
                 tbody.appendChild(row);
@@ -690,7 +707,23 @@
         }
         
         function formatDate(dateStr) {
-            const date = new Date(dateStr);
+            // Handle different date formats
+            let date;
+            if (dateStr && dateStr.length === 8) {
+                // IBKR format: "20250725"
+                const year = dateStr.substr(0, 4);
+                const month = dateStr.substr(4, 2);
+                const day = dateStr.substr(6, 2);
+                date = new Date(year + '-' + month + '-' + day);
+            } else {
+                // PropReports format: "2025-07-25"
+                date = new Date(dateStr);
+            }
+            
+            if (isNaN(date.getTime())) {
+                return 'N/A';
+            }
+            
             return `${date.getMonth() + 1}/${date.getDate()}`;
         }
         
