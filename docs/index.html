@@ -377,6 +377,74 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Coaching Section -->
+        <div id="coachingSection" class="container mx-auto px-4 mb-12" style="display: none;">
+            <div class="content-card rounded-xl shadow-lg p-6">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <svg class="w-8 h-8 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                    </svg>
+                    AI Trading Coach
+                </h2>
+                
+                <!-- Monthly Coaching -->
+                <div id="monthlyCoaching" class="mb-8" style="display: none;">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">📊 Monthly Performance Review</h3>
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-lg p-6 mb-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-green-600 mb-2">💪 Strengths</h4>
+                                <ul id="monthlyStrengths" class="space-y-1 text-sm"></ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-orange-600 mb-2">🎯 Areas for Improvement</h4>
+                                <ul id="monthlyImprovements" class="space-y-1 text-sm"></ul>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+                            <h4 class="font-semibold text-purple-600 mb-2">🚀 Next Month Focus</h4>
+                            <ul id="monthlyFocus" class="space-y-1 text-sm"></ul>
+                        </div>
+                        
+                        <div class="mt-4 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg">
+                            <p id="monthlyMotivation" class="text-sm italic text-gray-700 dark:text-gray-300"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Weekly Coaching -->
+                <div id="weeklyCoaching" class="mb-6" style="display: none;">
+                    <h3 class="text-xl font-semibold mb-4 text-green-600">📈 Weekly Performance Review</h3>
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-lg p-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-blue-600 mb-2">⚡ Quick Wins</h4>
+                                <ul id="weeklyQuickWins" class="space-y-1 text-sm"></ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-red-600 mb-2">⚠️ Warning Signs</h4>
+                                <ul id="weeklyWarnings" class="space-y-1 text-sm"></ul>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+                            <h4 class="font-semibold text-indigo-600 mb-2">📅 Focus for Next Week</h4>
+                            <ul id="weeklyNextFocus" class="space-y-1 text-sm"></ul>
+                        </div>
+                        
+                        <div class="mt-4 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                            <p id="weeklyMotivation" class="text-sm italic text-gray-700 dark:text-gray-300"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-xs text-gray-500 text-center">
+                    <p>AI coaching powered by OpenAI GPT-4 • Last updated: <span id="coachingLastUpdate"></span></p>
+                </div>
+            </div>
+        </div>
     </div>
     
     <footer class="text-center py-8" style="color: var(--text-secondary)">
@@ -431,6 +499,11 @@
             if (stats.top_winners && stats.top_losers) {
                 populateTopTrades('topWinners', stats.top_winners);
                 populateTopTrades('topLosers', stats.top_losers);
+            }
+            
+            // Load and display coaching data
+            if (data.coaching) {
+                loadCoachingData(data.coaching);
             }
         }
         
@@ -825,6 +898,123 @@
         function updateChartsForTheme(theme) {
             // This would update chart colors when theme changes
             // For now, we'll leave it as a placeholder
+        }
+        
+        function loadCoachingData(coaching) {
+            console.log('Loading coaching data:', coaching);
+            
+            if (!coaching.enabled) {
+                console.log('Coaching is disabled');
+                return;
+            }
+            
+            // Show coaching section
+            document.getElementById('coachingSection').style.display = 'block';
+            
+            // Load latest monthly coaching
+            if (coaching.monthly && coaching.monthly.length > 0) {
+                const latestMonthly = coaching.monthly[coaching.monthly.length - 1];
+                displayMonthlyCoaching(latestMonthly);
+            }
+            
+            // Load latest weekly coaching
+            if (coaching.weekly && coaching.weekly.length > 0) {
+                const latestWeekly = coaching.weekly[coaching.weekly.length - 1];
+                displayWeeklyCoaching(latestWeekly);
+            }
+            
+            // Update last update time
+            const lastUpdate = coaching.monthly?.[coaching.monthly.length - 1]?.generated_at || 
+                             coaching.weekly?.[coaching.weekly.length - 1]?.generated_at || 
+                             'N/A';
+            if (lastUpdate !== 'N/A') {
+                const date = new Date(lastUpdate);
+                document.getElementById('coachingLastUpdate').textContent = date.toLocaleDateString();
+            }
+        }
+        
+        function displayMonthlyCoaching(monthlyData) {
+            const coaching = monthlyData.coaching;
+            if (!coaching) return;
+            
+            // Show monthly section
+            document.getElementById('monthlyCoaching').style.display = 'block';
+            
+            // Populate strengths
+            const strengthsList = document.getElementById('monthlyStrengths');
+            strengthsList.innerHTML = '';
+            (coaching.strengths || []).forEach(strength => {
+                const li = document.createElement('li');
+                li.textContent = strength;
+                li.className = 'text-green-700 dark:text-green-300';
+                strengthsList.appendChild(li);
+            });
+            
+            // Populate improvements
+            const improvementsList = document.getElementById('monthlyImprovements');
+            improvementsList.innerHTML = '';
+            (coaching.areas_for_improvement || []).forEach(improvement => {
+                const li = document.createElement('li');
+                li.textContent = improvement;
+                li.className = 'text-orange-700 dark:text-orange-300';
+                improvementsList.appendChild(li);
+            });
+            
+            // Populate next month focus
+            const focusList = document.getElementById('monthlyFocus');
+            focusList.innerHTML = '';
+            (coaching.next_month_focus || []).forEach(focus => {
+                const li = document.createElement('li');
+                li.textContent = focus;
+                li.className = 'text-purple-700 dark:text-purple-300';
+                focusList.appendChild(li);
+            });
+            
+            // Display motivation message
+            document.getElementById('monthlyMotivation').textContent = 
+                coaching.motivation_message || 'Keep up the great work!';
+        }
+        
+        function displayWeeklyCoaching(weeklyData) {
+            const coaching = weeklyData.coaching;
+            if (!coaching) return;
+            
+            // Show weekly section
+            document.getElementById('weeklyCoaching').style.display = 'block';
+            
+            // Populate quick wins
+            const quickWinsList = document.getElementById('weeklyQuickWins');
+            quickWinsList.innerHTML = '';
+            (coaching.quick_wins || []).forEach(win => {
+                const li = document.createElement('li');
+                li.textContent = win;
+                li.className = 'text-blue-700 dark:text-blue-300';
+                quickWinsList.appendChild(li);
+            });
+            
+            // Populate warning signs
+            const warningsList = document.getElementById('weeklyWarnings');
+            warningsList.innerHTML = '';
+            (coaching.warning_signs || []).forEach(warning => {
+                const li = document.createElement('li');
+                li.textContent = warning;
+                li.className = 'text-red-700 dark:text-red-300';
+                warningsList.appendChild(li);
+            });
+            
+            // Populate next week focus
+            const nextFocusList = document.getElementById('weeklyNextFocus');
+            nextFocusList.innerHTML = '';
+            (coaching.focus_for_next_week || []).forEach(focus => {
+                const li = document.createElement('li');
+                li.textContent = focus;
+                li.className = 'text-indigo-700 dark:text-indigo-300';
+                nextFocusList.appendChild(li);
+            });
+            
+            // Display motivation message
+            document.getElementById('weeklyMotivation').textContent = 
+                coaching.motivation_boost || 'Stay focused and keep improving!';
         }
     </script>
 </body>
