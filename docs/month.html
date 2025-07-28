@@ -376,10 +376,34 @@
             document.getElementById('tradingDays').textContent = data.summary.tradingDays;
             
             // Create calendar
-            createMonthCalendar(data.dailyData, month, year);
+            if (data.dailyData) {
+                createMonthCalendar(data.dailyData, month, year);
+            } else if (data.performanceAnalysis && data.performanceAnalysis.profitability_curve) {
+                // Create dailyData from profitability curve
+                const dailyData = {};
+                data.performanceAnalysis.profitability_curve.forEach(item => {
+                    dailyData[item.date] = {
+                        trades: item.daily_pnl !== 0 ? 1 : 0,
+                        pnl: item.daily_pnl
+                    };
+                });
+                createMonthCalendar(dailyData, month, year);
+            }
             
-            // Create daily chart
-            createDailyChart(data.dailyData, month, year);
+            // Create daily chart if data available
+            if (data.dailyData) {
+                createDailyChart(data.dailyData, month, year);
+            } else if (data.performanceAnalysis && data.performanceAnalysis.profitability_curve) {
+                // Use profitability curve data to create chart
+                const dailyData = {};
+                data.performanceAnalysis.profitability_curve.forEach(item => {
+                    dailyData[item.date] = {
+                        trades: item.daily_pnl !== 0 ? 1 : 0,
+                        pnl: item.daily_pnl
+                    };
+                });
+                createDailyChart(dailyData, month, year);
+            }
             
             // Populate top trades
             if (data.topWinners && data.topLosers) {

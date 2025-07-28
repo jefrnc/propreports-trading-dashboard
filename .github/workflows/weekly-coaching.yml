@@ -20,6 +20,10 @@ on:
         type: boolean
         default: false
 
+permissions:
+  contents: write
+  issues: write
+
 env:
   EXPORT_OUTPUT_DIR: "exports"
   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
