@@ -352,28 +352,39 @@
             // Update title
             document.getElementById('monthTitle').textContent = `${monthNames[month - 1]} ${year}`;
             
-            // Update metrics from summary
-            animateValue('monthPnl', 0, data.summary.totalPnL, 1000, true);
-            animateValue('monthTrades', 0, data.summary.totalTrades, 1000);
-            animateValue('monthWinRate', 0, data.summary.winRate, 1000, false, '%');
+            // Update metrics from overview
+            animateValue('monthPnl', 0, data.overview.netPnL, 1000, true);
+            animateValue('monthTrades', 0, data.overview.totalTrades, 1000);
+            animateValue('monthWinRate', 0, data.overview.winRate * 100, 1000, false, '%');
             
-            if (data.summary.bestDay) {
-                document.getElementById('bestDay').textContent = `$${data.summary.bestDayPnL.toFixed(2)}`;
+            // Calculate best and worst days from profitability curve
+            let bestDayPnL = 0;
+            let worstDayPnL = 0;
+            
+            if (data.performanceAnalysis && data.performanceAnalysis.profitability_curve) {
+                data.performanceAnalysis.profitability_curve.forEach(day => {
+                    if (day.daily_pnl > bestDayPnL) bestDayPnL = day.daily_pnl;
+                    if (day.daily_pnl < worstDayPnL) worstDayPnL = day.daily_pnl;
+                });
+            }
+            
+            if (bestDayPnL > 0) {
+                document.getElementById('bestDay').textContent = `$${bestDayPnL.toFixed(2)}`;
                 document.getElementById('bestDay').className = 'text-2xl font-bold text-green-600';
             } else {
                 document.getElementById('bestDay').textContent = 'N/A';
                 document.getElementById('bestDay').className = 'text-2xl font-bold text-gray-400';
             }
             
-            if (data.summary.worstDay) {
-                document.getElementById('worstDay').textContent = `$${data.summary.worstDayPnL.toFixed(2)}`;
+            if (worstDayPnL < 0) {
+                document.getElementById('worstDay').textContent = `$${worstDayPnL.toFixed(2)}`;
                 document.getElementById('worstDay').className = 'text-2xl font-bold text-red-600';
             } else {
                 document.getElementById('worstDay').textContent = 'N/A';
                 document.getElementById('worstDay').className = 'text-2xl font-bold text-gray-400';
             }
             
-            document.getElementById('tradingDays').textContent = data.summary.tradingDays;
+            document.getElementById('tradingDays').textContent = data.overview.totalTradingDays || 0;
             
             // Create calendar
             if (data.dailyData) {
