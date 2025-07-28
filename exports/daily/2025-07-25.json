@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-28 21:12:19",
+  "exportDate": "2025-07-28 21:16:56",
   "account": "ZI*******64",
   "date": "2025-07-25",
   "trades": [
@@ -246,18 +246,18 @@
     "winningTrades": 7,
     "losingTrades": 6,
     "symbols": [
-      "PHIO",
       "OCTO",
-      "IXHL",
-      "SMX",
-      "LIDR",
-      "ICCM",
       "BMNR",
+      "LIDR",
+      "PHIO",
+      "ICCM",
+      "SMX",
+      "IXHL",
       "SOWG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-28 21:12:19"
+    "processedAt": "2025-07-28 21:16:56"
   }
 }
