@@ -441,11 +441,26 @@
             (trades || []).slice(0, 10).forEach(trade => {
                 const row = document.createElement('tr');
                 row.className = 'hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors';
-                const pnl = trade.net || trade.pnl || 0;
+                const pnl = trade.net || trade.pnl || trade.fifoPnlRealized || 0;
+                
+                // Handle different date formats
+                let tradeDate;
+                if (trade.date) {
+                    // PropReports format: "2025-07-25"
+                    tradeDate = new Date(trade.date);
+                } else if (trade.tradeDate) {
+                    // IBKR format: "20250725"
+                    const dateStr = trade.tradeDate.toString();
+                    tradeDate = new Date(
+                        dateStr.substr(0, 4) + '-' + 
+                        dateStr.substr(4, 2) + '-' + 
+                        dateStr.substr(6, 2)
+                    );
+                }
                 
                 row.innerHTML = `
                     <td class="py-3 px-2 font-medium">${trade.symbol}</td>
-                    <td class="py-3 px-2">${new Date(trade.date).toLocaleDateString()}</td>
+                    <td class="py-3 px-2">${tradeDate ? tradeDate.toLocaleDateString() : 'N/A'}</td>
                     <td class="py-3 px-2 text-right font-medium ${pnl >= 0 ? 'text-green-600' : 'text-red-600'}">
                         ${pnl >= 0 ? '+' : ''}$${pnl.toFixed(2)}
                     </td>
