@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-07-28 21:16:57",
+  "generateDate": "2025-07-28 21:25:34",
   "weekPeriod": "2025-07-21 to 2025-07-27",
   "weekNumber": 30,
   "year": 2025,
@@ -197,14 +197,14 @@
       "trades": 13,
       "pnl": 16.72,
       "symbols": [
-        "OCTO",
-        "BMNR",
-        "LIDR",
         "PHIO",
-        "ICCM",
         "SMX",
-        "IXHL",
-        "SOWG"
+        "OCTO",
+        "ICCM",
+        "LIDR",
+        "BMNR",
+        "SOWG",
+        "IXHL"
       ]
     },
     {
