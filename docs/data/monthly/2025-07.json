@@ -1,0 +1,281 @@
+{
+  "month": 7,
+  "year": 2025,
+  "trades": [],
+  "dailyData": {
+    "2025-07-01": {
+      "trades": 2,
+      "pnl": 12.65,
+      "winRate": 0
+    },
+    "2025-07-02": {
+      "trades": 17,
+      "pnl": 21.6,
+      "winRate": 0
+    },
+    "2025-07-03": {
+      "trades": 1,
+      "pnl": -7.41,
+      "winRate": 0
+    },
+    "2025-07-08": {
+      "trades": 10,
+      "pnl": 18.66,
+      "winRate": 0
+    },
+    "2025-07-09": {
+      "trades": 11,
+      "pnl": 39.31,
+      "winRate": 0
+    },
+    "2025-07-10": {
+      "trades": 13,
+      "pnl": 15.4,
+      "winRate": 0
+    },
+    "2025-07-11": {
+      "trades": 18,
+      "pnl": -7.68,
+      "winRate": 0
+    },
+    "2025-07-14": {
+      "trades": 32,
+      "pnl": 111.19,
+      "winRate": 0
+    },
+    "2025-07-15": {
+      "trades": 24,
+      "pnl": 99.16,
+      "winRate": 0
+    },
+    "2025-07-16": {
+      "trades": 15,
+      "pnl": 38.89,
+      "winRate": 0
+    },
+    "2025-07-17": {
+      "trades": 2,
+      "pnl": -61.81,
+      "winRate": 0
+    },
+    "2025-07-18": {
+      "trades": 7,
+      "pnl": 18.2,
+      "winRate": 0
+    },
+    "2025-07-21": {
+      "trades": 9,
+      "pnl": 34.16,
+      "winRate": 0
+    },
+    "2025-07-23": {
+      "trades": 7,
+      "pnl": 46.13,
+      "winRate": 0
+    },
+    "2025-07-24": {
+      "trades": 16,
+      "pnl": 40.96,
+      "winRate": 0
+    },
+    "2025-07-25": {
+      "trades": 13,
+      "pnl": 16.72,
+      "winRate": 0
+    }
+  },
+  "summary": {
+    "totalTrades": 197,
+    "totalPnL": 436.1299999999999,
+    "winRate": 72.58883248730965,
+    "bestDay": "2025-07-14",
+    "bestDayPnL": 111.19,
+    "worstDay": "2025-07-17",
+    "worstDayPnL": -61.81,
+    "tradingDays": 16
+  },
+  "topWinners": [
+    {
+      "date": "2025-07-15",
+      "opened": "07/15/25 11:04:34",
+      "closed": "11:26:37",
+      "held": "00:22:03",
+      "symbol": "CYCC",
+      "type": "Long",
+      "entry": 11.87,
+      "exit": 12.5367,
+      "size": 60.0,
+      "pnl": 40.0,
+      "commission": 0.18,
+      "net": 39.76,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 60.0,
+      "price": 11.87
+    },
+    {
+      "date": "2025-07-14",
+      "opened": "07/14/25 09:30:33",
+      "closed": "10:09:49",
+      "held": "00:39:16",
+      "symbol": "DARE",
+      "type": "Short",
+      "entry": 8.136,
+      "exit": 7.3143,
+      "size": 42.0,
+      "pnl": 34.51,
+      "commission": 0.13,
+      "net": 34.25,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 42.0,
+      "price": 8.136
+    },
+    {
+      "date": "2025-07-15",
+      "opened": "07/15/25 07:09:50",
+      "closed": "09:11:03",
+      "held": "02:01:13",
+      "symbol": "SXTP",
+      "type": "Short",
+      "entry": 3.1426,
+      "exit": 2.4762,
+      "size": 48.0,
+      "pnl": 31.98,
+      "commission": 0.14,
+      "net": 31.74,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 48.0,
+      "price": 3.1426
+    },
+    {
+      "date": "2025-07-23",
+      "opened": "07/23/25 09:39:27",
+      "closed": "16:16:48",
+      "held": "06:37:21",
+      "symbol": "PLRZ",
+      "type": "Short",
+      "entry": 2.0362,
+      "exit": 1.7129,
+      "size": 85.0,
+      "pnl": 27.48,
+      "commission": 0.26,
+      "net": 27.07,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 85.0,
+      "price": 2.0362
+    },
+    {
+      "date": "2025-07-14",
+      "opened": "07/14/25 11:35:00",
+      "closed": "15:53:44",
+      "held": "04:18:44",
+      "symbol": "TROO",
+      "type": "Short",
+      "entry": 2.0543,
+      "exit": 1.7174,
+      "size": 75.0,
+      "pnl": 25.26,
+      "commission": 0.23,
+      "net": 24.87,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 75.0,
+      "price": 2.0543
+    }
+  ],
+  "topLosers": [
+    {
+      "date": "2025-07-17",
+      "opened": "07/16/25 07:53:19",
+      "closed": "19:38:28",
+      "held": "1d 11:45:09",
+      "symbol": "DPRO",
+      "type": "Short",
+      "entry": 5.0966,
+      "exit": 5.9786,
+      "size": 70.0,
+      "pnl": -61.74,
+      "commission": 0.21,
+      "net": -62.19,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 70.0,
+      "price": 5.0966
+    },
+    {
+      "date": "2025-07-21",
+      "opened": "07/21/25 07:26:34",
+      "closed": "07:30:39",
+      "held": "00:04:05",
+      "symbol": "HSDT",
+      "type": "Short",
+      "entry": 14.202,
+      "exit": 16.051,
+      "size": 10.0,
+      "pnl": -18.49,
+      "commission": 0.03,
+      "net": -18.54,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 10.0,
+      "price": 14.202
+    },
+    {
+      "date": "2025-07-24",
+      "opened": "07/24/25 08:06:20",
+      "closed": "08:27:54",
+      "held": "00:21:34",
+      "symbol": "CYCC",
+      "type": "Long",
+      "entry": 21.7949,
+      "exit": 21.2216,
+      "size": 20.0,
+      "pnl": -11.47,
+      "commission": 0.06,
+      "net": -11.58,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 20.0,
+      "price": 21.7949
+    },
+    {
+      "date": "2025-07-11",
+      "opened": "07/11/25 07:14:31",
+      "closed": "07:26:30",
+      "held": "00:11:59",
+      "symbol": "SGN",
+      "type": "Long",
+      "entry": 3.6445,
+      "exit": 3.3628,
+      "size": 40.0,
+      "pnl": -11.27,
+      "commission": 0.12,
+      "net": -11.47,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 40.0,
+      "price": 3.6445
+    },
+    {
+      "date": "2025-07-15",
+      "opened": "07/15/25 09:26:26",
+      "closed": "10:16:08",
+      "held": "00:49:42",
+      "symbol": "KAPA",
+      "type": "Long",
+      "entry": 1.4028,
+      "exit": 1.2952,
+      "size": 93.0,
+      "pnl": -10.01,
+      "commission": 0.28,
+      "net": -10.49,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 93.0,
+      "price": 1.4028
+    }
+  ]
+}

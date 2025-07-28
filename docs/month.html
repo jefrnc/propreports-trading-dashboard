@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Trading Performance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .profit { color: #10b981; }
+        .loss { color: #ef4444; }
+        
+        .calendar-day {
+            aspect-ratio: 1;
+            position: relative;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .calendar-day:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+        
+        /* Tooltip Styles */
+        .tooltip {
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%) scale(0.9);
+            background: rgba(17, 24, 39, 0.95);
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 400;
+            max-width: 220px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s ease;
+            z-index: 50;
+            pointer-events: none;
+            white-space: normal;
+            text-align: center;
+            line-height: 1.5;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: rgba(17, 24, 39, 0.95);
+        }
+        
+        .tooltip-trigger {
+            position: relative;
+            cursor: help;
+        }
+        
+        .tooltip-visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) scale(1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <!-- Navigation -->
+        <nav class="mb-8 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <a href="index.html" class="text-blue-600 hover:underline flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                    </svg>
+                    Back to Dashboard
+                </a>
+                <span class="text-gray-400">|</span>
+                <span id="monthTitle" class="text-xl font-bold text-gray-800">Loading...</span>
+            </div>
+            <div class="flex items-center space-x-2">
+                <button id="prevMonth" class="p-2 rounded-lg bg-white shadow hover:shadow-md transition-shadow">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <button id="nextMonth" class="p-2 rounded-lg bg-white shadow hover:shadow-md transition-shadow">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Monthly Metrics -->
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-6">
+            <div class="metric-card bg-white rounded-lg shadow p-4 fade-in" style="animation-delay: 0.1s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium text-gray-500 uppercase">Month P&L</h3>
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <p id="monthPnl" class="text-2xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-1">This month</p>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow p-4 fade-in" style="animation-delay: 0.2s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium text-gray-500 uppercase">Trades</h3>
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                    </svg>
+                </div>
+                <p id="monthTrades" class="text-2xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-1">This month</p>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow p-4 fade-in" style="animation-delay: 0.3s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium text-gray-500 uppercase">Win Rate</h3>
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                </div>
+                <p id="monthWinRate" class="text-2xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-1">Success rate</p>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow p-4 fade-in" style="animation-delay: 0.4s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium text-gray-500 uppercase">Best Day</h3>
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                    </svg>
+                </div>
+                <p id="bestDay" class="text-2xl font-bold text-green-600">Loading...</p>
+                <p class="text-xs text-gray-500 mt-1">Highest profit</p>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow p-4 fade-in" style="animation-delay: 0.5s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium text-gray-500 uppercase">Worst Day</h3>
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path>
+                    </svg>
+                </div>
+                <p id="worstDay" class="text-2xl font-bold text-red-600">Loading...</p>
+                <p class="text-xs text-gray-500 mt-1">Biggest loss</p>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow p-4 fade-in" style="animation-delay: 0.6s">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xs font-medium text-gray-500 uppercase">Trading Days</h3>
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                </div>
+                <p id="tradingDays" class="text-2xl font-bold text-gray-800">Loading...</p>
+                <p class="text-xs text-gray-500 mt-1">Active days</p>
+            </div>
+        </div>
+        
+        <!-- Monthly Calendar -->
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8 fade-in" style="animation-delay: 0.7s">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Trading Calendar</h2>
+            <div id="monthCalendar" class="grid grid-cols-7 gap-2">
+                <!-- Calendar will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Daily P&L Chart -->
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8 fade-in" style="animation-delay: 0.8s">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Daily P&L Chart</h2>
+            <div class="chart-container" style="height: 300px;">
+                <canvas id="dailyChart"></canvas>
+            </div>
+        </div>
+        
+        <!-- Top Trades of the Month -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+            <!-- Top Winners -->
+            <div class="bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 0.9s">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Best Trades This Month
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b border-gray-200">
+                                <th class="text-left py-3 px-2 font-medium text-gray-700">Symbol</th>
+                                <th class="text-left py-3 px-2 font-medium text-gray-700">Date</th>
+                                <th class="text-left py-3 px-2 font-medium text-gray-700">Type</th>
+                                <th class="text-right py-3 px-2 font-medium text-gray-700">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="monthlyWinners" class="divide-y divide-gray-100">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Top Losers -->
+            <div class="bg-white rounded-xl shadow-lg p-6 fade-in" style="animation-delay: 1.0s">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                    <svg class="w-6 h-6 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Worst Trades This Month
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b border-gray-200">
+                                <th class="text-left py-3 px-2 font-medium text-gray-700">Symbol</th>
+                                <th class="text-left py-3 px-2 font-medium text-gray-700">Date</th>
+                                <th class="text-left py-3 px-2 font-medium text-gray-700">Type</th>
+                                <th class="text-right py-3 px-2 font-medium text-gray-700">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="monthlyLosers" class="divide-y divide-gray-100">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Get month and year from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        let currentMonth = parseInt(urlParams.get('month')) || new Date().getMonth() + 1;
+        let currentYear = parseInt(urlParams.get('year')) || new Date().getFullYear();
+        
+        // Load data
+        loadMonthData();
+        
+        async function loadMonthData() {
+            try {
+                // Load month-specific data
+                const monthFile = `data/monthly/${currentYear}-${String(currentMonth).padStart(2, '0')}.json`;
+                const response = await fetch(monthFile);
+                const monthData = await response.json();
+                
+                displayMonthData(monthData, currentMonth, currentYear);
+                setupNavigation();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                // Try loading from dashboard-data.json as fallback
+                try {
+                    const response = await fetch('dashboard-data.json');
+                    const data = await response.json();
+                    displayMonthDataFallback(data, currentMonth, currentYear);
+                    setupNavigation();
+                } catch (fallbackError) {
+                    console.error('Error loading fallback data:', fallbackError);
+                }
+            }
+        }
+        
+        function displayMonthData(data, month, year) {
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
+                               'July', 'August', 'September', 'October', 'November', 'December'];
+            
+            // Update title
+            document.getElementById('monthTitle').textContent = `${monthNames[month - 1]} ${year}`;
+            
+            // Update metrics from summary
+            animateValue('monthPnl', 0, data.summary.totalPnL, 1000, true);
+            animateValue('monthTrades', 0, data.summary.totalTrades, 1000);
+            animateValue('monthWinRate', 0, data.summary.winRate, 1000, false, '%');
+            
+            if (data.summary.bestDay) {
+                document.getElementById('bestDay').textContent = `$${data.summary.bestDayPnL.toFixed(2)}`;
+                document.getElementById('bestDay').className = 'text-2xl font-bold text-green-600';
+            } else {
+                document.getElementById('bestDay').textContent = 'N/A';
+                document.getElementById('bestDay').className = 'text-2xl font-bold text-gray-400';
+            }
+            
+            if (data.summary.worstDay) {
+                document.getElementById('worstDay').textContent = `$${data.summary.worstDayPnL.toFixed(2)}`;
+                document.getElementById('worstDay').className = 'text-2xl font-bold text-red-600';
+            } else {
+                document.getElementById('worstDay').textContent = 'N/A';
+                document.getElementById('worstDay').className = 'text-2xl font-bold text-gray-400';
+            }
+            
+            document.getElementById('tradingDays').textContent = data.summary.tradingDays;
+            
+            // Create calendar
+            createMonthCalendar(data.dailyData, month, year);
+            
+            // Create daily chart
+            createDailyChart(data.dailyData, month, year);
+            
+            // Populate top trades
+            if (data.topWinners && data.topLosers) {
+                populateMonthlyTradesTable('monthlyWinners', data.topWinners);
+                populateMonthlyTradesTable('monthlyLosers', data.topLosers);
+            }
+        }
+        
+        function displayMonthDataFallback(data, month, year) {
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
+                               'July', 'August', 'September', 'October', 'November', 'December'];
+            
+            // Update title
+            document.getElementById('monthTitle').textContent = `${monthNames[month - 1]} ${year}`;
+            
+            // Find month data
+            const monthData = data.monthlyData.find(m => m.month === month);
+            
+            if (monthData) {
+                // Update metrics
+                animateValue('monthPnl', 0, monthData.pnl, 1000, true);
+                animateValue('monthTrades', 0, monthData.trades, 1000);
+                animateValue('monthWinRate', 0, monthData.winRate * 100, 1000, false, '%');
+            }
+            
+            // Calculate daily stats for the month
+            const dailyStats = calculateMonthlyDailyStats(data.yearData, month, year);
+            
+            if (dailyStats.bestDay) {
+                document.getElementById('bestDay').textContent = `$${dailyStats.bestDayPnl.toFixed(2)}`;
+                document.getElementById('bestDay').className = 'text-2xl font-bold text-green-600';
+            }
+            
+            if (dailyStats.worstDay) {
+                document.getElementById('worstDay').textContent = `$${dailyStats.worstDayPnl.toFixed(2)}`;
+                document.getElementById('worstDay').className = 'text-2xl font-bold text-red-600';
+            }
+            
+            document.getElementById('tradingDays').textContent = dailyStats.tradingDays;
+            
+            // Create calendar
+            createMonthCalendar(data.yearData, month, year);
+            
+            // Create daily chart
+            createDailyChart(data.yearData, month, year);
+            
+            // Load top trades
+            loadMonthlyTopTrades(month, year);
+        }
+        
+        function calculateMonthlyDailyStats(yearData, month, year) {
+            let bestDay = null;
+            let worstDay = null;
+            let bestDayPnl = -Infinity;
+            let worstDayPnl = Infinity;
+            let tradingDays = 0;
+            
+            Object.keys(yearData).forEach(date => {
+                const dateObj = new Date(date);
+                if (dateObj.getMonth() + 1 === month && dateObj.getFullYear() === year) {
+                    const dayData = yearData[date];
+                    if (dayData.trades > 0) {
+                        tradingDays++;
+                        if (dayData.pnl > bestDayPnl) {
+                            bestDayPnl = dayData.pnl;
+                            bestDay = date;
+                        }
+                        if (dayData.pnl < worstDayPnl) {
+                            worstDayPnl = dayData.pnl;
+                            worstDay = date;
+                        }
+                    }
+                }
+            });
+            
+            return {
+                bestDay,
+                worstDay,
+                bestDayPnl,
+                worstDayPnl,
+                tradingDays
+            };
+        }
+        
+        function createMonthCalendar(dailyData, month, year) {
+            const calendar = document.getElementById('monthCalendar');
+            calendar.innerHTML = '';
+            
+            // Day headers
+            const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            days.forEach(day => {
+                const header = document.createElement('div');
+                header.className = 'text-center font-medium text-gray-600 text-sm py-2';
+                header.textContent = day;
+                calendar.appendChild(header);
+            });
+            
+            // Get first day of month
+            const firstDay = new Date(year, month - 1, 1);
+            const lastDay = new Date(year, month, 0);
+            const startDay = firstDay.getDay();
+            
+            // Empty cells for days before month starts
+            for (let i = 0; i < startDay; i++) {
+                const emptyCell = document.createElement('div');
+                calendar.appendChild(emptyCell);
+            }
+            
+            // Days of the month
+            for (let day = 1; day <= lastDay.getDate(); day++) {
+                const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const dayData = dailyData[dateStr] || { trades: 0, pnl: 0 };
+                
+                const dayCell = document.createElement('div');
+                dayCell.className = 'calendar-day bg-white border-2 rounded-lg p-3 text-center';
+                
+                if (dayData.trades > 0) {
+                    dayCell.className += dayData.pnl >= 0 ? ' border-green-200 hover:border-green-400' : ' border-red-200 hover:border-red-400';
+                    dayCell.innerHTML = `
+                        <div class="font-bold text-lg mb-1">${day}</div>
+                        <div class="text-xs text-gray-600">${dayData.trades} trades</div>
+                        <div class="${dayData.pnl >= 0 ? 'text-green-600' : 'text-red-600'} font-semibold text-sm">
+                            ${dayData.pnl >= 0 ? '+' : ''}$${dayData.pnl.toFixed(2)}
+                        </div>
+                    `;
+                } else {
+                    dayCell.className += ' border-gray-200';
+                    dayCell.innerHTML = `
+                        <div class="font-bold text-lg text-gray-400">${day}</div>
+                        <div class="text-xs text-gray-400">No trades</div>
+                    `;
+                }
+                
+                calendar.appendChild(dayCell);
+            }
+        }
+        
+        function createDailyChart(dailyDataParam, month, year) {
+            const ctx = document.getElementById('dailyChart').getContext('2d');
+            
+            // Get daily data for the month
+            const chartData = [];
+            const labels = [];
+            
+            const lastDay = new Date(year, month, 0).getDate();
+            
+            for (let day = 1; day <= lastDay; day++) {
+                const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const dayData = dailyDataParam[dateStr];
+                
+                if (dayData && dayData.trades > 0) {
+                    labels.push(day);
+                    chartData.push(dayData.pnl);
+                }
+            }
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Daily P&L',
+                        data: chartData,
+                        backgroundColor: chartData.map(val => val >= 0 ? 'rgba(16, 185, 129, 0.8)' : 'rgba(239, 68, 68, 0.8)'),
+                        borderColor: chartData.map(val => val >= 0 ? 'rgb(16, 185, 129)' : 'rgb(239, 68, 68)'),
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return 'P&L: $' + context.raw.toFixed(2);
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + value.toFixed(0);
+                                }
+                            }
+                        },
+                        x: {
+                            grid: { display: false },
+                            title: {
+                                display: true,
+                                text: 'Day of Month'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        async function loadMonthlyTopTrades(month, year) {
+            // Collect all trades for the month
+            const monthlyTrades = [];
+            
+            // Iterate through all days of the month
+            const lastDay = new Date(year, month, 0).getDate();
+            
+            for (let day = 1; day <= lastDay; day++) {
+                const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const dayFile = `exports/daily/${dateStr}.json`;
+                
+                try {
+                    const response = await fetch(dayFile);
+                    if (response.ok) {
+                        const dayData = await response.json();
+                        if (dayData.trades) {
+                            monthlyTrades.push(...dayData.trades);
+                        }
+                    }
+                } catch (error) {
+                    // File doesn't exist or error loading
+                }
+            }
+            
+            // Sort trades by P&L
+            const sortedTrades = monthlyTrades.sort((a, b) => (b.net || b.pnl) - (a.net || a.pnl));
+            
+            // Get top 5 winners and losers
+            const winners = sortedTrades.filter(t => (t.net || t.pnl) > 0).slice(0, 5);
+            const losers = sortedTrades.filter(t => (t.net || t.pnl) < 0).sort((a, b) => (a.net || a.pnl) - (b.net || b.pnl)).slice(0, 5);
+            
+            // Populate tables
+            populateMonthlyTradesTable('monthlyWinners', winners);
+            populateMonthlyTradesTable('monthlyLosers', losers);
+        }
+        
+        function populateMonthlyTradesTable(tableId, trades) {
+            const tbody = document.getElementById(tableId);
+            tbody.innerHTML = '';
+            
+            trades.forEach(trade => {
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-gray-50 transition-colors';
+                const pnl = trade.net || trade.pnl || 0;
+                
+                row.innerHTML = `
+                    <td class="py-3 px-2 font-medium text-gray-900">${trade.symbol}</td>
+                    <td class="py-3 px-2 text-gray-600">${formatDate(trade.date)}</td>
+                    <td class="py-3 px-2">
+                        <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
+                            trade.type === 'Long' ? 'bg-blue-100 text-blue-800' : 'bg-purple-100 text-purple-800'
+                        }">
+                            ${trade.type}
+                        </span>
+                    </td>
+                    <td class="py-3 px-2 text-right font-medium ${pnl >= 0 ? 'text-green-600' : 'text-red-600'}">
+                        ${pnl >= 0 ? '+' : ''}$${pnl.toFixed(2)}
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+        
+        function setupNavigation() {
+            document.getElementById('prevMonth').addEventListener('click', () => {
+                currentMonth--;
+                if (currentMonth < 1) {
+                    currentMonth = 12;
+                    currentYear--;
+                }
+                window.location.href = `month.html?month=${currentMonth}&year=${currentYear}`;
+            });
+            
+            document.getElementById('nextMonth').addEventListener('click', () => {
+                currentMonth++;
+                if (currentMonth > 12) {
+                    currentMonth = 1;
+                    currentYear++;
+                }
+                window.location.href = `month.html?month=${currentMonth}&year=${currentYear}`;
+            });
+        }
+        
+        function animateValue(id, start, end, duration, isCurrency = false, suffix = '') {
+            const element = document.getElementById(id);
+            const range = end - start;
+            const increment = range / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if ((increment > 0 && current >= end) || (increment < 0 && current <= end)) {
+                    current = end;
+                    clearInterval(timer);
+                }
+                
+                let displayValue = current;
+                if (isCurrency) {
+                    element.textContent = '$' + displayValue.toFixed(2);
+                    element.className = 'text-2xl font-bold ' + (displayValue >= 0 ? 'text-green-600' : 'text-red-600');
+                } else {
+                    element.textContent = displayValue.toFixed(suffix === '%' ? 1 : 0) + suffix;
+                }
+            }, 16);
+        }
+        
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return `${date.getMonth() + 1}/${date.getDate()}`;
+        }
+    </script>
+</body>
+</html>

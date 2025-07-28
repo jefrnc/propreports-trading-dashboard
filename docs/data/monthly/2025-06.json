@@ -1,0 +1,251 @@
+{
+  "month": 6,
+  "year": 2025,
+  "trades": [],
+  "dailyData": {
+    "2025-06-02": {
+      "trades": 4,
+      "pnl": 1.73,
+      "winRate": 0
+    },
+    "2025-06-03": {
+      "trades": 10,
+      "pnl": 6.84,
+      "winRate": 0
+    },
+    "2025-06-04": {
+      "trades": 18,
+      "pnl": -19.52,
+      "winRate": 0
+    },
+    "2025-06-12": {
+      "trades": 8,
+      "pnl": 5.54,
+      "winRate": 0
+    },
+    "2025-06-13": {
+      "trades": 25,
+      "pnl": -64.41,
+      "winRate": 0
+    },
+    "2025-06-16": {
+      "trades": 25,
+      "pnl": 0.05,
+      "winRate": 0
+    },
+    "2025-06-18": {
+      "trades": 7,
+      "pnl": -14.55,
+      "winRate": 0
+    },
+    "2025-06-20": {
+      "trades": 8,
+      "pnl": 16.46,
+      "winRate": 0
+    },
+    "2025-06-25": {
+      "trades": 9,
+      "pnl": 10.75,
+      "winRate": 0
+    },
+    "2025-06-26": {
+      "trades": 3,
+      "pnl": -2.06,
+      "winRate": 0
+    }
+  },
+  "summary": {
+    "totalTrades": 117,
+    "totalPnL": -59.16999999999999,
+    "winRate": 58.97435897435898,
+    "bestDay": "2025-06-20",
+    "bestDayPnL": 16.46,
+    "worstDay": "2025-06-13",
+    "worstDayPnL": -64.41,
+    "tradingDays": 10
+  },
+  "topWinners": [
+    {
+      "date": "2025-06-20",
+      "opened": "06/18/25 09:53:09",
+      "closed": "06:48:09",
+      "held": "1d 20:55:00",
+      "symbol": "RBNE",
+      "type": "Short",
+      "entry": 8.761,
+      "exit": 8.2422,
+      "size": 31.0,
+      "pnl": 16.08,
+      "commission": 0.09,
+      "net": 15.94,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 31.0,
+      "price": 8.761
+    },
+    {
+      "date": "2025-06-04",
+      "opened": "06/04/25 15:42:52",
+      "closed": "16:02:32",
+      "held": "00:19:40",
+      "symbol": "MULN",
+      "type": "Short",
+      "entry": 16.756,
+      "exit": 15.567,
+      "size": 10.0,
+      "pnl": 11.89,
+      "commission": 0.03,
+      "net": 11.83,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 10.0,
+      "price": 16.756
+    },
+    {
+      "date": "2025-06-02",
+      "opened": "06/02/25 09:55:05",
+      "closed": "10:16:46",
+      "held": "00:21:41",
+      "symbol": "INM",
+      "type": "Short",
+      "entry": 7.3881,
+      "exit": 7.008,
+      "size": 20.0,
+      "pnl": 7.6,
+      "commission": 0.06,
+      "net": 7.47,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 20.0,
+      "price": 7.3881
+    },
+    {
+      "date": "2025-06-25",
+      "opened": "06/25/25 07:38:31",
+      "closed": "11:49:43",
+      "held": "04:11:12",
+      "symbol": "PSTV",
+      "type": "Short",
+      "entry": 0.3815,
+      "exit": 0.3498,
+      "size": 183.0,
+      "pnl": 5.81,
+      "commission": 0.55,
+      "net": 4.85,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 183.0,
+      "price": 0.3815
+    },
+    {
+      "date": "2025-06-13",
+      "opened": "06/13/25 09:41:08",
+      "closed": "10:04:05",
+      "held": "00:22:57",
+      "symbol": "RBNE",
+      "type": "Long",
+      "entry": 11.6333,
+      "exit": 12.3467,
+      "size": 6.0,
+      "pnl": 4.28,
+      "commission": 0.02,
+      "net": 4.26,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 6.0,
+      "price": 11.6333
+    }
+  ],
+  "topLosers": [
+    {
+      "date": "2025-06-13",
+      "opened": "06/13/25 14:58:47",
+      "closed": "15:17:39",
+      "held": "00:18:52",
+      "symbol": "RBNE",
+      "type": "Long",
+      "entry": 13.6585,
+      "exit": 12.9833,
+      "size": 107.0,
+      "pnl": -72.25,
+      "commission": 0.32,
+      "net": -72.4,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 107.0,
+      "price": 13.6585
+    },
+    {
+      "date": "2025-06-04",
+      "opened": "06/04/25 13:18:42",
+      "closed": "13:31:48",
+      "held": "00:13:06",
+      "symbol": "MULN",
+      "type": "Short",
+      "entry": 18.61,
+      "exit": 22.095,
+      "size": 4.0,
+      "pnl": -13.94,
+      "commission": 0.01,
+      "net": -13.96,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 4.0,
+      "price": 18.61
+    },
+    {
+      "date": "2025-06-13",
+      "opened": "06/13/25 15:23:01",
+      "closed": "15:37:00",
+      "held": "00:13:59",
+      "symbol": "RBNE",
+      "type": "Short",
+      "entry": 13.8575,
+      "exit": 15.39,
+      "size": 8.0,
+      "pnl": -12.26,
+      "commission": 0.02,
+      "net": -12.28,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 8.0,
+      "price": 13.8575
+    },
+    {
+      "date": "2025-06-04",
+      "opened": "06/04/25 09:57:02",
+      "closed": "10:09:31",
+      "held": "00:12:29",
+      "symbol": "KWM",
+      "type": "Short",
+      "entry": 4.26,
+      "exit": 4.8794,
+      "size": 18.0,
+      "pnl": -11.15,
+      "commission": 0.05,
+      "net": -11.25,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 18.0,
+      "price": 4.26
+    },
+    {
+      "date": "2025-06-18",
+      "opened": "06/18/25 07:47:33",
+      "closed": "09:50:02",
+      "held": "02:02:29",
+      "symbol": "LSE",
+      "type": "Long",
+      "entry": 9.8,
+      "exit": 8.7927,
+      "size": 11.0,
+      "pnl": -11.08,
+      "commission": 0.03,
+      "net": -11.12,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 11.0,
+      "price": 9.8
+    }
+  ]
+}

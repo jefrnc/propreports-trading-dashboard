@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-07-28 21:12:37",
+  "lastUpdate": "2025-07-28 18:14:08",
   "year": 2025,
   "yearData": {
     "2025-01-28": {
@@ -926,7 +926,15 @@
     "best_day_pnl": 111.19,
     "worst_day": "2025-05-12",
     "worst_day_pnl": -99.46,
-    "daily_avg": 6.825789473684212
+    "daily_avg": 6.825789473684212,
+    "profit_factor": 1.54,
+    "biggest_win": 39.76,
+    "biggest_loss": -93.06,
+    "total_fees": 16.11,
+    "max_win_streak": 19,
+    "max_loss_streak": 6,
+    "current_streak": 1,
+    "current_streak_type": "loss"
   },
   "monthlyData": [
     {
