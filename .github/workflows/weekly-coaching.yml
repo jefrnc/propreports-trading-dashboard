@@ -1,0 +1,181 @@
+name: Weekly Trading Coaching Report
+
+on:
+  schedule:
+    # Run every Monday at 10:00 AM UTC
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Year (default: current year)'
+        required: false
+        type: string
+      week:
+        description: 'Week number (default: auto-detect)'
+        required: false
+        type: string
+      force_enable:
+        description: 'Force enable coaching (ignore feature flag)'
+        required: false
+        type: boolean
+        default: false
+
+env:
+  EXPORT_OUTPUT_DIR: "exports"
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  ENABLE_COACHING: ${{ secrets.ENABLE_COACHING || 'false' }}
+
+jobs:
+  weekly-coaching:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dashboard repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout exporter repository
+        uses: actions/checkout@v4
+        with:
+          repository: jefrnc/propreports-auto-exporter
+          path: exporter
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Check if coaching is enabled
+        id: check_coaching
+        run: |
+          if [[ "${{ env.ENABLE_COACHING }}" == "true" || "${{ github.event.inputs.force_enable }}" == "true" ]]; then
+            echo "enabled=true" >> $GITHUB_OUTPUT
+            echo "Coaching is enabled"
+          else
+            echo "enabled=false" >> $GITHUB_OUTPUT
+            echo "Coaching is disabled. Set ENABLE_COACHING secret to 'true' to enable."
+          fi
+
+      - name: Check OpenAI API Key
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          if [[ -z "${{ env.OPENAI_API_KEY }}" ]]; then
+            echo "Error: OPENAI_API_KEY secret is not set"
+            exit 1
+          fi
+          echo "OpenAI API Key is configured"
+
+      - name: Copy export data
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          cp -r exporter/exports .
+
+      - name: Check if weekly data exists
+        id: check_data
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          if [[ -n "${{ github.event.inputs.year }}" && -n "${{ github.event.inputs.week }}" ]]; then
+            YEAR=${{ github.event.inputs.year }}
+            WEEK=${{ github.event.inputs.week }}
+          else
+            # Auto-detect previous week
+            YEAR=$(date -d 'last monday' +%Y)
+            WEEK=$(date -d 'last monday' +%V)
+          fi
+          
+          WEEK_FILE="exports/weekly/${YEAR}-W$(printf '%02d' $WEEK).json"
+          if [[ -f "$WEEK_FILE" ]]; then
+            echo "data_exists=true" >> $GITHUB_OUTPUT
+            echo "Weekly data found: $WEEK_FILE"
+          else
+            echo "data_exists=false" >> $GITHUB_OUTPUT
+            echo "No weekly data found for Week $WEEK, $YEAR"
+          fi
+
+      - name: Generate weekly coaching report
+        if: steps.check_coaching.outputs.enabled == 'true' && steps.check_data.outputs.data_exists == 'true'
+        run: |
+          if [[ -n "${{ github.event.inputs.year }}" && -n "${{ github.event.inputs.week }}" ]]; then
+            python src/trading_coach.py weekly --year ${{ github.event.inputs.year }} --week ${{ github.event.inputs.week }}
+          else
+            python src/trading_coach.py weekly --auto
+          fi
+
+      - name: Update dashboard with coaching data
+        if: steps.check_coaching.outputs.enabled == 'true' && steps.check_data.outputs.data_exists == 'true'
+        run: |
+          # Update dashboard-data.json with coaching info
+          python -c "
+import json
+import os
+from pathlib import Path
+
+# Load existing dashboard data
+with open('docs/dashboard-data.json', 'r') as f:
+    data = json.load(f)
+
+# Initialize coaching data if not exists
+if 'coaching' not in data:
+    data['coaching'] = {
+        'monthly': [],
+        'weekly': [],
+        'enabled': True
+    }
+
+# Load weekly coaching reports
+coaching_dir = Path('exports/coaching/weekly')
+if coaching_dir.exists():
+    data['coaching']['weekly'] = []
+    for f in sorted(coaching_dir.glob('*.json')):
+        with open(f, 'r') as cf:
+            report = json.load(cf)
+            data['coaching']['weekly'].append({
+                'period': report['period'],
+                'generated_at': report['generated_at'],
+                'coaching': report['coaching']
+            })
+
+# Save updated data
+with open('docs/dashboard-data.json', 'w') as f:
+    json.dump(data, f, indent=2)
+"
+
+      - name: Commit and push coaching reports
+        if: steps.check_coaching.outputs.enabled == 'true' && steps.check_data.outputs.data_exists == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Create coaching directory if it doesn't exist
+          mkdir -p exports/coaching/
+          
+          # Add files if they exist
+          if [ -d "exports/coaching/" ]; then
+            git add exports/coaching/
+          fi
+          if [ -f "docs/dashboard-data.json" ]; then
+            git add docs/dashboard-data.json
+          fi
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Weekly coaching report - Week $(date -d 'last monday' +%V)/$(date -d 'last monday' +%Y)"
+            git push
+          fi
+
+      - name: Coaching disabled notification
+        if: steps.check_coaching.outputs.enabled == 'false'
+        run: |
+          echo "::notice::Weekly coaching is disabled. To enable, set the ENABLE_COACHING repository secret to 'true'."
+          
+      - name: No data notification
+        if: steps.check_coaching.outputs.enabled == 'true' && steps.check_data.outputs.data_exists == 'false'
+        run: |
+          echo "::notice::Weekly coaching skipped - no weekly data available for analysis."
