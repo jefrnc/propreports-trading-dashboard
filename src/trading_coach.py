@@ -263,10 +263,10 @@ Keep the response concise but actionable.
             "week_period": weekly_data['weekPeriod'],
             "generated_at": datetime.now().isoformat(),
             "performance_summary": {
-                "net_pnl": summary['netPnL'],
-                "total_trades": summary['totalTrades'],
-                "win_rate": summary['winRate'],
-                "trading_days": summary['tradingDays']
+                "net_pnl": summary.get('netPnL', 0),
+                "total_trades": summary.get('totalTrades', 0),
+                "win_rate": summary.get('winRate', 0),
+                "trading_days": summary.get('totalTradingDays', summary.get('tradingDays', 0))
             },
             "coaching": coaching
         }
