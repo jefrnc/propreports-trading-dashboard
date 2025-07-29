@@ -214,10 +214,10 @@ Format the response with clear sections and bullet points where appropriate.
 Analyze the following weekly trading performance for Week {week}, {year} ({weekly_data['weekPeriod']}):
 
 WEEK OVERVIEW:
-- Total Trades: {summary['totalTrades']}
-- Net P&L: ${summary['netPnL']}
-- Win Rate: {summary['winRate']*100:.1f}%
-- Trading Days: {summary['tradingDays']}
+- Total Trades: {summary.get('totalTrades', 0)}
+- Net P&L: ${summary.get('netPnL', 0)}
+- Win Rate: {summary.get('winRate', 0)*100:.1f}%
+- Trading Days: {summary.get('tradingDays', 'N/A')}
 - Average Trades/Day: {summary.get('avgTradesPerDay', 0):.1f}
 
 DAILY BREAKDOWN:
