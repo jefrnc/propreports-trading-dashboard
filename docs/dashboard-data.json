@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-07-29 08:08:17",
+  "lastUpdate": "2025-07-29 09:08:49",
   "year": 2025,
   "yearData": {
     "2025-01-28": {
@@ -943,6 +943,48 @@
   },
   "monthlyData": [
     {
+      "month": 1,
+      "monthName": "January",
+      "trades": 0,
+      "pnl": 0.0,
+      "winRate": 0.0
+    },
+    {
+      "month": 2,
+      "monthName": "February",
+      "trades": 0,
+      "pnl": 0.0,
+      "winRate": 0.0
+    },
+    {
+      "month": 3,
+      "monthName": "March",
+      "trades": 0,
+      "pnl": 0.0,
+      "winRate": 0.0
+    },
+    {
+      "month": 4,
+      "monthName": "April",
+      "trades": 0,
+      "pnl": 0.0,
+      "winRate": 0.0
+    },
+    {
+      "month": 5,
+      "monthName": "May",
+      "trades": 74,
+      "pnl": -115.97,
+      "winRate": 0.6622
+    },
+    {
+      "month": 6,
+      "monthName": "June",
+      "trades": 117,
+      "pnl": -56.2,
+      "winRate": 0.5897
+    },
+    {
       "month": 7,
       "monthName": "July",
       "trades": 197,
@@ -958,54 +1000,5 @@
       "pnl": 140.85,
       "winRate": 0.6889
     }
-  ],
-  "coaching": {
-    "monthly": [
-      {
-        "period": "May 2025",
-        "generated_at": "2025-07-29T08:13:43.546507",
-        "coaching": {
-          "overall_performance": "-$115.97 indicates an overall loss this month.\n- **Win Rate**: 66.2% is a strong win rate, suggesting that your strategy identifies profitable trades effectively.\n- **Profit Factor**: At 0.26, this indicates that losses significantly outweigh wins, which is a critical area for concern.\n- **Max Drawdown**: An alarming $133.89 (2180.6%) suggests high volatility in your portfolio and poor risk management.\n- **Sharpe Ratio**: -2.19 indicates that the risk-adjusted return is negative, reflecting the need for better trade selection or risk management.",
-          "strengths": [],
-          "areas_for_improvement": [],
-          "specific_recommendations": [],
-          "risk_management": "Implement strict stop-loss measures and cap losses to prevent large drawdowns.\n2. **Trade Selection**: Focus on improving the ratio of average wins to average losses through selective trades and better entry and exit points.\n3. **Performance Analysis**: Conduct a detailed review of both winning and losing trades to understand what contributes to success and what leads to losses.",
-          "psychological_insights": "The high max drawdown and the streak of consecutive losses suggest potential emotional reactions to trades. This can lead to revenge trading or over-trading.\n- **Confidence in Winning Trades**: Maintaining a high win rate can lead to overconfidence in decision-making. Ensure that trades are backed by analysis rather than intuition.\n- **Reflection and Journaling**: Keep a trading journal to reflect on your decisions, especially after losses. This can help identify triggers that lead to emotional trading.",
-          "next_week_focus": [],
-          "next_month_focus": []
-        }
-      },
-      {
-        "period": "July 2025",
-        "generated_at": "2025-07-29T01:41:32.463588",
-        "coaching": {
-          "overall_performance": "197 trades with a **Net P&L** of $444.29 indicates a consistent ability to generate profits.\n- **Win Rate**: At **73.1%**, your win rate is strong, suggesting effective strategy execution.\n- **Profit Factor**: A **Profit Factor of 3.19** indicates that your winning trades are significantly outweighing losses.\n- **Average Win vs. Average Loss**: The average win ($4.60) is greater than the average loss ($-3.99), which is promising. However, the ratio could be improved for a more robust performance.",
-          "strengths": [],
-          "areas_for_improvement": [],
-          "specific_recommendations": [],
-          "risk_management": "Focus on analyzing both winning and losing trades to refine strategies and avoid patterns that lead to losses.\n2. **Risk Management**: Prioritize improving risk management practices to reduce drawdowns and enhance overall capital preservation.\n3. **Mental Fortitude**: Work on building psychological resilience, perhaps through visualization techniques or regular reflections on trading decisions.",
-          "psychological_insights": "The occurrence of max consecutive losses might indicate emotional responses influencing decisions. Consider implementing a trading journal to document feelings during trades and help identify emotional patterns.\n- **Coping Mechanisms**: Develop strategies for coping with losing trades, such as taking breaks or engaging in mindfulness practices to maintain trading discipline.",
-          "next_week_focus": [],
-          "next_month_focus": []
-        }
-      }
-    ],
-    "weekly": [
-      {
-        "period": "Week 30, 2025",
-        "generated_at": "2025-07-29T08:37:31.220656",
-        "coaching": {
-          "overall_performance": "",
-          "strengths": [],
-          "areas_for_improvement": [],
-          "specific_recommendations": [],
-          "risk_management": "Ensure that position sizes are consistent and appropriate to your overall trading capital to limit the impact of losses.\n- **Stop-Loss Strategies**: Implement or refine stop-loss strategies to prevent large losses like the one seen in HSDT.",
-          "psychological_insights": "The significant loss may have affected your confidence. Maintaining emotional discipline is crucial to avoid revenge trading.\n- **Focus on Process Over Profit**: Concentrate on executing your trading plan rather than fixating on short-term profits or losses.",
-          "next_week_focus": [],
-          "next_month_focus": []
-        }
-      }
-    ],
-    "enabled": true
-  }
+  ]
 }

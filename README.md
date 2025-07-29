@@ -22,18 +22,18 @@ This is a live example of:
 | **Week 31 (partial)** | 1 | **-$359.74** | 0.0% |
 | Week 30 | 45 | **+$140.85** | 68.9% |
 | **July (partial)** | 198 | **+$76.39** | 72.7% |
-| June | 0 | $0.00 | 0% |
+| June | 117 | **-$56.20** | 59.0% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 395 | 686 |
-| **P&L** | **+$520.68** | **+$904.99** |
+| **Trades** | 586 | 1,018 |
+| **P&L** | **+$348.51** | **+$605.74** |
 
 *Based on current performance with 155 days remaining*
 
-*Last updated: 2025-07-29 08:08 UTC*
+*Last updated: 2025-07-29 09:08 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -62,6 +62,12 @@ This is a live example of:
 
 | Month | Trades | P&L | Win Rate |
 |-------|--------|-----|----------|
+| January | 0 | **$0.00** | 0.0% |
+| February | 0 | **$0.00** | 0.0% |
+| March | 0 | **$0.00** | 0.0% |
+| April | 0 | **$0.00** | 0.0% |
+| May | 74 | **$-115.97** | 66.2% |
+| June | 117 | **$-56.20** | 59.0% |
 | July | 197 | **$+444.29** | 73.1% |
 
 <!-- CALENDAR_END -->
