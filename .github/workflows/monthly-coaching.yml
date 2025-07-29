@@ -93,7 +93,7 @@ jobs:
         if: steps.check_coaching.outputs.enabled == 'true'
         run: |
           # Update dashboard-data.json with coaching info
-          python -c "
+          cat > update_coaching.py << 'EOF'
 import json
 import os
 from pathlib import Path
@@ -126,7 +126,8 @@ data['coaching'] = coaching_data
 # Save updated data
 with open('docs/dashboard-data.json', 'w') as f:
     json.dump(data, f, indent=2)
-"
+EOF
+          python update_coaching.py
 
       - name: Commit and push coaching reports
         if: steps.check_coaching.outputs.enabled == 'true'

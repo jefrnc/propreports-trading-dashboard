@@ -475,13 +475,17 @@
             document.getElementById('monthTitle').textContent = `${monthNames[month - 1]} ${year}`;
             
             // Find month data
-            const monthData = data.monthlyData.find(m => m.month === month);
+            const monthData = data.monthlyData ? data.monthlyData.find(m => m.month === month && m.year === year) : null;
             
             if (monthData) {
                 // Update metrics
                 animateValue('monthPnl', 0, monthData.pnl, 1000, true);
                 animateValue('monthTrades', 0, monthData.trades, 1000);
                 animateValue('monthWinRate', 0, monthData.winRate * 100, 1000, false, '%');
+            } else {
+                // No data for this month
+                displayNoData(month, year);
+                return;
             }
             
             // Calculate daily stats for the month
