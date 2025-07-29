@@ -1322,5 +1322,10 @@
       "pnl": 140.85,
       "winRate": 0.6889
     }
-  ]
+  ],
+  "coaching": {
+    "monthly": [],
+    "weekly": [],
+    "enabled": true
+  }
 }
