@@ -8,6 +8,7 @@ import os
 import sys
 import argparse
 import requests
+import calendar
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -107,7 +108,27 @@ class TradingCoach:
         monthly_file = self.export_dir / f"monthly/{year}-{month:02d}.json"
         if not monthly_file.exists():
             print(f"Monthly summary not found: {monthly_file}")
-            return None
+            # Create a placeholder report for months without data
+            return {
+                "period": f"{calendar.month_name[month]} {year}",
+                "generated_at": datetime.now().isoformat(),
+                "performance_summary": {
+                    "net_pnl": 0,
+                    "total_trades": 0,
+                    "win_rate": 0,
+                    "profit_factor": 0
+                },
+                "coaching": {
+                    "overall_performance": f"No trading activity recorded for {calendar.month_name[month]} {year}.",
+                    "strengths": ["Taking a break from trading can be beneficial for reflection and strategy refinement"],
+                    "areas_for_improvement": [],
+                    "specific_recommendations": ["Use this time to review your trading plan and prepare for the next trading period"],
+                    "risk_management": "No trades to analyze for risk management.",
+                    "psychological_insights": "Time away from the markets can help reset emotional state and improve objectivity.",
+                    "next_week_focus": [],
+                    "next_month_focus": ["Review and refine trading strategy", "Set clear goals for when you resume trading"]
+                }
+            }
             
         with open(monthly_file, 'r') as f:
             monthly_data = json.load(f)
@@ -115,6 +136,29 @@ class TradingCoach:
         # Create prompt with key metrics
         overview = monthly_data['overview']
         analysis = monthly_data.get('performanceAnalysis', {})
+        
+        # Check if there are no trades
+        if overview.get('totalTrades', 0) == 0:
+            return {
+                "period": f"{monthly_data['monthName']} {year}",
+                "generated_at": datetime.now().isoformat(),
+                "performance_summary": {
+                    "net_pnl": 0,
+                    "total_trades": 0,
+                    "win_rate": 0,
+                    "profit_factor": 0
+                },
+                "coaching": {
+                    "overall_performance": f"No trading activity recorded for {monthly_data['monthName']} {year}.",
+                    "strengths": ["Taking time off from trading shows discipline and self-awareness"],
+                    "areas_for_improvement": [],
+                    "specific_recommendations": ["Use this period to study market conditions", "Review and update your trading plan"],
+                    "risk_management": "No trades executed - no risk taken.",
+                    "psychological_insights": "Stepping back from trading can provide valuable perspective.",
+                    "next_week_focus": [],
+                    "next_month_focus": ["Define clear entry criteria before resuming trading", "Set realistic profit targets"]
+                }
+            }
         
         prompt = f"""
 Analyze the following monthly trading performance for {monthly_data['monthName']} {year}:
@@ -201,14 +245,56 @@ Format the response with clear sections and bullet points where appropriate.
         weekly_file = self.export_dir / f"weekly/{year}-W{week:02d}.json"
         if not weekly_file.exists():
             print(f"Weekly summary not found: {weekly_file}")
-            return None
+            # Create a placeholder report for weeks without data
+            return {
+                "period": f"Week {week}, {year}",
+                "generated_at": datetime.now().isoformat(),
+                "performance_summary": {
+                    "net_pnl": 0,
+                    "total_trades": 0,
+                    "win_rate": 0,
+                    "trading_days": 0
+                },
+                "coaching": {
+                    "overall_performance": f"No trading activity recorded for Week {week}, {year}.",
+                    "strengths": ["Rest periods are important for trader development"],
+                    "areas_for_improvement": [],
+                    "specific_recommendations": ["Review market conditions and prepare for next week"],
+                    "risk_management": "No trades to analyze.",
+                    "psychological_insights": "Use this downtime to maintain trading discipline.",
+                    "next_week_focus": ["Prepare watchlist", "Review trading plan", "Set weekly goals"]
+                }
+            }
             
         with open(weekly_file, 'r') as f:
             weekly_data = json.load(f)
         
         # Create prompt with key metrics
-        summary = weekly_data['summary']
-        patterns = weekly_data.get('tradingPatterns', {})
+        summary = weekly_data.get('summary', {})
+        patterns = weekly_data.get('patterns', weekly_data.get('tradingPatterns', {}))
+        
+        # Check if there are no trades
+        if summary.get('totalTrades', 0) == 0:
+            return {
+                "period": f"Week {week}, {year}",
+                "week_period": weekly_data.get('weekPeriod', f"Week {week}"),
+                "generated_at": datetime.now().isoformat(),
+                "performance_summary": {
+                    "net_pnl": 0,
+                    "total_trades": 0,
+                    "win_rate": 0,
+                    "trading_days": summary.get('totalTradingDays', 0)
+                },
+                "coaching": {
+                    "overall_performance": f"No trading activity recorded for Week {week}, {year}.",
+                    "strengths": ["Patience in waiting for the right opportunities"],
+                    "areas_for_improvement": [],
+                    "specific_recommendations": ["Continue market analysis", "Maintain trading journal even without trades"],
+                    "risk_management": "Good discipline in not forcing trades.",
+                    "psychological_insights": "Not trading is also a trading decision.",
+                    "next_week_focus": ["Identify high-probability setups", "Review market conditions", "Stay disciplined"]
+                }
+            }
         
         prompt = f"""
 Analyze the following weekly trading performance for Week {week}, {year} ({weekly_data['weekPeriod']}):

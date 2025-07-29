@@ -1,0 +1,42 @@
+{
+  "generateDate": "2025-07-29 06:08:23",
+  "month": 4,
+  "monthName": "April",
+  "year": 2025,
+  "account": "N/A",
+  "overview": {
+    "totalTradingDays": 0,
+    "totalTrades": 0,
+    "grossPnL": 0.0,
+    "totalCommissions": 0.0,
+    "netPnL": 0.0,
+    "avgDailyPnL": 0.0,
+    "avgTradePerDay": 0.0,
+    "winningTrades": 0,
+    "losingTrades": 0,
+    "winRate": 0.0,
+    "avgWin": 0.0,
+    "avgLoss": 0.0,
+    "profitFactor": 0.0
+  },
+  "extremes": {
+    "bestTrade": null,
+    "worstTrade": null,
+    "bestDay": null,
+    "worstDay": null
+  },
+  "dailyBreakdown": [],
+  "symbolPerformance": {},
+  "performanceAnalysis": {
+    "risk_metrics": {
+      "sharpe_ratio": 0.0,
+      "max_consecutive_wins": 0,
+      "max_consecutive_losses": 0
+    },
+    "drawdown_analysis": {
+      "max_drawdown": 0.0,
+      "max_drawdown_percent": 0.0
+    }
+  },
+  "summary": "No trading activity in April 2025"
+}
