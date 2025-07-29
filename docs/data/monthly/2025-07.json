@@ -82,17 +82,22 @@
       "trades": 13,
       "pnl": 16.72,
       "winRate": 0
+    },
+    "2025-07-28": {
+      "trades": 1,
+      "pnl": -359.74,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 197,
-    "totalPnL": 436.1299999999999,
-    "winRate": 72.58883248730965,
+    "totalTrades": 198,
+    "totalPnL": 76.38999999999987,
+    "winRate": 72.22222222222221,
     "bestDay": "2025-07-14",
     "bestDayPnL": 111.19,
-    "worstDay": "2025-07-17",
-    "worstDayPnL": -61.81,
-    "tradingDays": 16
+    "worstDay": "2025-07-28",
+    "worstDayPnL": -359.74,
+    "tradingDays": 17
   },
   "topWinners": [
     {
@@ -188,6 +193,24 @@
   ],
   "topLosers": [
     {
+      "date": "2025-07-28",
+      "opened": "07/25/25 11:58:08",
+      "closed": "04:22:14",
+      "held": "2d 16:24:06",
+      "symbol": "MCVT",
+      "type": "Short",
+      "entry": 4.0959,
+      "exit": 6.089,
+      "size": 180.0,
+      "pnl": -358.76,
+      "commission": 0.54,
+      "net": -359.74,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 180.0,
+      "price": 4.0959
+    },
+    {
       "date": "2025-07-17",
       "opened": "07/16/25 07:53:19",
       "closed": "19:38:28",
@@ -258,24 +281,6 @@
       "side": "BUY",
       "quantity": 40.0,
       "price": 3.6445
-    },
-    {
-      "date": "2025-07-15",
-      "opened": "07/15/25 09:26:26",
-      "closed": "10:16:08",
-      "held": "00:49:42",
-      "symbol": "KAPA",
-      "type": "Long",
-      "entry": 1.4028,
-      "exit": 1.2952,
-      "size": 93.0,
-      "pnl": -10.01,
-      "commission": 0.28,
-      "net": -10.49,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 93.0,
-      "price": 1.4028
     }
   ]
 }

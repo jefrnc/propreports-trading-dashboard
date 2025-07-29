@@ -1,19 +1,40 @@
 {
-  "exportDate": "2025-07-29 03:39:09",
+  "exportDate": "2025-07-29 08:08:01",
   "account": "ZI*******64",
   "date": "2025-07-28",
-  "trades": [],
+  "trades": [
+    {
+      "date": "2025-07-28",
+      "opened": "07/25/25 11:58:08",
+      "closed": "04:22:14",
+      "held": "2d 16:24:06",
+      "symbol": "MCVT",
+      "type": "Short",
+      "entry": 4.0959,
+      "exit": 6.089,
+      "size": 180.0,
+      "pnl": -358.76,
+      "commission": 0.54,
+      "net": -359.74,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 180.0,
+      "price": 4.0959
+    }
+  ],
   "summary": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommissions": 0,
-    "netPnL": 0,
+    "totalTrades": 1,
+    "totalPnL": -358.76,
+    "totalCommissions": 0.54,
+    "netPnL": -359.74,
     "winningTrades": 0,
-    "losingTrades": 0,
-    "symbols": []
+    "losingTrades": 1,
+    "symbols": [
+      "MCVT"
+    ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-29 03:39:09"
+    "processedAt": "2025-07-29 08:08:01"
   }
 }
