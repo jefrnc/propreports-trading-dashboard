@@ -389,16 +389,19 @@
             // Update title
             document.getElementById('monthTitle').textContent = `${monthNames[month - 1]} ${year}`;
             
-            // Update metrics from overview
-            animateValue('monthPnl', 0, data.overview.netPnL, 1000, true);
-            animateValue('monthTrades', 0, data.overview.totalTrades, 1000);
-            animateValue('monthWinRate', 0, data.overview.winRate * 100, 1000, false, '%');
+            // Update metrics from overview or summary (handle both formats)
+            const metrics = data.overview || data.summary;
+            if (metrics) {
+                animateValue('monthPnl', 0, metrics.netPnL || metrics.totalPnL || 0, 1000, true);
+                animateValue('monthTrades', 0, metrics.totalTrades || 0, 1000);
+                animateValue('monthWinRate', 0, (metrics.winRate > 1 ? metrics.winRate : metrics.winRate * 100), 1000, false, '%');
+            }
             
-            // Calculate best and worst days from profitability curve
-            let bestDayPnL = 0;
-            let worstDayPnL = 0;
+            // Handle best and worst days (from summary or calculate from profitability curve)
+            let bestDayPnL = metrics ? (metrics.bestDayPnL || 0) : 0;
+            let worstDayPnL = metrics ? (metrics.worstDayPnL || 0) : 0;
             
-            if (data.performanceAnalysis && data.performanceAnalysis.profitability_curve) {
+            if (!bestDayPnL && !worstDayPnL && data.performanceAnalysis && data.performanceAnalysis.profitability_curve) {
                 data.performanceAnalysis.profitability_curve.forEach(day => {
                     if (day.daily_pnl > bestDayPnL) bestDayPnL = day.daily_pnl;
                     if (day.daily_pnl < worstDayPnL) worstDayPnL = day.daily_pnl;
@@ -421,7 +424,10 @@
                 document.getElementById('worstDay').className = 'text-2xl font-bold text-gray-400';
             }
             
-            document.getElementById('tradingDays').textContent = data.overview.totalTradingDays || 0;
+            document.getElementById('tradingDays').textContent = 
+                (metrics ? metrics.tradingDays : null) || 
+                (data.overview ? data.overview.totalTradingDays : null) || 
+                0;
             
             // Create calendar
             if (data.dailyData) {
