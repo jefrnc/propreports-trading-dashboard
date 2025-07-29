@@ -78,7 +78,12 @@ jobs:
       - name: Copy export data
         if: steps.check_coaching.outputs.enabled == 'true'
         run: |
-          cp -r exporter/exports .
+          if [ -d "exporter/exports" ]; then
+            cp -r exporter/exports .
+          else
+            echo "No exports directory found in exporter repository"
+            mkdir -p exports
+          fi
 
       - name: Generate monthly coaching report
         if: steps.check_coaching.outputs.enabled == 'true'
