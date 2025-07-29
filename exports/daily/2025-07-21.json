@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:29:58",
+  "exportDate": "2025-07-29 00:11:56",
   "account": "ZI*******64",
   "date": "2025-07-21",
   "trades": [
@@ -174,13 +174,13 @@
     "winningTrades": 6,
     "losingTrades": 3,
     "symbols": [
-      "LMFA",
+      "IPDN",
       "HSDT",
-      "IPDN"
+      "LMFA"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 05:29:58"
+    "processedAt": "2025-07-29 00:11:56"
   }
 }

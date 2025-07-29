@@ -1,509 +1,79 @@
 {
-  "generateDate": "2025-07-28 20:26:53",
   "month": 5,
-  "monthName": "May",
   "year": 2025,
-  "account": "ZIMDASE9C64",
-  "overview": {
-    "totalTradingDays": 31,
-    "totalTrades": 74,
-    "grossPnL": -113.97,
-    "totalCommissions": 2.0,
-    "netPnL": -115.97,
-    "avgDailyPnL": -3.74,
-    "winningTrades": 49,
-    "losingTrades": 24,
-    "winRate": 0.6622,
-    "avgWin": 0.81,
-    "avgLoss": -6.39,
-    "profitFactor": 0.26,
-    "expectancy": -1.54
-  },
-  "performanceAnalysis": {
-    "profitability_curve": [
-      {
-        "date": "2025-05-01",
-        "daily_pnl": 0,
-        "cumulative_pnl": 0
-      },
-      {
-        "date": "2025-05-02",
-        "daily_pnl": 0,
-        "cumulative_pnl": 0
-      },
-      {
-        "date": "2025-05-03",
-        "daily_pnl": 0,
-        "cumulative_pnl": 0
-      },
-      {
-        "date": "2025-05-04",
-        "daily_pnl": 0,
-        "cumulative_pnl": 0
-      },
-      {
-        "date": "2025-05-05",
-        "daily_pnl": 0,
-        "cumulative_pnl": 0
-      },
-      {
-        "date": "2025-05-06",
-        "daily_pnl": 0,
-        "cumulative_pnl": 0
-      },
-      {
-        "date": "2025-05-07",
-        "daily_pnl": 6.14,
-        "cumulative_pnl": 6.14
-      },
-      {
-        "date": "2025-05-08",
-        "daily_pnl": -20.42,
-        "cumulative_pnl": -14.28
-      },
-      {
-        "date": "2025-05-09",
-        "daily_pnl": 2.96,
-        "cumulative_pnl": -11.32
-      },
-      {
-        "date": "2025-05-10",
-        "daily_pnl": 0,
-        "cumulative_pnl": -11.32
-      },
-      {
-        "date": "2025-05-11",
-        "daily_pnl": 0,
-        "cumulative_pnl": -11.32
-      },
-      {
-        "date": "2025-05-12",
-        "daily_pnl": -99.46,
-        "cumulative_pnl": -110.78
-      },
-      {
-        "date": "2025-05-13",
-        "daily_pnl": -2.08,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-14",
-        "daily_pnl": 0,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-15",
-        "daily_pnl": 0,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-16",
-        "daily_pnl": 0,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-17",
-        "daily_pnl": 0,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-18",
-        "daily_pnl": 0,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-19",
-        "daily_pnl": 0,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-20",
-        "daily_pnl": 0,
-        "cumulative_pnl": -112.86
-      },
-      {
-        "date": "2025-05-21",
-        "daily_pnl": -14.47,
-        "cumulative_pnl": -127.33
-      },
-      {
-        "date": "2025-05-22",
-        "daily_pnl": -0.42,
-        "cumulative_pnl": -127.75
-      },
-      {
-        "date": "2025-05-23",
-        "daily_pnl": 0.54,
-        "cumulative_pnl": -127.21
-      },
-      {
-        "date": "2025-05-24",
-        "daily_pnl": 0,
-        "cumulative_pnl": -127.21
-      },
-      {
-        "date": "2025-05-25",
-        "daily_pnl": 0,
-        "cumulative_pnl": -127.21
-      },
-      {
-        "date": "2025-05-26",
-        "daily_pnl": 0,
-        "cumulative_pnl": -127.21
-      },
-      {
-        "date": "2025-05-27",
-        "daily_pnl": 0.06,
-        "cumulative_pnl": -127.15
-      },
-      {
-        "date": "2025-05-28",
-        "daily_pnl": 3.35,
-        "cumulative_pnl": -123.8
-      },
-      {
-        "date": "2025-05-29",
-        "daily_pnl": 6.05,
-        "cumulative_pnl": -117.75
-      },
-      {
-        "date": "2025-05-30",
-        "daily_pnl": 0.17,
-        "cumulative_pnl": -117.58
-      },
-      {
-        "date": "2025-05-31",
-        "daily_pnl": 0,
-        "cumulative_pnl": -117.58
-      }
-    ],
-    "drawdown_analysis": {
-      "max_drawdown": 133.89,
-      "max_drawdown_percent": 2180.62
-    },
-    "consistency_metrics": {
-      "profitable_days": 7,
-      "losing_days": 5,
-      "win_rate_days": 0.2258,
-      "avg_winning_day": 2.75,
-      "avg_losing_day": -27.37
-    },
-    "symbol_performance": {
-      "ASST": {
-        "trades": 8,
-        "pnl": -9.63,
-        "wins": 4,
-        "losses": 4,
-        "avg_win": 2.82,
-        "avg_loss": -5.22,
-        "win_rate": 0.5,
-        "expectancy": -1.2
-      },
-      "QBTS": {
-        "trades": 1,
-        "pnl": 0.23,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.23,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "JZ": {
-        "trades": 1,
-        "pnl": -21.25,
-        "wins": 0,
-        "losses": 1,
-        "avg_win": 0,
-        "avg_loss": -21.25,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "VEEE": {
-        "trades": 4,
-        "pnl": 2.34,
-        "wins": 3,
-        "losses": 0,
-        "avg_win": 0.78,
-        "avg_loss": 0,
-        "win_rate": 0.75,
-        "expectancy": 0
-      },
-      "NVVE": {
-        "trades": 3,
-        "pnl": 3.03,
-        "wins": 3,
-        "losses": 0,
-        "avg_win": 1.01,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "KDLY": {
-        "trades": 1,
-        "pnl": -92.85,
-        "wins": 0,
-        "losses": 1,
-        "avg_win": 0,
-        "avg_loss": -92.85,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "VFF": {
-        "trades": 1,
-        "pnl": -1.03,
-        "wins": 0,
-        "losses": 1,
-        "avg_win": 0,
-        "avg_loss": -1.03,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "XHG": {
-        "trades": 1,
-        "pnl": -2.32,
-        "wins": 0,
-        "losses": 1,
-        "avg_win": 0,
-        "avg_loss": -2.32,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "MOGO": {
-        "trades": 1,
-        "pnl": 0.3,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.3,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "EDBL": {
-        "trades": 2,
-        "pnl": -5.16,
-        "wins": 1,
-        "losses": 1,
-        "avg_win": 0.46,
-        "avg_loss": -5.62,
-        "win_rate": 0.5,
-        "expectancy": -2.58
-      },
-      "GCL": {
-        "trades": 1,
-        "pnl": 1.02,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 1.02,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "BDRX": {
-        "trades": 1,
-        "pnl": -0.38,
-        "wins": 0,
-        "losses": 1,
-        "avg_win": 0,
-        "avg_loss": -0.38,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "IMNN": {
-        "trades": 5,
-        "pnl": 1.36,
-        "wins": 5,
-        "losses": 0,
-        "avg_win": 0.27,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "WORX": {
-        "trades": 1,
-        "pnl": 0.1,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.1,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "SGN": {
-        "trades": 7,
-        "pnl": 3.86,
-        "wins": 5,
-        "losses": 2,
-        "avg_win": 0.79,
-        "avg_loss": -0.03,
-        "win_rate": 0.7143,
-        "expectancy": 0.55
-      },
-      "HOLO": {
-        "trades": 9,
-        "pnl": -0.52,
-        "wins": 5,
-        "losses": 4,
-        "avg_win": 0.45,
-        "avg_loss": -0.69,
-        "win_rate": 0.5556,
-        "expectancy": -0.06
-      },
-      "SPRO": {
-        "trades": 2,
-        "pnl": 0.46,
-        "wins": 2,
-        "losses": 0,
-        "avg_win": 0.23,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "NAOV": {
-        "trades": 2,
-        "pnl": 0.21,
-        "wins": 1,
-        "losses": 1,
-        "avg_win": 0.23,
-        "avg_loss": -0.02,
-        "win_rate": 0.5,
-        "expectancy": 0.11
-      },
-      "PLRZ": {
-        "trades": 2,
-        "pnl": -0.93,
-        "wins": 0,
-        "losses": 2,
-        "avg_win": 0,
-        "avg_loss": -0.47,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "ZEO": {
-        "trades": 2,
-        "pnl": 1.63,
-        "wins": 2,
-        "losses": 0,
-        "avg_win": 0.82,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "VCIG": {
-        "trades": 1,
-        "pnl": 1.4,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 1.4,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "ALZN": {
-        "trades": 7,
-        "pnl": 4.26,
-        "wins": 7,
-        "losses": 0,
-        "avg_win": 0.61,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "RRGB": {
-        "trades": 1,
-        "pnl": -3.32,
-        "wins": 0,
-        "losses": 1,
-        "avg_win": 0,
-        "avg_loss": -3.32,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "LVWR": {
-        "trades": 3,
-        "pnl": -1.57,
-        "wins": 0,
-        "losses": 3,
-        "avg_win": 0,
-        "avg_loss": -0.52,
-        "win_rate": 0.0,
-        "expectancy": 0
-      },
-      "BLRX": {
-        "trades": 3,
-        "pnl": 4.09,
-        "wins": 3,
-        "losses": 0,
-        "avg_win": 1.36,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      },
-      "BMGL": {
-        "trades": 3,
-        "pnl": 0.52,
-        "wins": 2,
-        "losses": 1,
-        "avg_win": 0.47,
-        "avg_loss": -0.43,
-        "win_rate": 0.6667,
-        "expectancy": 0.17
-      },
-      "SYTA": {
-        "trades": 1,
-        "pnl": 0.18,
-        "wins": 1,
-        "losses": 0,
-        "avg_win": 0.18,
-        "avg_loss": 0,
-        "win_rate": 1.0,
-        "expectancy": 0
-      }
-    },
-    "time_analysis": {},
-    "risk_metrics": {
-      "sharpe_ratio": -2.19,
-      "max_consecutive_losses": 4,
-      "risk_reward_ratio": 0.10047497259773475
-    }
-  },
-  "weeklyBreakdown": [
-    {
-      "week": 18,
-      "period": "2025-04-28 to 2025-05-04",
-      "trades": 0,
-      "netPnL": 0,
+  "trades": [],
+  "dailyData": {
+    "2025-05-07": {
+      "trades": 3,
+      "pnl": 6.14,
       "winRate": 0
     },
-    {
-      "week": 19,
-      "period": "2025-05-05 to 2025-05-11",
-      "trades": 14,
-      "netPnL": -10.86,
-      "winRate": 0.7143
-    },
-    {
-      "week": 20,
-      "period": "2025-05-12 to 2025-05-18",
-      "trades": 5,
-      "netPnL": -101.3,
-      "winRate": 0.2
-    },
-    {
-      "week": 21,
-      "period": "2025-05-19 to 2025-05-25",
+    "2025-05-08": {
       "trades": 8,
-      "netPnL": -14.1,
-      "winRate": 0.625
+      "pnl": -20.42,
+      "winRate": 0
     },
-    {
-      "week": 22,
-      "period": "2025-05-26 to 2025-06-01",
-      "trades": 47,
-      "netPnL": 10.29,
-      "winRate": 0.7021
+    "2025-05-09": {
+      "trades": 3,
+      "pnl": 2.96,
+      "winRate": 0
+    },
+    "2025-05-12": {
+      "trades": 3,
+      "pnl": -99.46,
+      "winRate": 0
+    },
+    "2025-05-13": {
+      "trades": 2,
+      "pnl": -2.08,
+      "winRate": 0
+    },
+    "2025-05-21": {
+      "trades": 5,
+      "pnl": -14.47,
+      "winRate": 0
+    },
+    "2025-05-22": {
+      "trades": 1,
+      "pnl": -0.42,
+      "winRate": 0
+    },
+    "2025-05-23": {
+      "trades": 2,
+      "pnl": 0.54,
+      "winRate": 0
+    },
+    "2025-05-27": {
+      "trades": 1,
+      "pnl": 0.06,
+      "winRate": 0
+    },
+    "2025-05-28": {
+      "trades": 18,
+      "pnl": 3.35,
+      "winRate": 0
+    },
+    "2025-05-29": {
+      "trades": 14,
+      "pnl": 6.05,
+      "winRate": 0
+    },
+    "2025-05-30": {
+      "trades": 14,
+      "pnl": 0.17,
+      "winRate": 0
     }
-  ],
+  },
+  "summary": {
+    "totalTrades": 74,
+    "totalPnL": -117.58,
+    "winRate": 66.21621621621621,
+    "bestDay": "2025-05-07",
+    "bestDayPnL": 6.14,
+    "worstDay": "2025-05-12",
+    "worstDayPnL": -99.46,
+    "tradingDays": 12
+  },
   "topWinners": [
     {
       "date": "2025-05-07",
@@ -594,96 +164,6 @@
       "side": "BUY",
       "quantity": 12.0,
       "price": 2.8567
-    },
-    {
-      "date": "2025-05-28",
-      "opened": "05/28/25 09:27:51",
-      "closed": "09:30:48",
-      "held": "00:02:57",
-      "symbol": "SGN",
-      "type": "Long",
-      "entry": 3.215,
-      "exit": 3.4113,
-      "size": 8.0,
-      "pnl": 1.57,
-      "commission": 0.02,
-      "net": 1.53,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 8.0,
-      "price": 3.215
-    },
-    {
-      "date": "2025-05-29",
-      "opened": "05/29/25 06:37:36",
-      "closed": "07:05:38",
-      "held": "00:28:02",
-      "symbol": "ZEO",
-      "type": "Long",
-      "entry": 2.8856,
-      "exit": 2.9728,
-      "size": 18.0,
-      "pnl": 1.57,
-      "commission": 0.05,
-      "net": 1.47,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 18.0,
-      "price": 2.8856
-    },
-    {
-      "date": "2025-05-08",
-      "opened": "05/08/25 12:17:14",
-      "closed": "12:38:09",
-      "held": "00:20:55",
-      "symbol": "VEEE",
-      "type": "Long",
-      "entry": 6.65,
-      "exit": 6.8275,
-      "size": 8.0,
-      "pnl": 1.42,
-      "commission": 0.02,
-      "net": 1.36,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 8.0,
-      "price": 6.65
-    },
-    {
-      "date": "2025-05-29",
-      "opened": "05/29/25 07:36:23",
-      "closed": "07:44:42",
-      "held": "00:08:19",
-      "symbol": "VCIG",
-      "type": "Long",
-      "entry": 5.41,
-      "exit": 5.585,
-      "size": 8.0,
-      "pnl": 1.4,
-      "commission": 0.02,
-      "net": 1.35,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 8.0,
-      "price": 5.41
-    },
-    {
-      "date": "2025-05-29",
-      "opened": "05/29/25 08:43:33",
-      "closed": "08:49:04",
-      "held": "00:05:31",
-      "symbol": "ALZN",
-      "type": "Long",
-      "entry": 7.87,
-      "exit": 8.0983,
-      "size": 6.0,
-      "pnl": 1.37,
-      "commission": 0.02,
-      "net": 1.33,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 6.0,
-      "price": 7.87
     }
   ],
   "topLosers": [
@@ -776,113 +256,6 @@
       "side": "SELL",
       "quantity": 69.0,
       "price": 6.7133
-    },
-    {
-      "date": "2025-05-30",
-      "opened": "05/30/25 09:37:12",
-      "closed": "09:52:35",
-      "held": "00:15:23",
-      "symbol": "RRGB",
-      "type": "Long",
-      "entry": 5.204,
-      "exit": 4.872,
-      "size": 10.0,
-      "pnl": -3.32,
-      "commission": 0.03,
-      "net": -3.38,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 10.0,
-      "price": 5.204
-    },
-    {
-      "date": "2025-05-13",
-      "opened": "05/13/25 07:08:02",
-      "closed": "07:17:37",
-      "held": "00:09:35",
-      "symbol": "XHG",
-      "type": "Long",
-      "entry": 3.97,
-      "exit": 3.39,
-      "size": 4.0,
-      "pnl": -2.32,
-      "commission": 0.01,
-      "net": -2.34,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 4.0,
-      "price": 3.97
-    },
-    {
-      "date": "2025-05-07",
-      "opened": "05/07/25 12:07:06",
-      "closed": "13:24:10",
-      "held": "01:17:04",
-      "symbol": "ASST",
-      "type": "Long",
-      "entry": 2.1267,
-      "exit": 1.9867,
-      "size": 15.0,
-      "pnl": -2.1,
-      "commission": 0.05,
-      "net": -2.15,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 15.0,
-      "price": 2.1267
-    },
-    {
-      "date": "2025-05-30",
-      "opened": "05/30/25 10:27:24",
-      "closed": "10:57:52",
-      "held": "00:30:28",
-      "symbol": "LVWR",
-      "type": "Long",
-      "entry": 4.87,
-      "exit": 4.22,
-      "size": 2.0,
-      "pnl": -1.3,
-      "commission": 0.01,
-      "net": -1.31,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 2.0,
-      "price": 4.87
-    },
-    {
-      "date": "2025-05-28",
-      "opened": "05/28/25 14:06:55",
-      "closed": "14:08:32",
-      "held": "00:01:37",
-      "symbol": "HOLO",
-      "type": "Long",
-      "entry": 10.235,
-      "exit": 9.93,
-      "size": 4.0,
-      "pnl": -1.22,
-      "commission": 0.01,
-      "net": -1.23,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 4.0,
-      "price": 10.235
-    }
-  ],
-  "recommendations": [
-    {
-      "type": "critical",
-      "area": "Risk Management",
-      "message": "Drawdown elevado (2180.6%). Implementar stops más ajustados."
-    },
-    {
-      "type": "suggestion",
-      "area": "Symbol Selection",
-      "message": "Revisar estrategia para: KDLY, JZ, ASST (pérdidas consistentes)"
-    },
-    {
-      "type": "warning",
-      "area": "Consistency",
-      "message": "Solo 22.6% de días rentables. Buscar mayor consistencia."
     }
   ]
 }

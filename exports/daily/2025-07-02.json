@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-27 05:29:55",
+  "exportDate": "2025-07-29 00:11:54",
   "account": "ZI*******64",
   "date": "2025-07-02",
   "trades": [
@@ -318,16 +318,16 @@
     "winningTrades": 10,
     "losingTrades": 7,
     "symbols": [
-      "MOGO",
-      "DAIC",
-      "BMNR",
-      "MIRA",
+      "SONN",
       "ELWS",
-      "SONN"
+      "DAIC",
+      "MIRA",
+      "BMNR",
+      "MOGO"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-27 05:29:55"
+    "processedAt": "2025-07-29 00:11:54"
   }
 }
