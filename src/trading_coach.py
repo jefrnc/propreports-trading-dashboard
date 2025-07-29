@@ -223,17 +223,20 @@ WEEK OVERVIEW:
 DAILY BREAKDOWN:
 """
         
-        # Add daily performance
-        for day, stats in weekly_data.get('dailyBreakdown', {}).items():
-            if stats['trades'] > 0:
-                prompt += f"- {day}: {stats['trades']} trades, ${stats['netPnL']:.2f}, {stats['winRate']*100:.0f}% win rate\n"
+        # Add extremes info if available
+        extremes = weekly_data.get('extremes', {})
+        if extremes:
+            best_trade = extremes.get('bestTrade', {})
+            worst_trade = extremes.get('worstTrade', {})
+            if best_trade:
+                prompt += f"- Best Trade: ${best_trade.get('pnl', 0):.2f} ({best_trade.get('symbol', 'N/A')} on {best_trade.get('date', 'N/A')})\n"
+            if worst_trade:
+                prompt += f"- Worst Trade: ${worst_trade.get('pnl', 0):.2f} ({worst_trade.get('symbol', 'N/A')} on {worst_trade.get('date', 'N/A')})\n"
         
         prompt += f"""
 TRADING PATTERNS:
-- Best Time: {patterns.get('bestTimeOfDay', 'N/A')}
-- Most Profitable Symbol: {patterns.get('mostProfitableSymbol', 'N/A')}
-- Biggest Win: ${patterns.get('biggestWin', 0):.2f}
-- Biggest Loss: ${patterns.get('biggestLoss', 0):.2f}
+- Max Consecutive Wins: {patterns.get('maxConsecutiveWins', 'N/A')}
+- Max Consecutive Losses: {patterns.get('maxConsecutiveLosses', 'N/A')}
 
 Please provide:
 1. Overall weekly performance assessment
