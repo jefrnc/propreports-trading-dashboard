@@ -94,39 +94,39 @@ jobs:
         run: |
           # Update dashboard-data.json with coaching info
           cat > update_coaching.py << 'EOF'
-import json
-import os
-from pathlib import Path
-
-# Load existing dashboard data
-with open('docs/dashboard-data.json', 'r') as f:
-    data = json.load(f)
-
-# Add coaching data
-coaching_data = {
-    'monthly': [],
-    'weekly': [],
-    'enabled': True
-}
-
-# Load coaching reports
-coaching_dir = Path('exports/coaching/monthly')
-if coaching_dir.exists():
-    for f in sorted(coaching_dir.glob('*.json')):
-        with open(f, 'r') as cf:
-            report = json.load(cf)
-            coaching_data['monthly'].append({
-                'period': report['period'],
-                'generated_at': report['generated_at'],
-                'coaching': report['coaching']
-            })
-
-data['coaching'] = coaching_data
-
-# Save updated data
-with open('docs/dashboard-data.json', 'w') as f:
-    json.dump(data, f, indent=2)
-EOF
+          import json
+          import os
+          from pathlib import Path
+          
+          # Load existing dashboard data
+          with open('docs/dashboard-data.json', 'r') as f:
+              data = json.load(f)
+          
+          # Add coaching data
+          coaching_data = {
+              'monthly': [],
+              'weekly': [],
+              'enabled': True
+          }
+          
+          # Load coaching reports
+          coaching_dir = Path('exports/coaching/monthly')
+          if coaching_dir.exists():
+              for f in sorted(coaching_dir.glob('*.json')):
+                  with open(f, 'r') as cf:
+                      report = json.load(cf)
+                      coaching_data['monthly'].append({
+                          'period': report['period'],
+                          'generated_at': report['generated_at'],
+                          'coaching': report['coaching']
+                      })
+          
+          data['coaching'] = coaching_data
+          
+          # Save updated data
+          with open('docs/dashboard-data.json', 'w') as f:
+              json.dump(data, f, indent=2)
+          EOF
           python update_coaching.py
 
       - name: Commit and push coaching reports
