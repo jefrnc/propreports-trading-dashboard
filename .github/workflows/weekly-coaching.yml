@@ -1,0 +1,214 @@
+name: Weekly Trading Coaching Report
+
+on:
+  schedule:
+    # Run every Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Year (default: current year)'
+        required: false
+        type: string
+      week:
+        description: 'Week number (default: auto-detect)'
+        required: false
+        type: string
+      force_enable:
+        description: 'Force enable coaching (ignore feature flag)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+env:
+  EXPORT_OUTPUT_DIR: "exports"
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  ENABLE_COACHING: ${{ secrets.ENABLE_COACHING || 'false' }}
+
+jobs:
+  weekly-coaching:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dashboard repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout exporter repository
+        uses: actions/checkout@v4
+        with:
+          repository: jefrnc/propreports-auto-exporter
+          path: exporter
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Check if coaching is enabled
+        id: check_coaching
+        run: |
+          if [[ "${{ env.ENABLE_COACHING }}" == "true" || "${{ github.event.inputs.force_enable }}" == "true" ]]; then
+            echo "enabled=true" >> $GITHUB_OUTPUT
+            echo "Coaching is enabled"
+          else
+            echo "enabled=false" >> $GITHUB_OUTPUT
+            echo "Coaching is disabled. Set ENABLE_COACHING secret to 'true' to enable."
+          fi
+
+      - name: Check OpenAI API Key
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          if [[ -z "${{ env.OPENAI_API_KEY }}" ]]; then
+            echo "Error: OPENAI_API_KEY secret is not set"
+            exit 1
+          fi
+          echo "OpenAI API Key is configured"
+
+      - name: Copy export data
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          if [ -d "exporter/exports" ]; then
+            cp -r exporter/exports .
+          else
+            echo "No exports directory found in exporter repository"
+            mkdir -p exports
+          fi
+
+      - name: Generate weekly coaching report
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          if [[ -n "${{ github.event.inputs.year }}" && -n "${{ github.event.inputs.week }}" ]]; then
+            python src/trading_coach.py weekly --year ${{ github.event.inputs.year }} --week ${{ github.event.inputs.week }}
+          else
+            python src/trading_coach.py weekly --auto
+          fi
+
+      - name: Update dashboard with coaching data
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          # Update dashboard-data.json with coaching info
+          cat > update_coaching.py << 'EOF'
+          import json
+          import os
+          from pathlib import Path
+          
+          # Load existing dashboard data
+          with open('docs/dashboard-data.json', 'r') as f:
+              data = json.load(f)
+          
+          # Ensure coaching section exists
+          if 'coaching' not in data:
+              data['coaching'] = {
+                  'monthly': [],
+                  'weekly': [],
+                  'enabled': True
+              }
+          
+          # Load weekly coaching reports
+          weekly_dir = Path('exports/coaching/weekly')
+          if weekly_dir.exists():
+              weekly_reports = []
+              for f in sorted(weekly_dir.glob('*.json')):
+                  with open(f, 'r') as cf:
+                      report = json.load(cf)
+                      weekly_reports.append({
+                          'period': report['period'],
+                          'generated_at': report['generated_at'],
+                          'coaching': report['coaching']
+                      })
+              data['coaching']['weekly'] = weekly_reports
+          
+          # Save updated data
+          with open('docs/dashboard-data.json', 'w') as f:
+              json.dump(data, f, indent=2)
+          EOF
+          python update_coaching.py
+
+      - name: Commit and push coaching reports
+        if: steps.check_coaching.outputs.enabled == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Create coaching directory if it doesn't exist
+          mkdir -p exports/coaching/
+          
+          # Add files if they exist
+          if [ -d "exports/coaching/" ]; then
+            git add exports/coaching/
+          fi
+          if [ -f "docs/dashboard-data.json" ]; then
+            git add docs/dashboard-data.json
+          fi
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Weekly coaching report - $(date +'%Y-W%V')"
+            git push
+          fi
+
+      - name: Create coaching summary comment
+        if: steps.check_coaching.outputs.enabled == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Find the latest coaching report
+            const coachingDir = 'exports/coaching/weekly';
+            if (fs.existsSync(coachingDir)) {
+              const files = fs.readdirSync(coachingDir)
+                .filter(f => f.endsWith('.json'))
+                .sort()
+                .reverse();
+              
+              if (files.length > 0) {
+                const latestFile = path.join(coachingDir, files[0]);
+                const coaching = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
+                
+                const summary = `
+            ## 📊 Weekly Trading Coaching Report - ${coaching.period}
+            
+            **Overall Performance:** ${coaching.coaching.overall_performance || 'Analysis completed'}
+            
+            ### 💪 Strengths
+            ${(coaching.coaching.strengths || []).map(s => `- ${s}`).join('\n')}
+            
+            ### 🎯 Areas for Improvement  
+            ${(coaching.coaching.areas_for_improvement || []).map(a => `- ${a}`).join('\n')}
+            
+            ### 🚀 Next Week Focus
+            ${(coaching.coaching.next_week_focus || []).map(f => `- ${f}`).join('\n')}
+            
+            ---
+            *Report generated automatically on ${new Date().toLocaleDateString()}*
+            `;
+            
+                // Create an issue with the coaching summary
+                github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: `Weekly Coaching Report - ${coaching.period}`,
+                  body: summary,
+                  labels: ['coaching', 'weekly-report']
+                });
+              }
+            }
+
+      - name: Coaching disabled notification
+        if: steps.check_coaching.outputs.enabled == 'false'
+        run: |
+          echo "::notice::Weekly coaching is disabled. To enable, set the ENABLE_COACHING repository secret to 'true'."
