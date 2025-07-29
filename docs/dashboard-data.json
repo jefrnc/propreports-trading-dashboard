@@ -958,5 +958,25 @@
       "pnl": 140.85,
       "winRate": 0.6889
     }
-  ]
+  ],
+  "coaching": {
+    "monthly": [
+      {
+        "period": "July 2025",
+        "generated_at": "2025-07-29T01:41:32.463588",
+        "coaching": {
+          "overall_performance": "197 trades with a **Net P&L** of $444.29 indicates a consistent ability to generate profits.\n- **Win Rate**: At **73.1%**, your win rate is strong, suggesting effective strategy execution.\n- **Profit Factor**: A **Profit Factor of 3.19** indicates that your winning trades are significantly outweighing losses.\n- **Average Win vs. Average Loss**: The average win ($4.60) is greater than the average loss ($-3.99), which is promising. However, the ratio could be improved for a more robust performance.",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Focus on analyzing both winning and losing trades to refine strategies and avoid patterns that lead to losses.\n2. **Risk Management**: Prioritize improving risk management practices to reduce drawdowns and enhance overall capital preservation.\n3. **Mental Fortitude**: Work on building psychological resilience, perhaps through visualization techniques or regular reflections on trading decisions.",
+          "psychological_insights": "The occurrence of max consecutive losses might indicate emotional responses influencing decisions. Consider implementing a trading journal to document feelings during trades and help identify emotional patterns.\n- **Coping Mechanisms**: Develop strategies for coping with losing trades, such as taking breaks or engaging in mindfulness practices to maintain trading discipline.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      }
+    ],
+    "weekly": [],
+    "enabled": true
+  }
 }
