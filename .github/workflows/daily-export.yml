@@ -1,5 +1,5 @@
 name: Daily Export
-# Purpose: Runs every day at 10 PM EST to export trading data from PropReports
+# Purpose: Runs twice daily to export trading data from PropReports
 # What it does:
 #   1. Exports today's trades
 #   2. Reprocesses last 3 days (for late-reported trades)
@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 3 * * *' # Daily at 10 PM EST
+    - cron: '0 15 * * *' # Daily at 10 AM EST (second run to catch late trades)
 
 jobs:
   export:

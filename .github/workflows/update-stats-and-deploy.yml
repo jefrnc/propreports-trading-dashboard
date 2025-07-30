@@ -53,6 +53,7 @@ jobs:
         wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/generate_stats.py
         wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/generate_calendar.py
         wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/generate_dashboard_data.py
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/generate_monthly_data.py
     
     - name: Update statistics
       run: |
@@ -64,6 +65,9 @@ jobs:
         
         echo "📈 Generating dashboard data..."
         python generate_dashboard_data.py
+        
+        echo "📊 Generating monthly data..."
+        python generate_monthly_data.py
     
     - name: Commit changes
       run: |
