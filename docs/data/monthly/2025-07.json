@@ -92,19 +92,42 @@
       "trades": 23,
       "pnl": -44.33,
       "winRate": 0
+    },
+    "2025-07-30": {
+      "trades": 14,
+      "pnl": 91.77,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 221,
-    "totalPnL": 32.059999999999874,
-    "winRate": 70.13574660633483,
+    "totalTrades": 235,
+    "totalPnL": 123.82999999999987,
+    "winRate": 69.7872340425532,
     "bestDay": "2025-07-14",
     "bestDayPnL": 111.19,
     "worstDay": "2025-07-28",
     "worstDayPnL": -359.74,
-    "tradingDays": 18
+    "tradingDays": 19
   },
   "topWinners": [
+    {
+      "date": "2025-07-30",
+      "opened": "07/30/25 08:46:59",
+      "closed": "14:27:39",
+      "held": "05:40:40",
+      "symbol": "BGLC",
+      "type": "Short",
+      "entry": 7.8538,
+      "exit": 7.2744,
+      "size": 110.0,
+      "pnl": 63.73,
+      "commission": 0.33,
+      "net": 63.11,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 110.0,
+      "price": 7.8538
+    },
     {
       "date": "2025-07-15",
       "opened": "07/15/25 11:04:34",
@@ -176,24 +199,6 @@
       "side": "SELL",
       "quantity": 85.0,
       "price": 2.0362
-    },
-    {
-      "date": "2025-07-14",
-      "opened": "07/14/25 11:35:00",
-      "closed": "15:53:44",
-      "held": "04:18:44",
-      "symbol": "TROO",
-      "type": "Short",
-      "entry": 2.0543,
-      "exit": 1.7174,
-      "size": 75.0,
-      "pnl": 25.26,
-      "commission": 0.23,
-      "net": 24.87,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 75.0,
-      "price": 2.0543
     }
   ],
   "topLosers": [
