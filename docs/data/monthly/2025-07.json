@@ -87,17 +87,22 @@
       "trades": 1,
       "pnl": -359.74,
       "winRate": 0
+    },
+    "2025-07-29": {
+      "trades": 23,
+      "pnl": -44.33,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 198,
-    "totalPnL": 76.38999999999987,
-    "winRate": 72.22222222222221,
+    "totalTrades": 221,
+    "totalPnL": 32.059999999999874,
+    "winRate": 70.13574660633483,
     "bestDay": "2025-07-14",
     "bestDayPnL": 111.19,
     "worstDay": "2025-07-28",
     "worstDayPnL": -359.74,
-    "tradingDays": 17
+    "tradingDays": 18
   },
   "topWinners": [
     {
@@ -229,6 +234,24 @@
       "price": 5.0966
     },
     {
+      "date": "2025-07-29",
+      "opened": "07/29/25 09:48:47",
+      "closed": "10:22:33",
+      "held": "00:33:46",
+      "symbol": "STAI",
+      "type": "Short",
+      "entry": 1.1389,
+      "exit": 1.4144,
+      "size": 110.0,
+      "pnl": -30.31,
+      "commission": 0.33,
+      "net": -30.82,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 110.0,
+      "price": 1.1389
+    },
+    {
       "date": "2025-07-21",
       "opened": "07/21/25 07:26:34",
       "closed": "07:30:39",
@@ -247,40 +270,22 @@
       "price": 14.202
     },
     {
-      "date": "2025-07-24",
-      "opened": "07/24/25 08:06:20",
-      "closed": "08:27:54",
-      "held": "00:21:34",
-      "symbol": "CYCC",
+      "date": "2025-07-29",
+      "opened": "07/29/25 10:22:33",
+      "closed": "10:34:21",
+      "held": "00:11:48",
+      "symbol": "STAI",
       "type": "Long",
-      "entry": 21.7949,
-      "exit": 21.2216,
-      "size": 20.0,
-      "pnl": -11.47,
-      "commission": 0.06,
-      "net": -11.58,
+      "entry": 1.3961,
+      "exit": 1.3162,
+      "size": 169.0,
+      "pnl": -13.5,
+      "commission": 0.51,
+      "net": -14.28,
       "account": "ZIMDASE9C64",
       "side": "BUY",
-      "quantity": 20.0,
-      "price": 21.7949
-    },
-    {
-      "date": "2025-07-11",
-      "opened": "07/11/25 07:14:31",
-      "closed": "07:26:30",
-      "held": "00:11:59",
-      "symbol": "SGN",
-      "type": "Long",
-      "entry": 3.6445,
-      "exit": 3.3628,
-      "size": 40.0,
-      "pnl": -11.27,
-      "commission": 0.12,
-      "net": -11.47,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 40.0,
-      "price": 3.6445
+      "quantity": 169.0,
+      "price": 1.3961
     }
   ]
 }
