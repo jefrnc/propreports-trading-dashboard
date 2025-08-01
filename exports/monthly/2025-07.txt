@@ -3,11 +3,11 @@ July 2025
 ==================================================
 
 RESUMEN GENERAL:
-  Total de trades: 235
-  P&L Neto: $136.01
-  Win Rate: 70.2%
-  Profit Factor: 1.23
-  Expectancy: $0.65
+  Total de trades: 246
+  P&L Neto: $253.84
+  Win Rate: 71.1%
+  Profit Factor: 1.4
+  Expectancy: $1.11
 
 DESGLOSE SEMANAL:
   Semana 30: 45 trades, $140.85, WR: 68.9%
@@ -15,4 +15,4 @@ DESGLOSE SEMANAL:
 RECOMENDACIONES:
   🔴 [Risk Management] Drawdown elevado (92.7%). Implementar stops más ajustados.
   🔵 [Symbol Selection] Revisar estrategia para: MCVT, DPRO, STAI (pérdidas consistentes)
-  🟡 [Consistency] Solo 45.2% de días rentables. Buscar mayor consistencia.
+  🟡 [Consistency] Solo 48.4% de días rentables. Buscar mayor consistencia.

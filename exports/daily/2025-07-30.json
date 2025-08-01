@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-01 03:43:00",
+  "exportDate": "2025-08-01 15:05:52",
   "account": "ZI*******64",
   "date": "2025-07-30",
   "trades": [
@@ -265,15 +265,15 @@
     "losingTrades": 5,
     "symbols": [
       "XBP",
-      "IXHL",
-      "BGLC",
-      "VWAV",
       "SGD",
-      "SBET"
+      "IXHL",
+      "VWAV",
+      "SBET",
+      "BGLC"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-01 03:43:00"
+    "processedAt": "2025-08-01 15:05:52"
   }
 }

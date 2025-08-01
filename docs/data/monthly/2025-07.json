@@ -97,17 +97,22 @@
       "trades": 14,
       "pnl": 91.77,
       "winRate": 0
+    },
+    "2025-07-31": {
+      "trades": 11,
+      "pnl": 115.19,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 235,
-    "totalPnL": 123.82999999999987,
-    "winRate": 69.7872340425532,
-    "bestDay": "2025-07-14",
-    "bestDayPnL": 111.19,
+    "totalTrades": 246,
+    "totalPnL": 239.01999999999987,
+    "winRate": 70.73170731707317,
+    "bestDay": "2025-07-31",
+    "bestDayPnL": 115.19,
     "worstDay": "2025-07-28",
     "worstDayPnL": -359.74,
-    "tradingDays": 19
+    "tradingDays": 20
   },
   "topWinners": [
     {
@@ -127,6 +132,24 @@
       "side": "SELL",
       "quantity": 110.0,
       "price": 7.8538
+    },
+    {
+      "date": "2025-07-31",
+      "opened": "07/31/25 13:02:05",
+      "closed": "16:23:36",
+      "held": "03:21:31",
+      "symbol": "PAPL",
+      "type": "Short",
+      "entry": 6.386,
+      "exit": 5.7893,
+      "size": 86.0,
+      "pnl": 51.32,
+      "commission": 0.26,
+      "net": 50.83,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 86.0,
+      "price": 6.386
     },
     {
       "date": "2025-07-15",
@@ -181,24 +204,6 @@
       "side": "SELL",
       "quantity": 48.0,
       "price": 3.1426
-    },
-    {
-      "date": "2025-07-23",
-      "opened": "07/23/25 09:39:27",
-      "closed": "16:16:48",
-      "held": "06:37:21",
-      "symbol": "PLRZ",
-      "type": "Short",
-      "entry": 2.0362,
-      "exit": 1.7129,
-      "size": 85.0,
-      "pnl": 27.48,
-      "commission": 0.26,
-      "net": 27.07,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 85.0,
-      "price": 2.0362
     }
   ],
   "topLosers": [

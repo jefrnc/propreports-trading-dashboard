@@ -1,23 +1,23 @@
 {
-  "generateDate": "2025-08-01 03:43:01",
+  "generateDate": "2025-08-01 15:05:53",
   "month": 7,
   "monthName": "July",
   "year": 2025,
   "account": "ZIMDASE9C64",
   "overview": {
     "totalTradingDays": 31,
-    "totalTrades": 235,
-    "grossPnL": 152.07,
-    "totalCommissions": 16.06,
-    "netPnL": 136.01,
-    "avgDailyPnL": 4.39,
-    "winningTrades": 165,
+    "totalTrades": 246,
+    "grossPnL": 273.27,
+    "totalCommissions": 19.43,
+    "netPnL": 253.84,
+    "avgDailyPnL": 8.19,
+    "winningTrades": 175,
     "losingTrades": 69,
-    "winRate": 0.7021,
-    "avgWin": 5.02,
+    "winRate": 0.7114,
+    "avgWin": 5.42,
     "avgLoss": -9.79,
-    "profitFactor": 1.23,
-    "expectancy": 0.65
+    "profitFactor": 1.4,
+    "expectancy": 1.11
   },
   "performanceAnalysis": {
     "profitability_curve": [
@@ -173,8 +173,8 @@
       },
       {
         "date": "2025-07-31",
-        "daily_pnl": 0,
-        "cumulative_pnl": 123.83
+        "daily_pnl": 115.19,
+        "cumulative_pnl": 239.02
       }
     ],
     "drawdown_analysis": {
@@ -182,10 +182,10 @@
       "max_drawdown_percent": 92.65
     },
     "consistency_metrics": {
-      "profitable_days": 14,
+      "profitable_days": 15,
       "losing_days": 5,
-      "win_rate_days": 0.4516,
-      "avg_winning_day": 43.2,
+      "win_rate_days": 0.4839,
+      "avg_winning_day": 48.0,
       "avg_losing_day": -96.19
     },
     "symbol_performance": {
@@ -908,13 +908,43 @@
         "avg_loss": -0.07,
         "win_rate": 0.5,
         "expectancy": 0.93
+      },
+      "VRME": {
+        "trades": 1,
+        "pnl": 19.74,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 19.74,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "SNGX": {
+        "trades": 7,
+        "pnl": 28.94,
+        "wins": 7,
+        "losses": 0,
+        "avg_win": 4.13,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "PAPL": {
+        "trades": 3,
+        "pnl": 72.52,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 36.26,
+        "avg_loss": 0,
+        "win_rate": 0.6667,
+        "expectancy": 0
       }
     },
     "time_analysis": {},
     "risk_metrics": {
-      "sharpe_ratio": 0.41,
+      "sharpe_ratio": 0.71,
       "max_consecutive_losses": 9,
-      "risk_reward_ratio": 0.44911113421353577
+      "risk_reward_ratio": 0.499012371348373
     }
   },
   "weeklyBreakdown": [
@@ -940,7 +970,7 @@
     {
       "type": "warning",
       "area": "Consistency",
-      "message": "Solo 45.2% de días rentables. Buscar mayor consistencia."
+      "message": "Solo 48.4% de días rentables. Buscar mayor consistencia."
     }
   ]
 }
