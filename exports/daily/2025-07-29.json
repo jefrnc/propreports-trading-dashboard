@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-07-31 15:05:50",
+  "exportDate": "2025-08-01 03:43:00",
   "account": "ZI*******64",
   "date": "2025-07-29",
   "trades": [
@@ -426,19 +426,19 @@
     "winningTrades": 12,
     "losingTrades": 11,
     "symbols": [
-      "MCVT",
+      "HWH",
       "RCON",
-      "VWAV",
-      "SOAR",
       "VCIG",
-      "SGD",
+      "MCVT",
       "STAI",
       "CLDI",
-      "HWH"
+      "VWAV",
+      "SOAR",
+      "SGD"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-07-31 15:05:50"
+    "processedAt": "2025-08-01 03:43:00"
   }
 }
