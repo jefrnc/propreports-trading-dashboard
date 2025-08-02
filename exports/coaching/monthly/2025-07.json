@@ -1,19 +1,19 @@
 {
   "period": "July 2025",
-  "generated_at": "2025-07-29T01:41:32.463588",
+  "generated_at": "2025-08-02T09:02:45.411465",
   "performance_summary": {
-    "net_pnl": 444.29,
-    "total_trades": 197,
-    "win_rate": 0.731,
-    "profit_factor": 3.19
+    "net_pnl": 253.84,
+    "total_trades": 246,
+    "win_rate": 0.7114,
+    "profit_factor": 1.4
   },
   "coaching": {
-    "overall_performance": "197 trades with a **Net P&L** of $444.29 indicates a consistent ability to generate profits.\n- **Win Rate**: At **73.1%**, your win rate is strong, suggesting effective strategy execution.\n- **Profit Factor**: A **Profit Factor of 3.19** indicates that your winning trades are significantly outweighing losses.\n- **Average Win vs. Average Loss**: The average win ($4.60) is greater than the average loss ($-3.99), which is promising. However, the ratio could be improved for a more robust performance.",
+    "overall_performance": "** 246\n- **Net P&L:** $253.84 indicates a modest profit over a high number of trades.\n- **Win Rate:** 71.1% is strong, suggesting effective entry points.\n- **Profit Factor:** 1.40 is acceptable, but indicates room for improvement in risk-to-reward ratio.\n- **Max Drawdown:** $404.07 is concerning, as it represents a significant loss potential compared to your net gain.\n- **Sharpe Ratio:** 0.71 suggests that while returns are positive, they may not be commensurate with the risk taken.\n- **Profitable Days:** 15 out of 31 days indicate that nearly half the month was unprofitable, which could affect trading psychology.",
     "strengths": [],
     "areas_for_improvement": [],
     "specific_recommendations": [],
-    "risk_management": "Focus on analyzing both winning and losing trades to refine strategies and avoid patterns that lead to losses.\n2. **Risk Management**: Prioritize improving risk management practices to reduce drawdowns and enhance overall capital preservation.\n3. **Mental Fortitude**: Work on building psychological resilience, perhaps through visualization techniques or regular reflections on trading decisions.",
-    "psychological_insights": "The occurrence of max consecutive losses might indicate emotional responses influencing decisions. Consider implementing a trading journal to document feelings during trades and help identify emotional patterns.\n- **Coping Mechanisms**: Develop strategies for coping with losing trades, such as taking breaks or engaging in mindfulness practices to maintain trading discipline.",
+    "risk_management": "** Prioritize enhancing your risk management practices to protect against drawdowns.\n2. **Trade Review Process:** Establish a routine to review both winning and losing trades to refine your strategy.\n3. **Psychological Resilience:** Work on developing a mental framework to handle losses and maintain discipline, perhaps through journaling or mindfulness techniques.",
+    "psychological_insights": "** With 15 profitable days out of 31, the psychological impact of frequent losses can be detrimental. Focus on maintaining emotional stability during losing streaks.\n- **Handling Consecutive Losses:** The maximum of 9 consecutive losses may lead to impulsive trading decisions. Consider taking breaks or reducing trade size during such periods.",
     "next_week_focus": [],
     "next_month_focus": []
   }

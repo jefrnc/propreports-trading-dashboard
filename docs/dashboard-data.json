@@ -1020,5 +1020,39 @@
       "pnl": 140.85,
       "winRate": 0.6889
     }
-  ]
+  ],
+  "coaching": {
+    "monthly": [
+      {
+        "period": "May 2025",
+        "generated_at": "2025-07-29T08:13:43.546507",
+        "coaching": {
+          "overall_performance": "-$115.97 indicates an overall loss this month.\n- **Win Rate**: 66.2% is a strong win rate, suggesting that your strategy identifies profitable trades effectively.\n- **Profit Factor**: At 0.26, this indicates that losses significantly outweigh wins, which is a critical area for concern.\n- **Max Drawdown**: An alarming $133.89 (2180.6%) suggests high volatility in your portfolio and poor risk management.\n- **Sharpe Ratio**: -2.19 indicates that the risk-adjusted return is negative, reflecting the need for better trade selection or risk management.",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Implement strict stop-loss measures and cap losses to prevent large drawdowns.\n2. **Trade Selection**: Focus on improving the ratio of average wins to average losses through selective trades and better entry and exit points.\n3. **Performance Analysis**: Conduct a detailed review of both winning and losing trades to understand what contributes to success and what leads to losses.",
+          "psychological_insights": "The high max drawdown and the streak of consecutive losses suggest potential emotional reactions to trades. This can lead to revenge trading or over-trading.\n- **Confidence in Winning Trades**: Maintaining a high win rate can lead to overconfidence in decision-making. Ensure that trades are backed by analysis rather than intuition.\n- **Reflection and Journaling**: Keep a trading journal to reflect on your decisions, especially after losses. This can help identify triggers that lead to emotional trading.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "July 2025",
+        "generated_at": "2025-08-02T09:02:45.411465",
+        "coaching": {
+          "overall_performance": "** 246\n- **Net P&L:** $253.84 indicates a modest profit over a high number of trades.\n- **Win Rate:** 71.1% is strong, suggesting effective entry points.\n- **Profit Factor:** 1.40 is acceptable, but indicates room for improvement in risk-to-reward ratio.\n- **Max Drawdown:** $404.07 is concerning, as it represents a significant loss potential compared to your net gain.\n- **Sharpe Ratio:** 0.71 suggests that while returns are positive, they may not be commensurate with the risk taken.\n- **Profitable Days:** 15 out of 31 days indicate that nearly half the month was unprofitable, which could affect trading psychology.",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "** Prioritize enhancing your risk management practices to protect against drawdowns.\n2. **Trade Review Process:** Establish a routine to review both winning and losing trades to refine your strategy.\n3. **Psychological Resilience:** Work on developing a mental framework to handle losses and maintain discipline, perhaps through journaling or mindfulness techniques.",
+          "psychological_insights": "** With 15 profitable days out of 31, the psychological impact of frequent losses can be detrimental. Focus on maintaining emotional stability during losing streaks.\n- **Handling Consecutive Losses:** The maximum of 9 consecutive losses may lead to impulsive trading decisions. Consider taking breaks or reducing trade size during such periods.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      }
+    ],
+    "weekly": [],
+    "enabled": true
+  }
 }
