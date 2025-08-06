@@ -12,19 +12,42 @@
       "trades": 16,
       "pnl": 32.67,
       "winRate": 0
+    },
+    "2025-08-05": {
+      "trades": 12,
+      "pnl": -104.86,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 22,
-    "totalPnL": 81.03999999999999,
-    "winRate": 68.18181818181817,
+    "totalTrades": 34,
+    "totalPnL": -23.820000000000007,
+    "winRate": 61.76470588235294,
     "bestDay": "2025-08-01",
     "bestDayPnL": 48.37,
-    "worstDay": "2025-08-04",
-    "worstDayPnL": 32.67,
-    "tradingDays": 2
+    "worstDay": "2025-08-05",
+    "worstDayPnL": -104.86,
+    "tradingDays": 3
   },
   "topWinners": [
+    {
+      "date": "2025-08-05",
+      "opened": "08/05/25 11:17:09",
+      "closed": "14:16:44",
+      "held": "02:59:35",
+      "symbol": "CWD",
+      "type": "Short",
+      "entry": 5.2468,
+      "exit": 5.1517,
+      "size": 707.0,
+      "pnl": 67.24,
+      "commission": 2.12,
+      "net": 63.97,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 707.0,
+      "price": 5.2468
+    },
     {
       "date": "2025-08-01",
       "opened": "08/01/25 08:54:31",
@@ -80,43 +103,43 @@
       "price": 3.4875
     },
     {
-      "date": "2025-08-04",
-      "opened": "08/04/25 12:21:43",
-      "closed": "15:31:35",
-      "held": "03:09:52",
-      "symbol": "BTBD",
-      "type": "Short",
-      "entry": 3.4405,
-      "exit": 3.0992,
-      "size": 38.0,
-      "pnl": 12.97,
-      "commission": 0.11,
-      "net": 12.75,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 38.0,
-      "price": 3.4405
-    },
-    {
-      "date": "2025-08-04",
-      "opened": "08/04/25 12:06:12",
-      "closed": "12:08:38",
-      "held": "00:02:26",
-      "symbol": "BTBD",
+      "date": "2025-08-05",
+      "opened": "08/05/25 09:39:05",
+      "closed": "09:41:30",
+      "held": "00:02:25",
+      "symbol": "SMXT",
       "type": "Long",
-      "entry": 3.9961,
-      "exit": 4.1461,
-      "size": 66.0,
-      "pnl": 9.9,
-      "commission": 0.2,
-      "net": 9.55,
+      "entry": 1.7729,
+      "exit": 1.8771,
+      "size": 130.0,
+      "pnl": 13.54,
+      "commission": 0.39,
+      "net": 12.77,
       "account": "ZIMDASE9C64",
       "side": "BUY",
-      "quantity": 66.0,
-      "price": 3.9961
+      "quantity": 130.0,
+      "price": 1.7729
     }
   ],
   "topLosers": [
+    {
+      "date": "2025-08-05",
+      "opened": "08/05/25 09:48:50",
+      "closed": "11:01:47",
+      "held": "01:12:57",
+      "symbol": "SMXT",
+      "type": "Long",
+      "entry": 2.1499,
+      "exit": 1.9659,
+      "size": 919.0,
+      "pnl": -169.13,
+      "commission": 2.76,
+      "net": -173.54,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 919.0,
+      "price": 2.1499
+    },
     {
       "date": "2025-08-04",
       "opened": "08/04/25 09:33:08",
@@ -134,6 +157,24 @@
       "side": "SELL",
       "quantity": 132.0,
       "price": 3.6033
+    },
+    {
+      "date": "2025-08-05",
+      "opened": "08/05/25 06:26:37",
+      "closed": "07:23:33",
+      "held": "00:56:56",
+      "symbol": "CYCC",
+      "type": "Long",
+      "entry": 12.908,
+      "exit": 12.554,
+      "size": 50.0,
+      "pnl": -17.7,
+      "commission": 0.15,
+      "net": -17.88,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 50.0,
+      "price": 12.908
     },
     {
       "date": "2025-08-04",
@@ -170,42 +211,6 @@
       "side": "SELL",
       "quantity": 56.0,
       "price": 3.2922
-    },
-    {
-      "date": "2025-08-01",
-      "opened": "08/01/25 09:55:17",
-      "closed": "11:12:19",
-      "held": "01:17:02",
-      "symbol": "MCVT",
-      "type": "Short",
-      "entry": 5.1601,
-      "exit": 5.46,
-      "size": 24.0,
-      "pnl": -7.2,
-      "commission": 0.07,
-      "net": -7.32,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 24.0,
-      "price": 5.1601
-    },
-    {
-      "date": "2025-08-04",
-      "opened": "08/04/25 12:52:01",
-      "closed": "14:13:45",
-      "held": "01:21:44",
-      "symbol": "VERB",
-      "type": "Short",
-      "entry": 24.5851,
-      "exit": 26.3475,
-      "size": 4.0,
-      "pnl": -7.05,
-      "commission": 0.01,
-      "net": -7.07,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 4.0,
-      "price": 24.5851
     }
   ]
 }
