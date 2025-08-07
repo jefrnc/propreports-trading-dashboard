@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-06 15:06:40",
+  "exportDate": "2025-08-07 03:36:53",
   "account": "ZI*******64",
   "date": "2025-08-05",
   "trades": [
@@ -229,16 +229,16 @@
     "losingTrades": 6,
     "symbols": [
       "BTAI",
-      "OPEN",
-      "CYCC",
-      "CWD",
-      "LIDR",
       "SMXT",
-      "GV"
+      "GV",
+      "LIDR",
+      "CYCC",
+      "OPEN",
+      "CWD"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-06 15:06:40"
+    "processedAt": "2025-08-07 03:36:53"
   }
 }
