@@ -17,17 +17,22 @@
       "trades": 12,
       "pnl": -104.86,
       "winRate": 0
+    },
+    "2025-08-06": {
+      "trades": 20,
+      "pnl": -10.63,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 34,
-    "totalPnL": -23.820000000000007,
-    "winRate": 61.76470588235294,
+    "totalTrades": 54,
+    "totalPnL": -34.45000000000001,
+    "winRate": 61.111111111111114,
     "bestDay": "2025-08-01",
     "bestDayPnL": 48.37,
     "worstDay": "2025-08-05",
     "worstDayPnL": -104.86,
-    "tradingDays": 3
+    "tradingDays": 4
   },
   "topWinners": [
     {
@@ -103,22 +108,22 @@
       "price": 3.4875
     },
     {
-      "date": "2025-08-05",
-      "opened": "08/05/25 09:39:05",
-      "closed": "09:41:30",
-      "held": "00:02:25",
-      "symbol": "SMXT",
-      "type": "Long",
-      "entry": 1.7729,
-      "exit": 1.8771,
-      "size": 130.0,
-      "pnl": 13.54,
-      "commission": 0.39,
-      "net": 12.77,
+      "date": "2025-08-06",
+      "opened": "08/06/25 10:03:33",
+      "closed": "10:54:31",
+      "held": "00:50:58",
+      "symbol": "AIMD",
+      "type": "Short",
+      "entry": 3.5404,
+      "exit": 3.4162,
+      "size": 112.0,
+      "pnl": 13.92,
+      "commission": 0.34,
+      "net": 13.44,
       "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 130.0,
-      "price": 1.7729
+      "side": "SELL",
+      "quantity": 112.0,
+      "price": 3.5404
     }
   ],
   "topLosers": [
@@ -159,6 +164,42 @@
       "price": 3.6033
     },
     {
+      "date": "2025-08-06",
+      "opened": "08/06/25 08:47:53",
+      "closed": "10:05:10",
+      "held": "01:17:17",
+      "symbol": "BTAI",
+      "type": "Short",
+      "entry": 3.2832,
+      "exit": 3.5491,
+      "size": 100.0,
+      "pnl": -26.59,
+      "commission": 0.3,
+      "net": -26.97,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 100.0,
+      "price": 3.2832
+    },
+    {
+      "date": "2025-08-06",
+      "opened": "08/06/25 10:01:34",
+      "closed": "10:02:36",
+      "held": "00:01:02",
+      "symbol": "AIMD",
+      "type": "Long",
+      "entry": 3.7217,
+      "exit": 3.5445,
+      "size": 144.0,
+      "pnl": -25.52,
+      "commission": 0.43,
+      "net": -26.08,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 144.0,
+      "price": 3.7217
+    },
+    {
       "date": "2025-08-05",
       "opened": "08/05/25 06:26:37",
       "closed": "07:23:33",
@@ -175,42 +216,6 @@
       "side": "BUY",
       "quantity": 50.0,
       "price": 12.908
-    },
-    {
-      "date": "2025-08-04",
-      "opened": "08/04/25 09:45:11",
-      "closed": "11:22:14",
-      "held": "01:37:03",
-      "symbol": "VERB",
-      "type": "Short",
-      "entry": 17.3438,
-      "exit": 17.4831,
-      "size": 64.0,
-      "pnl": -8.92,
-      "commission": 0.19,
-      "net": -9.25,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 64.0,
-      "price": 17.3438
-    },
-    {
-      "date": "2025-08-04",
-      "opened": "08/04/25 08:14:47",
-      "closed": "08:16:09",
-      "held": "00:01:22",
-      "symbol": "INMB",
-      "type": "Short",
-      "entry": 3.2922,
-      "exit": 3.447,
-      "size": 56.0,
-      "pnl": -8.67,
-      "commission": 0.17,
-      "net": -8.93,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 56.0,
-      "price": 3.2922
     }
   ]
 }
