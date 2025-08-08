@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-08-08 03:36:49",
+  "lastUpdate": "2025-08-08 15:05:47",
   "year": 2025,
   "yearData": {
     "2025-01-28": {
@@ -958,9 +958,9 @@
       "winRate": 0.6
     },
     "2025-08-07": {
-      "trades": 0,
-      "pnl": 0,
-      "winRate": 0
+      "trades": 16,
+      "pnl": 117.92,
+      "winRate": 0.6875
     },
     "2025-08-08": {
       "trades": 0,
@@ -969,27 +969,27 @@
     }
   },
   "yearStats": {
-    "trading_days": 46,
-    "total_trades": 491,
-    "total_pnl": 27.820000000000057,
-    "win_rate": 65.21739130434783,
-    "profit_days": 30,
-    "profit_days_pct": 65.21739130434783,
+    "trading_days": 47,
+    "total_trades": 507,
+    "total_pnl": 145.74000000000007,
+    "win_rate": 65.95744680851064,
+    "profit_days": 31,
+    "profit_days_pct": 65.95744680851064,
     "loss_days": 16,
-    "loss_days_pct": 34.78260869565217,
-    "best_day": "2025-07-31",
-    "best_day_pnl": 115.19,
+    "loss_days_pct": 34.04255319148936,
+    "best_day": "2025-08-07",
+    "best_day_pnl": 117.92,
     "worst_day": "2025-07-28",
     "worst_day_pnl": -359.74,
-    "daily_avg": 0.6047826086956534,
-    "profit_factor": 1.07,
-    "biggest_win": 63.97,
+    "daily_avg": 3.1008510638297886,
+    "profit_factor": 1.16,
+    "biggest_win": 121.25,
     "biggest_loss": -359.74,
-    "total_fees": 42.0,
+    "total_fees": 50.55,
     "max_win_streak": 19,
     "max_loss_streak": 9,
     "current_streak": 1,
-    "current_streak_type": "loss"
+    "current_streak_type": "win"
   },
   "monthlyData": [
     {
