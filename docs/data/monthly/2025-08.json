@@ -27,17 +27,22 @@
       "trades": 16,
       "pnl": 117.92,
       "winRate": 0
+    },
+    "2025-08-08": {
+      "trades": 21,
+      "pnl": 86.25,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 70,
-    "totalPnL": 83.47,
-    "winRate": 62.857142857142854,
+    "totalTrades": 91,
+    "totalPnL": 169.72,
+    "winRate": 60.43956043956044,
     "bestDay": "2025-08-07",
     "bestDayPnL": 117.92,
     "worstDay": "2025-08-05",
     "worstDayPnL": -104.86,
-    "tradingDays": 5
+    "tradingDays": 6
   },
   "topWinners": [
     {
@@ -57,6 +62,24 @@
       "side": "SELL",
       "quantity": 676.0,
       "price": 1.4805
+    },
+    {
+      "date": "2025-08-08",
+      "opened": "08/08/25 10:11:37",
+      "closed": "11:44:17",
+      "held": "01:32:40",
+      "symbol": "PAPL",
+      "type": "Short",
+      "entry": 4.6696,
+      "exit": 4.5698,
+      "size": 976.0,
+      "pnl": 97.37,
+      "commission": 2.93,
+      "net": 93.46,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 976.0,
+      "price": 4.6696
     },
     {
       "date": "2025-08-05",
@@ -111,24 +134,6 @@
       "side": "SELL",
       "quantity": 1080.0,
       "price": 1.7533
-    },
-    {
-      "date": "2025-08-04",
-      "opened": "08/04/25 08:48:36",
-      "closed": "10:21:34",
-      "held": "01:32:58",
-      "symbol": "SNGX",
-      "type": "Short",
-      "entry": 3.7816,
-      "exit": 3.5508,
-      "size": 178.0,
-      "pnl": 41.08,
-      "commission": 0.53,
-      "net": 40.16,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 178.0,
-      "price": 3.7816
     }
   ],
   "topLosers": [

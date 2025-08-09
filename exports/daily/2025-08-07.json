@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-09 03:30:50",
+  "exportDate": "2025-08-09 15:04:52",
   "account": "ZI*******64",
   "date": "2025-08-07",
   "trades": [
@@ -301,12 +301,12 @@
     "losingTrades": 4,
     "symbols": [
       "YHC",
-      "BRLT",
-      "SBET"
+      "SBET",
+      "BRLT"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-09 03:30:50"
+    "processedAt": "2025-08-09 15:04:52"
   }
 }
