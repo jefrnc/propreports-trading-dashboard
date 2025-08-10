@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-08-10 03:36:42",
+  "generateDate": "2025-08-10 15:04:46",
   "weekPeriod": "2025-08-04 to 2025-08-10",
   "weekNumber": 32,
   "year": 2025,
@@ -35,8 +35,8 @@
       "trades": 16,
       "pnl": 117.92,
       "symbols": [
-        "BRLT",
         "YHC",
+        "BRLT",
         "SBET"
       ]
     },
@@ -205,8 +205,8 @@
       "trades": 16,
       "pnl": 117.92,
       "symbols": [
-        "BRLT",
         "YHC",
+        "BRLT",
         "SBET"
       ]
     },
@@ -215,13 +215,13 @@
       "trades": 21,
       "pnl": 86.25,
       "symbols": [
-        "PAPL",
-        "MRM",
-        "NTRB",
-        "SGBX",
         "BTAI",
+        "NTRB",
+        "SBET",
         "SPRU",
-        "SBET"
+        "PAPL",
+        "SGBX",
+        "MRM"
       ]
     },
     {

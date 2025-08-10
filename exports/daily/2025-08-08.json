@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-10 03:36:41",
+  "exportDate": "2025-08-10 15:04:45",
   "account": "ZI*******64",
   "date": "2025-08-08",
   "trades": [
@@ -390,17 +390,17 @@
     "winningTrades": 11,
     "losingTrades": 10,
     "symbols": [
-      "PAPL",
-      "MRM",
-      "NTRB",
-      "SGBX",
       "BTAI",
+      "NTRB",
+      "SBET",
       "SPRU",
-      "SBET"
+      "PAPL",
+      "SGBX",
+      "MRM"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-10 03:36:41"
+    "processedAt": "2025-08-10 15:04:45"
   }
 }
