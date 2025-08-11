@@ -1072,5 +1072,39 @@
       "pnl": 136.13,
       "winRate": 0.6
     }
-  ]
+  ],
+  "coaching": {
+    "monthly": [],
+    "weekly": [
+      {
+        "period": "Week 30, 2025",
+        "generated_at": "2025-07-29T08:37:31.220656",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Ensure that position sizes are consistent and appropriate to your overall trading capital to limit the impact of losses.\n- **Stop-Loss Strategies**: Implement or refine stop-loss strategies to prevent large losses like the one seen in HSDT.",
+          "psychological_insights": "The significant loss may have affected your confidence. Maintaining emotional discipline is crucial to avoid revenge trading.\n- **Focus on Process Over Profit**: Concentrate on executing your trading plan rather than fixating on short-term profits or losses.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 32, 2025",
+        "generated_at": "2025-08-11T09:08:35.655113",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "** Prioritize refining your stop-loss strategies and position sizing to minimize the impact of losing trades.\n2. **Trade Review:** Conduct a thorough review of the trades taken during this week, especially the losing trades, to identify common patterns and improve decision-making processes.\n3. **Discipline and Emotions:** Develop a routine to reinforce discipline and emotional control, such as journaling trades and reflecting on your decision-making processes.",
+          "psychological_insights": "** The max consecutive losses may indicate a psychological impact that affects decision-making. Focus on staying disciplined and adhering to your trading plan, regardless of recent performance.\n- **Maintaining Focus:** Ensure that distractions do not lead to impulsive trading decisions, especially after a loss.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      }
+    ],
+    "enabled": true
+  }
 }
