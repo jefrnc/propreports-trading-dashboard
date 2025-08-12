@@ -32,17 +32,22 @@
       "trades": 21,
       "pnl": 86.25,
       "winRate": 0
+    },
+    "2025-08-11": {
+      "trades": 13,
+      "pnl": 133.87,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 91,
-    "totalPnL": 169.72,
-    "winRate": 60.43956043956044,
-    "bestDay": "2025-08-07",
-    "bestDayPnL": 117.92,
+    "totalTrades": 104,
+    "totalPnL": 303.59000000000003,
+    "winRate": 63.46153846153846,
+    "bestDay": "2025-08-11",
+    "bestDayPnL": 133.87,
     "worstDay": "2025-08-05",
     "worstDayPnL": -104.86,
-    "tradingDays": 6
+    "tradingDays": 7
   },
   "topWinners": [
     {
@@ -100,6 +105,24 @@
       "price": 5.2468
     },
     {
+      "date": "2025-08-11",
+      "opened": "08/11/25 07:16:15",
+      "closed": "09:45:14",
+      "held": "02:28:59",
+      "symbol": "AUUD",
+      "type": "Short",
+      "entry": 3.5389,
+      "exit": 3.3273,
+      "size": 304.0,
+      "pnl": 64.3,
+      "commission": 0.91,
+      "net": 63.09,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 304.0,
+      "price": 3.5389
+    },
+    {
       "date": "2025-08-07",
       "opened": "08/07/25 08:47:50",
       "closed": "09:30:25",
@@ -116,24 +139,6 @@
       "side": "SELL",
       "quantity": 1000.0,
       "price": 1.888
-    },
-    {
-      "date": "2025-08-01",
-      "opened": "08/01/25 08:54:31",
-      "closed": "13:18:09",
-      "held": "04:23:38",
-      "symbol": "TNON",
-      "type": "Short",
-      "entry": 1.7533,
-      "exit": 1.7067,
-      "size": 1080.0,
-      "pnl": 50.32,
-      "commission": 3.24,
-      "net": 45.26,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 1080.0,
-      "price": 1.7533
     }
   ],
   "topLosers": [
