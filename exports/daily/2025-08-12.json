@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-14 15:05:37",
+  "exportDate": "2025-08-15 03:31:45",
   "account": "ZI*******64",
   "date": "2025-08-12",
   "trades": [
@@ -534,15 +534,15 @@
     "winningTrades": 21,
     "losingTrades": 8,
     "symbols": [
-      "ZENA",
       "BTAI",
       "BMNR",
+      "GBIO",
       "ATNF",
-      "GBIO"
+      "ZENA"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-14 15:05:37"
+    "processedAt": "2025-08-15 03:31:45"
   }
 }
