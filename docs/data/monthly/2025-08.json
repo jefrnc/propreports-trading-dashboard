@@ -47,17 +47,22 @@
       "trades": 73,
       "pnl": -108.08,
       "winRate": 0
+    },
+    "2025-08-14": {
+      "trades": 15,
+      "pnl": 71.64,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 206,
-    "totalPnL": 281.86000000000007,
-    "winRate": 66.50485436893204,
+    "totalTrades": 221,
+    "totalPnL": 353.50000000000006,
+    "winRate": 67.42081447963801,
     "bestDay": "2025-08-11",
     "bestDayPnL": 133.87,
     "worstDay": "2025-08-13",
     "worstDayPnL": -108.08,
-    "tradingDays": 9
+    "tradingDays": 10
   },
   "topWinners": [
     {
