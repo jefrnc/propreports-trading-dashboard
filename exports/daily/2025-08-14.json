@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-16 15:04:21",
+  "exportDate": "2025-08-17 03:33:54",
   "account": "ZI*******64",
   "date": "2025-08-14",
   "trades": [
@@ -283,14 +283,14 @@
     "losingTrades": 3,
     "symbols": [
       "BSLK",
+      "BMRA",
       "SNOA",
       "TRIB",
-      "XPON",
-      "BMRA"
+      "XPON"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-16 15:04:21"
+    "processedAt": "2025-08-17 03:33:54"
   }
 }

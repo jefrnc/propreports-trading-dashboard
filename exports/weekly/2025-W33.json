@@ -1,0 +1,240 @@
+{
+  "generateDate": "2025-08-17 03:33:55",
+  "weekPeriod": "2025-08-11 to 2025-08-17",
+  "weekNumber": 33,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 137,
+    "grossPnL": 314.5,
+    "totalCommissions": 43.88,
+    "netPnL": 270.62,
+    "avgDailyPnL": 38.66,
+    "avgTradePerDay": 19.57,
+    "winningTrades": 101,
+    "losingTrades": 36,
+    "winRate": 0.7372,
+    "avgWin": 15.01,
+    "avgLoss": -33.36,
+    "profitFactor": 1.26
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-08-12",
+      "symbol": "ATNF",
+      "pnl": 78.67
+    },
+    "worstTrade": {
+      "date": "2025-08-12",
+      "symbol": "BMNR",
+      "pnl": -333.96
+    },
+    "bestDay": {
+      "date": "2025-08-11",
+      "trades": 13,
+      "pnl": 133.87,
+      "symbols": [
+        "GMHS",
+        "IOBT",
+        "EQ",
+        "AUUD",
+        "SBET",
+        "ANY",
+        "WLDS"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-08-13",
+      "trades": 73,
+      "pnl": -108.08,
+      "symbols": [
+        "BSLK",
+        "MNTS",
+        "BTAI",
+        "XFOR",
+        "ATNF"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 14,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "BSLK",
+        {
+          "count": 45,
+          "pnl": 338.58,
+          "win_rate": 0.7778
+        }
+      ],
+      [
+        "ATNF",
+        {
+          "count": 29,
+          "pnl": 264.0600000000001,
+          "win_rate": 0.7586
+        }
+      ],
+      [
+        "AUUD",
+        {
+          "count": 3,
+          "pnl": 72.44,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "TIVC",
+        {
+          "count": 4,
+          "pnl": 55.71,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SNOA",
+        {
+          "count": 4,
+          "pnl": 49.69,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 14,
+        "pnl": 84.19999999999999
+      },
+      "08": {
+        "count": 10,
+        "pnl": 71.02
+      },
+      "09": {
+        "count": 21,
+        "pnl": -258.25000000000006
+      },
+      "10": {
+        "count": 19,
+        "pnl": -330.04
+      },
+      "11": {
+        "count": 16,
+        "pnl": -77.41
+      },
+      "16": {
+        "count": 5,
+        "pnl": 16.13
+      },
+      "12": {
+        "count": 11,
+        "pnl": 122.47
+      },
+      "13": {
+        "count": 12,
+        "pnl": 180.55000000000004
+      },
+      "14": {
+        "count": 15,
+        "pnl": 289.93
+      },
+      "15": {
+        "count": 14,
+        "pnl": 215.9
+      }
+    },
+    "tradeDurations": {
+      ">60min": {
+        "count": 12,
+        "pnl": -467.14
+      },
+      "5-15min": {
+        "count": 33,
+        "pnl": 374.2199999999999
+      },
+      "15-60min": {
+        "count": 28,
+        "pnl": 69.96
+      },
+      "<5min": {
+        "count": 64,
+        "pnl": 337.46000000000004
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-08-11",
+      "trades": 13,
+      "pnl": 133.87,
+      "symbols": [
+        "GMHS",
+        "IOBT",
+        "EQ",
+        "AUUD",
+        "SBET",
+        "ANY",
+        "WLDS"
+      ]
+    },
+    {
+      "date": "2025-08-12",
+      "trades": 29,
+      "pnl": 86.35,
+      "symbols": [
+        "BMNR",
+        "GBIO",
+        "ZENA",
+        "BTAI",
+        "ATNF"
+      ]
+    },
+    {
+      "date": "2025-08-13",
+      "trades": 73,
+      "pnl": -108.08,
+      "symbols": [
+        "BSLK",
+        "MNTS",
+        "BTAI",
+        "XFOR",
+        "ATNF"
+      ]
+    },
+    {
+      "date": "2025-08-14",
+      "trades": 15,
+      "pnl": 71.64,
+      "symbols": [
+        "BSLK",
+        "BMRA",
+        "SNOA",
+        "TRIB",
+        "XPON"
+      ]
+    },
+    {
+      "date": "2025-08-15",
+      "trades": 7,
+      "pnl": 70.05,
+      "symbols": [
+        "PPSI",
+        "SRXH",
+        "TIVC"
+      ]
+    },
+    {
+      "date": "2025-08-16",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-08-17",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
