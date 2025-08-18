@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-18 03:35:36",
+  "exportDate": "2025-08-18 15:05:52",
   "account": "ZI*******64",
   "date": "2025-08-15",
   "trades": [
@@ -138,13 +138,13 @@
     "winningTrades": 6,
     "losingTrades": 1,
     "symbols": [
-      "PPSI",
       "TIVC",
+      "PPSI",
       "SRXH"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-18 03:35:36"
+    "processedAt": "2025-08-18 15:05:52"
   }
 }

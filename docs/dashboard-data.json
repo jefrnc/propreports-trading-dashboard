@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-08-18 03:35:54",
+  "lastUpdate": "2025-08-18 15:05:52",
   "year": 2025,
   "yearData": {
     "2025-01-28": {
@@ -1114,53 +1114,5 @@
       "pnl": 270.62,
       "winRate": 0.7372
     }
-  ],
-  "coaching": {
-    "monthly": [],
-    "weekly": [
-      {
-        "period": "Week 30, 2025",
-        "generated_at": "2025-07-29T08:37:31.220656",
-        "coaching": {
-          "overall_performance": "",
-          "strengths": [],
-          "areas_for_improvement": [],
-          "specific_recommendations": [],
-          "risk_management": "Ensure that position sizes are consistent and appropriate to your overall trading capital to limit the impact of losses.\n- **Stop-Loss Strategies**: Implement or refine stop-loss strategies to prevent large losses like the one seen in HSDT.",
-          "psychological_insights": "The significant loss may have affected your confidence. Maintaining emotional discipline is crucial to avoid revenge trading.\n- **Focus on Process Over Profit**: Concentrate on executing your trading plan rather than fixating on short-term profits or losses.",
-          "next_week_focus": [],
-          "next_month_focus": []
-        }
-      },
-      {
-        "period": "Week 32, 2025",
-        "generated_at": "2025-08-11T09:08:35.655113",
-        "coaching": {
-          "overall_performance": "",
-          "strengths": [],
-          "areas_for_improvement": [],
-          "specific_recommendations": [],
-          "risk_management": "** Prioritize refining your stop-loss strategies and position sizing to minimize the impact of losing trades.\n2. **Trade Review:** Conduct a thorough review of the trades taken during this week, especially the losing trades, to identify common patterns and improve decision-making processes.\n3. **Discipline and Emotions:** Develop a routine to reinforce discipline and emotional control, such as journaling trades and reflecting on your decision-making processes.",
-          "psychological_insights": "** The max consecutive losses may indicate a psychological impact that affects decision-making. Focus on staying disciplined and adhering to your trading plan, regardless of recent performance.\n- **Maintaining Focus:** Ensure that distractions do not lead to impulsive trading decisions, especially after a loss.",
-          "next_week_focus": [],
-          "next_month_focus": []
-        }
-      },
-      {
-        "period": "Week 33, 2025",
-        "generated_at": "2025-08-18T09:08:18.092055",
-        "coaching": {
-          "overall_performance": "",
-          "strengths": [],
-          "areas_for_improvement": [],
-          "specific_recommendations": [],
-          "risk_management": "Analyze both winning and losing trades to identify patterns and improve decision-making processes.\n2. **Daily Trading Routine**: Establish a structured daily trading plan to ensure you are consistently entering the market.\n3. **Risk Management Framework**: Implement stricter risk management guidelines, including fixed stop-losses and position size adjustments based on volatility.",
-          "psychological_insights": "The significant loss may indicate emotional trading. Establish a systematic approach to manage losses and avoid revenge trading.\n- **Confidence in Winning Streaks**: While a high win rate boosts confidence, be cautious of overtrading or getting too comfortable, which can lead to impulsive decisions.",
-          "next_week_focus": [],
-          "next_month_focus": []
-        }
-      }
-    ],
-    "enabled": true
-  }
+  ]
 }

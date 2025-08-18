@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-08-18 03:35:36",
+  "generateDate": "2025-08-18 15:05:52",
   "weekPeriod": "2025-08-11 to 2025-08-17",
   "weekNumber": 33,
   "year": 2025,
@@ -219,8 +219,8 @@
       "trades": 7,
       "pnl": 70.05,
       "symbols": [
-        "PPSI",
         "TIVC",
+        "PPSI",
         "SRXH"
       ]
     },
