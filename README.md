@@ -28,12 +28,12 @@ This is a live example of:
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 675 | 1,066 |
-| **P&L** | **+$524.69** | **+$829.06** |
+| **Trades** | 675 | 1,061 |
+| **P&L** | **+$524.69** | **+$825.48** |
 
-*Based on current performance with 134 days remaining*
+*Based on current performance with 133 days remaining*
 
-*Last updated: 2025-08-19 15:05 UTC*
+*Last updated: 2025-08-20 03:24 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
