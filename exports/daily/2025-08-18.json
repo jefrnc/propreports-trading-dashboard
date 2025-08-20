@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-19 15:05:34",
+  "exportDate": "2025-08-20 03:23:49",
   "account": "ZI*******64",
   "date": "2025-08-18",
   "trades": [
@@ -192,18 +192,18 @@
     "winningTrades": 7,
     "losingTrades": 3,
     "symbols": [
-      "LASE",
+      "WHLR",
       "LIDR",
-      "VTAK",
-      "ONMD",
-      "MB",
-      "BTAI",
       "SNGX",
-      "WHLR"
+      "ONMD",
+      "VTAK",
+      "LASE",
+      "MB",
+      "BTAI"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-19 15:05:34"
+    "processedAt": "2025-08-20 03:23:49"
   }
 }
