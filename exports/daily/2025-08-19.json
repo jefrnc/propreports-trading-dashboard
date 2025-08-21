@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-20 15:05:28",
+  "exportDate": "2025-08-21 03:23:19",
   "account": "ZI*******64",
   "date": "2025-08-19",
   "trades": [
@@ -534,18 +534,18 @@
     "winningTrades": 18,
     "losingTrades": 10,
     "symbols": [
+      "FLNT",
+      "NBY",
       "BSLK",
+      "GXAI",
+      "LASE",
       "VCIG",
       "PRFX",
-      "NBY",
-      "GXAI",
-      "FLNT",
-      "GLE",
-      "LASE"
+      "GLE"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-20 15:05:28"
+    "processedAt": "2025-08-21 03:23:19"
   }
 }
