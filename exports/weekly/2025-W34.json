@@ -1,0 +1,250 @@
+{
+  "generateDate": "2025-08-24 03:29:22",
+  "weekPeriod": "2025-08-18 to 2025-08-24",
+  "weekNumber": 34,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 77,
+    "grossPnL": -202.09,
+    "totalCommissions": 18.95,
+    "netPnL": -221.04,
+    "avgDailyPnL": -31.58,
+    "avgTradePerDay": 11.0,
+    "winningTrades": 48,
+    "losingTrades": 28,
+    "winRate": 0.6234,
+    "avgWin": 6.84,
+    "avgLoss": -18.94,
+    "profitFactor": 0.62
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-08-19",
+      "symbol": "GXAI",
+      "pnl": 31.36
+    },
+    "worstTrade": {
+      "date": "2025-08-21",
+      "symbol": "THAR",
+      "pnl": -322.54
+    },
+    "bestDay": {
+      "date": "2025-08-19",
+      "trades": 29,
+      "pnl": 69.7,
+      "symbols": [
+        "NBY",
+        "GLE",
+        "FLNT",
+        "LASE",
+        "GXAI",
+        "VCIG",
+        "BSLK",
+        "PRFX"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-08-21",
+      "trades": 13,
+      "pnl": -377.03,
+      "symbols": [
+        "AEMD",
+        "APM",
+        "THAR",
+        "PTIX"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 5,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "GXAI",
+        {
+          "count": 9,
+          "pnl": 41.03999999999999,
+          "win_rate": 0.5556
+        }
+      ],
+      [
+        "VCIG",
+        {
+          "count": 3,
+          "pnl": 31.689999999999998,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "TRIB",
+        {
+          "count": 1,
+          "pnl": 22.44,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "EEIQ",
+        {
+          "count": 2,
+          "pnl": 18.45,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "BSLK",
+        {
+          "count": 4,
+          "pnl": 14.2,
+          "win_rate": 0.75
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 4,
+        "pnl": 3.66
+      },
+      "09": {
+        "count": 15,
+        "pnl": -231.19
+      },
+      "11": {
+        "count": 6,
+        "pnl": 7.9
+      },
+      "13": {
+        "count": 10,
+        "pnl": -40.129999999999995
+      },
+      "16": {
+        "count": 11,
+        "pnl": 15.490000000000002
+      },
+      "08": {
+        "count": 9,
+        "pnl": 9.850000000000009
+      },
+      "10": {
+        "count": 6,
+        "pnl": 20.340000000000003
+      },
+      "12": {
+        "count": 6,
+        "pnl": 9.62
+      },
+      "14": {
+        "count": 5,
+        "pnl": -0.86
+      },
+      "15": {
+        "count": 3,
+        "pnl": 2.78
+      },
+      "17": {
+        "count": 2,
+        "pnl": 0.44999999999999996
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 30,
+        "pnl": -36.87
+      },
+      "15-60min": {
+        "count": 17,
+        "pnl": 2.790000000000001
+      },
+      "5-15min": {
+        "count": 17,
+        "pnl": 67.05999999999999
+      },
+      ">60min": {
+        "count": 13,
+        "pnl": -235.07000000000002
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-08-18",
+      "trades": 10,
+      "pnl": 19.47,
+      "symbols": [
+        "SNGX",
+        "LIDR",
+        "VTAK",
+        "MB",
+        "WHLR",
+        "BTAI",
+        "LASE",
+        "ONMD"
+      ]
+    },
+    {
+      "date": "2025-08-19",
+      "trades": 29,
+      "pnl": 69.7,
+      "symbols": [
+        "NBY",
+        "GLE",
+        "FLNT",
+        "LASE",
+        "GXAI",
+        "VCIG",
+        "BSLK",
+        "PRFX"
+      ]
+    },
+    {
+      "date": "2025-08-20",
+      "trades": 9,
+      "pnl": 64.01,
+      "symbols": [
+        "TRIB",
+        "YOUL",
+        "THAR",
+        "TIVC"
+      ]
+    },
+    {
+      "date": "2025-08-21",
+      "trades": 13,
+      "pnl": -377.03,
+      "symbols": [
+        "AEMD",
+        "APM",
+        "THAR",
+        "PTIX"
+      ]
+    },
+    {
+      "date": "2025-08-22",
+      "trades": 16,
+      "pnl": -3.78,
+      "symbols": [
+        "ELAB",
+        "EEIQ",
+        "LIMN",
+        "APM",
+        "SHFS",
+        "ANTE",
+        "AKAN"
+      ]
+    },
+    {
+      "date": "2025-08-23",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-08-24",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

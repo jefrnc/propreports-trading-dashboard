@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-23 15:04:23",
+  "exportDate": "2025-08-24 03:29:21",
   "account": "ZI*******64",
   "date": "2025-08-21",
   "trades": [
@@ -246,14 +246,14 @@
     "winningTrades": 7,
     "losingTrades": 6,
     "symbols": [
-      "PTIX",
       "AEMD",
+      "APM",
       "THAR",
-      "APM"
+      "PTIX"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-23 15:04:23"
+    "processedAt": "2025-08-24 03:29:21"
   }
 }
