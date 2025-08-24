@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-08-24 03:29:22",
+  "generateDate": "2025-08-24 15:04:34",
   "weekPeriod": "2025-08-18 to 2025-08-24",
   "weekNumber": 34,
   "year": 2025,
@@ -50,10 +50,10 @@
       "trades": 13,
       "pnl": -377.03,
       "symbols": [
+        "PTIX",
         "AEMD",
         "APM",
-        "THAR",
-        "PTIX"
+        "THAR"
       ]
     }
   },
@@ -214,10 +214,10 @@
       "trades": 13,
       "pnl": -377.03,
       "symbols": [
+        "PTIX",
         "AEMD",
         "APM",
-        "THAR",
-        "PTIX"
+        "THAR"
       ]
     },
     {
@@ -225,13 +225,13 @@
       "trades": 16,
       "pnl": -3.78,
       "symbols": [
-        "ELAB",
-        "EEIQ",
         "LIMN",
         "APM",
+        "ELAB",
+        "AKAN",
+        "EEIQ",
         "SHFS",
-        "ANTE",
-        "AKAN"
+        "ANTE"
       ]
     },
     {
