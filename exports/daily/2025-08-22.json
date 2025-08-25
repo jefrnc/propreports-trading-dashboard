@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-24 15:04:34",
+  "exportDate": "2025-08-25 03:27:49",
   "account": "ZI*******64",
   "date": "2025-08-22",
   "trades": [
@@ -300,17 +300,17 @@
     "winningTrades": 8,
     "losingTrades": 8,
     "symbols": [
-      "LIMN",
+      "ANTE",
       "APM",
-      "ELAB",
       "AKAN",
+      "LIMN",
       "EEIQ",
       "SHFS",
-      "ANTE"
+      "ELAB"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-24 15:04:34"
+    "processedAt": "2025-08-25 03:27:49"
   }
 }
