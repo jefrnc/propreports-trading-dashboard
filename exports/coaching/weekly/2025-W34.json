@@ -1,0 +1,21 @@
+{
+  "period": "Week 34, 2025",
+  "week_period": "2025-08-18 to 2025-08-24",
+  "generated_at": "2025-08-25T09:06:45.973598",
+  "performance_summary": {
+    "net_pnl": -221.04,
+    "total_trades": 77,
+    "win_rate": 0.6234,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Prioritize implementing stop-loss orders and adjusting position sizes to mitigate losses.\n2. **Increase Trade Frequency**: Work on finding more trading opportunities to leverage your strengths and improve overall profitability.\n3. **Emotional Discipline**: Focus on maintaining a disciplined mindset, especially after a series of wins or losses, to avoid impulsive decisions.",
+    "psychological_insights": "### 6. Psychological/Discipline Observations\n- The presence of consecutive wins followed by losses suggests that you may be prone to emotional decision-making after a winning streak. Stay disciplined and avoid overtrading or revenge trading after losses.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
