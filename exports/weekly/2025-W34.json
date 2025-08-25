@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-08-25 03:27:49",
+  "generateDate": "2025-08-25 15:05:27",
   "weekPeriod": "2025-08-18 to 2025-08-24",
   "weekNumber": 34,
   "year": 2025,
@@ -225,13 +225,13 @@
       "trades": 16,
       "pnl": -3.78,
       "symbols": [
-        "ANTE",
         "APM",
+        "ANTE",
         "AKAN",
-        "LIMN",
         "EEIQ",
+        "ELAB",
         "SHFS",
-        "ELAB"
+        "LIMN"
       ]
     },
     {
