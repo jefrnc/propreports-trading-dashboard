@@ -97,17 +97,22 @@
       "trades": 7,
       "pnl": 25.65,
       "winRate": 0
+    },
+    "2025-08-28": {
+      "trades": 33,
+      "pnl": 24.1,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 325,
-    "totalPnL": 307.3000000000001,
-    "winRate": 66.76923076923077,
+    "totalTrades": 358,
+    "totalPnL": 331.40000000000015,
+    "winRate": 67.31843575418995,
     "bestDay": "2025-08-11",
     "bestDayPnL": 133.87,
     "worstDay": "2025-08-21",
     "worstDayPnL": -377.03,
-    "tradingDays": 19
+    "tradingDays": 20
   },
   "topWinners": [
     {
@@ -275,22 +280,22 @@
       "price": 2.1499
     },
     {
-      "date": "2025-08-13",
-      "opened": "08/13/25 10:51:48",
-      "closed": "11:16:25",
-      "held": "00:24:37",
-      "symbol": "ATNF",
+      "date": "2025-08-28",
+      "opened": "08/28/25 14:11:27",
+      "closed": "14:18:04",
+      "held": "00:06:37",
+      "symbol": "SOGP",
       "type": "Long",
-      "entry": 13.3198,
-      "exit": 12.6226,
-      "size": 162.0,
-      "pnl": -112.95,
-      "commission": 0.49,
-      "net": -113.53,
+      "entry": 12.8797,
+      "exit": 12.0875,
+      "size": 148.0,
+      "pnl": -117.25,
+      "commission": 0.44,
+      "net": -117.82,
       "account": "ZIMDASE9C64",
       "side": "BUY",
-      "quantity": 162.0,
-      "price": 13.3198
+      "quantity": 148.0,
+      "price": 12.8797
     }
   ]
 }
