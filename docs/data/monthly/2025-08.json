@@ -102,19 +102,42 @@
       "trades": 33,
       "pnl": 24.1,
       "winRate": 0
+    },
+    "2025-08-29": {
+      "trades": 25,
+      "pnl": -320.18,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 358,
-    "totalPnL": 331.40000000000015,
-    "winRate": 67.31843575418995,
+    "totalTrades": 383,
+    "totalPnL": 11.220000000000141,
+    "winRate": 67.1018276762402,
     "bestDay": "2025-08-11",
     "bestDayPnL": 133.87,
     "worstDay": "2025-08-21",
     "worstDayPnL": -377.03,
-    "tradingDays": 20
+    "tradingDays": 21
   },
   "topWinners": [
+    {
+      "date": "2025-08-29",
+      "opened": "08/29/25 13:27:03",
+      "closed": "13:49:00",
+      "held": "00:21:57",
+      "symbol": "IPDN",
+      "type": "Long",
+      "entry": 8.6746,
+      "exit": 9.0341,
+      "size": 490.0,
+      "pnl": 176.15,
+      "commission": 1.47,
+      "net": 174.36,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 490.0,
+      "price": 8.6746
+    },
     {
       "date": "2025-08-07",
       "opened": "08/07/25 09:33:49",
@@ -186,24 +209,6 @@
       "side": "BUY",
       "quantity": 624.0,
       "price": 10.6464
-    },
-    {
-      "date": "2025-08-13",
-      "opened": "08/13/25 14:51:15",
-      "closed": "15:00:28",
-      "held": "00:09:13",
-      "symbol": "BSLK",
-      "type": "Long",
-      "entry": 13.2902,
-      "exit": 13.6296,
-      "size": 200.0,
-      "pnl": 67.88,
-      "commission": 0.6,
-      "net": 67.07,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 200.0,
-      "price": 13.2902
     }
   ],
   "topLosers": [
@@ -244,6 +249,24 @@
       "price": 4.8403
     },
     {
+      "date": "2025-08-29",
+      "opened": "08/29/25 09:19:05",
+      "closed": "10:24:37",
+      "held": "01:05:32",
+      "symbol": "IPDN",
+      "type": "Short",
+      "entry": 3.7604,
+      "exit": 5.0747,
+      "size": 240.0,
+      "pnl": -315.42,
+      "commission": 0.72,
+      "net": -315.97,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 240.0,
+      "price": 3.7604
+    },
+    {
       "date": "2025-08-13",
       "opened": "08/13/25 10:15:22",
       "closed": "14:58:01",
@@ -278,24 +301,6 @@
       "side": "BUY",
       "quantity": 919.0,
       "price": 2.1499
-    },
-    {
-      "date": "2025-08-28",
-      "opened": "08/28/25 14:11:27",
-      "closed": "14:18:04",
-      "held": "00:06:37",
-      "symbol": "SOGP",
-      "type": "Long",
-      "entry": 12.8797,
-      "exit": 12.0875,
-      "size": 148.0,
-      "pnl": -117.25,
-      "commission": 0.44,
-      "net": -117.82,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 148.0,
-      "price": 12.8797
     }
   ]
 }
