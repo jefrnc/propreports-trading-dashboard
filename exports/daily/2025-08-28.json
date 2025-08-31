@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-08-30 15:04:16",
+  "exportDate": "2025-08-31 03:22:21",
   "account": "ZI*******64",
   "date": "2025-08-28",
   "trades": [
@@ -608,13 +608,13 @@
     "symbols": [
       "SOGP",
       "CWD",
-      "OPAD",
       "LGHL",
-      "AQB"
+      "AQB",
+      "OPAD"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-08-30 15:04:16"
+    "processedAt": "2025-08-31 03:22:21"
   }
 }

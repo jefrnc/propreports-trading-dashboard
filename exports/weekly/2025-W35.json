@@ -1,0 +1,245 @@
+{
+  "generateDate": "2025-08-31 03:22:21",
+  "weekPeriod": "2025-08-25 to 2025-08-31",
+  "weekNumber": 35,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 78,
+    "grossPnL": -159.56,
+    "totalCommissions": 20.32,
+    "netPnL": -179.88,
+    "avgDailyPnL": -25.7,
+    "avgTradePerDay": 11.14,
+    "winningTrades": 54,
+    "losingTrades": 24,
+    "winRate": 0.6923,
+    "avgWin": 12.94,
+    "avgLoss": -35.76,
+    "profitFactor": 0.81
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-08-29",
+      "symbol": "IPDN",
+      "pnl": 176.15
+    },
+    "worstTrade": {
+      "date": "2025-08-29",
+      "symbol": "IPDN",
+      "pnl": -315.42
+    },
+    "bestDay": {
+      "date": "2025-08-26",
+      "trades": 8,
+      "pnl": 59.56,
+      "symbols": [
+        "INHD",
+        "ALLR",
+        "HKPD",
+        "IVVD",
+        "VRAX",
+        "AIFF"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-08-29",
+      "trades": 25,
+      "pnl": -320.18,
+      "symbols": [
+        "IPDN",
+        "NUKK",
+        "GMHS",
+        "HWH",
+        "YYAI"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 9,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "STSS",
+        {
+          "count": 2,
+          "pnl": 41.77,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SOGP",
+        {
+          "count": 21,
+          "pnl": 27.330000000000013,
+          "win_rate": 0.8095
+        }
+      ],
+      [
+        "INHD",
+        {
+          "count": 7,
+          "pnl": 26.240000000000002,
+          "win_rate": 0.5714
+        }
+      ],
+      [
+        "ALLR",
+        {
+          "count": 3,
+          "pnl": 18.64,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "DEVS",
+        {
+          "count": 1,
+          "pnl": 11.55,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 4,
+        "pnl": -2.4699999999999998
+      },
+      "09": {
+        "count": 12,
+        "pnl": -206.94
+      },
+      "11": {
+        "count": 8,
+        "pnl": -5.4999999999999964
+      },
+      "15": {
+        "count": 9,
+        "pnl": 7.59
+      },
+      "07": {
+        "count": 4,
+        "pnl": 9.57
+      },
+      "10": {
+        "count": 11,
+        "pnl": -163.76
+      },
+      "14": {
+        "count": 8,
+        "pnl": -31.36999999999998
+      },
+      "16": {
+        "count": 5,
+        "pnl": 34.42
+      },
+      "12": {
+        "count": 10,
+        "pnl": -18.11
+      },
+      "13": {
+        "count": 4,
+        "pnl": 215.35999999999999
+      },
+      "17": {
+        "count": 2,
+        "pnl": -0.3500000000000001
+      },
+      "04": {
+        "count": 1,
+        "pnl": 2.0
+      }
+    },
+    "tradeDurations": {
+      "5-15min": {
+        "count": 20,
+        "pnl": -99.71
+      },
+      ">60min": {
+        "count": 12,
+        "pnl": -173.39
+      },
+      "15-60min": {
+        "count": 21,
+        "pnl": 70.14000000000001
+      },
+      "<5min": {
+        "count": 25,
+        "pnl": 43.400000000000006
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-08-25",
+      "trades": 5,
+      "pnl": 26.17,
+      "symbols": [
+        "STSS",
+        "INHD",
+        "CAPS"
+      ]
+    },
+    {
+      "date": "2025-08-26",
+      "trades": 8,
+      "pnl": 59.56,
+      "symbols": [
+        "INHD",
+        "ALLR",
+        "HKPD",
+        "IVVD",
+        "VRAX",
+        "AIFF"
+      ]
+    },
+    {
+      "date": "2025-08-27",
+      "trades": 7,
+      "pnl": 25.65,
+      "symbols": [
+        "INHD",
+        "AQB",
+        "NBY",
+        "DEVS"
+      ]
+    },
+    {
+      "date": "2025-08-28",
+      "trades": 33,
+      "pnl": 24.1,
+      "symbols": [
+        "SOGP",
+        "CWD",
+        "LGHL",
+        "AQB",
+        "OPAD"
+      ]
+    },
+    {
+      "date": "2025-08-29",
+      "trades": 25,
+      "pnl": -320.18,
+      "symbols": [
+        "IPDN",
+        "NUKK",
+        "GMHS",
+        "HWH",
+        "YYAI"
+      ]
+    },
+    {
+      "date": "2025-08-30",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-08-31",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
