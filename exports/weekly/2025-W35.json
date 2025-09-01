@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-09-01 03:32:39",
+  "generateDate": "2025-09-01 15:05:13",
   "weekPeriod": "2025-08-25 to 2025-08-31",
   "weekNumber": 35,
   "year": 2025,
@@ -48,11 +48,11 @@
       "trades": 25,
       "pnl": -320.18,
       "symbols": [
+        "IPDN",
         "GMHS",
-        "YYAI",
         "NUKK",
         "HWH",
-        "IPDN"
+        "YYAI"
       ]
     }
   },
@@ -222,11 +222,11 @@
       "trades": 25,
       "pnl": -320.18,
       "symbols": [
+        "IPDN",
         "GMHS",
-        "YYAI",
         "NUKK",
         "HWH",
-        "IPDN"
+        "YYAI"
       ]
     },
     {
