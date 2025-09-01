@@ -1,0 +1,21 @@
+{
+  "period": "Week 35, 2025",
+  "week_period": "2025-08-25 to 2025-08-31",
+  "generated_at": "2025-09-01T09:07:07.728195",
+  "performance_summary": {
+    "net_pnl": -179.88,
+    "total_trades": 78,
+    "win_rate": 0.6923,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Set strict stop-loss levels and adhere to them to protect capital.\n2. **Evaluate Trade Execution**: After a winning streak, be cautious not to deviate from your trading strategy. Stick to your plan.\n3. **Analyze Losing Trades**: Conduct a thorough review of losing trades to identify common patterns or mistakes that can be corrected in future trades.",
+    "psychological_insights": "### Psychological/Discipline Observations\n- High win rates can lead to overconfidence. Stay grounded and adhere to your trading plan regardless of recent successes. Ensure that you are making decisions based on analysis rather than emotions.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
