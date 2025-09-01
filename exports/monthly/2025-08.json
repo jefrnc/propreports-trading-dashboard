@@ -1,0 +1,1097 @@
+{
+  "generateDate": "2025-09-01 03:32:39",
+  "month": 8,
+  "monthName": "August",
+  "year": 2025,
+  "account": "ZIMDASE9C64",
+  "overview": {
+    "totalTradingDays": 31,
+    "totalTrades": 383,
+    "grossPnL": 174.85,
+    "totalCommissions": 118.66,
+    "netPnL": 56.19,
+    "avgDailyPnL": 1.81,
+    "winningTrades": 258,
+    "losingTrades": 123,
+    "winRate": 0.6736,
+    "avgWin": 12.63,
+    "avgLoss": -25.07,
+    "profitFactor": 1.06,
+    "expectancy": 0.46
+  },
+  "performanceAnalysis": {
+    "profitability_curve": [
+      {
+        "date": "2025-08-01",
+        "daily_pnl": 48.37,
+        "cumulative_pnl": 48.37
+      },
+      {
+        "date": "2025-08-02",
+        "daily_pnl": 0,
+        "cumulative_pnl": 48.37
+      },
+      {
+        "date": "2025-08-03",
+        "daily_pnl": 0,
+        "cumulative_pnl": 48.37
+      },
+      {
+        "date": "2025-08-04",
+        "daily_pnl": 32.67,
+        "cumulative_pnl": 81.04
+      },
+      {
+        "date": "2025-08-05",
+        "daily_pnl": -104.86,
+        "cumulative_pnl": -23.82
+      },
+      {
+        "date": "2025-08-06",
+        "daily_pnl": -10.63,
+        "cumulative_pnl": -34.45
+      },
+      {
+        "date": "2025-08-07",
+        "daily_pnl": 117.92,
+        "cumulative_pnl": 83.47
+      },
+      {
+        "date": "2025-08-08",
+        "daily_pnl": 86.25,
+        "cumulative_pnl": 169.72
+      },
+      {
+        "date": "2025-08-09",
+        "daily_pnl": 0,
+        "cumulative_pnl": 169.72
+      },
+      {
+        "date": "2025-08-10",
+        "daily_pnl": 0,
+        "cumulative_pnl": 169.72
+      },
+      {
+        "date": "2025-08-11",
+        "daily_pnl": 133.87,
+        "cumulative_pnl": 303.59
+      },
+      {
+        "date": "2025-08-12",
+        "daily_pnl": 86.35,
+        "cumulative_pnl": 389.94
+      },
+      {
+        "date": "2025-08-13",
+        "daily_pnl": -108.08,
+        "cumulative_pnl": 281.86
+      },
+      {
+        "date": "2025-08-14",
+        "daily_pnl": 71.64,
+        "cumulative_pnl": 353.5
+      },
+      {
+        "date": "2025-08-15",
+        "daily_pnl": 70.05,
+        "cumulative_pnl": 423.55
+      },
+      {
+        "date": "2025-08-16",
+        "daily_pnl": 0,
+        "cumulative_pnl": 423.55
+      },
+      {
+        "date": "2025-08-17",
+        "daily_pnl": 0,
+        "cumulative_pnl": 423.55
+      },
+      {
+        "date": "2025-08-18",
+        "daily_pnl": 19.47,
+        "cumulative_pnl": 443.02
+      },
+      {
+        "date": "2025-08-19",
+        "daily_pnl": 69.7,
+        "cumulative_pnl": 512.72
+      },
+      {
+        "date": "2025-08-20",
+        "daily_pnl": 64.01,
+        "cumulative_pnl": 576.73
+      },
+      {
+        "date": "2025-08-21",
+        "daily_pnl": -377.03,
+        "cumulative_pnl": 199.7
+      },
+      {
+        "date": "2025-08-22",
+        "daily_pnl": -3.78,
+        "cumulative_pnl": 195.92
+      },
+      {
+        "date": "2025-08-23",
+        "daily_pnl": 0,
+        "cumulative_pnl": 195.92
+      },
+      {
+        "date": "2025-08-24",
+        "daily_pnl": 0,
+        "cumulative_pnl": 195.92
+      },
+      {
+        "date": "2025-08-25",
+        "daily_pnl": 26.17,
+        "cumulative_pnl": 222.09
+      },
+      {
+        "date": "2025-08-26",
+        "daily_pnl": 59.56,
+        "cumulative_pnl": 281.65
+      },
+      {
+        "date": "2025-08-27",
+        "daily_pnl": 25.65,
+        "cumulative_pnl": 307.3
+      },
+      {
+        "date": "2025-08-28",
+        "daily_pnl": 24.1,
+        "cumulative_pnl": 331.4
+      },
+      {
+        "date": "2025-08-29",
+        "daily_pnl": -320.18,
+        "cumulative_pnl": 11.22
+      },
+      {
+        "date": "2025-08-30",
+        "daily_pnl": 0,
+        "cumulative_pnl": 11.22
+      },
+      {
+        "date": "2025-08-31",
+        "daily_pnl": 0,
+        "cumulative_pnl": 11.22
+      }
+    ],
+    "drawdown_analysis": {
+      "max_drawdown": 565.51,
+      "max_drawdown_percent": 98.05
+    },
+    "consistency_metrics": {
+      "profitable_days": 15,
+      "losing_days": 6,
+      "win_rate_days": 0.4839,
+      "avg_winning_day": 62.39,
+      "avg_losing_day": -154.09
+    },
+    "symbol_performance": {
+      "TNON": {
+        "trades": 2,
+        "pnl": 50.57,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 25.29,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "MCVT": {
+        "trades": 2,
+        "pnl": -0.95,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 6.25,
+        "avg_loss": -7.2,
+        "win_rate": 0.5,
+        "expectancy": -0.48
+      },
+      "IMAB": {
+        "trades": 2,
+        "pnl": 4.26,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 4.28,
+        "avg_loss": -0.02,
+        "win_rate": 0.5,
+        "expectancy": 2.13
+      },
+      "INMB": {
+        "trades": 4,
+        "pnl": 25.41,
+        "wins": 2,
+        "losses": 2,
+        "avg_win": 17.07,
+        "avg_loss": -4.37,
+        "win_rate": 0.5,
+        "expectancy": 6.35
+      },
+      "SNGX": {
+        "trades": 6,
+        "pnl": 45.35,
+        "wins": 5,
+        "losses": 1,
+        "avg_win": 10.51,
+        "avg_loss": -7.22,
+        "win_rate": 0.8333,
+        "expectancy": 7.56
+      },
+      "VERB": {
+        "trades": 5,
+        "pnl": -3.58,
+        "wins": 3,
+        "losses": 2,
+        "avg_win": 4.13,
+        "avg_loss": -7.98,
+        "win_rate": 0.6,
+        "expectancy": -0.72
+      },
+      "BTBD": {
+        "trades": 3,
+        "pnl": -36.91,
+        "wins": 2,
+        "losses": 1,
+        "avg_win": 11.44,
+        "avg_loss": -59.78,
+        "win_rate": 0.6667,
+        "expectancy": -12.3
+      },
+      "PBM": {
+        "trades": 1,
+        "pnl": 6.91,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 6.91,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "CYCC": {
+        "trades": 2,
+        "pnl": -13.32,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 4.38,
+        "avg_loss": -17.7,
+        "win_rate": 0.5,
+        "expectancy": -6.66
+      },
+      "SMXT": {
+        "trades": 4,
+        "pnl": -147.8,
+        "wins": 2,
+        "losses": 2,
+        "avg_win": 11.61,
+        "avg_loss": -85.5,
+        "win_rate": 0.5,
+        "expectancy": -36.95
+      },
+      "LIDR": {
+        "trades": 2,
+        "pnl": 1.22,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 0.61,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "CWD": {
+        "trades": 4,
+        "pnl": 79.0,
+        "wins": 4,
+        "losses": 0,
+        "avg_win": 19.75,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "BTAI": {
+        "trades": 9,
+        "pnl": -5.99,
+        "wins": 4,
+        "losses": 5,
+        "avg_win": 11.58,
+        "avg_loss": -10.47,
+        "win_rate": 0.4444,
+        "expectancy": -0.67
+      },
+      "GV": {
+        "trades": 1,
+        "pnl": -0.61,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -0.61,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "OPEN": {
+        "trades": 1,
+        "pnl": -4.72,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -4.72,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "LPSN": {
+        "trades": 2,
+        "pnl": 3.84,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 1.92,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "AIMD": {
+        "trades": 9,
+        "pnl": 9.89,
+        "wins": 8,
+        "losses": 1,
+        "avg_win": 4.43,
+        "avg_loss": -25.52,
+        "win_rate": 0.8889,
+        "expectancy": 1.1
+      },
+      "IPDN": {
+        "trades": 19,
+        "pnl": -333.24,
+        "wins": 8,
+        "losses": 11,
+        "avg_win": 42.74,
+        "avg_loss": -61.38,
+        "win_rate": 0.4211,
+        "expectancy": -17.54
+      },
+      "RMSG": {
+        "trades": 5,
+        "pnl": 16.55,
+        "wins": 2,
+        "losses": 3,
+        "avg_win": 10.99,
+        "avg_loss": -1.81,
+        "win_rate": 0.4,
+        "expectancy": 3.31
+      },
+      "YHC": {
+        "trades": 8,
+        "pnl": 133.96,
+        "wins": 5,
+        "losses": 2,
+        "avg_win": 37.49,
+        "avg_loss": -26.75,
+        "win_rate": 0.625,
+        "expectancy": 16.75
+      },
+      "SBET": {
+        "trades": 7,
+        "pnl": -11.06,
+        "wins": 4,
+        "losses": 3,
+        "avg_win": 5.47,
+        "avg_loss": -10.99,
+        "win_rate": 0.5714,
+        "expectancy": -1.58
+      },
+      "BRLT": {
+        "trades": 3,
+        "pnl": 5.18,
+        "wins": 3,
+        "losses": 0,
+        "avg_win": 1.73,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "NTRB": {
+        "trades": 1,
+        "pnl": -1.48,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -1.48,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "SGBX": {
+        "trades": 5,
+        "pnl": -35.25,
+        "wins": 1,
+        "losses": 4,
+        "avg_win": 4.42,
+        "avg_loss": -9.92,
+        "win_rate": 0.2,
+        "expectancy": -7.05
+      },
+      "SPRU": {
+        "trades": 5,
+        "pnl": 28.33,
+        "wins": 3,
+        "losses": 2,
+        "avg_win": 10.23,
+        "avg_loss": -1.18,
+        "win_rate": 0.6,
+        "expectancy": 5.67
+      },
+      "MRM": {
+        "trades": 5,
+        "pnl": -4.4,
+        "wins": 3,
+        "losses": 2,
+        "avg_win": 4.55,
+        "avg_loss": -9.03,
+        "win_rate": 0.6,
+        "expectancy": -0.88
+      },
+      "PAPL": {
+        "trades": 3,
+        "pnl": 106.61,
+        "wins": 3,
+        "losses": 0,
+        "avg_win": 35.54,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "AUUD": {
+        "trades": 3,
+        "pnl": 72.44,
+        "wins": 2,
+        "losses": 1,
+        "avg_win": 36.32,
+        "avg_loss": -0.2,
+        "win_rate": 0.6667,
+        "expectancy": 24.15
+      },
+      "WLDS": {
+        "trades": 1,
+        "pnl": 5.7,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 5.7,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "EQ": {
+        "trades": 4,
+        "pnl": 22.42,
+        "wins": 4,
+        "losses": 0,
+        "avg_win": 5.61,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "IOBT": {
+        "trades": 1,
+        "pnl": 42.76,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 42.76,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "GMHS": {
+        "trades": 5,
+        "pnl": 9.51,
+        "wins": 5,
+        "losses": 0,
+        "avg_win": 1.9,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "ANY": {
+        "trades": 2,
+        "pnl": 1.38,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 0.69,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "ZENA": {
+        "trades": 1,
+        "pnl": 2.6,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 2.6,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "BMNR": {
+        "trades": 2,
+        "pnl": -303.49,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 30.47,
+        "avg_loss": -333.96,
+        "win_rate": 0.5,
+        "expectancy": -151.75
+      },
+      "ATNF": {
+        "trades": 29,
+        "pnl": 264.06,
+        "wins": 22,
+        "losses": 7,
+        "avg_win": 23.96,
+        "avg_loss": -37.59,
+        "win_rate": 0.7586,
+        "expectancy": 9.11
+      },
+      "GBIO": {
+        "trades": 2,
+        "pnl": 14.56,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 15.44,
+        "avg_loss": -0.88,
+        "win_rate": 0.5,
+        "expectancy": 7.28
+      },
+      "BSLK": {
+        "trades": 49,
+        "pnl": 352.78,
+        "wins": 38,
+        "losses": 11,
+        "avg_win": 12.59,
+        "avg_loss": -11.41,
+        "win_rate": 0.7755,
+        "expectancy": 7.2
+      },
+      "XFOR": {
+        "trades": 10,
+        "pnl": -11.4,
+        "wins": 7,
+        "losses": 3,
+        "avg_win": 5.19,
+        "avg_loss": -15.91,
+        "win_rate": 0.7,
+        "expectancy": -1.14
+      },
+      "MNTS": {
+        "trades": 10,
+        "pnl": -299.59,
+        "wins": 3,
+        "losses": 7,
+        "avg_win": 6.51,
+        "avg_loss": -45.59,
+        "win_rate": 0.3,
+        "expectancy": -29.96
+      },
+      "BMRA": {
+        "trades": 1,
+        "pnl": 14.52,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 14.52,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "SNOA": {
+        "trades": 4,
+        "pnl": 49.69,
+        "wins": 4,
+        "losses": 0,
+        "avg_win": 12.42,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "XPON": {
+        "trades": 6,
+        "pnl": 40.46,
+        "wins": 4,
+        "losses": 2,
+        "avg_win": 12.56,
+        "avg_loss": -4.89,
+        "win_rate": 0.6667,
+        "expectancy": 6.74
+      },
+      "TRIB": {
+        "trades": 4,
+        "pnl": -10.23,
+        "wins": 3,
+        "losses": 1,
+        "avg_win": 14.44,
+        "avg_loss": -53.55,
+        "win_rate": 0.75,
+        "expectancy": -2.56
+      },
+      "TIVC": {
+        "trades": 5,
+        "pnl": 69.31,
+        "wins": 5,
+        "losses": 0,
+        "avg_win": 13.86,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "PPSI": {
+        "trades": 1,
+        "pnl": 26.05,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 26.05,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "SRXH": {
+        "trades": 2,
+        "pnl": -4.78,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 14.28,
+        "avg_loss": -19.06,
+        "win_rate": 0.5,
+        "expectancy": -2.39
+      },
+      "VTAK": {
+        "trades": 1,
+        "pnl": -3.48,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -3.48,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "MB": {
+        "trades": 1,
+        "pnl": 6.82,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 6.82,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "ONMD": {
+        "trades": 1,
+        "pnl": 1.73,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 1.73,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "WHLR": {
+        "trades": 1,
+        "pnl": 9.16,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 9.16,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "LASE": {
+        "trades": 2,
+        "pnl": -19.75,
+        "wins": 0,
+        "losses": 2,
+        "avg_win": 0,
+        "avg_loss": -9.88,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "VCIG": {
+        "trades": 3,
+        "pnl": 31.69,
+        "wins": 3,
+        "losses": 0,
+        "avg_win": 10.56,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "GXAI": {
+        "trades": 9,
+        "pnl": 41.04,
+        "wins": 5,
+        "losses": 3,
+        "avg_win": 8.25,
+        "avg_loss": -0.07,
+        "win_rate": 0.5556,
+        "expectancy": 4.56
+      },
+      "PRFX": {
+        "trades": 7,
+        "pnl": 3.46,
+        "wins": 4,
+        "losses": 3,
+        "avg_win": 3.04,
+        "avg_loss": -2.91,
+        "win_rate": 0.5714,
+        "expectancy": 0.49
+      },
+      "FLNT": {
+        "trades": 2,
+        "pnl": 2.54,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 2.6,
+        "avg_loss": -0.06,
+        "win_rate": 0.5,
+        "expectancy": 1.27
+      },
+      "GLE": {
+        "trades": 2,
+        "pnl": 1.66,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 1.82,
+        "avg_loss": -0.16,
+        "win_rate": 0.5,
+        "expectancy": 0.83
+      },
+      "NBY": {
+        "trades": 2,
+        "pnl": 10.81,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 5.4,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "THAR": {
+        "trades": 6,
+        "pnl": -296.66,
+        "wins": 4,
+        "losses": 2,
+        "avg_win": 6.47,
+        "avg_loss": -161.28,
+        "win_rate": 0.6667,
+        "expectancy": -49.44
+      },
+      "YOUL": {
+        "trades": 2,
+        "pnl": 3.78,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 1.89,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "APM": {
+        "trades": 5,
+        "pnl": 7.35,
+        "wins": 2,
+        "losses": 3,
+        "avg_win": 18.09,
+        "avg_loss": -9.61,
+        "win_rate": 0.4,
+        "expectancy": 1.47
+      },
+      "PTIX": {
+        "trades": 6,
+        "pnl": -37.25,
+        "wins": 4,
+        "losses": 2,
+        "avg_win": 9.1,
+        "avg_loss": -36.83,
+        "win_rate": 0.6667,
+        "expectancy": -6.21
+      },
+      "AEMD": {
+        "trades": 2,
+        "pnl": 6.45,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 3.23,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "LIMN": {
+        "trades": 1,
+        "pnl": -4.34,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -4.34,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "EEIQ": {
+        "trades": 2,
+        "pnl": 18.45,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 9.22,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "ELAB": {
+        "trades": 8,
+        "pnl": -27.93,
+        "wins": 4,
+        "losses": 4,
+        "avg_win": 6.93,
+        "avg_loss": -13.91,
+        "win_rate": 0.5,
+        "expectancy": -3.49
+      },
+      "ANTE": {
+        "trades": 2,
+        "pnl": -0.02,
+        "wins": 1,
+        "losses": 1,
+        "avg_win": 0.18,
+        "avg_loss": -0.2,
+        "win_rate": 0.5,
+        "expectancy": -0.01
+      },
+      "SHFS": {
+        "trades": 1,
+        "pnl": -0.4,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -0.4,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "AKAN": {
+        "trades": 1,
+        "pnl": -4.68,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -4.68,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "CAPS": {
+        "trades": 1,
+        "pnl": -2.26,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -2.26,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "STSS": {
+        "trades": 2,
+        "pnl": 41.77,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 20.89,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "INHD": {
+        "trades": 7,
+        "pnl": 26.24,
+        "wins": 4,
+        "losses": 3,
+        "avg_win": 12.0,
+        "avg_loss": -7.25,
+        "win_rate": 0.5714,
+        "expectancy": 3.75
+      },
+      "VRAX": {
+        "trades": 1,
+        "pnl": 1.79,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 1.79,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "IVVD": {
+        "trades": 1,
+        "pnl": -2.36,
+        "wins": 0,
+        "losses": 1,
+        "avg_win": 0,
+        "avg_loss": -2.36,
+        "win_rate": 0.0,
+        "expectancy": 0
+      },
+      "AIFF": {
+        "trades": 1,
+        "pnl": 9.74,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 9.74,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "ALLR": {
+        "trades": 3,
+        "pnl": 18.64,
+        "wins": 2,
+        "losses": 1,
+        "avg_win": 16.09,
+        "avg_loss": -13.54,
+        "win_rate": 0.6667,
+        "expectancy": 6.21
+      },
+      "HKPD": {
+        "trades": 1,
+        "pnl": 2.53,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 2.53,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "DEVS": {
+        "trades": 1,
+        "pnl": 11.55,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 11.55,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "AQB": {
+        "trades": 6,
+        "pnl": -5.56,
+        "wins": 2,
+        "losses": 4,
+        "avg_win": 0.98,
+        "avg_loss": -1.88,
+        "win_rate": 0.3333,
+        "expectancy": -0.93
+      },
+      "LGHL": {
+        "trades": 3,
+        "pnl": 1.94,
+        "wins": 2,
+        "losses": 1,
+        "avg_win": 2.2,
+        "avg_loss": -2.46,
+        "win_rate": 0.6667,
+        "expectancy": 0.65
+      },
+      "SOGP": {
+        "trades": 21,
+        "pnl": 27.33,
+        "wins": 17,
+        "losses": 4,
+        "avg_win": 9.78,
+        "avg_loss": -34.73,
+        "win_rate": 0.8095,
+        "expectancy": 1.3
+      },
+      "OPAD": {
+        "trades": 2,
+        "pnl": 2.15,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 1.07,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "NUKK": {
+        "trades": 2,
+        "pnl": 8.7,
+        "wins": 2,
+        "losses": 0,
+        "avg_win": 4.35,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "YYAI": {
+        "trades": 1,
+        "pnl": 4.25,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 4.25,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      },
+      "HWH": {
+        "trades": 1,
+        "pnl": 1.45,
+        "wins": 1,
+        "losses": 0,
+        "avg_win": 1.45,
+        "avg_loss": 0,
+        "win_rate": 1.0,
+        "expectancy": 0
+      }
+    },
+    "time_analysis": {},
+    "risk_metrics": {
+      "sharpe_ratio": 0.17,
+      "max_consecutive_losses": 4,
+      "risk_reward_ratio": 0.40489324420793044
+    }
+  },
+  "weeklyBreakdown": [
+    {
+      "week": 32,
+      "period": "2025-08-04 to 2025-08-10",
+      "trades": 85,
+      "netPnL": 136.13,
+      "winRate": 0.6
+    },
+    {
+      "week": 33,
+      "period": "2025-08-11 to 2025-08-17",
+      "trades": 137,
+      "netPnL": 270.62,
+      "winRate": 0.7372
+    },
+    {
+      "week": 34,
+      "period": "2025-08-18 to 2025-08-24",
+      "trades": 77,
+      "netPnL": -221.04,
+      "winRate": 0.6234
+    },
+    {
+      "week": 35,
+      "period": "2025-08-25 to 2025-08-31",
+      "trades": 78,
+      "netPnL": -179.88,
+      "winRate": 0.6923
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "critical",
+      "area": "Risk Management",
+      "message": "Drawdown elevado (98.0%). Implementar stops más ajustados."
+    },
+    {
+      "type": "suggestion",
+      "area": "Symbol Selection",
+      "message": "Revisar estrategia para: IPDN, BMNR, MNTS (pérdidas consistentes)"
+    },
+    {
+      "type": "warning",
+      "area": "Consistency",
+      "message": "Solo 48.4% de días rentables. Buscar mayor consistencia."
+    }
+  ]
+}

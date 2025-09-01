@@ -1,0 +1,21 @@
+RESUMEN MENSUAL DE TRADING
+August 2025
+==================================================
+
+RESUMEN GENERAL:
+  Total de trades: 383
+  P&L Neto: $56.19
+  Win Rate: 67.4%
+  Profit Factor: 1.06
+  Expectancy: $0.46
+
+DESGLOSE SEMANAL:
+  Semana 32: 85 trades, $136.13, WR: 60.0%
+  Semana 33: 137 trades, $270.62, WR: 73.7%
+  Semana 34: 77 trades, $-221.04, WR: 62.3%
+  Semana 35: 78 trades, $-179.88, WR: 69.2%
+
+RECOMENDACIONES:
+  🔴 [Risk Management] Drawdown elevado (98.0%). Implementar stops más ajustados.
+  🔵 [Symbol Selection] Revisar estrategia para: IPDN, BMNR, MNTS (pérdidas consistentes)
+  🟡 [Consistency] Solo 48.4% de días rentables. Buscar mayor consistencia.
