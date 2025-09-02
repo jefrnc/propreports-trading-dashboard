@@ -1,0 +1,20 @@
+{
+  "period": "August 2025",
+  "generated_at": "2025-09-02T09:01:51.874327",
+  "performance_summary": {
+    "net_pnl": 56.19,
+    "total_trades": 383,
+    "win_rate": 0.6736,
+    "profit_factor": 1.06
+  },
+  "coaching": {
+    "overall_performance": "383\n- **Net P&L**: $56.19\n- **Win Rate**: 67.4%\n- **Profit Factor**: 1.06\n- Overall, your performance shows a mixed picture. While the win rate is respectable at 67.4%, the net profit of $56.19 is disproportionately low relative to the number of trades. The profit factor of 1.06 indicates that for every dollar lost, you are making only slightly more than a dollar won, which is not ideal for sustainable trading.",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Develop and adhere to a strict risk management plan to protect capital and minimize drawdowns.\n2. **Enhance Trade Selection**: Analyze past trades to identify patterns in successful trades versus unsuccessful ones, refining your approach accordingly.\n3. **Mindfulness and Discipline**: Work on maintaining mental clarity and discipline in your trading decisions, especially during losing streaks.",
+    "psychological_insights": "The high number of trades (383) relative to the profit suggests potential overtrading. This can lead to fatigue and poor decision-making.\n- **Response to Losses**: The max consecutive losses of 4 may indicate emotional pressure when trades do not go as planned. It\u2019s crucial to maintain discipline and stick to your trading plan.\n- **Confidence in Winning Trades**: Your win rate is strong, but be wary of overconfidence in trades that may not align with your strategy.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
