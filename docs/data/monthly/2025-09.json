@@ -17,17 +17,22 @@
       "trades": 26,
       "pnl": 22.96,
       "winRate": 0
+    },
+    "2025-09-05": {
+      "trades": 16,
+      "pnl": -509.69,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 68,
-    "totalPnL": 73.49,
-    "winRate": 76.47058823529412,
+    "totalTrades": 84,
+    "totalPnL": -436.2,
+    "winRate": 73.80952380952381,
     "bestDay": "2025-09-03",
     "bestDayPnL": 86.02,
-    "worstDay": "2025-09-02",
-    "worstDayPnL": -35.49,
-    "tradingDays": 3
+    "worstDay": "2025-09-05",
+    "worstDayPnL": -509.69,
+    "tradingDays": 4
   },
   "topWinners": [
     {
@@ -103,25 +108,43 @@
       "price": 9.4163
     },
     {
-      "date": "2025-09-04",
-      "opened": "09/04/25 09:59:03",
-      "closed": "10:06:46",
-      "held": "00:07:43",
-      "symbol": "BBLG",
-      "type": "Long",
-      "entry": 3.505,
-      "exit": 3.5803,
-      "size": 415.0,
-      "pnl": 31.22,
-      "commission": 1.25,
-      "net": 29.69,
+      "date": "2025-09-05",
+      "opened": "09/05/25 09:48:46",
+      "closed": "09:54:44",
+      "held": "00:05:58",
+      "symbol": "VEEE",
+      "type": "Short",
+      "entry": 3.3034,
+      "exit": 2.8994,
+      "size": 75.0,
+      "pnl": 30.3,
+      "commission": 0.23,
+      "net": 29.97,
       "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 415.0,
-      "price": 3.505
+      "side": "SELL",
+      "quantity": 75.0,
+      "price": 3.3034
     }
   ],
   "topLosers": [
+    {
+      "date": "2025-09-05",
+      "opened": "09/05/25 11:27:23",
+      "closed": "11:40:50",
+      "held": "00:13:27",
+      "symbol": "PAPL",
+      "type": "Long",
+      "entry": 8.6492,
+      "exit": 6.7853,
+      "size": 250.0,
+      "pnl": -465.96,
+      "commission": 0.75,
+      "net": -467.68,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 250.0,
+      "price": 8.6492
+    },
     {
       "date": "2025-09-04",
       "opened": "09/04/25 08:12:58",
@@ -139,6 +162,24 @@
       "side": "SELL",
       "quantity": 145.0,
       "price": 2.6407
+    },
+    {
+      "date": "2025-09-05",
+      "opened": "09/05/25 10:12:51",
+      "closed": "11:40:50",
+      "held": "01:27:59",
+      "symbol": "HOUR",
+      "type": "Short",
+      "entry": 4.0153,
+      "exit": 4.2977,
+      "size": 305.0,
+      "pnl": -86.14,
+      "commission": 0.92,
+      "net": -88.88,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 305.0,
+      "price": 4.0153
     },
     {
       "date": "2025-09-03",
@@ -175,42 +216,6 @@
       "side": "SELL",
       "quantity": 180.0,
       "price": 3.5611
-    },
-    {
-      "date": "2025-09-03",
-      "opened": "09/03/25 08:25:12",
-      "closed": "08:27:10",
-      "held": "00:01:58",
-      "symbol": "BMRA",
-      "type": "Long",
-      "entry": 3.5464,
-      "exit": 3.21,
-      "size": 170.0,
-      "pnl": -57.19,
-      "commission": 0.51,
-      "net": -57.78,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 170.0,
-      "price": 3.5464
-    },
-    {
-      "date": "2025-09-02",
-      "opened": "09/02/25 10:29:37",
-      "closed": "11:45:06",
-      "held": "01:15:29",
-      "symbol": "NUKK",
-      "type": "Long",
-      "entry": 6.4355,
-      "exit": 6.0805,
-      "size": 159.0,
-      "pnl": -56.44,
-      "commission": 0.48,
-      "net": -57.03,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 159.0,
-      "price": 6.4355
     }
   ]
 }
