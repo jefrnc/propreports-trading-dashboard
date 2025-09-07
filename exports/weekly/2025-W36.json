@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-09-07 03:20:15",
+  "generateDate": "2025-09-07 15:04:35",
   "weekPeriod": "2025-09-01 to 2025-09-07",
   "weekNumber": 36,
   "year": 2025,
@@ -48,12 +48,12 @@
       "trades": 16,
       "pnl": -509.69,
       "symbols": [
-        "VEEE",
-        "AAPL",
-        "PRSO",
+        "CHR",
         "HOUR",
+        "PRSO",
+        "VEEE",
         "PAPL",
-        "CHR"
+        "AAPL"
       ]
     }
   },
@@ -202,10 +202,10 @@
       "pnl": 22.96,
       "symbols": [
         "HWH",
-        "INHD",
-        "BBLG",
         "CIGL",
-        "ISPC"
+        "ISPC",
+        "INHD",
+        "BBLG"
       ]
     },
     {
@@ -213,12 +213,12 @@
       "trades": 16,
       "pnl": -509.69,
       "symbols": [
-        "VEEE",
-        "AAPL",
-        "PRSO",
+        "CHR",
         "HOUR",
+        "PRSO",
+        "VEEE",
         "PAPL",
-        "CHR"
+        "AAPL"
       ]
     },
     {
