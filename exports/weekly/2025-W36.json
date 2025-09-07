@@ -1,0 +1,237 @@
+{
+  "generateDate": "2025-09-07 03:20:15",
+  "weekPeriod": "2025-09-01 to 2025-09-07",
+  "weekNumber": 36,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 84,
+    "grossPnL": -400.01,
+    "totalCommissions": 26.54,
+    "netPnL": -426.55,
+    "avgDailyPnL": -60.94,
+    "avgTradePerDay": 12.0,
+    "winningTrades": 63,
+    "losingTrades": 21,
+    "winRate": 0.75,
+    "avgWin": 11.32,
+    "avgLoss": -53.02,
+    "profitFactor": 0.64
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-09-04",
+      "symbol": "CIGL",
+      "pnl": 140.47
+    },
+    "worstTrade": {
+      "date": "2025-09-05",
+      "symbol": "PAPL",
+      "pnl": -465.96
+    },
+    "bestDay": {
+      "date": "2025-09-03",
+      "trades": 24,
+      "pnl": 86.02,
+      "symbols": [
+        "BTBD",
+        "BMRA",
+        "BAOS",
+        "STI",
+        "AIHS",
+        "IPDN"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-09-05",
+      "trades": 16,
+      "pnl": -509.69,
+      "symbols": [
+        "VEEE",
+        "AAPL",
+        "PRSO",
+        "HOUR",
+        "PAPL",
+        "CHR"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 20,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "AIHS",
+        {
+          "count": 9,
+          "pnl": 57.580000000000005,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "INHD",
+        {
+          "count": 3,
+          "pnl": 56.019999999999996,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "HWH",
+        {
+          "count": 12,
+          "pnl": 45.8,
+          "win_rate": 0.75
+        }
+      ],
+      [
+        "VEEE",
+        {
+          "count": 4,
+          "pnl": 44.38,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "STI",
+        {
+          "count": 1,
+          "pnl": 41.51,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "10": {
+        "count": 16,
+        "pnl": -66.91000000000001
+      },
+      "11": {
+        "count": 3,
+        "pnl": -426.03
+      },
+      "12": {
+        "count": 9,
+        "pnl": 4.179999999999998
+      },
+      "13": {
+        "count": 3,
+        "pnl": 3.16
+      },
+      "14": {
+        "count": 6,
+        "pnl": 38.08
+      },
+      "08": {
+        "count": 11,
+        "pnl": -315.71
+      },
+      "09": {
+        "count": 31,
+        "pnl": 349.55
+      },
+      "15": {
+        "count": 2,
+        "pnl": 2.9000000000000004
+      },
+      "16": {
+        "count": 2,
+        "pnl": 10.82
+      },
+      "07": {
+        "count": 1,
+        "pnl": -0.05
+      }
+    },
+    "tradeDurations": {
+      ">60min": {
+        "count": 9,
+        "pnl": 18.61999999999999
+      },
+      "<5min": {
+        "count": 39,
+        "pnl": -24.030000000000033
+      },
+      "5-15min": {
+        "count": 18,
+        "pnl": -338.98
+      },
+      "15-60min": {
+        "count": 18,
+        "pnl": -55.62000000000002
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-09-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-09-02",
+      "trades": 18,
+      "pnl": -35.49,
+      "symbols": [
+        "UUU",
+        "HWH",
+        "SMTK",
+        "SOGP",
+        "IPDN",
+        "NUKK"
+      ]
+    },
+    {
+      "date": "2025-09-03",
+      "trades": 24,
+      "pnl": 86.02,
+      "symbols": [
+        "BTBD",
+        "BMRA",
+        "BAOS",
+        "STI",
+        "AIHS",
+        "IPDN"
+      ]
+    },
+    {
+      "date": "2025-09-04",
+      "trades": 26,
+      "pnl": 22.96,
+      "symbols": [
+        "HWH",
+        "INHD",
+        "BBLG",
+        "CIGL",
+        "ISPC"
+      ]
+    },
+    {
+      "date": "2025-09-05",
+      "trades": 16,
+      "pnl": -509.69,
+      "symbols": [
+        "VEEE",
+        "AAPL",
+        "PRSO",
+        "HOUR",
+        "PAPL",
+        "CHR"
+      ]
+    },
+    {
+      "date": "2025-09-06",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-09-07",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
