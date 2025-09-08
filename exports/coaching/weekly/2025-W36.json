@@ -1,0 +1,23 @@
+{
+  "period": "Week 36, 2025",
+  "week_period": "2025-09-01 to 2025-09-07",
+  "generated_at": "2025-09-08T09:06:39.483483",
+  "performance_summary": {
+    "net_pnl": -426.55,
+    "total_trades": 84,
+    "win_rate": 0.75,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "**\n   - Despite a high win rate of 75%, the net P&L of $-426.55 indicates significant losses stemming from a few large losing trades. This performance suggests a need for improved risk management and trade selection.",
+    "strengths": [
+      "Specific Mistakes or Areas to Improve:**\n   - **Impact of Large Losses:** The worst trade (PAPL, -$465.96) significantly outweighed the gains from the best trade. Focus on managing losses more effectively.\n   - **Trade Quantity Disparity:** With 84 total trades and an average of 0.0 trades per day, your trading consistency may be lacking."
+    ],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "**\n   - **Risk Management:** Develop a clear plan to limit losses on individual trades.\n   - **Consistent Trading:** Aim to increase the number of trades, ensuring you are actively engaging with the market.\n   - **Review and Refine Strategy:** Analyze previous trades to enhance decision-making. Focus on improving trade selection to reduce the likelihood of large losses.",
+    "psychological_insights": "**\n   - The capacity for 20 consecutive wins suggests strong confidence; however, the sharp decline in P&L from the worst trade might indicate emotional reactions to losses. Maintain a disciplined approach to stick to your trading plan, even after losses.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
