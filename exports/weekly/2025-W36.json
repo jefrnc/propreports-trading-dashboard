@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-09-08 03:23:30",
+  "generateDate": "2025-09-08 15:04:42",
   "weekPeriod": "2025-09-01 to 2025-09-07",
   "weekNumber": 36,
   "year": 2025,
@@ -48,12 +48,12 @@
       "trades": 16,
       "pnl": -509.69,
       "symbols": [
-        "VEEE",
-        "PRSO",
-        "PAPL",
         "AAPL",
+        "PRSO",
         "HOUR",
-        "CHR"
+        "PAPL",
+        "CHR",
+        "VEEE"
       ]
     }
   },
@@ -213,12 +213,12 @@
       "trades": 16,
       "pnl": -509.69,
       "symbols": [
-        "VEEE",
-        "PRSO",
-        "PAPL",
         "AAPL",
+        "PRSO",
         "HOUR",
-        "CHR"
+        "PAPL",
+        "CHR",
+        "VEEE"
       ]
     },
     {
