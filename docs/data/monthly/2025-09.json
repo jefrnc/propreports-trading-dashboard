@@ -22,17 +22,22 @@
       "trades": 16,
       "pnl": -509.69,
       "winRate": 0
+    },
+    "2025-09-08": {
+      "trades": 32,
+      "pnl": 173.71,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 84,
-    "totalPnL": -436.2,
-    "winRate": 73.80952380952381,
-    "bestDay": "2025-09-03",
-    "bestDayPnL": 86.02,
+    "totalTrades": 116,
+    "totalPnL": -262.49,
+    "winRate": 78.44827586206897,
+    "bestDay": "2025-09-08",
+    "bestDayPnL": 173.71,
     "worstDay": "2025-09-05",
     "worstDayPnL": -509.69,
-    "tradingDays": 4
+    "tradingDays": 5
   },
   "topWinners": [
     {
@@ -52,6 +57,24 @@
       "side": "SELL",
       "quantity": 405.0,
       "price": 3.442
+    },
+    {
+      "date": "2025-09-08",
+      "opened": "09/08/25 16:43:31",
+      "closed": "17:06:52",
+      "held": "00:23:21",
+      "symbol": "STEC",
+      "type": "Short",
+      "entry": 2.6743,
+      "exit": 2.2396,
+      "size": 185.0,
+      "pnl": 80.42,
+      "commission": 0.56,
+      "net": 79.86,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 185.0,
+      "price": 2.6743
     },
     {
       "date": "2025-09-03",
@@ -106,24 +129,6 @@
       "side": "BUY",
       "quantity": 205.0,
       "price": 9.4163
-    },
-    {
-      "date": "2025-09-05",
-      "opened": "09/05/25 09:48:46",
-      "closed": "09:54:44",
-      "held": "00:05:58",
-      "symbol": "VEEE",
-      "type": "Short",
-      "entry": 3.3034,
-      "exit": 2.8994,
-      "size": 75.0,
-      "pnl": 30.3,
-      "commission": 0.23,
-      "net": 29.97,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 75.0,
-      "price": 3.3034
     }
   ],
   "topLosers": [
@@ -164,6 +169,24 @@
       "price": 2.6407
     },
     {
+      "date": "2025-09-08",
+      "opened": "09/08/25 16:24:23",
+      "closed": "16:35:14",
+      "held": "00:10:51",
+      "symbol": "STEC",
+      "type": "Short",
+      "entry": 2.3252,
+      "exit": 3.0978,
+      "size": 115.0,
+      "pnl": -88.85,
+      "commission": 0.35,
+      "net": -89.08,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 115.0,
+      "price": 2.3252
+    },
+    {
       "date": "2025-09-05",
       "opened": "09/05/25 10:12:51",
       "closed": "11:40:50",
@@ -198,24 +221,6 @@
       "side": "SELL",
       "quantity": 105.0,
       "price": 2.9519
-    },
-    {
-      "date": "2025-09-04",
-      "opened": "09/04/25 09:30:46",
-      "closed": "09:34:14",
-      "held": "00:03:28",
-      "symbol": "CIGL",
-      "type": "Short",
-      "entry": 3.5611,
-      "exit": 3.8844,
-      "size": 180.0,
-      "pnl": -58.2,
-      "commission": 0.54,
-      "net": -58.79,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 180.0,
-      "price": 3.5611
     }
   ]
 }
