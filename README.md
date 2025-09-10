@@ -19,21 +19,21 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 37 (partial)** | 32 | **+$173.71** | 90.6% |
+| **Week 37 (partial)** | 58 | **+$397.68** | 87.9% |
 | Week 36 | 84 | **-$426.55** | 75.0% |
-| **September (partial)** | 116 | **-$262.49** | 79.3% |
+| **September (partial)** | 142 | **-$38.52** | 80.3% |
 | August | 383 | **+$56.19** | 67.4% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 936 | 1,350 |
-| **P&L** | **-$124.63** | **-$179.80** |
+| **Trades** | 962 | 1,387 |
+| **P&L** | **+$99.34** | **+$143.32** |
 
 *Based on current performance with 112 days remaining*
 
-*Last updated: 2025-09-10 03:15 UTC*
+*Last updated: 2025-09-10 15:05 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -48,15 +48,15 @@ This is a live example of:
 
 | Metric | Value |
 |--------|-------|
-| **Total Trading Days** | 68 |
-| **Total Trades** | 936 |
-| **Total P&L** | $-189.00 |
-| **Win Rate** | 67.6% |
-| **Profit Days** | 46 (67.6%) |
-| **Loss Days** | 22 (32.4%) |
-| **Best Day** | $173.71 (2025-09-08) |
+| **Total Trading Days** | 69 |
+| **Total Trades** | 962 |
+| **Total P&L** | $34.97 |
+| **Win Rate** | 68.1% |
+| **Profit Days** | 47 (68.1%) |
+| **Loss Days** | 22 (31.9%) |
+| **Best Day** | $223.97 (2025-09-09) |
 | **Worst Day** | $-509.69 (2025-09-05) |
-| **Daily Average** | $-2.78 |
+| **Daily Average** | $0.51 |
 
 ### 📈 Monthly Breakdown
 
