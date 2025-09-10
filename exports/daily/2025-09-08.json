@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-09-09 15:05:39",
+  "exportDate": "2025-09-10 03:14:59",
   "account": "ZI*******64",
   "date": "2025-09-08",
   "trades": [
@@ -588,20 +588,20 @@
     "winningTrades": 29,
     "losingTrades": 3,
     "symbols": [
-      "SKYQ",
-      "OCTO",
-      "TBH",
-      "PETZ",
-      "TAIT",
-      "XHG",
-      "XAIR",
       "STEC",
+      "OCTO",
+      "TAIT",
+      "HOUR",
+      "PETZ",
+      "TBH",
+      "SKYQ",
       "GP",
-      "HOUR"
+      "XAIR",
+      "XHG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-09-09 15:05:39"
+    "processedAt": "2025-09-10 03:14:59"
   }
 }
