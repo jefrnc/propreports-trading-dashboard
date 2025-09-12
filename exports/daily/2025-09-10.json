@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-09-11 15:05:30",
+  "exportDate": "2025-09-12 03:14:25",
   "account": "ZI*******64",
   "date": "2025-09-10",
   "trades": [
@@ -697,16 +697,16 @@
     "losingTrades": 8,
     "symbols": [
       "KIDZ",
-      "AGMH",
-      "RBNE",
       "EDHL",
-      "WLDS",
+      "AGMH",
+      "TGL",
       "TNMG",
-      "TGL"
+      "WLDS",
+      "RBNE"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-09-11 15:05:30"
+    "processedAt": "2025-09-12 03:14:25"
   }
 }
