@@ -37,17 +37,22 @@
       "trades": 38,
       "pnl": 288.91,
       "winRate": 0
+    },
+    "2025-09-11": {
+      "trades": 54,
+      "pnl": -131.05,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 180,
-    "totalPnL": 250.39000000000001,
-    "winRate": 78.88888888888889,
+    "totalTrades": 234,
+    "totalPnL": 119.34,
+    "winRate": 76.49572649572649,
     "bestDay": "2025-09-10",
     "bestDayPnL": 288.91,
     "worstDay": "2025-09-05",
     "worstDayPnL": -509.69,
-    "tradingDays": 7
+    "tradingDays": 8
   },
   "topWinners": [
     {
@@ -161,6 +166,24 @@
       "price": 8.6492
     },
     {
+      "date": "2025-09-11",
+      "opened": "09/11/25 08:55:31",
+      "closed": "11:24:46",
+      "held": "02:29:15",
+      "symbol": "WLDS",
+      "type": "Short",
+      "entry": 7.3295,
+      "exit": 7.9771,
+      "size": 420.0,
+      "pnl": -271.99,
+      "commission": 1.26,
+      "net": -273.21,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 420.0,
+      "price": 7.3295
+    },
+    {
       "date": "2025-09-04",
       "opened": "09/04/25 08:12:58",
       "closed": "09:01:49",
@@ -213,24 +236,6 @@
       "side": "SELL",
       "quantity": 305.0,
       "price": 4.0153
-    },
-    {
-      "date": "2025-09-03",
-      "opened": "09/03/25 08:41:31",
-      "closed": "08:53:28",
-      "held": "00:11:57",
-      "symbol": "BTBD",
-      "type": "Short",
-      "entry": 2.9519,
-      "exit": 3.79,
-      "size": 105.0,
-      "pnl": -88.0,
-      "commission": 0.32,
-      "net": -88.22,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 105.0,
-      "price": 2.9519
     }
   ]
 }
