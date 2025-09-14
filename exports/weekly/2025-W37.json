@@ -1,0 +1,278 @@
+{
+  "generateDate": "2025-09-14 03:20:01",
+  "weekPeriod": "2025-09-08 to 2025-09-14",
+  "weekNumber": 37,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 176,
+    "grossPnL": 205.3,
+    "totalCommissions": 58.3,
+    "netPnL": 147.0,
+    "avgDailyPnL": 21.0,
+    "avgTradePerDay": 25.14,
+    "winningTrades": 135,
+    "losingTrades": 39,
+    "winRate": 0.767,
+    "avgWin": 12.68,
+    "avgLoss": -38.64,
+    "profitFactor": 1.14
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-09-10",
+      "symbol": "RBNE",
+      "pnl": 100.86
+    },
+    "worstTrade": {
+      "date": "2025-09-12",
+      "symbol": "GCTK",
+      "pnl": -277.61
+    },
+    "bestDay": {
+      "date": "2025-09-10",
+      "trades": 38,
+      "pnl": 288.91,
+      "symbols": [
+        "RBNE",
+        "TNMG",
+        "EDHL",
+        "TGL",
+        "AGMH",
+        "KIDZ",
+        "WLDS"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-09-12",
+      "trades": 26,
+      "pnl": -429.82,
+      "symbols": [
+        "WLDS",
+        "PLRZ",
+        "VSTD",
+        "UOKA",
+        "AGAE",
+        "GCTK",
+        "COCP"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 24,
+    "maxConsecutiveLosses": 5,
+    "topSymbols": [
+      [
+        "BON",
+        {
+          "count": 8,
+          "pnl": 141.77999999999997,
+          "win_rate": 0.75
+        }
+      ],
+      [
+        "RBNE",
+        {
+          "count": 2,
+          "pnl": 117.91,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "COCP",
+        {
+          "count": 7,
+          "pnl": 88.03999999999998,
+          "win_rate": 0.5714
+        }
+      ],
+      [
+        "OCTO",
+        {
+          "count": 7,
+          "pnl": 83.97,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "HUIZ",
+        {
+          "count": 4,
+          "pnl": 57.2,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 23,
+        "pnl": 184.71999999999997
+      },
+      "08": {
+        "count": 26,
+        "pnl": -29.82999999999999
+      },
+      "09": {
+        "count": 33,
+        "pnl": 385.01000000000005
+      },
+      "10": {
+        "count": 16,
+        "pnl": -95.06
+      },
+      "11": {
+        "count": 17,
+        "pnl": -470.05
+      },
+      "15": {
+        "count": 3,
+        "pnl": 3.81
+      },
+      "16": {
+        "count": 17,
+        "pnl": 127.62
+      },
+      "17": {
+        "count": 5,
+        "pnl": 7.029999999999999
+      },
+      "12": {
+        "count": 8,
+        "pnl": 49.76
+      },
+      "13": {
+        "count": 15,
+        "pnl": -36.17999999999999
+      },
+      "05": {
+        "count": 3,
+        "pnl": 4.11
+      },
+      "06": {
+        "count": 2,
+        "pnl": 40.9
+      },
+      "14": {
+        "count": 4,
+        "pnl": -23.740000000000002
+      },
+      "19": {
+        "count": 4,
+        "pnl": 57.2
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 106,
+        "pnl": 572.0900000000001
+      },
+      "5-15min": {
+        "count": 43,
+        "pnl": -300.33
+      },
+      "15-60min": {
+        "count": 24,
+        "pnl": 158.52999999999997
+      },
+      ">60min": {
+        "count": 3,
+        "pnl": -224.99
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-09-08",
+      "trades": 32,
+      "pnl": 173.71,
+      "symbols": [
+        "TAIT",
+        "TBH",
+        "STEC",
+        "XHG",
+        "XAIR",
+        "SKYQ",
+        "OCTO",
+        "HOUR",
+        "GP",
+        "PETZ"
+      ]
+    },
+    {
+      "date": "2025-09-09",
+      "trades": 26,
+      "pnl": 223.97,
+      "symbols": [
+        "ISPC",
+        "CDTG",
+        "CWD",
+        "LGHL",
+        "XHG",
+        "BON",
+        "YOUL",
+        "MMA"
+      ]
+    },
+    {
+      "date": "2025-09-10",
+      "trades": 38,
+      "pnl": 288.91,
+      "symbols": [
+        "RBNE",
+        "TNMG",
+        "EDHL",
+        "TGL",
+        "AGMH",
+        "KIDZ",
+        "WLDS"
+      ]
+    },
+    {
+      "date": "2025-09-11",
+      "trades": 54,
+      "pnl": -131.05,
+      "symbols": [
+        "AMST",
+        "WTO",
+        "GIPR",
+        "WLDS",
+        "NUAI",
+        "HUIZ",
+        "GRI",
+        "HIHO",
+        "MOGU",
+        "VNCE",
+        "OPEN",
+        "OPI",
+        "TGL"
+      ]
+    },
+    {
+      "date": "2025-09-12",
+      "trades": 26,
+      "pnl": -429.82,
+      "symbols": [
+        "WLDS",
+        "PLRZ",
+        "VSTD",
+        "UOKA",
+        "AGAE",
+        "GCTK",
+        "COCP"
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-09-14",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
