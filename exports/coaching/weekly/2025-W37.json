@@ -1,0 +1,21 @@
+{
+  "period": "Week 37, 2025",
+  "week_period": "2025-09-08 to 2025-09-14",
+  "generated_at": "2025-09-15T09:07:01.089393",
+  "performance_summary": {
+    "net_pnl": 147.0,
+    "total_trades": 176,
+    "win_rate": 0.767,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Conduct a thorough review of both winning and losing trades to identify patterns and improve decision-making.\n2. **Risk Management**: Implement stricter risk management protocols to prevent large losses and maintain profitability.\n3. **Selective Trading**: Limit trades to those that meet a defined set of criteria, thus enhancing quality and profitability.",
+    "psychological_insights": "The max of 5 consecutive losses suggests possible emotional strain. Develop a routine or checklist to follow after a loss to maintain discipline and objectivity.\n- **Confidence Levels**: With a high win rate, ensure that confidence does not lead to complacency. Maintain a disciplined approach to trading regardless of recent success.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
