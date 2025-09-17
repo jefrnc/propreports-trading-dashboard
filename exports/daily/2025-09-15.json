@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-09-17 03:15:10",
+  "exportDate": "2025-09-17 15:06:06",
   "account": "ZI*******64",
   "date": "2025-09-15",
   "trades": [
@@ -625,22 +625,22 @@
     "losingTrades": 6,
     "symbols": [
       "HSDT",
-      "NAOV",
       "CHEK",
       "EVTV",
+      "SOHO",
+      "HCTI",
+      "ORN",
+      "NAOV",
       "MIRA",
+      "PBM",
       "MSN",
       "MTVA",
-      "ORN",
       "BSLK",
-      "SOHO",
-      "PBM",
-      "HCTI",
       "FRGT"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-09-17 03:15:10"
+    "processedAt": "2025-09-17 15:06:06"
   }
 }
