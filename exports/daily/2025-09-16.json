@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-09-18 03:16:39",
+  "exportDate": "2025-09-18 15:05:45",
   "account": "ZI*******64",
   "date": "2025-09-16",
   "trades": [
@@ -840,23 +840,23 @@
     "winningTrades": 38,
     "losingTrades": 8,
     "symbols": [
-      "IMTE",
-      "BGI",
-      "FGI",
-      "SNTG",
-      "TURB",
-      "GORV",
       "UOKA",
-      "APVO",
-      "AIHS",
-      "SPRC",
-      "STKH",
       "WHLR",
+      "TURB",
+      "SPRC",
+      "AIHS",
+      "FGI",
+      "APVO",
+      "GORV",
+      "IMTE",
+      "SNTG",
+      "STKH",
+      "BGI",
       "TANH"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-09-18 03:16:39"
+    "processedAt": "2025-09-18 15:05:45"
   }
 }

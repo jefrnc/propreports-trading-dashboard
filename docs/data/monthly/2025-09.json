@@ -57,17 +57,22 @@
       "trades": 46,
       "pnl": 431.42,
       "winRate": 0
+    },
+    "2025-09-17": {
+      "trades": 47,
+      "pnl": -459.77,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 340,
-    "totalPnL": 424.83,
-    "winRate": 77.05882352941177,
+    "totalTrades": 387,
+    "totalPnL": -34.94,
+    "winRate": 74.93540051679587,
     "bestDay": "2025-09-16",
     "bestDayPnL": 431.42,
     "worstDay": "2025-09-05",
     "worstDayPnL": -509.69,
-    "tradingDays": 11
+    "tradingDays": 12
   },
   "topWinners": [
     {
@@ -217,40 +222,40 @@
       "price": 7.3295
     },
     {
-      "date": "2025-09-12",
-      "opened": "09/12/25 11:18:30",
-      "closed": "11:28:06",
-      "held": "00:09:36",
-      "symbol": "GCTK",
+      "date": "2025-09-17",
+      "opened": "09/17/25 14:03:53",
+      "closed": "14:15:31",
+      "held": "00:11:38",
+      "symbol": "ATCH",
       "type": "Long",
-      "entry": 10.9294,
-      "exit": 10.5368,
-      "size": 545.0,
-      "pnl": -213.98,
-      "commission": 1.64,
-      "net": -215.88,
+      "entry": 1.6527,
+      "exit": 1.4764,
+      "size": 1500.0,
+      "pnl": -264.53,
+      "commission": 4.5,
+      "net": -269.68,
       "account": "ZIMDASE9C64",
       "side": "BUY",
-      "quantity": 545.0,
-      "price": 10.9294
+      "quantity": 1500.0,
+      "price": 1.6527
     },
     {
-      "date": "2025-09-04",
-      "opened": "09/04/25 08:12:58",
-      "closed": "09:01:49",
-      "held": "00:48:51",
-      "symbol": "CIGL",
+      "date": "2025-09-17",
+      "opened": "09/17/25 09:30:57",
+      "closed": "09:42:25",
+      "held": "00:11:28",
+      "symbol": "SPRC",
       "type": "Short",
-      "entry": 2.6407,
-      "exit": 3.8506,
-      "size": 145.0,
-      "pnl": -175.43,
-      "commission": 0.44,
-      "net": -175.8,
+      "entry": 4.2046,
+      "exit": 5.7065,
+      "size": 155.0,
+      "pnl": -232.8,
+      "commission": 0.47,
+      "net": -233.31,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 145.0,
-      "price": 2.6407
+      "quantity": 155.0,
+      "price": 4.2046
     }
   ]
 }
