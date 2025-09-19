@@ -62,17 +62,22 @@
       "trades": 47,
       "pnl": -459.77,
       "winRate": 0
+    },
+    "2025-09-18": {
+      "trades": 41,
+      "pnl": -1017.36,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 387,
-    "totalPnL": -34.94,
-    "winRate": 74.93540051679587,
+    "totalTrades": 428,
+    "totalPnL": -1052.3,
+    "winRate": 73.5981308411215,
     "bestDay": "2025-09-16",
     "bestDayPnL": 431.42,
-    "worstDay": "2025-09-05",
-    "worstDayPnL": -509.69,
-    "tradingDays": 12
+    "worstDay": "2025-09-18",
+    "worstDayPnL": -1017.36,
+    "tradingDays": 13
   },
   "topWinners": [
     {
@@ -148,25 +153,43 @@
       "price": 32.9933
     },
     {
-      "date": "2025-09-15",
-      "opened": "09/15/25 09:56:16",
-      "closed": "09:57:29",
-      "held": "00:01:13",
-      "symbol": "NAOV",
-      "type": "Long",
-      "entry": 14.0057,
-      "exit": 14.256,
-      "size": 370.0,
-      "pnl": 92.61,
-      "commission": 1.11,
-      "net": 91.27,
+      "date": "2025-09-18",
+      "opened": "09/18/25 15:37:03",
+      "closed": "15:41:24",
+      "held": "00:04:21",
+      "symbol": "BREA",
+      "type": "Short",
+      "entry": 26.0207,
+      "exit": 25.3359,
+      "size": 135.0,
+      "pnl": 92.45,
+      "commission": 0.41,
+      "net": 91.48,
       "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 370.0,
-      "price": 14.0057
+      "side": "SELL",
+      "quantity": 135.0,
+      "price": 26.0207
     }
   ],
   "topLosers": [
+    {
+      "date": "2025-09-18",
+      "opened": "09/18/25 14:37:57",
+      "closed": "14:56:58",
+      "held": "00:19:01",
+      "symbol": "BREA",
+      "type": "Long",
+      "entry": 36.6772,
+      "exit": 33.8789,
+      "size": 180.0,
+      "pnl": -503.69,
+      "commission": 0.54,
+      "net": -504.33,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 180.0,
+      "price": 36.6772
+    },
     {
       "date": "2025-09-05",
       "opened": "09/05/25 11:27:23",
@@ -238,24 +261,6 @@
       "side": "BUY",
       "quantity": 1500.0,
       "price": 1.6527
-    },
-    {
-      "date": "2025-09-17",
-      "opened": "09/17/25 09:30:57",
-      "closed": "09:42:25",
-      "held": "00:11:28",
-      "symbol": "SPRC",
-      "type": "Short",
-      "entry": 4.2046,
-      "exit": 5.7065,
-      "size": 155.0,
-      "pnl": -232.8,
-      "commission": 0.47,
-      "net": -233.31,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 155.0,
-      "price": 4.2046
     }
   ]
 }

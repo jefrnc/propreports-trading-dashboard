@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-09-19 03:19:37",
+  "exportDate": "2025-09-19 15:05:24",
   "account": "ZI*******64",
   "date": "2025-09-17",
   "trades": [
@@ -858,22 +858,22 @@
     "winningTrades": 30,
     "losingTrades": 17,
     "symbols": [
-      "CWD",
-      "TURB",
-      "OPEN",
-      "ATCH",
-      "ASTI",
-      "LITM",
-      "GV",
       "RELI",
-      "SQFT",
-      "IPM",
       "HIND",
-      "SPRC"
+      "SPRC",
+      "GV",
+      "ASTI",
+      "TURB",
+      "ATCH",
+      "SQFT",
+      "LITM",
+      "OPEN",
+      "CWD",
+      "IPM"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-09-19 03:19:37"
+    "processedAt": "2025-09-19 15:05:24"
   }
 }
