@@ -1,0 +1,21 @@
+{
+  "period": "Week 38, 2025",
+  "week_period": "2025-09-15 to 2025-09-21",
+  "generated_at": "2025-09-22T09:07:16.299622",
+  "performance_summary": {
+    "net_pnl": -713.83,
+    "total_trades": 168,
+    "win_rate": 0.7143,
+    "trading_days": 5
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "### Risk Management Observations\n- The significant gap between the best and worst trades indicates a lack of adequate risk management. Focus on ensuring that the risk-to-reward ratio favors smaller losses.",
+    "psychological_insights": "### Psychological/Discipline Observations\n- Sustaining a high win rate amidst losses can lead to overconfidence. It's vital to remain disciplined, especially after both winning and losing streaks.\n- The max consecutive losses of 7 suggest emotional stress during these periods. This can lead to revenge trading; remain vigilant against making impulsive decisions.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}

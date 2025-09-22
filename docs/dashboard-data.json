@@ -1316,5 +1316,125 @@
       "pnl": -713.83,
       "winRate": 0.7143
     }
-  ]
+  ],
+  "coaching": {
+    "monthly": [],
+    "weekly": [
+      {
+        "period": "Week 30, 2025",
+        "generated_at": "2025-07-29T08:37:31.220656",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Ensure that position sizes are consistent and appropriate to your overall trading capital to limit the impact of losses.\n- **Stop-Loss Strategies**: Implement or refine stop-loss strategies to prevent large losses like the one seen in HSDT.",
+          "psychological_insights": "The significant loss may have affected your confidence. Maintaining emotional discipline is crucial to avoid revenge trading.\n- **Focus on Process Over Profit**: Concentrate on executing your trading plan rather than fixating on short-term profits or losses.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 32, 2025",
+        "generated_at": "2025-08-11T09:08:35.655113",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "** Prioritize refining your stop-loss strategies and position sizing to minimize the impact of losing trades.\n2. **Trade Review:** Conduct a thorough review of the trades taken during this week, especially the losing trades, to identify common patterns and improve decision-making processes.\n3. **Discipline and Emotions:** Develop a routine to reinforce discipline and emotional control, such as journaling trades and reflecting on your decision-making processes.",
+          "psychological_insights": "** The max consecutive losses may indicate a psychological impact that affects decision-making. Focus on staying disciplined and adhering to your trading plan, regardless of recent performance.\n- **Maintaining Focus:** Ensure that distractions do not lead to impulsive trading decisions, especially after a loss.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 33, 2025",
+        "generated_at": "2025-08-18T09:08:18.092055",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Analyze both winning and losing trades to identify patterns and improve decision-making processes.\n2. **Daily Trading Routine**: Establish a structured daily trading plan to ensure you are consistently entering the market.\n3. **Risk Management Framework**: Implement stricter risk management guidelines, including fixed stop-losses and position size adjustments based on volatility.",
+          "psychological_insights": "The significant loss may indicate emotional trading. Establish a systematic approach to manage losses and avoid revenge trading.\n- **Confidence in Winning Streaks**: While a high win rate boosts confidence, be cautious of overtrading or getting too comfortable, which can lead to impulsive decisions.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 34, 2025",
+        "generated_at": "2025-08-25T09:06:45.973598",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Prioritize implementing stop-loss orders and adjusting position sizes to mitigate losses.\n2. **Increase Trade Frequency**: Work on finding more trading opportunities to leverage your strengths and improve overall profitability.\n3. **Emotional Discipline**: Focus on maintaining a disciplined mindset, especially after a series of wins or losses, to avoid impulsive decisions.",
+          "psychological_insights": "### 6. Psychological/Discipline Observations\n- The presence of consecutive wins followed by losses suggests that you may be prone to emotional decision-making after a winning streak. Stay disciplined and avoid overtrading or revenge trading after losses.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 35, 2025",
+        "generated_at": "2025-09-01T09:07:07.728195",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Set strict stop-loss levels and adhere to them to protect capital.\n2. **Evaluate Trade Execution**: After a winning streak, be cautious not to deviate from your trading strategy. Stick to your plan.\n3. **Analyze Losing Trades**: Conduct a thorough review of losing trades to identify common patterns or mistakes that can be corrected in future trades.",
+          "psychological_insights": "### Psychological/Discipline Observations\n- High win rates can lead to overconfidence. Stay grounded and adhere to your trading plan regardless of recent successes. Ensure that you are making decisions based on analysis rather than emotions.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 36, 2025",
+        "generated_at": "2025-09-08T09:06:39.483483",
+        "coaching": {
+          "overall_performance": "**\n   - Despite a high win rate of 75%, the net P&L of $-426.55 indicates significant losses stemming from a few large losing trades. This performance suggests a need for improved risk management and trade selection.",
+          "strengths": [
+            "Specific Mistakes or Areas to Improve:**\n   - **Impact of Large Losses:** The worst trade (PAPL, -$465.96) significantly outweighed the gains from the best trade. Focus on managing losses more effectively.\n   - **Trade Quantity Disparity:** With 84 total trades and an average of 0.0 trades per day, your trading consistency may be lacking."
+          ],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "**\n   - **Risk Management:** Develop a clear plan to limit losses on individual trades.\n   - **Consistent Trading:** Aim to increase the number of trades, ensuring you are actively engaging with the market.\n   - **Review and Refine Strategy:** Analyze previous trades to enhance decision-making. Focus on improving trade selection to reduce the likelihood of large losses.",
+          "psychological_insights": "**\n   - The capacity for 20 consecutive wins suggests strong confidence; however, the sharp decline in P&L from the worst trade might indicate emotional reactions to losses. Maintain a disciplined approach to stick to your trading plan, even after losses.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 37, 2025",
+        "generated_at": "2025-09-15T09:07:01.089393",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "Conduct a thorough review of both winning and losing trades to identify patterns and improve decision-making.\n2. **Risk Management**: Implement stricter risk management protocols to prevent large losses and maintain profitability.\n3. **Selective Trading**: Limit trades to those that meet a defined set of criteria, thus enhancing quality and profitability.",
+          "psychological_insights": "The max of 5 consecutive losses suggests possible emotional strain. Develop a routine or checklist to follow after a loss to maintain discipline and objectivity.\n- **Confidence Levels**: With a high win rate, ensure that confidence does not lead to complacency. Maintain a disciplined approach to trading regardless of recent success.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      },
+      {
+        "period": "Week 38, 2025",
+        "generated_at": "2025-09-22T09:07:16.299622",
+        "coaching": {
+          "overall_performance": "",
+          "strengths": [],
+          "areas_for_improvement": [],
+          "specific_recommendations": [],
+          "risk_management": "### Risk Management Observations\n- The significant gap between the best and worst trades indicates a lack of adequate risk management. Focus on ensuring that the risk-to-reward ratio favors smaller losses.",
+          "psychological_insights": "### Psychological/Discipline Observations\n- Sustaining a high win rate amidst losses can lead to overconfidence. It's vital to remain disciplined, especially after both winning and losing streaks.\n- The max consecutive losses of 7 suggest emotional stress during these periods. This can lead to revenge trading; remain vigilant against making impulsive decisions.",
+          "next_week_focus": [],
+          "next_month_focus": []
+        }
+      }
+    ],
+    "enabled": true
+  }
 }
