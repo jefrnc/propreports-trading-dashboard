@@ -21,19 +21,19 @@ This is a live example of:
 |--------|--------|-----|----------|
 | **Week 40 (partial)** | 0 | $0.00 | 0% |
 | Week 39 | 0 | $0.00 | 0% |
-| **September (partial)** | 428 | **-$1,052.30** | 74.3% |
-| August | 383 | **+$56.19** | 67.4% |
+| **October (partial)** | 0 | $0.00 | 0% |
+| September | 428 | **-$993.38** | 74.3% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 1,248 | 1,668 |
-| **P&L** | **-$914.44** | **-$1,222.60** |
+| **Trades** | 1,248 | 1,662 |
+| **P&L** | **-$855.52** | **-$1,139.65** |
 
-*Based on current performance with 92 days remaining*
+*Based on current performance with 91 days remaining*
 
-*Last updated: 2025-09-30 15:05 UTC*
+*Last updated: 2025-10-01 03:26 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -70,6 +70,7 @@ This is a live example of:
 | June | 117 | **$-56.20** | 59.0% |
 | July | 246 | **$+253.84** | 71.1% |
 | August | 383 | **$+56.19** | 67.4% |
+| September | 428 | **$-993.38** | 74.3% |
 
 <!-- CALENDAR_END -->
 
