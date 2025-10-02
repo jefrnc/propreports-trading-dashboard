@@ -1,0 +1,20 @@
+{
+  "period": "September 2025",
+  "generated_at": "2025-10-02T09:01:54.051628",
+  "performance_summary": {
+    "net_pnl": -993.38,
+    "total_trades": 428,
+    "win_rate": 0.743,
+    "profit_factor": 0.84
+  },
+  "coaching": {
+    "overall_performance": "** 428 trades with a win rate of 74.3% indicates a high level of trade selection.\n- **Net P&L:** A loss of $993.38 signifies a critical imbalance between average wins and losses, as your profit factor of 0.84 shows you are losing more than you are winning on average.\n- **Sharpe Ratio:** A negative Sharpe Ratio of -0.56 indicates that the returns are not compensating for the risk taken.\n- **Max Drawdown:** A significant drawdown of $1477.13 (347.7%) reflects that risk management needs urgent attention.\n  \n### 2. Key Strengths Demonstrated This Month\n- **High Win Rate:** At 74.3%, your ability to pick winning trades is commendable.\n- **Successful Trades:** The performance of top symbols like TURB and NAOV shows you can identify high-potential opportunities.\n- **Consistent Trading Activity:** 428 trades in 19 days reflects a high level of engagement and willingness to learn.",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "",
+    "psychological_insights": "** The series of consecutive losses indicates potential emotional trading. Focus on developing a disciplined trading plan to stick to, even when facing losses.\n- **Confidence vs. Overconfidence:** High win rates can sometimes lead to overconfidence. Stay grounded and continue to analyze losing trades carefully for learning opportunities.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
