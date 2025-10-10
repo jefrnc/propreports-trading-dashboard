@@ -1,0 +1,266 @@
+{
+  "generateDate": "2025-10-10 13:05:42",
+  "weekPeriod": "2025-10-06 to 2025-10-12",
+  "weekNumber": 41,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 5,
+    "totalTrades": 137,
+    "grossPnL": -218.21,
+    "totalCommissions": 53.22,
+    "netPnL": -271.43,
+    "avgDailyPnL": -54.29,
+    "avgTradePerDay": 27.4,
+    "winningTrades": 103,
+    "losingTrades": 32,
+    "winRate": 0.7518,
+    "avgWin": 17.14,
+    "avgLoss": -61.98,
+    "profitFactor": 0.89
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-10-07",
+      "symbol": "ATON",
+      "pnl": 245.55
+    },
+    "worstTrade": {
+      "date": "2025-10-06",
+      "symbol": "SPRB",
+      "pnl": -538.16
+    },
+    "bestDay": {
+      "date": "2025-10-09",
+      "trades": 23,
+      "pnl": 238.01,
+      "symbols": [
+        "YDDL",
+        "GLTO",
+        "NUAI",
+        "LGCB",
+        "BJDX",
+        "GWH",
+        "BDRX",
+        "WAI",
+        "MRM"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-10-06",
+      "trades": 30,
+      "pnl": -679.37,
+      "symbols": [
+        "APVO",
+        "ONMD",
+        "TELO",
+        "SOPA",
+        "DFLI",
+        "CRML",
+        "TMQ",
+        "BMEA",
+        "BJDX",
+        "RGTI",
+        "DRMA",
+        "SPRB"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 31,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "ZNB",
+        {
+          "count": 11,
+          "pnl": 188.18,
+          "win_rate": 0.9091
+        }
+      ],
+      [
+        "BJDX",
+        {
+          "count": 7,
+          "pnl": 93.45,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "GLTO",
+        {
+          "count": 2,
+          "pnl": 82.88,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "DFLI",
+        {
+          "count": 1,
+          "pnl": 58.26,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "NXL",
+        {
+          "count": 6,
+          "pnl": 53.50000000000001,
+          "win_rate": 0.6667
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 14,
+        "pnl": 93.53
+      },
+      "08": {
+        "count": 9,
+        "pnl": -94.58000000000001
+      },
+      "09": {
+        "count": 15,
+        "pnl": 293.6
+      },
+      "10": {
+        "count": 7,
+        "pnl": -34.38999999999999
+      },
+      "11": {
+        "count": 13,
+        "pnl": 39.41000000000001
+      },
+      "12": {
+        "count": 8,
+        "pnl": -522.26
+      },
+      "15": {
+        "count": 8,
+        "pnl": -13.59
+      },
+      "16": {
+        "count": 28,
+        "pnl": -123.03999999999996
+      },
+      "17": {
+        "count": 25,
+        "pnl": 134.32000000000002
+      },
+      "19": {
+        "count": 1,
+        "pnl": 1.0
+      },
+      "14": {
+        "count": 3,
+        "pnl": -1.2899999999999991
+      },
+      "18": {
+        "count": 2,
+        "pnl": -17.9
+      },
+      "06": {
+        "count": 2,
+        "pnl": 20.6
+      },
+      "13": {
+        "count": 2,
+        "pnl": 6.38
+      }
+    },
+    "tradeDurations": {
+      ">60min": {
+        "count": 4,
+        "pnl": 284.5
+      },
+      "<5min": {
+        "count": 81,
+        "pnl": 510.74
+      },
+      "5-15min": {
+        "count": 34,
+        "pnl": -442.51000000000005
+      },
+      "15-60min": {
+        "count": 18,
+        "pnl": -570.9399999999999
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-10-06",
+      "trades": 30,
+      "pnl": -679.37,
+      "symbols": [
+        "APVO",
+        "ONMD",
+        "TELO",
+        "SOPA",
+        "DFLI",
+        "CRML",
+        "TMQ",
+        "BMEA",
+        "BJDX",
+        "RGTI",
+        "DRMA",
+        "SPRB"
+      ]
+    },
+    {
+      "date": "2025-10-07",
+      "trades": 43,
+      "pnl": 20.28,
+      "symbols": [
+        "FTEL",
+        "ATON",
+        "BJDX",
+        "PRHI",
+        "RYDE",
+        "XTLB",
+        "ZNB",
+        "TGL"
+      ]
+    },
+    {
+      "date": "2025-10-08",
+      "trades": 41,
+      "pnl": 136.68,
+      "symbols": [
+        "GTBP",
+        "XBIO",
+        "AREB",
+        "VTAK",
+        "NXL",
+        "XTLB",
+        "SCWO",
+        "AMBO",
+        "ZCMD",
+        "UPC"
+      ]
+    },
+    {
+      "date": "2025-10-09",
+      "trades": 23,
+      "pnl": 238.01,
+      "symbols": [
+        "YDDL",
+        "GLTO",
+        "NUAI",
+        "LGCB",
+        "BJDX",
+        "GWH",
+        "BDRX",
+        "WAI",
+        "MRM"
+      ]
+    },
+    {
+      "date": "2025-10-10",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
