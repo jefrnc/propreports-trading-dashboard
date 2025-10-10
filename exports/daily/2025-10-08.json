@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-10 13:05:41",
+  "exportDate": "2025-10-10 15:05:20",
   "account": "ZI*******64",
   "date": "2025-10-08",
   "trades": [
@@ -750,20 +750,20 @@
     "winningTrades": 34,
     "losingTrades": 6,
     "symbols": [
-      "GTBP",
-      "XBIO",
-      "AREB",
-      "VTAK",
-      "NXL",
-      "XTLB",
-      "SCWO",
-      "AMBO",
       "ZCMD",
-      "UPC"
+      "GTBP",
+      "AMBO",
+      "UPC",
+      "AREB",
+      "XTLB",
+      "XBIO",
+      "SCWO",
+      "VTAK",
+      "NXL"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-10-10 13:05:41"
+    "reprocessed": true,
+    "processedAt": "2025-10-10 15:05:20"
   }
 }

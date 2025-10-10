@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-10 13:05:41",
+  "exportDate": "2025-10-10 15:05:20",
   "account": "ZI*******64",
   "date": "2025-10-07",
   "trades": [
@@ -788,16 +788,16 @@
     "symbols": [
       "FTEL",
       "ATON",
-      "BJDX",
-      "PRHI",
+      "TGL",
       "RYDE",
+      "PRHI",
+      "BJDX",
       "XTLB",
-      "ZNB",
-      "TGL"
+      "ZNB"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-10-10 13:05:41"
+    "reprocessed": true,
+    "processedAt": "2025-10-10 15:05:20"
   }
 }

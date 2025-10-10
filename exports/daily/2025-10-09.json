@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-10 13:05:42",
+  "exportDate": "2025-10-10 15:05:20",
   "account": "ZI*******64",
   "date": "2025-10-09",
   "trades": [
@@ -426,19 +426,19 @@
     "winningTrades": 18,
     "losingTrades": 4,
     "symbols": [
+      "NUAI",
+      "WAI",
+      "GWH",
       "YDDL",
       "GLTO",
-      "NUAI",
       "LGCB",
       "BJDX",
-      "GWH",
-      "BDRX",
-      "WAI",
-      "MRM"
+      "MRM",
+      "BDRX"
     ]
   },
   "metadata": {
-    "reprocessed": false,
-    "processedAt": "2025-10-10 13:05:42"
+    "reprocessed": true,
+    "processedAt": "2025-10-10 15:05:20"
   }
 }
