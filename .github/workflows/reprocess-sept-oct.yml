@@ -1,0 +1,108 @@
+name: Reprocess Sept 20 - Oct 10
+# Purpose: One-time reprocess to fix missing data from Sept 20 to Oct 10
+# These days were missing due to authentication failure
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reprocess:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4 lxml
+
+    - name: Download scripts
+      run: |
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/propreports_exporter.py
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/advanced_exporter.py
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/weekly_summary.py
+        wget -q https://raw.githubusercontent.com/jefrnc/propreports-auto-exporter/main/src/monthly_summary.py
+
+    - name: Reprocess missing dates
+      env:
+        PROPREPORTS_DOMAIN: ${{ secrets.PROPREPORTS_DOMAIN }}
+        PROPREPORTS_USER: ${{ secrets.PROPREPORTS_USER }}
+        PROPREPORTS_PASS: ${{ secrets.PROPREPORTS_PASS }}
+        EXPORT_OUTPUT_DIR: 'exports'
+      run: |
+        echo "🔄 Reprocessing Sept 20 - Oct 10 (21 days)..."
+
+        # Force reprocess the date range
+        python advanced_exporter.py range 2025-09-20 2025-10-10 force
+
+        echo "✅ Reprocessing complete!"
+
+        # Show what was exported
+        echo ""
+        echo "📊 Exported files:"
+        ls -lh exports/daily/2025-09-*.json exports/daily/2025-10-*.json 2>/dev/null | tail -25
+
+    - name: Regenerate summaries
+      run: |
+        echo "📊 Regenerating weekly summaries..."
+        python weekly_summary.py
+
+        echo "📊 Regenerating monthly summaries..."
+        python monthly_summary.py
+
+    - name: Validate exports
+      run: |
+        echo "🔍 Validating exported data..."
+
+        for date in {20..30}; do
+          FILE="exports/daily/2025-09-$date.json"
+          if [ -f "$FILE" ]; then
+            TRADES=$(grep -o '"totalTrades":[0-9]*' "$FILE" | head -1 | cut -d':' -f2)
+            echo "✅ 2025-09-$date: $TRADES trades"
+          else
+            echo "❌ 2025-09-$date: MISSING"
+          fi
+        done
+
+        for date in {01..10}; do
+          FILE="exports/daily/2025-10-$date.json"
+          if [ -f "$FILE" ]; then
+            TRADES=$(grep -o '"totalTrades":[0-9]*' "$FILE" | head -1 | cut -d':' -f2)
+            echo "✅ 2025-10-$date: $TRADES trades"
+          else
+            echo "❌ 2025-10-$date: MISSING"
+          fi
+        done
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Reprocess Bot"
+
+        git add -A
+
+        if git diff --quiet --cached; then
+          echo "⚠️ No changes to commit - authentication may have failed!"
+          exit 1
+        else
+          git commit -m "🔄 Reprocess missing data from Sept 20 - Oct 10 (21 days)"
+          git push
+          echo "✅ Changes committed and pushed"
+        fi
+
+    - name: Trigger Stats Update
+      uses: peter-evans/repository-dispatch@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        event-type: update-stats
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'

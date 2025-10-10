@@ -30,9 +30,39 @@ jobs:
         reprocess-days: '3'
         obfuscate-account: 'true'
     
+    - name: Validate export success
+      id: validate
+      run: |
+        # Check if today's export exists and has data
+        TODAY=$(date +%Y-%m-%d)
+        EXPORT_FILE="exports/daily/${TODAY}.json"
+
+        if [ ! -f "$EXPORT_FILE" ]; then
+          echo "❌ Export file not found: $EXPORT_FILE"
+          echo "success=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+
+        # Check if file has actual trades data
+        if grep -q '"totalTrades":[1-9]' "$EXPORT_FILE"; then
+          echo "✅ Export successful with trades"
+          echo "success=true" >> $GITHUB_OUTPUT
+        else
+          echo "⚠️  Export file exists but has 0 trades (might be OK for weekend/holiday)"
+          echo "success=partial" >> $GITHUB_OUTPUT
+        fi
+
     - name: Trigger Stats Update
+      if: steps.validate.outputs.success == 'true' || steps.validate.outputs.success == 'partial'
       uses: peter-evans/repository-dispatch@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         event-type: update-stats
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+
+    - name: Alert on failure
+      if: steps.validate.outputs.success == 'false'
+      run: |
+        echo "::error::Export validation failed - no export file generated"
+        echo "Check authentication credentials and PropReports availability"
+        exit 1

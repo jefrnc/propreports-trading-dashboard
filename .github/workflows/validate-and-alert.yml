@@ -1,0 +1,146 @@
+name: Validate Exports and Alert
+# Purpose: Validates that daily exports contain actual trade data
+# Runs after each export to detect authentication failures
+# What it does:
+#   1. Checks if exports for trading days are empty
+#   2. Alerts if consecutive days have no data (auth issue)
+#   3. Creates an issue with details
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3 * * *'  # 30 min after daily export
+    - cron: '30 15 * * *' # 30 min after second daily export
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Validate exports
+      id: validate
+      run: |
+        echo "🔍 Validating recent exports..."
+
+        # Check last 5 trading days (excluding weekends)
+        MISSING_DAYS=0
+        MISSING_DATES=""
+
+        for i in {0..9}; do
+          DATE=$(date -d "$i days ago" +%Y-%m-%d)
+          DAY_OF_WEEK=$(date -d "$DATE" +%u)
+
+          # Skip weekends (6=Saturday, 7=Sunday)
+          if [ "$DAY_OF_WEEK" -eq 6 ] || [ "$DAY_OF_WEEK" -eq 7 ]; then
+            continue
+          fi
+
+          FILE="exports/daily/${DATE}.json"
+
+          if [ ! -f "$FILE" ]; then
+            echo "❌ Missing: $DATE"
+            MISSING_DAYS=$((MISSING_DAYS + 1))
+            MISSING_DATES="$MISSING_DATES\n- $DATE"
+          else
+            # Check if file has actual trades
+            TRADE_COUNT=$(grep -o '"totalTrades":[0-9]*' "$FILE" | head -1 | cut -d':' -f2)
+            if [ -z "$TRADE_COUNT" ] || [ "$TRADE_COUNT" -eq 0 ]; then
+              echo "⚠️  Empty export: $DATE (0 trades)"
+            else
+              echo "✅ Valid: $DATE ($TRADE_COUNT trades)"
+            fi
+          fi
+        done
+
+        echo "missing_days=$MISSING_DAYS" >> $GITHUB_OUTPUT
+        echo "missing_dates<<EOF" >> $GITHUB_OUTPUT
+        echo -e "$MISSING_DATES" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+
+        if [ "$MISSING_DAYS" -ge 3 ]; then
+          echo "🚨 ALERT: $MISSING_DAYS consecutive trading days missing!"
+          echo "alert=true" >> $GITHUB_OUTPUT
+        else
+          echo "alert=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Create alert issue
+      if: steps.validate.outputs.alert == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const missingDays = '${{ steps.validate.outputs.missing_days }}';
+          const missingDates = `${{ steps.validate.outputs.missing_dates }}`;
+
+          const title = `🚨 Export Failure: ${missingDays} trading days missing data`;
+          const body = `
+          ## Export Validation Failed
+
+          **Missing Days:** ${missingDays}
+          **Missing Dates:**
+          ${missingDates}
+
+          ### Possible Causes
+          1. ❌ **Authentication failure** - Check PropReports credentials
+          2. ❌ **Network issues** - PropReports site down or timeout
+          3. ❌ **Action configuration** - Workflow or action version issue
+
+          ### Recommended Actions
+          1. Check GitHub Secrets for correct credentials:
+             - \`PROPREPORTS_USER\`
+             - \`PROPREPORTS_PASS\`
+             - \`PROPREPORTS_DOMAIN\`
+
+          2. Check recent workflow runs for errors:
+             https://github.com/${{ github.repository }}/actions/workflows/daily-export.yml
+
+          3. Run manual reprocess workflow:
+             https://github.com/${{ github.repository }}/actions/workflows/force-reprocess.yml
+
+          ### Debug Information
+          - Last validated: ${new Date().toISOString()}
+          - Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          ---
+          *This issue was automatically created by the export validation workflow*
+          `;
+
+          // Check if similar issue already exists
+          const issues = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: ['export-failure']
+          });
+
+          if (issues.data.length === 0) {
+            // Create new issue
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: body,
+              labels: ['export-failure', 'automated']
+            });
+            console.log('✅ Alert issue created');
+          } else {
+            // Update existing issue
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issues.data[0].number,
+              body: `### Updated Alert\n${body}`
+            });
+            console.log('✅ Alert issue updated');
+          }
