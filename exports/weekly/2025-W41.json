@@ -1,23 +1,23 @@
 {
-  "generateDate": "2025-10-10 13:05:42",
+  "generateDate": "2025-10-12 03:20:47",
   "weekPeriod": "2025-10-06 to 2025-10-12",
   "weekNumber": 41,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
-    "totalTradingDays": 5,
-    "totalTrades": 137,
-    "grossPnL": -218.21,
-    "totalCommissions": 53.22,
-    "netPnL": -271.43,
-    "avgDailyPnL": -54.29,
-    "avgTradePerDay": 27.4,
-    "winningTrades": 103,
-    "losingTrades": 32,
-    "winRate": 0.7518,
-    "avgWin": 17.14,
-    "avgLoss": -61.98,
-    "profitFactor": 0.89
+    "totalTradingDays": 7,
+    "totalTrades": 156,
+    "grossPnL": -60.52,
+    "totalCommissions": 57.43,
+    "netPnL": -117.95,
+    "avgDailyPnL": -16.85,
+    "avgTradePerDay": 22.29,
+    "winningTrades": 120,
+    "losingTrades": 34,
+    "winRate": 0.7692,
+    "avgWin": 16.09,
+    "avgLoss": -58.57,
+    "profitFactor": 0.97
   },
   "extremes": {
     "bestTrade": {
@@ -35,15 +35,15 @@
       "trades": 23,
       "pnl": 238.01,
       "symbols": [
-        "YDDL",
-        "GLTO",
-        "NUAI",
-        "LGCB",
-        "BJDX",
-        "GWH",
         "BDRX",
+        "YDDL",
+        "GWH",
+        "NUAI",
+        "GLTO",
+        "MRM",
+        "LGCB",
         "WAI",
-        "MRM"
+        "BJDX"
       ]
     },
     "worstDay": {
@@ -87,6 +87,14 @@
         }
       ],
       [
+        "SGBX",
+        {
+          "count": 4,
+          "pnl": 85.47,
+          "win_rate": 1.0
+        }
+      ],
+      [
         "GLTO",
         {
           "count": 2,
@@ -101,52 +109,44 @@
           "pnl": 58.26,
           "win_rate": 1.0
         }
-      ],
-      [
-        "NXL",
-        {
-          "count": 6,
-          "pnl": 53.50000000000001,
-          "win_rate": 0.6667
-        }
       ]
     ],
     "tradingHours": {
       "07": {
-        "count": 14,
-        "pnl": 93.53
+        "count": 15,
+        "pnl": 97.43
       },
       "08": {
         "count": 9,
         "pnl": -94.58000000000001
       },
       "09": {
-        "count": 15,
-        "pnl": 293.6
+        "count": 18,
+        "pnl": 324.2200000000001
       },
       "10": {
-        "count": 7,
-        "pnl": -34.38999999999999
+        "count": 8,
+        "pnl": 27.680000000000007
       },
       "11": {
-        "count": 13,
-        "pnl": 39.41000000000001
+        "count": 15,
+        "pnl": 59.31000000000002
       },
       "12": {
-        "count": 8,
-        "pnl": -522.26
+        "count": 13,
+        "pnl": -521.5099999999999
       },
       "15": {
         "count": 8,
         "pnl": -13.59
       },
       "16": {
-        "count": 28,
-        "pnl": -123.03999999999996
+        "count": 30,
+        "pnl": -108.78999999999996
       },
       "17": {
-        "count": 25,
-        "pnl": 134.32000000000002
+        "count": 28,
+        "pnl": 150.87
       },
       "19": {
         "count": 1,
@@ -165,26 +165,26 @@
         "pnl": 20.6
       },
       "13": {
-        "count": 2,
-        "pnl": 6.38
+        "count": 4,
+        "pnl": 16.03
       }
     },
     "tradeDurations": {
       ">60min": {
-        "count": 4,
-        "pnl": 284.5
+        "count": 6,
+        "pnl": 290.45
       },
       "<5min": {
-        "count": 81,
-        "pnl": 510.74
+        "count": 89,
+        "pnl": 540.2900000000001
       },
       "5-15min": {
-        "count": 34,
-        "pnl": -442.51000000000005
+        "count": 37,
+        "pnl": -433.46000000000004
       },
       "15-60min": {
-        "count": 18,
-        "pnl": -570.9399999999999
+        "count": 24,
+        "pnl": -457.7999999999999
       }
     }
   },
@@ -215,12 +215,12 @@
       "symbols": [
         "FTEL",
         "ATON",
-        "BJDX",
-        "PRHI",
+        "TGL",
         "RYDE",
+        "PRHI",
+        "BJDX",
         "XTLB",
-        "ZNB",
-        "TGL"
+        "ZNB"
       ]
     },
     {
@@ -228,16 +228,16 @@
       "trades": 41,
       "pnl": 136.68,
       "symbols": [
-        "GTBP",
-        "XBIO",
-        "AREB",
-        "VTAK",
-        "NXL",
         "XTLB",
-        "SCWO",
+        "AREB",
         "AMBO",
+        "VTAK",
+        "UPC",
+        "SCWO",
         "ZCMD",
-        "UPC"
+        "XBIO",
+        "GTBP",
+        "NXL"
       ]
     },
     {
@@ -245,19 +245,39 @@
       "trades": 23,
       "pnl": 238.01,
       "symbols": [
-        "YDDL",
-        "GLTO",
-        "NUAI",
-        "LGCB",
-        "BJDX",
-        "GWH",
         "BDRX",
+        "YDDL",
+        "GWH",
+        "NUAI",
+        "GLTO",
+        "MRM",
+        "LGCB",
         "WAI",
-        "MRM"
+        "BJDX"
       ]
     },
     {
       "date": "2025-10-10",
+      "trades": 19,
+      "pnl": 152.92,
+      "symbols": [
+        "CHSN",
+        "CCTG",
+        "GWH",
+        "QQQ",
+        "SGBX",
+        "PMAX",
+        "STAI"
+      ]
+    },
+    {
+      "date": "2025-10-11",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-10-12",
       "trades": 0,
       "pnl": 0,
       "symbols": []
