@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-10-12 03:20:47",
+  "generateDate": "2025-10-12 15:04:50",
   "weekPeriod": "2025-10-06 to 2025-10-12",
   "weekNumber": 41,
   "year": 2025,
@@ -36,14 +36,14 @@
       "pnl": 238.01,
       "symbols": [
         "BDRX",
-        "YDDL",
-        "GWH",
+        "BJDX",
         "NUAI",
-        "GLTO",
-        "MRM",
         "LGCB",
+        "GWH",
         "WAI",
-        "BJDX"
+        "MRM",
+        "GLTO",
+        "YDDL"
       ]
     },
     "worstDay": {
@@ -246,14 +246,14 @@
       "pnl": 238.01,
       "symbols": [
         "BDRX",
-        "YDDL",
-        "GWH",
+        "BJDX",
         "NUAI",
-        "GLTO",
-        "MRM",
         "LGCB",
+        "GWH",
         "WAI",
-        "BJDX"
+        "MRM",
+        "GLTO",
+        "YDDL"
       ]
     },
     {
@@ -261,13 +261,13 @@
       "trades": 19,
       "pnl": 152.92,
       "symbols": [
-        "CHSN",
+        "STAI",
         "CCTG",
-        "GWH",
-        "QQQ",
-        "SGBX",
         "PMAX",
-        "STAI"
+        "SGBX",
+        "QQQ",
+        "CHSN",
+        "GWH"
       ]
     },
     {
