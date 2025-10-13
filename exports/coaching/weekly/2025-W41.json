@@ -1,0 +1,21 @@
+{
+  "period": "Week 41, 2025",
+  "week_period": "2025-10-06 to 2025-10-12",
+  "generated_at": "2025-10-13T09:07:34.382634",
+  "performance_summary": {
+    "net_pnl": -117.95,
+    "total_trades": 156,
+    "win_rate": 0.7692,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Prioritize setting stop-losses and adjusting trade sizes to prevent large losses.\n2. **Trade Quality over Quantity**: Curate trades more selectively to focus on high-probability setups rather than increasing volume.\n3. **Review and Reflect**: Dedicate time to analyze the mistakes made on losing trades, particularly the worst trade of the week, to avoid repeating them.",
+    "psychological_insights": "The max consecutive losses of 3 suggest potential emotional strain. Work on maintaining discipline and sticking to your trading plan even amidst losses.\n- **Confidence Levels**: High win rates can sometimes lead to overconfidence, which might contribute to riskier trades. Stay grounded and stick to your strategy.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
