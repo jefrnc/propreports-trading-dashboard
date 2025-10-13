@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-13 03:25:13",
+  "exportDate": "2025-10-13 15:05:57",
   "account": "ZI*******64",
   "date": "2025-10-10",
   "trades": [
@@ -357,14 +357,14 @@
       "STAI",
       "GWH",
       "PMAX",
+      "CCTG",
       "SGBX",
       "QQQ",
-      "CHSN",
-      "CCTG"
+      "CHSN"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-13 03:25:13"
+    "processedAt": "2025-10-13 15:05:57"
   }
 }
