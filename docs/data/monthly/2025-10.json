@@ -47,17 +47,22 @@
       "trades": 13,
       "pnl": -845.44,
       "winRate": 0
+    },
+    "2025-10-14": {
+      "trades": 21,
+      "pnl": -626.98,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 228,
-    "totalPnL": -663.4300000000001,
-    "winRate": 74.12280701754386,
+    "totalTrades": 249,
+    "totalPnL": -1290.41,
+    "winRate": 73.09236947791165,
     "bestDay": "2025-10-09",
     "bestDayPnL": 238.01,
     "worstDay": "2025-10-13",
     "worstDayPnL": -845.44,
-    "tradingDays": 9
+    "tradingDays": 10
   },
   "topWinners": [
     {
@@ -77,6 +82,24 @@
       "side": "BUY",
       "quantity": 383.0,
       "price": 15.8623
+    },
+    {
+      "date": "2025-10-14",
+      "opened": "10/14/25 19:31:36",
+      "closed": "19:35:06",
+      "held": "00:03:30",
+      "symbol": "COOT",
+      "type": "Long",
+      "entry": 3.3677,
+      "exit": 3.5415,
+      "size": 990.0,
+      "pnl": 172.1,
+      "commission": 2.97,
+      "net": 168.0,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 990.0,
+      "price": 3.3677
     },
     {
       "date": "2025-10-07",
@@ -131,27 +154,27 @@
       "side": "BUY",
       "quantity": 163.0,
       "price": 17.059
-    },
-    {
-      "date": "2025-10-09",
-      "opened": "10/09/25 09:17:37",
-      "closed": "11:57:06",
-      "held": "02:39:29",
-      "symbol": "GLTO",
-      "type": "Short",
-      "entry": 14.8399,
-      "exit": 14.4734,
-      "size": 220.0,
-      "pnl": 80.63,
-      "commission": 0.66,
-      "net": 80.21,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 220.0,
-      "price": 14.8399
     }
   ],
   "topLosers": [
+    {
+      "date": "2025-10-14",
+      "opened": "10/14/25 19:35:55",
+      "closed": "19:44:05",
+      "held": "00:08:10",
+      "symbol": "COOT",
+      "type": "Long",
+      "entry": 3.7754,
+      "exit": 3.2413,
+      "size": 1140.0,
+      "pnl": -608.9,
+      "commission": 3.42,
+      "net": -616.64,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 1140.0,
+      "price": 3.7754
+    },
     {
       "date": "2025-10-06",
       "opened": "10/06/25 12:12:07",
@@ -207,40 +230,22 @@
       "price": 13.4188
     },
     {
-      "date": "2025-10-13",
-      "opened": "10/13/25 10:04:31",
-      "closed": "10:08:32",
-      "held": "00:04:01",
-      "symbol": "GWH",
-      "type": "Long",
-      "entry": 6.9644,
-      "exit": 6.6487,
-      "size": 720.0,
-      "pnl": -227.31,
-      "commission": 2.16,
-      "net": -229.9,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 720.0,
-      "price": 6.9644
-    },
-    {
-      "date": "2025-10-07",
-      "opened": "10/07/25 16:41:38",
-      "closed": "16:45:20",
-      "held": "00:03:42",
-      "symbol": "ATON",
+      "date": "2025-10-14",
+      "opened": "10/14/25 17:18:25",
+      "closed": "17:47:50",
+      "held": "00:29:25",
+      "symbol": "VERI",
       "type": "Short",
-      "entry": 9.8428,
-      "exit": 11.935,
-      "size": 90.0,
-      "pnl": -188.3,
-      "commission": 0.27,
-      "net": -188.66,
+      "entry": 7.0645,
+      "exit": 7.7537,
+      "size": 365.0,
+      "pnl": -251.55,
+      "commission": 1.1,
+      "net": -252.01,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 90.0,
-      "price": 9.8428
+      "quantity": 365.0,
+      "price": 7.0645
     }
   ]
 }
