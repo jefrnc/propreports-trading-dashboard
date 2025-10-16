@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-15 15:05:46",
+  "exportDate": "2025-10-16 03:22:12",
   "account": "ZI*******64",
   "date": "2025-10-13",
   "trades": [
@@ -247,14 +247,14 @@
     "losingTrades": 8,
     "symbols": [
       "GWH",
-      "STI",
       "ELBM",
+      "STI",
       "NDRA",
       "VCIG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-15 15:05:46"
+    "processedAt": "2025-10-16 03:22:12"
   }
 }
