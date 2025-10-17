@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-17 03:20:31",
+  "exportDate": "2025-10-17 15:05:18",
   "account": "ZI*******64",
   "date": "2025-10-15",
   "trades": [
@@ -408,21 +408,21 @@
     "winningTrades": 19,
     "losingTrades": 3,
     "symbols": [
-      "MIRA",
-      "RKDA",
-      "UROY",
       "SOND",
-      "SAFX",
       "COOT",
+      "UROY",
+      "MIRA",
       "LGCB",
+      "SAFX",
+      "RKDA",
       "GNPX",
+      "SMSI",
       "STI",
-      "IBG",
-      "SMSI"
+      "IBG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-17 03:20:31"
+    "processedAt": "2025-10-17 15:05:18"
   }
 }
