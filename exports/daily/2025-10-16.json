@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-17 15:05:18",
+  "exportDate": "2025-10-18 03:15:15",
   "account": "ZI*******64",
   "date": "2025-10-16",
   "trades": [
@@ -390,18 +390,18 @@
     "winningTrades": 18,
     "losingTrades": 2,
     "symbols": [
-      "ELWS",
+      "FEMY",
       "BMRA",
-      "WHWK",
+      "ELWS",
+      "ARTV",
+      "IVF",
       "BIAF",
       "SCNX",
-      "FEMY",
-      "ARTV",
-      "IVF"
+      "WHWK"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-17 15:05:18"
+    "processedAt": "2025-10-18 03:15:15"
   }
 }
