@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-18 15:04:55",
+  "exportDate": "2025-10-19 03:27:56",
   "account": "ZI*******64",
   "date": "2025-10-17",
   "trades": [
@@ -174,16 +174,16 @@
     "winningTrades": 8,
     "losingTrades": 1,
     "symbols": [
-      "ELBM",
       "RANI",
-      "CIIT",
+      "XRTX",
       "CREV",
-      "GWH",
-      "XRTX"
+      "ELBM",
+      "CIIT",
+      "GWH"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-18 15:04:55"
+    "processedAt": "2025-10-19 03:27:56"
   }
 }

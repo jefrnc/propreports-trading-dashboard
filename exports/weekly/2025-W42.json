@@ -1,0 +1,265 @@
+{
+  "generateDate": "2025-10-19 03:27:56",
+  "weekPeriod": "2025-10-13 to 2025-10-19",
+  "weekNumber": 42,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 86,
+    "grossPnL": -1063.01,
+    "totalCommissions": 58.82,
+    "netPnL": -1121.83,
+    "avgDailyPnL": -160.26,
+    "avgTradePerDay": 12.29,
+    "winningTrades": 64,
+    "losingTrades": 21,
+    "winRate": 0.7442,
+    "avgWin": 15.34,
+    "avgLoss": -97.38,
+    "profitFactor": 0.48
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-10-14",
+      "symbol": "COOT",
+      "pnl": 172.1
+    },
+    "worstTrade": {
+      "date": "2025-10-14",
+      "symbol": "COOT",
+      "pnl": -608.9
+    },
+    "bestDay": {
+      "date": "2025-10-16",
+      "trades": 21,
+      "pnl": 128.58,
+      "symbols": [
+        "BMRA",
+        "ELWS",
+        "BIAF",
+        "FEMY",
+        "IVF",
+        "SCNX",
+        "ARTV",
+        "WHWK"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-10-13",
+      "trades": 13,
+      "pnl": -845.44,
+      "symbols": [
+        "VCIG",
+        "ELBM",
+        "NDRA",
+        "STI",
+        "GWH"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 20,
+    "maxConsecutiveLosses": 6,
+    "topSymbols": [
+      [
+        "GNPX",
+        {
+          "count": 6,
+          "pnl": 85.14,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "SCNX",
+        {
+          "count": 1,
+          "pnl": 55.55,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "VCIG",
+        {
+          "count": 1,
+          "pnl": 40.09,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "WHWK",
+        {
+          "count": 3,
+          "pnl": 39.52,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "JDZG",
+        {
+          "count": 1,
+          "pnl": 33.5,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 2,
+        "pnl": 43.9
+      },
+      "08": {
+        "count": 8,
+        "pnl": -236.49999999999994
+      },
+      "09": {
+        "count": 14,
+        "pnl": 74.74999999999999
+      },
+      "10": {
+        "count": 14,
+        "pnl": -395.76000000000005
+      },
+      "11": {
+        "count": 6,
+        "pnl": 70.46
+      },
+      "16": {
+        "count": 18,
+        "pnl": -98.12
+      },
+      "17": {
+        "count": 9,
+        "pnl": -147.81
+      },
+      "19": {
+        "count": 7,
+        "pnl": -379.79999999999995
+      },
+      "12": {
+        "count": 3,
+        "pnl": -10.34
+      },
+      "13": {
+        "count": 1,
+        "pnl": 8.31
+      },
+      "14": {
+        "count": 1,
+        "pnl": 4.8
+      },
+      "15": {
+        "count": 1,
+        "pnl": -9.55
+      },
+      "06": {
+        "count": 2,
+        "pnl": 12.649999999999999
+      }
+    },
+    "tradeDurations": {
+      "5-15min": {
+        "count": 23,
+        "pnl": -567.17
+      },
+      "<5min": {
+        "count": 36,
+        "pnl": -411.65000000000003
+      },
+      "15-60min": {
+        "count": 16,
+        "pnl": -159.42999999999998
+      },
+      ">60min": {
+        "count": 11,
+        "pnl": 75.24000000000002
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-10-13",
+      "trades": 13,
+      "pnl": -845.44,
+      "symbols": [
+        "VCIG",
+        "ELBM",
+        "NDRA",
+        "STI",
+        "GWH"
+      ]
+    },
+    {
+      "date": "2025-10-14",
+      "trades": 21,
+      "pnl": -626.98,
+      "symbols": [
+        "COOT",
+        "JDZG",
+        "CRML",
+        "RKDA",
+        "GWH",
+        "VERI",
+        "SSKN"
+      ]
+    },
+    {
+      "date": "2025-10-15",
+      "trades": 22,
+      "pnl": 115.19,
+      "symbols": [
+        "GNPX",
+        "COOT",
+        "UROY",
+        "SAFX",
+        "MIRA",
+        "SMSI",
+        "SOND",
+        "STI",
+        "RKDA",
+        "LGCB",
+        "IBG"
+      ]
+    },
+    {
+      "date": "2025-10-16",
+      "trades": 21,
+      "pnl": 128.58,
+      "symbols": [
+        "BMRA",
+        "ELWS",
+        "BIAF",
+        "FEMY",
+        "IVF",
+        "SCNX",
+        "ARTV",
+        "WHWK"
+      ]
+    },
+    {
+      "date": "2025-10-17",
+      "trades": 9,
+      "pnl": 88.56,
+      "symbols": [
+        "RANI",
+        "XRTX",
+        "CREV",
+        "ELBM",
+        "CIIT",
+        "GWH"
+      ]
+    },
+    {
+      "date": "2025-10-18",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-10-19",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
