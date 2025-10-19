@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-10-19 03:27:56",
+  "generateDate": "2025-10-19 15:04:50",
   "weekPeriod": "2025-10-13 to 2025-10-19",
   "weekNumber": 42,
   "year": 2025,
@@ -35,14 +35,14 @@
       "trades": 21,
       "pnl": 128.58,
       "symbols": [
-        "BMRA",
-        "ELWS",
-        "BIAF",
-        "FEMY",
-        "IVF",
         "SCNX",
+        "BMRA",
+        "BIAF",
+        "ELWS",
         "ARTV",
-        "WHWK"
+        "WHWK",
+        "IVF",
+        "FEMY"
       ]
     },
     "worstDay": {
@@ -226,14 +226,14 @@
       "trades": 21,
       "pnl": 128.58,
       "symbols": [
-        "BMRA",
-        "ELWS",
-        "BIAF",
-        "FEMY",
-        "IVF",
         "SCNX",
+        "BMRA",
+        "BIAF",
+        "ELWS",
         "ARTV",
-        "WHWK"
+        "WHWK",
+        "IVF",
+        "FEMY"
       ]
     },
     {
@@ -241,12 +241,12 @@
       "trades": 9,
       "pnl": 88.56,
       "symbols": [
-        "RANI",
-        "XRTX",
-        "CREV",
-        "ELBM",
+        "GWH",
         "CIIT",
-        "GWH"
+        "ELBM",
+        "XRTX",
+        "RANI",
+        "CREV"
       ]
     },
     {
