@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-10-19 15:04:50",
+  "generateDate": "2025-10-20 03:28:49",
   "weekPeriod": "2025-10-13 to 2025-10-19",
   "weekNumber": 42,
   "year": 2025,
@@ -242,11 +242,11 @@
       "pnl": 88.56,
       "symbols": [
         "GWH",
-        "CIIT",
-        "ELBM",
-        "XRTX",
+        "CREV",
         "RANI",
-        "CREV"
+        "CIIT",
+        "XRTX",
+        "ELBM"
       ]
     },
     {
