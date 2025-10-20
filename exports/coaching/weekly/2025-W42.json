@@ -1,0 +1,21 @@
+{
+  "period": "Week 42, 2025",
+  "week_period": "2025-10-13 to 2025-10-19",
+  "generated_at": "2025-10-20T09:07:15.687864",
+  "performance_summary": {
+    "net_pnl": -1121.83,
+    "total_trades": 86,
+    "win_rate": 0.7442,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Prioritize setting stop-losses and adhering to a strict risk-reward ratio to minimize potential losses.\n2. **Trade Frequency**: Aim to increase your number of trades by identifying more opportunities, ensuring that your strategy is applied consistently.\n3. **Review and Adapt Your Strategy**: Analyze the trades that resulted in losses. Understand the conditions and improve your decision-making process based on these insights.",
+    "psychological_insights": "The substantial loss may have impacted your confidence. It\u2019s crucial to maintain discipline and not let a single trade dictate your overall approach.\n- **Consistency in Execution**: Maintaining the same level of discipline across all trades is vital, especially during high volatility periods.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
