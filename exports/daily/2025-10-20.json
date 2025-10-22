@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-21 15:06:04",
+  "exportDate": "2025-10-22 03:26:11",
   "account": "ZI*******64",
   "date": "2025-10-20",
   "trades": [
@@ -210,16 +210,16 @@
     "winningTrades": 10,
     "losingTrades": 1,
     "symbols": [
-      "GSIT",
+      "DCGO",
+      "VRCA",
       "RGTZ",
       "AZTR",
-      "VRCA",
       "RDHL",
-      "DCGO"
+      "GSIT"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-21 15:06:04"
+    "processedAt": "2025-10-22 03:26:11"
   }
 }
