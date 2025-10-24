@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-23 15:05:47",
+  "exportDate": "2025-10-24 03:20:16",
   "account": "ZI*******64",
   "date": "2025-10-21",
   "trades": [
@@ -264,17 +264,17 @@
     "winningTrades": 14,
     "losingTrades": 0,
     "symbols": [
-      "BENF",
       "GOOGL",
-      "AREB",
-      "BYND",
       "SBEV",
-      "WOK",
-      "NERV"
+      "NERV",
+      "AREB",
+      "BENF",
+      "BYND",
+      "WOK"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-23 15:05:47"
+    "processedAt": "2025-10-24 03:20:16"
   }
 }

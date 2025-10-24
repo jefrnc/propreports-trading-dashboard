@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-23 15:05:47",
+  "exportDate": "2025-10-24 03:20:17",
   "account": "ZI*******64",
   "date": "2025-10-22",
   "trades": [
@@ -534,12 +534,12 @@
     "winningTrades": 23,
     "losingTrades": 6,
     "symbols": [
+      "VTYX",
+      "BNBX",
       "RGTZ",
       "BYND",
-      "VTYX",
-      "ARMP",
       "RANI",
-      "BNBX",
+      "ARMP",
       "SLE",
       "IVF",
       "SGBX"
@@ -547,6 +547,6 @@
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-23 15:05:47"
+    "processedAt": "2025-10-24 03:20:17"
   }
 }
