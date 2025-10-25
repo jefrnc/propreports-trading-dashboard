@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-24 15:05:39",
+  "exportDate": "2025-10-25 03:20:59",
   "account": "ZI*******64",
   "date": "2025-10-23",
   "trades": [
@@ -319,15 +319,15 @@
     "losingTrades": 9,
     "symbols": [
       "AIRE",
-      "VTYX",
-      "BYND",
       "SCNX",
+      "IMCC",
+      "VTYX",
       "QLGN",
-      "IMCC"
+      "BYND"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-24 15:05:39"
+    "processedAt": "2025-10-25 03:20:59"
   }
 }
