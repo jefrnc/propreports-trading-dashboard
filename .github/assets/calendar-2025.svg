@@ -896,8 +896,8 @@
 <rect x="576" y="59" width="11" height="11" fill="#ffeb3b" class="day" data-date="2025-10-23" data-trades="17" data-pnl="-28.45">
 <title>2025-10-23: 17 trades, P&L: $-28.45</title>
 </rect>
-<rect x="576" y="72" width="11" height="11" fill="#ebedf0" class="day" data-date="2025-10-24" data-trades="0" data-pnl="0.00">
-<title>2025-10-24: 0 trades, P&L: $0.00</title>
+<rect x="576" y="72" width="11" height="11" fill="#7bc96f" class="day" data-date="2025-10-24" data-trades="11" data-pnl="28.72">
+<title>2025-10-24: 11 trades, P&L: $28.72</title>
 </rect>
 <rect x="576" y="85" width="11" height="11" fill="#ebedf0" class="day" data-date="2025-10-25" data-trades="0" data-pnl="0.00">
 <title>2025-10-25: 0 trades, P&L: $0.00</title>
