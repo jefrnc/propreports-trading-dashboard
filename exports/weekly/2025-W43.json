@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-10-26 03:24:17",
+  "generateDate": "2025-10-26 15:05:07",
   "weekPeriod": "2025-10-20 to 2025-10-26",
   "weekNumber": 43,
   "year": 2025,
@@ -52,11 +52,11 @@
       "pnl": -28.45,
       "symbols": [
         "BYND",
-        "QLGN",
         "SCNX",
+        "AIRE",
         "IMCC",
         "VTYX",
-        "AIRE"
+        "QLGN"
       ]
     }
   },
@@ -220,11 +220,11 @@
       "pnl": -28.45,
       "symbols": [
         "BYND",
-        "QLGN",
         "SCNX",
+        "AIRE",
         "IMCC",
         "VTYX",
-        "AIRE"
+        "QLGN"
       ]
     },
     {
@@ -232,12 +232,12 @@
       "trades": 11,
       "pnl": 28.72,
       "symbols": [
-        "TOVX",
-        "SLE",
-        "TGL",
-        "QLGN",
+        "GRND",
         "SCNX",
-        "GRND"
+        "SLE",
+        "TOVX",
+        "TGL",
+        "QLGN"
       ]
     },
     {
