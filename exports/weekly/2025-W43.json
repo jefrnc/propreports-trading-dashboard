@@ -1,0 +1,256 @@
+{
+  "generateDate": "2025-10-26 03:24:17",
+  "weekPeriod": "2025-10-20 to 2025-10-26",
+  "weekNumber": 43,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 82,
+    "grossPnL": 287.09,
+    "totalCommissions": 19.59,
+    "netPnL": 267.5,
+    "avgDailyPnL": 38.21,
+    "avgTradePerDay": 11.71,
+    "winningTrades": 60,
+    "losingTrades": 20,
+    "winRate": 0.7317,
+    "avgWin": 11.41,
+    "avgLoss": -19.87,
+    "profitFactor": 1.72
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-10-22",
+      "symbol": "RANI",
+      "pnl": 60.65
+    },
+    "worstTrade": {
+      "date": "2025-10-22",
+      "symbol": "VTYX",
+      "pnl": -102.33
+    },
+    "bestDay": {
+      "date": "2025-10-22",
+      "trades": 29,
+      "pnl": 110.49,
+      "symbols": [
+        "RGTZ",
+        "SGBX",
+        "VTYX",
+        "RANI",
+        "IVF",
+        "BNBX",
+        "ARMP",
+        "SLE",
+        "BYND"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-10-23",
+      "trades": 17,
+      "pnl": -28.45,
+      "symbols": [
+        "BYND",
+        "QLGN",
+        "SCNX",
+        "IMCC",
+        "VTYX",
+        "AIRE"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 21,
+    "maxConsecutiveLosses": 5,
+    "topSymbols": [
+      [
+        "BNBX",
+        {
+          "count": 8,
+          "pnl": 133.89000000000001,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "RANI",
+        {
+          "count": 1,
+          "pnl": 60.65,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "TGL",
+        {
+          "count": 3,
+          "pnl": 58.31,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "GSIT",
+        {
+          "count": 4,
+          "pnl": 40.400000000000006,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "BYND",
+        {
+          "count": 10,
+          "pnl": 34.73,
+          "win_rate": 0.9
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 2,
+        "pnl": 61.65
+      },
+      "09": {
+        "count": 17,
+        "pnl": 122.76000000000002
+      },
+      "10": {
+        "count": 9,
+        "pnl": 32.04999999999999
+      },
+      "11": {
+        "count": 9,
+        "pnl": -49.660000000000004
+      },
+      "16": {
+        "count": 20,
+        "pnl": -44.940000000000005
+      },
+      "17": {
+        "count": 8,
+        "pnl": 6.649999999999999
+      },
+      "12": {
+        "count": 10,
+        "pnl": 97.28000000000002
+      },
+      "13": {
+        "count": 3,
+        "pnl": 27.950000000000003
+      },
+      "14": {
+        "count": 1,
+        "pnl": 10.0
+      },
+      "15": {
+        "count": 2,
+        "pnl": 4.8
+      },
+      "07": {
+        "count": 1,
+        "pnl": 18.55
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 30,
+        "pnl": 142.54999999999998
+      },
+      "5-15min": {
+        "count": 24,
+        "pnl": 14.670000000000002
+      },
+      "15-60min": {
+        "count": 20,
+        "pnl": 112.19000000000004
+      },
+      ">60min": {
+        "count": 8,
+        "pnl": 17.67999999999999
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-10-20",
+      "trades": 11,
+      "pnl": 65.26,
+      "symbols": [
+        "AZTR",
+        "GSIT",
+        "DCGO",
+        "RDHL",
+        "RGTZ",
+        "VRCA"
+      ]
+    },
+    {
+      "date": "2025-10-21",
+      "trades": 14,
+      "pnl": 92.67,
+      "symbols": [
+        "AREB",
+        "SBEV",
+        "BYND",
+        "BENF",
+        "WOK",
+        "NERV",
+        "GOOGL"
+      ]
+    },
+    {
+      "date": "2025-10-22",
+      "trades": 29,
+      "pnl": 110.49,
+      "symbols": [
+        "RGTZ",
+        "SGBX",
+        "VTYX",
+        "RANI",
+        "IVF",
+        "BNBX",
+        "ARMP",
+        "SLE",
+        "BYND"
+      ]
+    },
+    {
+      "date": "2025-10-23",
+      "trades": 17,
+      "pnl": -28.45,
+      "symbols": [
+        "BYND",
+        "QLGN",
+        "SCNX",
+        "IMCC",
+        "VTYX",
+        "AIRE"
+      ]
+    },
+    {
+      "date": "2025-10-24",
+      "trades": 11,
+      "pnl": 28.72,
+      "symbols": [
+        "TOVX",
+        "SLE",
+        "TGL",
+        "QLGN",
+        "SCNX",
+        "GRND"
+      ]
+    },
+    {
+      "date": "2025-10-25",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-10-26",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
