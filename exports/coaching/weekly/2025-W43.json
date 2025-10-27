@@ -1,0 +1,21 @@
+{
+  "period": "Week 43, 2025",
+  "week_period": "2025-10-20 to 2025-10-26",
+  "generated_at": "2025-10-27T09:07:43.315921",
+  "performance_summary": {
+    "net_pnl": 267.5,
+    "total_trades": 82,
+    "win_rate": 0.7317,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "** Set a target for the number of trades per day/week to boost market engagement and potential for profit.\n2. **Loss Analysis:** Review and learn from your losing trades to refine your approach and avoid similar mistakes in the future.\n3. **Risk Management:** Implement tighter stop-loss strategies to minimize the impact of losing trades and protect your capital.",
+    "psychological_insights": "** The presence of consecutive losses can be psychologically challenging. Focus on maintaining discipline and sticking to your trading plan, regardless of short-term outcomes.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
