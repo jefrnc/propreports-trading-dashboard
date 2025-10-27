@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-10-27 03:32:07",
+  "generateDate": "2025-10-27 15:05:49",
   "weekPeriod": "2025-10-20 to 2025-10-26",
   "weekNumber": 43,
   "year": 2025,
@@ -232,12 +232,12 @@
       "trades": 11,
       "pnl": 28.72,
       "symbols": [
-        "GRND",
         "SLE",
+        "SCNX",
         "TOVX",
         "QLGN",
-        "SCNX",
-        "TGL"
+        "TGL",
+        "GRND"
       ]
     },
     {
