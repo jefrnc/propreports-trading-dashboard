@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-26 15:05:07",
+  "exportDate": "2025-10-27 03:32:07",
   "account": "ZI*******64",
   "date": "2025-10-24",
   "trades": [
@@ -211,15 +211,15 @@
     "losingTrades": 4,
     "symbols": [
       "GRND",
-      "SCNX",
       "SLE",
       "TOVX",
-      "TGL",
-      "QLGN"
+      "QLGN",
+      "SCNX",
+      "TGL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-26 15:05:07"
+    "processedAt": "2025-10-27 03:32:07"
   }
 }
