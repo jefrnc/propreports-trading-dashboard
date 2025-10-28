@@ -92,19 +92,42 @@
       "trades": 11,
       "pnl": 28.72,
       "winRate": 0
+    },
+    "2025-10-27": {
+      "trades": 19,
+      "pnl": 135.28,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 383,
-    "totalPnL": -689.3900000000002,
-    "winRate": 74.93472584856397,
+    "totalTrades": 402,
+    "totalPnL": -554.1100000000002,
+    "winRate": 74.37810945273633,
     "bestDay": "2025-10-09",
     "bestDayPnL": 238.01,
     "worstDay": "2025-10-13",
     "worstDayPnL": -845.44,
-    "tradingDays": 18
+    "tradingDays": 19
   },
   "topWinners": [
+    {
+      "date": "2025-10-27",
+      "opened": "10/27/25 09:29:28",
+      "closed": "10:22:36",
+      "held": "00:53:08",
+      "symbol": "KITT",
+      "type": "Short",
+      "entry": 3.123,
+      "exit": 2.5398,
+      "size": 435.0,
+      "pnl": 253.67,
+      "commission": 1.31,
+      "net": 253.32,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 435.0,
+      "price": 3.123
+    },
     {
       "date": "2025-10-07",
       "opened": "10/07/25 17:08:32",
@@ -176,24 +199,6 @@
       "side": "BUY",
       "quantity": 581.0,
       "price": 4.4263
-    },
-    {
-      "date": "2025-10-07",
-      "opened": "10/07/25 17:09:35",
-      "closed": "17:11:23",
-      "held": "00:01:48",
-      "symbol": "ATON",
-      "type": "Long",
-      "entry": 17.059,
-      "exit": 17.5573,
-      "size": 163.0,
-      "pnl": 81.23,
-      "commission": 0.49,
-      "net": 80.65,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 163.0,
-      "price": 17.059
     }
   ],
   "topLosers": [
