@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-29 03:28:45",
+  "exportDate": "2025-10-29 15:06:03",
   "account": "ZI*******64",
   "date": "2025-10-27",
   "trades": [
@@ -354,17 +354,17 @@
     "winningTrades": 13,
     "losingTrades": 6,
     "symbols": [
-      "CLIK",
-      "RECT",
       "CODX",
       "FRGT",
-      "KITT",
       "BKYI",
-      "JZXN"
+      "JZXN",
+      "RECT",
+      "CLIK",
+      "KITT"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-29 03:28:45"
+    "processedAt": "2025-10-29 15:06:03"
   }
 }
