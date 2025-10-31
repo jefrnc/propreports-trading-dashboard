@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-10-31 03:26:09",
+  "exportDate": "2025-10-31 15:05:18",
   "account": "ZI*******64",
   "date": "2025-10-28",
   "trades": [
@@ -174,16 +174,16 @@
     "winningTrades": 9,
     "losingTrades": 0,
     "symbols": [
+      "FGI",
+      "XHLD",
       "WKEY",
       "CISS",
-      "FGI",
-      "EDUC",
-      "XHLD",
-      "SSKN"
+      "SSKN",
+      "EDUC"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-10-31 03:26:09"
+    "processedAt": "2025-10-31 15:05:18"
   }
 }
