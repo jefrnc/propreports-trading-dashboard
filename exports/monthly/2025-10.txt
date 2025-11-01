@@ -3,11 +3,11 @@ October 2025
 ==================================================
 
 RESUMEN GENERAL:
-  Total de trades: 450
-  P&L Neto: $-308.26
-  Win Rate: 75.6%
-  Profit Factor: 0.98
-  Expectancy: $-0.27
+  Total de trades: 462
+  P&L Neto: $-232.99
+  Win Rate: 75.5%
+  Profit Factor: 0.99
+  Expectancy: $-0.08
 
 DESGLOSE SEMANAL:
   Semana 41: 156 trades, $-117.95, WR: 76.9%
