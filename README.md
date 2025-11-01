@@ -21,19 +21,19 @@ This is a live example of:
 |--------|--------|-----|----------|
 | **Week 44 (partial)** | 67 | **+$332.59** | 73.1% |
 | Week 43 | 82 | **+$267.50** | 73.2% |
-| **October (partial)** | 450 | **-$356.80** | 75.6% |
-| September | 428 | **-$993.38** | 74.3% |
+| **November (partial)** | 0 | $0.00 | 0% |
+| October | 450 | **-$308.26** | 75.6% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 1,894 | 2,274 |
-| **P&L** | **-$1,164.09** | **-$1,397.67** |
+| **Trades** | 1,698 | 2,032 |
+| **P&L** | **-$1,163.78** | **-$1,392.72** |
 
-*Based on current performance with 61 days remaining*
+*Based on current performance with 60 days remaining*
 
-*Last updated: 2025-10-31 15:05 UTC*
+*Last updated: 2025-11-01 03:26 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -71,7 +71,7 @@ This is a live example of:
 | July | 246 | **$+253.84** | 71.1% |
 | August | 383 | **$+56.19** | 67.4% |
 | September | 428 | **$-993.38** | 74.3% |
-| October | 196 | **$+48.23** | 76.5% |
+| October | 450 | **$-308.26** | 75.6% |
 
 <!-- CALENDAR_END -->
 
