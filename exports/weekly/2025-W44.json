@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-11-02 03:27:57",
+  "generateDate": "2025-11-02 15:04:41",
   "weekPeriod": "2025-10-27 to 2025-11-02",
   "weekNumber": 44,
   "year": 2025,
@@ -209,14 +209,14 @@
       "trades": 16,
       "pnl": 17.35,
       "symbols": [
-        "NLSP",
         "MRM",
-        "MSAI",
+        "NLSP",
         "AAPL",
-        "CMBM",
-        "INTS",
         "ZJYL",
-        "WAI"
+        "CMBM",
+        "WAI",
+        "INTS",
+        "MSAI"
       ]
     },
     {
@@ -224,10 +224,10 @@
       "trades": 12,
       "pnl": 73.56,
       "symbols": [
+        "TGE",
         "RANI",
         "HKD",
         "INTS",
-        "TGE",
         "GETY"
       ]
     },
