@@ -1,0 +1,247 @@
+{
+  "generateDate": "2025-11-02 03:27:57",
+  "weekPeriod": "2025-10-27 to 2025-11-02",
+  "weekNumber": 44,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 79,
+    "grossPnL": 457.31,
+    "totalCommissions": 37.68,
+    "netPnL": 419.63,
+    "avgDailyPnL": 59.95,
+    "avgTradePerDay": 11.29,
+    "winningTrades": 58,
+    "losingTrades": 20,
+    "winRate": 0.7342,
+    "avgWin": 18.31,
+    "avgLoss": -30.23,
+    "profitFactor": 1.76
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-10-27",
+      "symbol": "KITT",
+      "pnl": 253.67
+    },
+    "worstTrade": {
+      "date": "2025-10-27",
+      "symbol": "RECT",
+      "pnl": -148.23
+    },
+    "bestDay": {
+      "date": "2025-10-27",
+      "trades": 19,
+      "pnl": 135.28,
+      "symbols": [
+        "RECT",
+        "BKYI",
+        "CODX",
+        "KITT",
+        "JZXN",
+        "CLIK",
+        "FRGT"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-11-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 16,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "KITT",
+        {
+          "count": 2,
+          "pnl": 250.17,
+          "win_rate": 0.5
+        }
+      ],
+      [
+        "INTS",
+        {
+          "count": 5,
+          "pnl": 91.23,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "CLIK",
+        {
+          "count": 2,
+          "pnl": 61.72,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "CODX",
+        {
+          "count": 9,
+          "pnl": 50.02,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "MSAI",
+        {
+          "count": 2,
+          "pnl": 41.089999999999996,
+          "win_rate": 0.5
+        }
+      ]
+    ],
+    "tradingHours": {
+      "06": {
+        "count": 2,
+        "pnl": -85.75
+      },
+      "07": {
+        "count": 4,
+        "pnl": 37.09
+      },
+      "08": {
+        "count": 6,
+        "pnl": -56.46999999999999
+      },
+      "09": {
+        "count": 9,
+        "pnl": 225.07999999999993
+      },
+      "10": {
+        "count": 14,
+        "pnl": -56.040000000000006
+      },
+      "12": {
+        "count": 4,
+        "pnl": -18.73
+      },
+      "13": {
+        "count": 3,
+        "pnl": 7.7299999999999995
+      },
+      "14": {
+        "count": 12,
+        "pnl": 135.36
+      },
+      "16": {
+        "count": 16,
+        "pnl": 172.71000000000004
+      },
+      "17": {
+        "count": 3,
+        "pnl": 14.299999999999999
+      },
+      "11": {
+        "count": 3,
+        "pnl": 83.0
+      },
+      "15": {
+        "count": 3,
+        "pnl": -0.9700000000000006
+      }
+    },
+    "tradeDurations": {
+      ">60min": {
+        "count": 12,
+        "pnl": 142.26
+      },
+      "5-15min": {
+        "count": 23,
+        "pnl": -266.33
+      },
+      "<5min": {
+        "count": 26,
+        "pnl": 136.95999999999998
+      },
+      "15-60min": {
+        "count": 18,
+        "pnl": 444.41999999999996
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-10-27",
+      "trades": 19,
+      "pnl": 135.28,
+      "symbols": [
+        "RECT",
+        "BKYI",
+        "CODX",
+        "KITT",
+        "JZXN",
+        "CLIK",
+        "FRGT"
+      ]
+    },
+    {
+      "date": "2025-10-28",
+      "trades": 9,
+      "pnl": 80.72,
+      "symbols": [
+        "FGI",
+        "XHLD",
+        "WKEY",
+        "CISS",
+        "SSKN",
+        "EDUC"
+      ]
+    },
+    {
+      "date": "2025-10-29",
+      "trades": 23,
+      "pnl": 99.24,
+      "symbols": [
+        "CMBM",
+        "ERNA",
+        "MSAI",
+        "PPBT"
+      ]
+    },
+    {
+      "date": "2025-10-30",
+      "trades": 16,
+      "pnl": 17.35,
+      "symbols": [
+        "NLSP",
+        "MRM",
+        "MSAI",
+        "AAPL",
+        "CMBM",
+        "INTS",
+        "ZJYL",
+        "WAI"
+      ]
+    },
+    {
+      "date": "2025-10-31",
+      "trades": 12,
+      "pnl": 73.56,
+      "symbols": [
+        "RANI",
+        "HKD",
+        "INTS",
+        "TGE",
+        "GETY"
+      ]
+    },
+    {
+      "date": "2025-11-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-11-02",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

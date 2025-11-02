@@ -13,6 +13,7 @@ DESGLOSE SEMANAL:
   Semana 41: 156 trades, $-117.95, WR: 76.9%
   Semana 42: 86 trades, $-1121.83, WR: 74.4%
   Semana 43: 82 trades, $267.5, WR: 73.2%
+  Semana 44: 79 trades, $419.63, WR: 73.4%
 
 RECOMENDACIONES:
   🔴 [Risk Management] Drawdown elevado (511.6%). Implementar stops más ajustados.

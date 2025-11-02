@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-11-01 15:04:50",
+  "generateDate": "2025-11-02 03:27:57",
   "month": 10,
   "monthName": "October",
   "year": 2025,
@@ -1608,6 +1608,13 @@
       "trades": 82,
       "netPnL": 267.5,
       "winRate": 0.7317
+    },
+    {
+      "week": 44,
+      "period": "2025-10-27 to 2025-11-02",
+      "trades": 79,
+      "netPnL": 419.63,
+      "winRate": 0.7342
     }
   ],
   "recommendations": [
