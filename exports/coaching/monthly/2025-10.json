@@ -1,0 +1,20 @@
+{
+  "period": "October 2025",
+  "generated_at": "2025-11-02T09:01:34.926761",
+  "performance_summary": {
+    "net_pnl": -232.99,
+    "total_trades": 462,
+    "win_rate": 0.7554,
+    "profit_factor": 0.99
+  },
+  "coaching": {
+    "overall_performance": "** 462\n- **Net P&L:** -$232.99 indicates a losing month despite a high win rate.\n- **Win Rate:** 75.5% is quite strong, suggesting good entry timing or strategy.\n- **Profit Factor:** At 0.99, this is below 1, indicating that losses outweigh profits, which is a concern.\n- **Average Win vs. Average Loss:** The average win of $14.56 is significantly smaller than the average loss of $-48.27. This imbalance contributes to the negative net P&L.",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "** Ensure that stop losses are set at a level that protects your capital while allowing trades to breathe.\n- **Diversification:** Avoid concentrating on a few losing symbols that contribute heavily to drawdown; explore diversifying into more stable options.\n- **Use Trailing Stops:** Implementing trailing stops on winning trades can help lock in profits while allowing for potential upside.",
+    "psychological_insights": "** The high max drawdown may lead to emotional trading decisions. It\u2019s crucial to remain disciplined and stick to your trading plan even during losing streaks.\n- **Confidence Issues:** The disparity between the win rate and net P&L might lead to overconfidence in winning strategies, while ignoring critical failures in risk management.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
