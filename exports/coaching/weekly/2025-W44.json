@@ -1,0 +1,21 @@
+{
+  "period": "Week 44, 2025",
+  "week_period": "2025-10-27 to 2025-11-02",
+  "generated_at": "2025-11-03T09:07:30.753810",
+  "performance_summary": {
+    "net_pnl": 419.63,
+    "total_trades": 79,
+    "win_rate": 0.7342,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "** Establish a routine to ensure you are actively trading each day.\n2. **Risk Management Protocols:** Enhance risk management strategies to minimize the impact of losses, focusing on setting stop-loss orders.\n3. **Trade Review Process:** Implement a robust review process for both winning and losing trades to continuously learn and adapt your strategies.",
+    "psychological_insights": "### Psychological/Discipline Observations\n- The ability to achieve 16 consecutive wins indicates strong confidence; however, the two consecutive losses may have impacted your decision-making. Work on maintaining composure, even after losses, to avoid emotional trading.\n- Stay disciplined in your trading plan and avoid the urge to chase losses.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
