@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-11-02 15:04:41",
+  "generateDate": "2025-11-03 03:30:30",
   "weekPeriod": "2025-10-27 to 2025-11-02",
   "weekNumber": 44,
   "year": 2025,
@@ -224,11 +224,11 @@
       "trades": 12,
       "pnl": 73.56,
       "symbols": [
-        "TGE",
-        "RANI",
-        "HKD",
+        "GETY",
         "INTS",
-        "GETY"
+        "HKD",
+        "TGE",
+        "RANI"
       ]
     },
     {
