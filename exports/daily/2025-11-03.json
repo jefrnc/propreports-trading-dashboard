@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-04 15:06:04",
+  "exportDate": "2025-11-05 03:26:27",
   "account": "ZI*******64",
   "date": "2025-11-03",
   "trades": [
@@ -174,16 +174,16 @@
     "winningTrades": 8,
     "losingTrades": 1,
     "symbols": [
-      "NCRA",
-      "THAR",
-      "PHIO",
       "MODD",
+      "NCRA",
       "FGL",
-      "LPA"
+      "THAR",
+      "LPA",
+      "PHIO"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-04 15:06:04"
+    "processedAt": "2025-11-05 03:26:27"
   }
 }
