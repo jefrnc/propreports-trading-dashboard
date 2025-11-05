@@ -1,19 +1,77 @@
 {
-  "exportDate": "2025-11-05 03:26:27",
+  "exportDate": "2025-11-05 15:06:05",
   "account": "ZI*******64",
   "date": "2025-11-04",
-  "trades": [],
+  "trades": [
+    {
+      "date": "2025-11-04",
+      "opened": "11/04/25 09:13:37",
+      "closed": "10:57:27",
+      "held": "01:43:50",
+      "symbol": "SCNX",
+      "type": "Short",
+      "entry": 1.16,
+      "exit": 0.8431,
+      "size": 50.0,
+      "pnl": 15.85,
+      "commission": 0.15,
+      "net": 15.73,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 50.0,
+      "price": 1.16
+    },
+    {
+      "date": "2025-11-04",
+      "opened": "11/04/25 10:57:57",
+      "closed": "10:58:38",
+      "held": "00:00:41",
+      "symbol": "SCNX",
+      "type": "Long",
+      "entry": 0.86,
+      "exit": 0.8569,
+      "size": 50.0,
+      "pnl": -0.16,
+      "commission": 0.15,
+      "net": -0.42,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 50.0,
+      "price": 0.86
+    },
+    {
+      "date": "2025-11-04",
+      "opened": "11/04/25 11:00:48",
+      "closed": "11:16:43",
+      "held": "00:15:55",
+      "symbol": "RUBI",
+      "type": "Short",
+      "entry": 1.544,
+      "exit": 1.14,
+      "size": 25.0,
+      "pnl": 10.1,
+      "commission": 0.08,
+      "net": 9.98,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 25.0,
+      "price": 1.544
+    }
+  ],
   "summary": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommissions": 0,
-    "netPnL": 0,
-    "winningTrades": 0,
-    "losingTrades": 0,
-    "symbols": []
+    "totalTrades": 3,
+    "totalPnL": 25.79,
+    "totalCommissions": 0.38,
+    "netPnL": 25.29,
+    "winningTrades": 2,
+    "losingTrades": 1,
+    "symbols": [
+      "SCNX",
+      "RUBI"
+    ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-05 03:26:27"
+    "processedAt": "2025-11-05 15:06:05"
   }
 }

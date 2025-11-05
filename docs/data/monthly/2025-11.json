@@ -7,17 +7,22 @@
       "trades": 9,
       "pnl": 160.53,
       "winRate": 0
+    },
+    "2025-11-04": {
+      "trades": 3,
+      "pnl": 25.29,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 9,
-    "totalPnL": 160.53,
-    "winRate": 88.88888888888889,
+    "totalTrades": 12,
+    "totalPnL": 185.82,
+    "winRate": 83.33333333333334,
     "bestDay": "2025-11-03",
     "bestDayPnL": 160.53,
-    "worstDay": "2025-11-03",
-    "worstDayPnL": 160.53,
-    "tradingDays": 1
+    "worstDay": "2025-11-04",
+    "worstDayPnL": 25.29,
+    "tradingDays": 2
   },
   "topWinners": [
     {
@@ -93,22 +98,22 @@
       "price": 4.5586
     },
     {
-      "date": "2025-11-03",
-      "opened": "11/03/25 09:42:54",
-      "closed": "09:55:50",
-      "held": "00:12:56",
-      "symbol": "PHIO",
+      "date": "2025-11-04",
+      "opened": "11/04/25 09:13:37",
+      "closed": "10:57:27",
+      "held": "01:43:50",
+      "symbol": "SCNX",
       "type": "Short",
-      "entry": 3.685,
-      "exit": 3.49,
+      "entry": 1.16,
+      "exit": 0.8431,
       "size": 50.0,
-      "pnl": 9.75,
+      "pnl": 15.85,
       "commission": 0.15,
-      "net": 9.64,
+      "net": 15.73,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 50.0,
-      "price": 3.685
+      "price": 1.16
     }
   ],
   "topLosers": [
@@ -129,6 +134,24 @@
       "side": "SELL",
       "quantity": 200.0,
       "price": 0.4959
+    },
+    {
+      "date": "2025-11-04",
+      "opened": "11/04/25 10:57:57",
+      "closed": "10:58:38",
+      "held": "00:00:41",
+      "symbol": "SCNX",
+      "type": "Long",
+      "entry": 0.86,
+      "exit": 0.8569,
+      "size": 50.0,
+      "pnl": -0.16,
+      "commission": 0.15,
+      "net": -0.42,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 50.0,
+      "price": 0.86
     }
   ]
 }
