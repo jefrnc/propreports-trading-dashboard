@@ -22,17 +22,22 @@
       "trades": 10,
       "pnl": 143.4,
       "winRate": 0
+    },
+    "2025-11-07": {
+      "trades": 15,
+      "pnl": 48.97,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 47,
-    "totalPnL": 307.23,
-    "winRate": 78.72340425531915,
+    "totalTrades": 62,
+    "totalPnL": 356.20000000000005,
+    "winRate": 80.64516129032258,
     "bestDay": "2025-11-03",
     "bestDayPnL": 160.53,
     "worstDay": "2025-11-05",
     "worstDayPnL": -21.99,
-    "tradingDays": 4
+    "tradingDays": 5
   },
   "topWinners": [
     {
@@ -164,6 +169,42 @@
       "price": 0.5973
     },
     {
+      "date": "2025-11-07",
+      "opened": "11/07/25 16:51:14",
+      "closed": "16:59:30",
+      "held": "00:08:16",
+      "symbol": "GREE",
+      "type": "Short",
+      "entry": 2.09,
+      "exit": 2.216,
+      "size": 200.0,
+      "pnl": -25.2,
+      "commission": 0.6,
+      "net": -25.57,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 200.0,
+      "price": 2.09
+    },
+    {
+      "date": "2025-11-07",
+      "opened": "11/07/25 17:03:07",
+      "closed": "18:19:37",
+      "held": "01:16:30",
+      "symbol": "GREE",
+      "type": "Short",
+      "entry": 2.4692,
+      "exit": 2.5064,
+      "size": 450.0,
+      "pnl": -16.77,
+      "commission": 1.35,
+      "net": -17.65,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 450.0,
+      "price": 2.4692
+    },
+    {
       "date": "2025-11-05",
       "opened": "11/05/25 16:24:53",
       "closed": "16:41:13",
@@ -180,42 +221,6 @@
       "side": "SELL",
       "quantity": 120.0,
       "price": 1.4629
-    },
-    {
-      "date": "2025-11-06",
-      "opened": "11/06/25 09:35:26",
-      "closed": "09:36:28",
-      "held": "00:01:02",
-      "symbol": "FTEL",
-      "type": "Short",
-      "entry": 3.1155,
-      "exit": 3.3399,
-      "size": 55.0,
-      "pnl": -12.34,
-      "commission": 0.17,
-      "net": -12.58,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 55.0,
-      "price": 3.1155
-    },
-    {
-      "date": "2025-11-05",
-      "opened": "11/05/25 14:26:56",
-      "closed": "14:29:19",
-      "held": "00:02:23",
-      "symbol": "LNAI",
-      "type": "Short",
-      "entry": 1.1876,
-      "exit": 1.2362,
-      "size": 185.0,
-      "pnl": -8.99,
-      "commission": 0.56,
-      "net": -10.0,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 185.0,
-      "price": 1.1876
     }
   ]
 }
