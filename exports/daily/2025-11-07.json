@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-09 03:26:39",
+  "exportDate": "2025-11-09 15:04:53",
   "account": "ZI*******64",
   "date": "2025-11-07",
   "trades": [
@@ -283,15 +283,15 @@
     "losingTrades": 2,
     "symbols": [
       "BKYI",
-      "MTVA",
+      "GREE",
       "OPEN",
-      "MSGM",
       "IFRX",
-      "GREE"
+      "MTVA",
+      "MSGM"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-09 03:26:39"
+    "processedAt": "2025-11-09 15:04:53"
   }
 }
