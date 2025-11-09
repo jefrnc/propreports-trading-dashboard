@@ -1,0 +1,242 @@
+{
+  "generateDate": "2025-11-09 03:26:40",
+  "weekPeriod": "2025-11-03 to 2025-11-09",
+  "weekNumber": 45,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 62,
+    "grossPnL": 390.35,
+    "totalCommissions": 30.49,
+    "netPnL": 359.86,
+    "avgDailyPnL": 51.41,
+    "avgTradePerDay": 8.86,
+    "winningTrades": 50,
+    "losingTrades": 12,
+    "winRate": 0.8065,
+    "avgWin": 11.19,
+    "avgLoss": -14.1,
+    "profitFactor": 3.31
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-11-03",
+      "symbol": "THAR",
+      "pnl": 75.45
+    },
+    "worstTrade": {
+      "date": "2025-11-05",
+      "symbol": "MTC",
+      "pnl": -55.3
+    },
+    "bestDay": {
+      "date": "2025-11-03",
+      "trades": 9,
+      "pnl": 160.53,
+      "symbols": [
+        "THAR",
+        "MODD",
+        "PHIO",
+        "LPA",
+        "FGL",
+        "NCRA"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-11-05",
+      "trades": 25,
+      "pnl": -21.99,
+      "symbols": [
+        "LNAI",
+        "VSEE",
+        "MTC",
+        "THAR",
+        "ALTO",
+        "SMX"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 18,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "FTEL",
+        {
+          "count": 7,
+          "pnl": 126.94,
+          "win_rate": 0.8571
+        }
+      ],
+      [
+        "THAR",
+        {
+          "count": 3,
+          "pnl": 86.85,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "MSGM",
+        {
+          "count": 6,
+          "pnl": 46.45,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "PHIO",
+        {
+          "count": 3,
+          "pnl": 45.38,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "LNAI",
+        {
+          "count": 8,
+          "pnl": 27.269999999999996,
+          "win_rate": 0.75
+        }
+      ]
+    ],
+    "tradingHours": {
+      "09": {
+        "count": 16,
+        "pnl": 251.99999999999997
+      },
+      "10": {
+        "count": 6,
+        "pnl": 44.78
+      },
+      "16": {
+        "count": 11,
+        "pnl": 25.020000000000014
+      },
+      "11": {
+        "count": 3,
+        "pnl": 20.349999999999998
+      },
+      "12": {
+        "count": 7,
+        "pnl": 8.559999999999999
+      },
+      "13": {
+        "count": 2,
+        "pnl": 17.880000000000003
+      },
+      "14": {
+        "count": 5,
+        "pnl": -71.94
+      },
+      "15": {
+        "count": 2,
+        "pnl": 9.54
+      },
+      "17": {
+        "count": 5,
+        "pnl": 7.919999999999999
+      },
+      "08": {
+        "count": 4,
+        "pnl": 64.59
+      },
+      "18": {
+        "count": 1,
+        "pnl": 11.65
+      }
+    },
+    "tradeDurations": {
+      "5-15min": {
+        "count": 18,
+        "pnl": 98.01
+      },
+      ">60min": {
+        "count": 8,
+        "pnl": 55.980000000000004
+      },
+      "15-60min": {
+        "count": 20,
+        "pnl": 178.62999999999997
+      },
+      "<5min": {
+        "count": 16,
+        "pnl": 57.72999999999999
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-11-03",
+      "trades": 9,
+      "pnl": 160.53,
+      "symbols": [
+        "THAR",
+        "MODD",
+        "PHIO",
+        "LPA",
+        "FGL",
+        "NCRA"
+      ]
+    },
+    {
+      "date": "2025-11-04",
+      "trades": 3,
+      "pnl": 25.29,
+      "symbols": [
+        "SCNX",
+        "RUBI"
+      ]
+    },
+    {
+      "date": "2025-11-05",
+      "trades": 25,
+      "pnl": -21.99,
+      "symbols": [
+        "LNAI",
+        "VSEE",
+        "MTC",
+        "THAR",
+        "ALTO",
+        "SMX"
+      ]
+    },
+    {
+      "date": "2025-11-06",
+      "trades": 10,
+      "pnl": 143.4,
+      "symbols": [
+        "MSGM",
+        "BIYA",
+        "FTEL"
+      ]
+    },
+    {
+      "date": "2025-11-07",
+      "trades": 15,
+      "pnl": 48.97,
+      "symbols": [
+        "BKYI",
+        "MTVA",
+        "OPEN",
+        "MSGM",
+        "IFRX",
+        "GREE"
+      ]
+    },
+    {
+      "date": "2025-11-08",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-11-09",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

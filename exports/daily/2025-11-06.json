@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-08 15:04:51",
+  "exportDate": "2025-11-09 03:26:39",
   "account": "ZI*******64",
   "date": "2025-11-06",
   "trades": [
@@ -192,13 +192,13 @@
     "winningTrades": 9,
     "losingTrades": 1,
     "symbols": [
-      "FTEL",
+      "MSGM",
       "BIYA",
-      "MSGM"
+      "FTEL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-08 15:04:51"
+    "processedAt": "2025-11-09 03:26:39"
   }
 }
