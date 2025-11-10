@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-11-10 03:31:40",
+  "generateDate": "2025-11-10 15:05:47",
   "weekPeriod": "2025-11-03 to 2025-11-09",
   "weekNumber": 45,
   "year": 2025,
@@ -218,12 +218,12 @@
       "trades": 15,
       "pnl": 48.97,
       "symbols": [
-        "MTVA",
         "BKYI",
-        "IFRX",
-        "OPEN",
         "GREE",
-        "MSGM"
+        "IFRX",
+        "MTVA",
+        "MSGM",
+        "OPEN"
       ]
     },
     {
