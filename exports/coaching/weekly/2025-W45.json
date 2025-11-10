@@ -1,0 +1,21 @@
+{
+  "period": "Week 45, 2025",
+  "week_period": "2025-11-03 to 2025-11-09",
+  "generated_at": "2025-11-10T09:07:23.086589",
+  "performance_summary": {
+    "net_pnl": 359.86,
+    "total_trades": 62,
+    "win_rate": 0.8065,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "** Set a target for a minimum number of trades per day to ensure consistent market involvement.\n2. **Analyze and Adjust Strategies:** Review the worst trade in detail to refine your strategy and improve trade selection.\n3. **Enhance Risk Management Practices:** Implement stricter stop-loss orders and review risk-reward ratios to safeguard against significant losses.",
+    "psychological_insights": "** Achieving 18 consecutive wins is a testament to strong psychological discipline. However, the occurrence of 3 consecutive losses indicates potential emotional responses. Focus on maintaining composure and sticking to your trading plan during downturns.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
