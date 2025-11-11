@@ -1,19 +1,113 @@
 {
-  "exportDate": "2025-11-11 03:27:32",
+  "exportDate": "2025-11-11 15:05:38",
   "account": "ZI*******64",
   "date": "2025-11-10",
-  "trades": [],
+  "trades": [
+    {
+      "date": "2025-11-10",
+      "opened": "11/10/25 09:28:01",
+      "closed": "09:31:36",
+      "held": "00:03:35",
+      "symbol": "MOVE",
+      "type": "Long",
+      "entry": 13.8919,
+      "exit": 14.192,
+      "size": 50.0,
+      "pnl": 15.0,
+      "commission": 0.15,
+      "net": 14.83,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 50.0,
+      "price": 13.8919
+    },
+    {
+      "date": "2025-11-10",
+      "opened": "11/10/25 16:03:34",
+      "closed": "16:04:50",
+      "held": "00:01:16",
+      "symbol": "CYCN",
+      "type": "Short",
+      "entry": 2.2486,
+      "exit": 2.1971,
+      "size": 70.0,
+      "pnl": 3.6,
+      "commission": 0.21,
+      "net": 3.48,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 70.0,
+      "price": 2.2486
+    },
+    {
+      "date": "2025-11-10",
+      "opened": "11/10/25 16:04:50",
+      "closed": "16:04:58",
+      "held": "00:00:08",
+      "symbol": "CYCN",
+      "type": "Long",
+      "entry": 2.19,
+      "exit": 2.21,
+      "size": 10.0,
+      "pnl": 0.2,
+      "commission": 0.03,
+      "net": 0.18,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 10.0,
+      "price": 2.19
+    },
+    {
+      "date": "2025-11-10",
+      "opened": "11/10/25 16:07:13",
+      "closed": "16:10:29",
+      "held": "00:03:16",
+      "symbol": "CYCN",
+      "type": "Short",
+      "entry": 2.365,
+      "exit": 2.33,
+      "size": 20.0,
+      "pnl": 0.7,
+      "commission": 0.06,
+      "net": 0.71,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 20.0,
+      "price": 2.365
+    },
+    {
+      "date": "2025-11-10",
+      "opened": "11/10/25 16:23:14",
+      "closed": "16:51:57",
+      "held": "00:28:43",
+      "symbol": "CYCN",
+      "type": "Short",
+      "entry": 2.5574,
+      "exit": 2.5263,
+      "size": 95.0,
+      "pnl": 2.95,
+      "commission": 0.29,
+      "net": 2.59,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 95.0,
+      "price": 2.5574
+    }
+  ],
   "summary": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommissions": 0,
-    "netPnL": 0,
-    "winningTrades": 0,
+    "totalTrades": 5,
+    "totalPnL": 22.45,
+    "totalCommissions": 0.74,
+    "netPnL": 21.79,
+    "winningTrades": 5,
     "losingTrades": 0,
-    "symbols": []
+    "symbols": [
+      "MOVE",
+      "CYCN"
+    ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-11 03:27:32"
+    "processedAt": "2025-11-11 15:05:38"
   }
 }
