@@ -32,17 +32,22 @@
       "trades": 5,
       "pnl": 21.79,
       "winRate": 0
+    },
+    "2025-11-11": {
+      "trades": 11,
+      "pnl": 79.26,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 67,
-    "totalPnL": 377.99000000000007,
-    "winRate": 82.08955223880598,
+    "totalTrades": 78,
+    "totalPnL": 457.25000000000006,
+    "winRate": 83.33333333333334,
     "bestDay": "2025-11-03",
     "bestDayPnL": 160.53,
     "worstDay": "2025-11-05",
     "worstDayPnL": -21.99,
-    "tradingDays": 6
+    "tradingDays": 7
   },
   "topWinners": [
     {
@@ -118,22 +123,22 @@
       "price": 3.54
     },
     {
-      "date": "2025-11-03",
-      "opened": "11/03/25 16:02:59",
-      "closed": "18:01:17",
-      "held": "01:58:18",
-      "symbol": "MODD",
+      "date": "2025-11-11",
+      "opened": "11/11/25 09:34:09",
+      "closed": "09:52:26",
+      "held": "00:18:17",
+      "symbol": "QNRX",
       "type": "Short",
-      "entry": 0.7909,
-      "exit": 0.7381,
-      "size": 400.0,
-      "pnl": 21.12,
-      "commission": 1.2,
-      "net": 19.57,
+      "entry": 12.9533,
+      "exit": 11.4733,
+      "size": 15.0,
+      "pnl": 22.2,
+      "commission": 0.05,
+      "net": 22.14,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 400.0,
-      "price": 0.7909
+      "quantity": 15.0,
+      "price": 12.9533
     }
   ],
   "topLosers": [
