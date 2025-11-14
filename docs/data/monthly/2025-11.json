@@ -42,17 +42,22 @@
       "trades": 26,
       "pnl": -61.49,
       "winRate": 0
+    },
+    "2025-11-13": {
+      "trades": 33,
+      "pnl": -22.47,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 104,
-    "totalPnL": 395.76000000000005,
-    "winRate": 78.84615384615384,
+    "totalTrades": 137,
+    "totalPnL": 373.2900000000001,
+    "winRate": 75.18248175182481,
     "bestDay": "2025-11-03",
     "bestDayPnL": 160.53,
     "worstDay": "2025-11-12",
     "worstDayPnL": -61.49,
-    "tradingDays": 8
+    "tradingDays": 9
   },
   "topWinners": [
     {
@@ -92,6 +97,24 @@
       "price": 2.7811
     },
     {
+      "date": "2025-11-13",
+      "opened": "11/13/25 14:41:51",
+      "closed": "14:50:54",
+      "held": "00:09:03",
+      "symbol": "CJET",
+      "type": "Short",
+      "entry": 3.2061,
+      "exit": 3.1106,
+      "size": 640.0,
+      "pnl": 61.13,
+      "commission": 1.92,
+      "net": 58.98,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 640.0,
+      "price": 3.2061
+    },
+    {
       "date": "2025-11-06",
       "opened": "11/06/25 08:52:38",
       "closed": "08:56:43",
@@ -126,27 +149,27 @@
       "side": "BUY",
       "quantity": 205.0,
       "price": 10.2993
-    },
-    {
-      "date": "2025-11-03",
-      "opened": "11/03/25 09:58:07",
-      "closed": "10:19:11",
-      "held": "00:21:04",
-      "symbol": "PHIO",
-      "type": "Short",
-      "entry": 3.54,
-      "exit": 2.996,
-      "size": 50.0,
-      "pnl": 27.2,
-      "commission": 0.15,
-      "net": 27.15,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 50.0,
-      "price": 3.54
     }
   ],
   "topLosers": [
+    {
+      "date": "2025-11-13",
+      "opened": "11/13/25 10:16:18",
+      "closed": "10:50:29",
+      "held": "00:34:11",
+      "symbol": "NVVE",
+      "type": "Short",
+      "entry": 0.4837,
+      "exit": 0.5203,
+      "size": 2740.0,
+      "pnl": -100.26,
+      "commission": 8.22,
+      "net": -116.24,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 2740.0,
+      "price": 0.4837
+    },
     {
       "date": "2025-11-12",
       "opened": "11/12/25 14:20:32",
@@ -164,6 +187,24 @@
       "side": "SELL",
       "quantity": 30.0,
       "price": 8.53
+    },
+    {
+      "date": "2025-11-13",
+      "opened": "11/13/25 09:40:10",
+      "closed": "09:57:23",
+      "held": "00:17:13",
+      "symbol": "NVVE",
+      "type": "Short",
+      "entry": 0.3791,
+      "exit": 0.4438,
+      "size": 1000.0,
+      "pnl": -64.73,
+      "commission": 3.0,
+      "net": -70.08,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 1000.0,
+      "price": 0.3791
     },
     {
       "date": "2025-11-05",
@@ -200,42 +241,6 @@
       "side": "BUY",
       "quantity": 60.0,
       "price": 9.3485
-    },
-    {
-      "date": "2025-11-05",
-      "opened": "11/05/25 12:01:41",
-      "closed": "12:50:11",
-      "held": "00:48:30",
-      "symbol": "MTC",
-      "type": "Short",
-      "entry": 0.5973,
-      "exit": 0.6201,
-      "size": 960.0,
-      "pnl": -21.87,
-      "commission": 2.88,
-      "net": -26.65,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 960.0,
-      "price": 0.5973
-    },
-    {
-      "date": "2025-11-07",
-      "opened": "11/07/25 16:51:14",
-      "closed": "16:59:30",
-      "held": "00:08:16",
-      "symbol": "GREE",
-      "type": "Short",
-      "entry": 2.09,
-      "exit": 2.216,
-      "size": 200.0,
-      "pnl": -25.2,
-      "commission": 0.6,
-      "net": -25.57,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 200.0,
-      "price": 2.09
     }
   ]
 }

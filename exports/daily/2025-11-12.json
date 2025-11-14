@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-14 03:27:25",
+  "exportDate": "2025-11-14 15:05:32",
   "account": "ZI*******64",
   "date": "2025-11-12",
   "trades": [
@@ -480,15 +480,15 @@
     "winningTrades": 17,
     "losingTrades": 9,
     "symbols": [
-      "ABAT",
       "CMCT",
       "LPTX",
-      "CMBM",
-      "TSLA"
+      "TSLA",
+      "ABAT",
+      "CMBM"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-14 03:27:25"
+    "processedAt": "2025-11-14 15:05:32"
   }
 }
