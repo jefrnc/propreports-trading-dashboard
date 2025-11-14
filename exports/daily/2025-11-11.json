@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-13 15:06:18",
+  "exportDate": "2025-11-14 03:27:25",
   "account": "ZI*******64",
   "date": "2025-11-11",
   "trades": [
@@ -210,16 +210,16 @@
     "winningTrades": 10,
     "losingTrades": 1,
     "symbols": [
-      "TURB",
       "QNRX",
       "LFS",
+      "TURB",
       "ECDA",
-      "ENGN",
-      "VCIG"
+      "VCIG",
+      "ENGN"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-13 15:06:18"
+    "processedAt": "2025-11-14 03:27:25"
   }
 }
