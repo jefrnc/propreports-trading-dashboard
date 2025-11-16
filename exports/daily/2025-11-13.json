@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-16 03:30:26",
+  "exportDate": "2025-11-16 15:04:50",
   "account": "ZI*******64",
   "date": "2025-11-13",
   "trades": [
@@ -606,21 +606,21 @@
     "winningTrades": 22,
     "losingTrades": 11,
     "symbols": [
-      "LAZR",
-      "MGRX",
-      "CYPH",
-      "NVVE",
-      "MLSS",
       "SGBX",
-      "CJET",
-      "LRHC",
       "XPON",
+      "LAZR",
+      "BTOC",
+      "CYPH",
+      "MGRX",
       "TNMG",
-      "BTOC"
+      "NVVE",
+      "LRHC",
+      "MLSS",
+      "CJET"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-16 03:30:26"
+    "processedAt": "2025-11-16 15:04:50"
   }
 }

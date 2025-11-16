@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-11-16 03:30:27",
+  "generateDate": "2025-11-16 15:04:50",
   "weekPeriod": "2025-11-10 to 2025-11-16",
   "weekNumber": 46,
   "year": 2025,
@@ -48,13 +48,13 @@
       "trades": 39,
       "pnl": -210.06,
       "symbols": [
-        "MSPR",
-        "CYPH",
         "TSLL",
-        "DFLI",
+        "IVVD",
+        "CYPH",
+        "MSPR",
         "GNS",
         "RPTX",
-        "IVVD"
+        "DFLI"
       ]
     }
   },
@@ -212,17 +212,17 @@
       "trades": 33,
       "pnl": -22.47,
       "symbols": [
-        "LAZR",
-        "MGRX",
-        "CYPH",
-        "NVVE",
-        "MLSS",
         "SGBX",
-        "CJET",
-        "LRHC",
         "XPON",
+        "LAZR",
+        "BTOC",
+        "CYPH",
+        "MGRX",
         "TNMG",
-        "BTOC"
+        "NVVE",
+        "LRHC",
+        "MLSS",
+        "CJET"
       ]
     },
     {
@@ -230,13 +230,13 @@
       "trades": 39,
       "pnl": -210.06,
       "symbols": [
-        "MSPR",
-        "CYPH",
         "TSLL",
-        "DFLI",
+        "IVVD",
+        "CYPH",
+        "MSPR",
         "GNS",
         "RPTX",
-        "IVVD"
+        "DFLI"
       ]
     },
     {
