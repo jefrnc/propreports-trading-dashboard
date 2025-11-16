@@ -1,0 +1,255 @@
+{
+  "generateDate": "2025-11-16 03:30:27",
+  "weekPeriod": "2025-11-10 to 2025-11-16",
+  "weekNumber": 46,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 114,
+    "grossPnL": -75.43,
+    "totalCommissions": 88.44,
+    "netPnL": -163.87,
+    "avgDailyPnL": -23.41,
+    "avgTradePerDay": 16.29,
+    "winningTrades": 75,
+    "losingTrades": 39,
+    "winRate": 0.6579,
+    "avgWin": 11.09,
+    "avgLoss": -23.26,
+    "profitFactor": 0.92
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-11-14",
+      "symbol": "CYPH",
+      "pnl": 141.45
+    },
+    "worstTrade": {
+      "date": "2025-11-13",
+      "symbol": "NVVE",
+      "pnl": -100.26
+    },
+    "bestDay": {
+      "date": "2025-11-11",
+      "trades": 11,
+      "pnl": 79.26,
+      "symbols": [
+        "VCIG",
+        "TURB",
+        "ENGN",
+        "ECDA",
+        "LFS",
+        "QNRX"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-11-14",
+      "trades": 39,
+      "pnl": -210.06,
+      "symbols": [
+        "MSPR",
+        "CYPH",
+        "TSLL",
+        "DFLI",
+        "GNS",
+        "RPTX",
+        "IVVD"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 14,
+    "maxConsecutiveLosses": 4,
+    "topSymbols": [
+      [
+        "CJET",
+        {
+          "count": 3,
+          "pnl": 81.44,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "TNMG",
+        {
+          "count": 3,
+          "pnl": 60.739999999999995,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "RPTX",
+        {
+          "count": 1,
+          "pnl": 30.11,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "VCIG",
+        {
+          "count": 3,
+          "pnl": 29.75,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "DFLI",
+        {
+          "count": 1,
+          "pnl": 29.07,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "09": {
+        "count": 19,
+        "pnl": -16.890000000000004
+      },
+      "16": {
+        "count": 16,
+        "pnl": 97.84
+      },
+      "07": {
+        "count": 5,
+        "pnl": 37.0
+      },
+      "08": {
+        "count": 3,
+        "pnl": 12.5
+      },
+      "10": {
+        "count": 18,
+        "pnl": -181.69
+      },
+      "14": {
+        "count": 16,
+        "pnl": 209.73
+      },
+      "15": {
+        "count": 6,
+        "pnl": -1.7899999999999991
+      },
+      "11": {
+        "count": 8,
+        "pnl": 51.669999999999995
+      },
+      "13": {
+        "count": 11,
+        "pnl": -233.3
+      },
+      "12": {
+        "count": 9,
+        "pnl": -63.71
+      },
+      "17": {
+        "count": 1,
+        "pnl": 30.11
+      },
+      "18": {
+        "count": 2,
+        "pnl": -16.9
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 62,
+        "pnl": -75.94999999999996
+      },
+      "15-60min": {
+        "count": 18,
+        "pnl": -246.92000000000007
+      },
+      ">60min": {
+        "count": 6,
+        "pnl": 246.75
+      },
+      "5-15min": {
+        "count": 28,
+        "pnl": 0.6899999999999942
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-11-10",
+      "trades": 5,
+      "pnl": 21.79,
+      "symbols": [
+        "MOVE",
+        "CYCN"
+      ]
+    },
+    {
+      "date": "2025-11-11",
+      "trades": 11,
+      "pnl": 79.26,
+      "symbols": [
+        "VCIG",
+        "TURB",
+        "ENGN",
+        "ECDA",
+        "LFS",
+        "QNRX"
+      ]
+    },
+    {
+      "date": "2025-11-12",
+      "trades": 26,
+      "pnl": -61.49,
+      "symbols": [
+        "CMCT",
+        "TSLA",
+        "LPTX",
+        "CMBM",
+        "ABAT"
+      ]
+    },
+    {
+      "date": "2025-11-13",
+      "trades": 33,
+      "pnl": -22.47,
+      "symbols": [
+        "LAZR",
+        "MGRX",
+        "CYPH",
+        "NVVE",
+        "MLSS",
+        "SGBX",
+        "CJET",
+        "LRHC",
+        "XPON",
+        "TNMG",
+        "BTOC"
+      ]
+    },
+    {
+      "date": "2025-11-14",
+      "trades": 39,
+      "pnl": -210.06,
+      "symbols": [
+        "MSPR",
+        "CYPH",
+        "TSLL",
+        "DFLI",
+        "GNS",
+        "RPTX",
+        "IVVD"
+      ]
+    },
+    {
+      "date": "2025-11-15",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-11-16",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
