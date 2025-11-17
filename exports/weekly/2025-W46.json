@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-11-17 03:29:40",
+  "generateDate": "2025-11-17 15:06:28",
   "weekPeriod": "2025-11-10 to 2025-11-16",
   "weekNumber": 46,
   "year": 2025,
@@ -48,13 +48,13 @@
       "trades": 39,
       "pnl": -210.06,
       "symbols": [
-        "RPTX",
+        "TSLL",
         "CYPH",
         "IVVD",
         "DFLI",
         "MSPR",
-        "TSLL",
-        "GNS"
+        "GNS",
+        "RPTX"
       ]
     }
   },
@@ -230,13 +230,13 @@
       "trades": 39,
       "pnl": -210.06,
       "symbols": [
-        "RPTX",
+        "TSLL",
         "CYPH",
         "IVVD",
         "DFLI",
         "MSPR",
-        "TSLL",
-        "GNS"
+        "GNS",
+        "RPTX"
       ]
     },
     {
