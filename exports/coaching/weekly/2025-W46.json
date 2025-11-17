@@ -1,0 +1,21 @@
+{
+  "period": "Week 46, 2025",
+  "week_period": "2025-11-10 to 2025-11-16",
+  "generated_at": "2025-11-17T09:08:11.476396",
+  "performance_summary": {
+    "net_pnl": -163.87,
+    "total_trades": 114,
+    "win_rate": 0.6579,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Ensure that the size of your positions aligns with your risk tolerance. Larger losses suggest that your position sizes may be too high relative to your account balance.\n- **Stop-Loss Orders**: Implement or adjust stop-loss strategies to minimize the impact of larger losses on your overall portfolio.",
+    "psychological_insights": "The occurrence of 4 consecutive losses indicates a potential emotional response that could lead to revenge trading. Maintain a disciplined approach, sticking to your strategy regardless of short-term losses.\n- **Confidence Maintenance**: With a high win rate, focus on maintaining confidence. Avoid overtrading after a loss and allow yourself time to reassess.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
