@@ -57,17 +57,22 @@
       "trades": 17,
       "pnl": 58.51,
       "winRate": 0
+    },
+    "2025-11-18": {
+      "trades": 34,
+      "pnl": 126.45,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 193,
-    "totalPnL": 221.74000000000007,
-    "winRate": 70.98445595854922,
+    "totalTrades": 227,
+    "totalPnL": 348.19000000000005,
+    "winRate": 70.48458149779736,
     "bestDay": "2025-11-03",
     "bestDayPnL": 160.53,
     "worstDay": "2025-11-14",
     "worstDayPnL": -210.06,
-    "tradingDays": 11
+    "tradingDays": 12
   },
   "topWinners": [
     {
@@ -87,6 +92,24 @@
       "side": "SELL",
       "quantity": 1540.0,
       "price": 2.795
+    },
+    {
+      "date": "2025-11-18",
+      "opened": "11/18/25 09:34:11",
+      "closed": "10:21:26",
+      "held": "00:47:15",
+      "symbol": "CANF",
+      "type": "Short",
+      "entry": 0.5519,
+      "exit": 0.5073,
+      "size": 2807.0,
+      "pnl": 125.29,
+      "commission": 8.42,
+      "net": 109.94,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 2807.0,
+      "price": 0.5519
     },
     {
       "date": "2025-11-03",
@@ -125,43 +148,43 @@
       "price": 2.7811
     },
     {
-      "date": "2025-11-13",
-      "opened": "11/13/25 14:41:51",
-      "closed": "14:50:54",
-      "held": "00:09:03",
-      "symbol": "CJET",
+      "date": "2025-11-18",
+      "opened": "11/18/25 09:30:47",
+      "closed": "09:34:00",
+      "held": "00:03:13",
+      "symbol": "CANF",
       "type": "Short",
-      "entry": 3.2061,
-      "exit": 3.1106,
-      "size": 640.0,
-      "pnl": 61.13,
-      "commission": 1.92,
-      "net": 58.98,
+      "entry": 0.5676,
+      "exit": 0.5145,
+      "size": 1300.0,
+      "pnl": 69.12,
+      "commission": 3.9,
+      "net": 62.52,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 640.0,
-      "price": 3.2061
-    },
-    {
-      "date": "2025-11-06",
-      "opened": "11/06/25 08:52:38",
-      "closed": "08:56:43",
-      "held": "00:04:05",
-      "symbol": "FTEL",
-      "type": "Short",
-      "entry": 3.1684,
-      "exit": 3.0695,
-      "size": 440.0,
-      "pnl": 43.5,
-      "commission": 1.32,
-      "net": 42.63,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 440.0,
-      "price": 3.1684
+      "quantity": 1300.0,
+      "price": 0.5676
     }
   ],
   "topLosers": [
+    {
+      "date": "2025-11-18",
+      "opened": "11/18/25 08:18:16",
+      "closed": "08:57:02",
+      "held": "00:38:46",
+      "symbol": "OLMA",
+      "type": "Long",
+      "entry": 29.3499,
+      "exit": 27.0365,
+      "size": 80.0,
+      "pnl": -185.07,
+      "commission": 0.24,
+      "net": -185.4,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 80.0,
+      "price": 29.3499
+    },
     {
       "date": "2025-11-13",
       "opened": "11/13/25 10:16:18",
@@ -233,24 +256,6 @@
       "side": "SELL",
       "quantity": 1000.0,
       "price": 0.3791
-    },
-    {
-      "date": "2025-11-14",
-      "opened": "11/14/25 13:36:41",
-      "closed": "13:37:42",
-      "held": "00:01:01",
-      "symbol": "CYPH",
-      "type": "Long",
-      "entry": 3.2109,
-      "exit": 3.1501,
-      "size": 900.0,
-      "pnl": -54.68,
-      "commission": 2.7,
-      "net": -57.73,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 900.0,
-      "price": 3.2109
     }
   ]
 }
