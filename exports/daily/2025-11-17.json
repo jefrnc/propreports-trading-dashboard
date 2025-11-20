@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-19 15:05:57",
+  "exportDate": "2025-11-20 03:26:11",
   "account": "ZI*******64",
   "date": "2025-11-17",
   "trades": [
@@ -195,7 +195,7 @@
       "size": 60.0,
       "pnl": 13.77,
       "commission": 0.18,
-      "net": 13.61,
+      "net": 13.62,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 60.0,
@@ -314,20 +314,20 @@
     "totalTrades": 17,
     "totalPnL": 64.13,
     "totalCommissions": 4.29,
-    "netPnL": 58.51,
+    "netPnL": 58.52,
     "winningTrades": 14,
     "losingTrades": 2,
     "symbols": [
-      "SGBX",
-      "RYET",
-      "AMIX",
       "CAPS",
+      "GLMD",
+      "AMIX",
       "CYPH",
-      "GLMD"
+      "RYET",
+      "SGBX"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-19 15:05:57"
+    "processedAt": "2025-11-20 03:26:11"
   }
 }

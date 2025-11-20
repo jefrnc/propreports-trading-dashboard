@@ -55,18 +55,18 @@
     },
     "2025-11-17": {
       "trades": 17,
-      "pnl": 58.51,
+      "pnl": 58.52,
       "winRate": 0
     },
     "2025-11-18": {
       "trades": 34,
-      "pnl": 126.45,
+      "pnl": 126.61,
       "winRate": 0
     }
   },
   "summary": {
     "totalTrades": 227,
-    "totalPnL": 348.19000000000005,
+    "totalPnL": 348.36000000000007,
     "winRate": 70.48458149779736,
     "bestDay": "2025-11-03",
     "bestDayPnL": 160.53,
@@ -105,7 +105,7 @@
       "size": 2807.0,
       "pnl": 125.29,
       "commission": 8.42,
-      "net": 109.94,
+      "net": 109.97,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 2807.0,
@@ -159,7 +159,7 @@
       "size": 1300.0,
       "pnl": 69.12,
       "commission": 3.9,
-      "net": 62.52,
+      "net": 62.54,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 1300.0,

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-19 15:06:16",
+  "lastUpdate": "2025-11-20 03:26:12",
   "year": 2025,
   "yearData": {
     "2025-01-28": {
@@ -1469,15 +1469,20 @@
     },
     "2025-11-17": {
       "trades": 17,
-      "pnl": 58.51,
+      "pnl": 58.52,
       "winRate": 0.8235294117647058
     },
     "2025-11-18": {
       "trades": 34,
-      "pnl": 126.45,
+      "pnl": 126.61,
       "winRate": 0.6764705882352942
     },
     "2025-11-19": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2025-11-20": {
       "trades": 0,
       "pnl": 0,
       "winRate": 0
@@ -1486,7 +1491,7 @@
   "yearStats": {
     "trading_days": 118,
     "total_trades": 2120,
-    "total_pnl": -908.4299999999998,
+    "total_pnl": -908.2599999999999,
     "win_rate": 69.49152542372882,
     "profit_days": 82,
     "profit_days_pct": 69.49152542372882,
@@ -1496,7 +1501,7 @@
     "best_day_pnl": 442.02,
     "worst_day": "2025-09-18",
     "worst_day_pnl": -1017.36,
-    "daily_avg": -7.698559322033897,
+    "daily_avg": -7.697118644067795,
     "profit_factor": 1.01,
     "biggest_win": 352.95,
     "biggest_loss": -616.64,
