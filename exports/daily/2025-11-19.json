@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-21 03:26:06",
+  "exportDate": "2025-11-21 15:05:31",
   "account": "ZI*******64",
   "date": "2025-11-19",
   "trades": [
@@ -264,18 +264,18 @@
     "winningTrades": 10,
     "losingTrades": 4,
     "symbols": [
-      "INM",
-      "RIME",
       "HXHX",
-      "EPWK",
       "SGBX",
-      "CRNC",
       "FRGT",
-      "NVDA"
+      "NVDA",
+      "CRNC",
+      "EPWK",
+      "INM",
+      "RIME"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-21 03:26:06"
+    "processedAt": "2025-11-21 15:05:31"
   }
 }
