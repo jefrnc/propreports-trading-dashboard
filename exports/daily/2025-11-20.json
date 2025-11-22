@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-22 03:22:47",
+  "exportDate": "2025-11-22 15:04:46",
   "account": "ZI*******64",
   "date": "2025-11-20",
   "trades": [
@@ -102,14 +102,14 @@
     "winningTrades": 5,
     "losingTrades": 0,
     "symbols": [
-      "AUID",
+      "SGBX",
       "CYPH",
       "LFS",
-      "SGBX"
+      "AUID"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-22 03:22:47"
+    "processedAt": "2025-11-22 15:04:46"
   }
 }
