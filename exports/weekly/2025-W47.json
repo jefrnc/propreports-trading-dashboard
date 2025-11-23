@@ -1,0 +1,242 @@
+{
+  "generateDate": "2025-11-23 03:35:17",
+  "weekPeriod": "2025-11-17 to 2025-11-23",
+  "weekNumber": 47,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 86,
+    "grossPnL": 507.34,
+    "totalCommissions": 69.03,
+    "netPnL": 438.31,
+    "avgDailyPnL": 62.62,
+    "avgTradePerDay": 12.29,
+    "winningTrades": 64,
+    "losingTrades": 21,
+    "winRate": 0.7442,
+    "avgWin": 15.63,
+    "avgLoss": -23.48,
+    "profitFactor": 2.03
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-11-18",
+      "symbol": "CANF",
+      "pnl": 125.29
+    },
+    "worstTrade": {
+      "date": "2025-11-18",
+      "symbol": "OLMA",
+      "pnl": -185.07
+    },
+    "bestDay": {
+      "date": "2025-11-21",
+      "trades": 16,
+      "pnl": 147.98,
+      "symbols": [
+        "OSRH",
+        "BITX",
+        "MNDR",
+        "SGBX",
+        "IVDA",
+        "FOXX",
+        "MFI"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-11-22",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 10,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "CANF",
+        {
+          "count": 8,
+          "pnl": 281.45000000000005,
+          "win_rate": 0.875
+        }
+      ],
+      [
+        "FOXX",
+        {
+          "count": 3,
+          "pnl": 107.11,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "IVDA",
+        {
+          "count": 1,
+          "pnl": 42.77,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "ZSPC",
+        {
+          "count": 1,
+          "pnl": 40.41,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SGBX",
+        {
+          "count": 9,
+          "pnl": 39.43,
+          "win_rate": 0.7778
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 12,
+        "pnl": -27.43
+      },
+      "09": {
+        "count": 14,
+        "pnl": 225.18999999999997
+      },
+      "10": {
+        "count": 14,
+        "pnl": 61.33
+      },
+      "11": {
+        "count": 10,
+        "pnl": 132.29000000000002
+      },
+      "16": {
+        "count": 15,
+        "pnl": 55.47999999999999
+      },
+      "07": {
+        "count": 9,
+        "pnl": 46.190000000000005
+      },
+      "12": {
+        "count": 5,
+        "pnl": 59.3
+      },
+      "13": {
+        "count": 4,
+        "pnl": -2.0099999999999993
+      },
+      "14": {
+        "count": 2,
+        "pnl": -33.010000000000005
+      },
+      "15": {
+        "count": 1,
+        "pnl": -9.99
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 42,
+        "pnl": 183.86000000000004
+      },
+      "5-15min": {
+        "count": 17,
+        "pnl": 232.8
+      },
+      "15-60min": {
+        "count": 19,
+        "pnl": 24.45000000000002
+      },
+      ">60min": {
+        "count": 8,
+        "pnl": 66.23
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-11-17",
+      "trades": 17,
+      "pnl": 58.52,
+      "symbols": [
+        "CYPH",
+        "AMIX",
+        "CAPS",
+        "RYET",
+        "GLMD",
+        "SGBX"
+      ]
+    },
+    {
+      "date": "2025-11-18",
+      "trades": 34,
+      "pnl": 126.61,
+      "symbols": [
+        "ZSPC",
+        "KZIA",
+        "CYPH",
+        "EPSM",
+        "STEC",
+        "ONFO",
+        "OLMA",
+        "CANF"
+      ]
+    },
+    {
+      "date": "2025-11-19",
+      "trades": 14,
+      "pnl": 40.62,
+      "symbols": [
+        "INM",
+        "CRNC",
+        "FRGT",
+        "EPWK",
+        "SGBX",
+        "NVDA",
+        "RIME",
+        "HXHX"
+      ]
+    },
+    {
+      "date": "2025-11-20",
+      "trades": 5,
+      "pnl": 51.59,
+      "symbols": [
+        "CYPH",
+        "SGBX",
+        "LFS",
+        "AUID"
+      ]
+    },
+    {
+      "date": "2025-11-21",
+      "trades": 16,
+      "pnl": 147.98,
+      "symbols": [
+        "OSRH",
+        "BITX",
+        "MNDR",
+        "SGBX",
+        "IVDA",
+        "FOXX",
+        "MFI"
+      ]
+    },
+    {
+      "date": "2025-11-22",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-11-23",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
