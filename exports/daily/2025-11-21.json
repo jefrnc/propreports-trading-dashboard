@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-23 03:35:16",
+  "exportDate": "2025-11-23 15:04:50",
   "account": "ZI*******64",
   "date": "2025-11-21",
   "trades": [
@@ -300,17 +300,17 @@
     "winningTrades": 12,
     "losingTrades": 4,
     "symbols": [
-      "OSRH",
+      "MFI",
       "BITX",
-      "MNDR",
+      "OSRH",
+      "FOXX",
       "SGBX",
       "IVDA",
-      "FOXX",
-      "MFI"
+      "MNDR"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-23 03:35:16"
+    "processedAt": "2025-11-23 15:04:50"
   }
 }
