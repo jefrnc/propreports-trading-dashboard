@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-11-24 03:34:47",
+  "generateDate": "2025-11-24 15:06:08",
   "weekPeriod": "2025-11-17 to 2025-11-23",
   "weekNumber": 47,
   "year": 2025,
@@ -36,12 +36,12 @@
       "pnl": 147.98,
       "symbols": [
         "FOXX",
-        "IVDA",
-        "SGBX",
-        "MFI",
-        "MNDR",
+        "BITX",
         "OSRH",
-        "BITX"
+        "MNDR",
+        "SGBX",
+        "IVDA",
+        "MFI"
       ]
     },
     "worstDay": {
@@ -218,12 +218,12 @@
       "pnl": 147.98,
       "symbols": [
         "FOXX",
-        "IVDA",
-        "SGBX",
-        "MFI",
-        "MNDR",
+        "BITX",
         "OSRH",
-        "BITX"
+        "MNDR",
+        "SGBX",
+        "IVDA",
+        "MFI"
       ]
     },
     {
