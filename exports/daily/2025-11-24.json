@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-25 15:05:47",
+  "exportDate": "2025-11-26 03:29:13",
   "account": "ZI*******64",
   "date": "2025-11-24",
   "trades": [
@@ -804,21 +804,21 @@
     "winningTrades": 33,
     "losingTrades": 11,
     "symbols": [
+      "ATON",
       "ENLV",
-      "INHD",
-      "ICON",
       "SBEV",
-      "ADTX",
-      "SAVA",
-      "CJET",
-      "GP",
       "GELS",
+      "SAVA",
+      "GP",
+      "CJET",
+      "ICON",
+      "INHD",
       "AEHL",
-      "ATON"
+      "ADTX"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-25 15:05:47"
+    "processedAt": "2025-11-26 03:29:13"
   }
 }
