@@ -1,0 +1,243 @@
+{
+  "generateDate": "2025-11-30 03:35:22",
+  "weekPeriod": "2025-11-24 to 2025-11-30",
+  "weekNumber": 48,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 95,
+    "grossPnL": 369.97,
+    "totalCommissions": 67.06,
+    "netPnL": 302.91,
+    "avgDailyPnL": 43.27,
+    "avgTradePerDay": 13.57,
+    "winningTrades": 72,
+    "losingTrades": 22,
+    "winRate": 0.7579,
+    "avgWin": 14.42,
+    "avgLoss": -30.38,
+    "profitFactor": 1.55
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-11-24",
+      "symbol": "INHD",
+      "pnl": 125.73
+    },
+    "worstTrade": {
+      "date": "2025-11-24",
+      "symbol": "INHD",
+      "pnl": -372.98
+    },
+    "bestDay": {
+      "date": "2025-11-26",
+      "trades": 16,
+      "pnl": 116.74,
+      "symbols": [
+        "SPRC",
+        "ADTX",
+        "MNDR",
+        "PW",
+        "AMBR",
+        "AEHL",
+        "SMX"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-11-27",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 9,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "GELS",
+        {
+          "count": 3,
+          "pnl": 112.02,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SPRC",
+        {
+          "count": 6,
+          "pnl": 48.91,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SMX",
+        {
+          "count": 4,
+          "pnl": 48.0,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "CETY",
+        {
+          "count": 11,
+          "pnl": 46.85,
+          "win_rate": 0.5455
+        }
+      ],
+      [
+        "MNDR",
+        {
+          "count": 1,
+          "pnl": 45.91,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 11,
+        "pnl": 98.88
+      },
+      "08": {
+        "count": 7,
+        "pnl": -35.39
+      },
+      "09": {
+        "count": 21,
+        "pnl": -235.45999999999995
+      },
+      "10": {
+        "count": 16,
+        "pnl": 131.12
+      },
+      "11": {
+        "count": 8,
+        "pnl": 68.66000000000003
+      },
+      "12": {
+        "count": 7,
+        "pnl": 90.03
+      },
+      "13": {
+        "count": 7,
+        "pnl": 176.47
+      },
+      "14": {
+        "count": 6,
+        "pnl": 51.720000000000006
+      },
+      "15": {
+        "count": 3,
+        "pnl": 8.8
+      },
+      "16": {
+        "count": 8,
+        "pnl": 11.090000000000005
+      },
+      "17": {
+        "count": 1,
+        "pnl": 4.05
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 36,
+        "pnl": 239.97000000000003
+      },
+      "5-15min": {
+        "count": 29,
+        "pnl": 224.07000000000002
+      },
+      "15-60min": {
+        "count": 24,
+        "pnl": -192.16
+      },
+      ">60min": {
+        "count": 6,
+        "pnl": 98.09000000000002
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-11-24",
+      "trades": 44,
+      "pnl": 73.9,
+      "symbols": [
+        "SBEV",
+        "ATON",
+        "ICON",
+        "ENLV",
+        "GP",
+        "INHD",
+        "SAVA",
+        "CJET",
+        "GELS",
+        "AEHL",
+        "ADTX"
+      ]
+    },
+    {
+      "date": "2025-11-25",
+      "trades": 20,
+      "pnl": 49.69,
+      "symbols": [
+        "CETY",
+        "INHD",
+        "NUKK",
+        "AEHL",
+        "ICU",
+        "PMCB"
+      ]
+    },
+    {
+      "date": "2025-11-26",
+      "trades": 16,
+      "pnl": 116.74,
+      "symbols": [
+        "SPRC",
+        "ADTX",
+        "MNDR",
+        "PW",
+        "AMBR",
+        "AEHL",
+        "SMX"
+      ]
+    },
+    {
+      "date": "2025-11-27",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-11-28",
+      "trades": 15,
+      "pnl": 89.05,
+      "symbols": [
+        "KTTA",
+        "WAI",
+        "GLBS",
+        "SMX",
+        "WBUY",
+        "ONMD",
+        "IVF"
+      ]
+    },
+    {
+      "date": "2025-11-29",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-11-30",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
