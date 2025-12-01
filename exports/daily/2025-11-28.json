@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-11-30 15:05:01",
+  "exportDate": "2025-12-01 03:39:28",
   "account": "ZI*******64",
   "date": "2025-11-28",
   "trades": [
@@ -282,17 +282,17 @@
     "winningTrades": 13,
     "losingTrades": 2,
     "symbols": [
-      "KTTA",
-      "SMX",
-      "ONMD",
-      "IVF",
-      "WAI",
       "WBUY",
-      "GLBS"
+      "SMX",
+      "WAI",
+      "GLBS",
+      "KTTA",
+      "IVF",
+      "ONMD"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-11-30 15:05:01"
+    "processedAt": "2025-12-01 03:39:28"
   }
 }

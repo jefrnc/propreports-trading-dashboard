@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-30 15:05:20",
+  "lastUpdate": "2025-12-01 03:39:29",
   "year": 2025,
   "yearData": {
     "2025-01-28": {
@@ -1536,6 +1536,11 @@
       "trades": 0,
       "pnl": 0,
       "winRate": 0
+    },
+    "2025-12-01": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
     }
   },
   "yearStats": {
@@ -1631,6 +1636,13 @@
       "trades": 462,
       "pnl": -232.99,
       "winRate": 0.7554
+    },
+    {
+      "month": 11,
+      "monthName": "November",
+      "trades": 357,
+      "pnl": 937.21,
+      "winRate": 0.7311
     }
   ],
   "weeklyData": [
