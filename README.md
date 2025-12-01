@@ -19,21 +19,21 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 48** | 95 | **+$302.91** | 75.8% |
-| Week 47 | 86 | **+$438.31** | 74.4% |
-| **November (partial)** | 357 | **+$917.93** | 73.1% |
-| October | 462 | **-$232.99** | 75.5% |
+| **Week 49 (partial)** | 0 | $0.00 | 0% |
+| Week 48 | 95 | **+$302.91** | 75.8% |
+| **December (partial)** | 0 | $0.00 | 0% |
+| November | 357 | **+$937.21** | 73.1% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 2,067 | 2,258 |
-| **P&L** | **-$170.58** | **-$186.41** |
+| **Trades** | 2,067 | 2,252 |
+| **P&L** | **-$151.30** | **-$164.85** |
 
-*Based on current performance with 31 days remaining*
+*Based on current performance with 30 days remaining*
 
-*Last updated: 2025-11-30 15:05 UTC*
+*Last updated: 2025-12-01 03:39 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -72,6 +72,7 @@ This is a live example of:
 | August | 383 | **$+56.19** | 67.4% |
 | September | 428 | **$-993.38** | 74.3% |
 | October | 462 | **$-232.99** | 75.5% |
+| November | 357 | **$+937.21** | 73.1% |
 
 <!-- CALENDAR_END -->
 
