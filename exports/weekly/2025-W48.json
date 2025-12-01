@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-12-01 03:39:29",
+  "generateDate": "2025-12-01 15:05:38",
   "weekPeriod": "2025-11-24 to 2025-11-30",
   "weekNumber": 48,
   "year": 2025,
@@ -219,12 +219,12 @@
       "pnl": 89.05,
       "symbols": [
         "WBUY",
-        "SMX",
-        "WAI",
         "GLBS",
-        "KTTA",
         "IVF",
-        "ONMD"
+        "WAI",
+        "ONMD",
+        "KTTA",
+        "SMX"
       ]
     },
     {
