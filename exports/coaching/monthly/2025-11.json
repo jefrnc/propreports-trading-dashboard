@@ -1,0 +1,20 @@
+{
+  "period": "November 2025",
+  "generated_at": "2025-12-02T09:04:09.006344",
+  "performance_summary": {
+    "net_pnl": 937.21,
+    "total_trades": 357,
+    "win_rate": 0.7311,
+    "profit_factor": 1.53
+  },
+  "coaching": {
+    "overall_performance": "$937.21 with 357 trades indicates a modest profit.\n- **Win Rate**: 73.1% is commendable, suggesting that your trade selection is generally effective.\n- **Profit Factor**: At 1.53, your trading strategy is profitable; however, ideally, this should be above 2.0 for optimal performance.\n- **Average Win vs. Average Loss**: The average win ($13.14) is significantly lower than the average loss ($-23.81). This imbalance needs to be addressed to enhance profitability.",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Implement stricter stop-loss orders to limit potential drawdowns.\n- **Diversification**: Consider diversifying your trades across different symbols or sectors to mitigate risk from sector-specific downturns.\n- **Position Sizing**: Use a more conservative approach to position sizing based on the volatility of the assets being traded.",
+    "psychological_insights": "The maximum consecutive losses of 4 suggest emotional strain that could lead to rash decisions. Monitor your emotional state, especially during drawdowns.\n- **Discipline in Strategy**: High win rates can lead to overconfidence. Maintain discipline in sticking to your strategy even if the market conditions change.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
