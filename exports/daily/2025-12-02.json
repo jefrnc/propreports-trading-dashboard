@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-03 15:06:09",
+  "exportDate": "2025-12-04 03:32:18",
   "account": "ZI*******64",
   "date": "2025-12-02",
   "trades": [
@@ -15,7 +15,7 @@
       "size": 380.0,
       "pnl": 11.6,
       "commission": 1.14,
-      "net": 11.07,
+      "net": 11.08,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 380.0,
@@ -33,7 +33,7 @@
       "size": 100.0,
       "pnl": 11.97,
       "commission": 0.3,
-      "net": 11.54,
+      "net": 11.55,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 100.0,
@@ -51,7 +51,7 @@
       "size": 70.0,
       "pnl": 6.5,
       "commission": 0.21,
-      "net": 6.48,
+      "net": 6.49,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 70.0,
@@ -105,7 +105,7 @@
       "size": 250.0,
       "pnl": 36.06,
       "commission": 0.75,
-      "net": 35.54,
+      "net": 35.55,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 250.0,
@@ -195,7 +195,7 @@
       "size": 100.0,
       "pnl": -27.66,
       "commission": 0.3,
-      "net": -28.3,
+      "net": -28.29,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 100.0,
@@ -231,7 +231,7 @@
       "size": 440.0,
       "pnl": 55.51,
       "commission": 1.32,
-      "net": 55.0,
+      "net": 55.02,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 440.0,
@@ -267,7 +267,7 @@
       "size": 240.0,
       "pnl": -32.83,
       "commission": 0.72,
-      "net": -33.99,
+      "net": -33.98,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 240.0,
@@ -296,20 +296,20 @@
     "totalTrades": 16,
     "totalPnL": 112.88,
     "totalCommissions": 6.42,
-    "netPnL": 107.45,
+    "netPnL": 107.53,
     "winningTrades": 13,
     "losingTrades": 3,
     "symbols": [
-      "FTEL",
+      "PMAX",
       "KXIN",
-      "FIEE",
-      "FLYE",
       "JSPR",
-      "PMAX"
+      "FLYE",
+      "FIEE",
+      "FTEL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-03 15:06:09"
+    "processedAt": "2025-12-04 03:32:18"
   }
 }
