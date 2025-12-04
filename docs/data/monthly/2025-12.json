@@ -12,17 +12,22 @@
       "trades": 16,
       "pnl": 107.53,
       "winRate": 0
+    },
+    "2025-12-03": {
+      "trades": 12,
+      "pnl": 128.29,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 43,
-    "totalPnL": -159.94000000000003,
-    "winRate": 67.44186046511628,
-    "bestDay": "2025-12-02",
-    "bestDayPnL": 107.53,
+    "totalTrades": 55,
+    "totalPnL": -31.650000000000034,
+    "winRate": 70.9090909090909,
+    "bestDay": "2025-12-03",
+    "bestDayPnL": 128.29,
     "worstDay": "2025-12-01",
     "worstDayPnL": -267.47,
-    "tradingDays": 2
+    "tradingDays": 3
   },
   "topWinners": [
     {
@@ -44,6 +49,24 @@
       "price": 2.2935
     },
     {
+      "date": "2025-12-03",
+      "opened": "12/03/25 07:41:32",
+      "closed": "07:58:01",
+      "held": "00:16:29",
+      "symbol": "HTOO",
+      "type": "Short",
+      "entry": 4.6523,
+      "exit": 4.5097,
+      "size": 441.0,
+      "pnl": 62.89,
+      "commission": 1.32,
+      "net": 62.72,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 441.0,
+      "price": 4.6523
+    },
+    {
       "date": "2025-12-02",
       "opened": "12/02/25 16:19:03",
       "closed": "16:23:21",
@@ -62,6 +85,24 @@
       "price": 2.9623
     },
     {
+      "date": "2025-12-03",
+      "opened": "12/03/25 16:03:39",
+      "closed": "16:06:07",
+      "held": "00:02:28",
+      "symbol": "CRMG",
+      "type": "Short",
+      "entry": 12.972,
+      "exit": 12.558,
+      "size": 100.0,
+      "pnl": 41.4,
+      "commission": 0.3,
+      "net": 41.2,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 100.0,
+      "price": 12.972
+    },
+    {
       "date": "2025-12-01",
       "opened": "12/01/25 09:36:52",
       "closed": "10:29:39",
@@ -78,42 +119,6 @@
       "side": "SELL",
       "quantity": 550.0,
       "price": 1.2424
-    },
-    {
-      "date": "2025-12-02",
-      "opened": "12/02/25 09:42:25",
-      "closed": "10:44:08",
-      "held": "01:01:43",
-      "symbol": "FTEL",
-      "type": "Short",
-      "entry": 1.8208,
-      "exit": 1.6766,
-      "size": 250.0,
-      "pnl": 36.06,
-      "commission": 0.75,
-      "net": 35.55,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 250.0,
-      "price": 1.8208
-    },
-    {
-      "date": "2025-12-01",
-      "opened": "12/01/25 10:50:09",
-      "closed": "11:11:40",
-      "held": "00:21:31",
-      "symbol": "KXIN",
-      "type": "Short",
-      "entry": 5.3272,
-      "exit": 4.9057,
-      "size": 70.0,
-      "pnl": 29.5,
-      "commission": 0.21,
-      "net": 29.32,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 70.0,
-      "price": 5.3272
     }
   ],
   "topLosers": [
