@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-05 03:31:43",
+  "exportDate": "2025-12-05 15:05:47",
   "account": "ZI*******64",
   "date": "2025-12-02",
   "trades": [
@@ -300,16 +300,16 @@
     "winningTrades": 13,
     "losingTrades": 3,
     "symbols": [
-      "JSPR",
-      "FLYE",
+      "FIEE",
       "FTEL",
       "PMAX",
-      "KXIN",
-      "FIEE"
+      "JSPR",
+      "FLYE",
+      "KXIN"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-05 03:31:43"
+    "processedAt": "2025-12-05 15:05:47"
   }
 }

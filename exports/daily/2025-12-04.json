@@ -1,19 +1,59 @@
 {
-  "exportDate": "2025-12-05 03:31:44",
+  "exportDate": "2025-12-05 15:05:48",
   "account": "ZI*******64",
   "date": "2025-12-04",
-  "trades": [],
+  "trades": [
+    {
+      "date": "2025-12-04",
+      "opened": "12/04/25 09:34:36",
+      "closed": "13:00:37",
+      "held": "03:26:01",
+      "symbol": "KITT",
+      "type": "Short",
+      "entry": 1.3911,
+      "exit": 1.2804,
+      "size": 119.0,
+      "pnl": 13.17,
+      "commission": 0.36,
+      "net": 13.0,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 119.0,
+      "price": 1.3911
+    },
+    {
+      "date": "2025-12-04",
+      "opened": "12/04/25 10:54:56",
+      "closed": "11:01:55",
+      "held": "00:06:59",
+      "symbol": "QCLS",
+      "type": "Short",
+      "entry": 7.11,
+      "exit": 7.04,
+      "size": 10.0,
+      "pnl": 0.7,
+      "commission": 0.03,
+      "net": 0.7,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 10.0,
+      "price": 7.11
+    }
+  ],
   "summary": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommissions": 0,
-    "netPnL": 0,
-    "winningTrades": 0,
+    "totalTrades": 2,
+    "totalPnL": 13.87,
+    "totalCommissions": 0.39,
+    "netPnL": 13.7,
+    "winningTrades": 2,
     "losingTrades": 0,
-    "symbols": []
+    "symbols": [
+      "QCLS",
+      "KITT"
+    ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-05 03:31:44"
+    "processedAt": "2025-12-05 15:05:48"
   }
 }
