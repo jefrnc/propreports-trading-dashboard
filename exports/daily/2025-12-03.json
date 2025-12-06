@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-05 15:05:48",
+  "exportDate": "2025-12-06 03:25:44",
   "account": "ZI*******64",
   "date": "2025-12-03",
   "trades": [
@@ -228,17 +228,17 @@
     "winningTrades": 10,
     "losingTrades": 2,
     "symbols": [
-      "BGLC",
-      "CAPR",
       "IRBT",
+      "CAPR",
+      "TLYS",
       "HTOO",
       "CRMG",
-      "TLYS",
-      "KXIN"
+      "KXIN",
+      "BGLC"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-05 15:05:48"
+    "processedAt": "2025-12-06 03:25:44"
   }
 }
