@@ -22,17 +22,22 @@
       "trades": 2,
       "pnl": 13.7,
       "winRate": 0
+    },
+    "2025-12-05": {
+      "trades": 12,
+      "pnl": 2.72,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 57,
-    "totalPnL": -17.950000000000035,
-    "winRate": 71.9298245614035,
+    "totalTrades": 69,
+    "totalPnL": -15.230000000000034,
+    "winRate": 73.91304347826086,
     "bestDay": "2025-12-03",
     "bestDayPnL": 128.29,
     "worstDay": "2025-12-01",
     "worstDayPnL": -267.47,
-    "tradingDays": 4
+    "tradingDays": 5
   },
   "topWinners": [
     {
@@ -146,6 +151,24 @@
       "price": 11.238
     },
     {
+      "date": "2025-12-05",
+      "opened": "12/05/25 09:31:53",
+      "closed": "10:36:22",
+      "held": "01:04:29",
+      "symbol": "QCLS",
+      "type": "Short",
+      "entry": 7.3268,
+      "exit": 7.6747,
+      "size": 380.0,
+      "pnl": -132.17,
+      "commission": 1.14,
+      "net": -132.61,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 380.0,
+      "price": 7.3268
+    },
+    {
       "date": "2025-12-01",
       "opened": "12/01/25 13:11:28",
       "closed": "14:03:47",
@@ -182,40 +205,22 @@
       "price": 2.0268
     },
     {
-      "date": "2025-12-02",
-      "opened": "12/02/25 16:53:26",
-      "closed": "17:37:05",
-      "held": "00:43:39",
-      "symbol": "PMAX",
+      "date": "2025-12-05",
+      "opened": "12/05/25 16:56:15",
+      "closed": "17:10:55",
+      "held": "00:14:40",
+      "symbol": "TWG",
       "type": "Short",
-      "entry": 2.782,
-      "exit": 2.9188,
-      "size": 240.0,
-      "pnl": -32.83,
-      "commission": 0.72,
-      "net": -33.98,
+      "entry": 12.417,
+      "exit": 12.772,
+      "size": 100.0,
+      "pnl": -35.5,
+      "commission": 0.3,
+      "net": -35.53,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 240.0,
-      "price": 2.782
-    },
-    {
-      "date": "2025-12-01",
-      "opened": "12/01/25 10:35:23",
-      "closed": "11:23:30",
-      "held": "00:48:07",
-      "symbol": "FLYE",
-      "type": "Short",
-      "entry": 10.202,
-      "exit": 10.782,
-      "size": 50.0,
-      "pnl": -29.0,
-      "commission": 0.15,
-      "net": -29.06,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 50.0,
-      "price": 10.202
+      "quantity": 100.0,
+      "price": 12.417
     }
   ]
 }
