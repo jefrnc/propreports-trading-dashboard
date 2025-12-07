@@ -1,0 +1,258 @@
+{
+  "generateDate": "2025-12-07 03:35:19",
+  "weekPeriod": "2025-12-01 to 2025-12-07",
+  "weekNumber": 49,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 69,
+    "grossPnL": -0.54,
+    "totalCommissions": 25.81,
+    "netPnL": -26.35,
+    "avgDailyPnL": -3.76,
+    "avgTradePerDay": 9.86,
+    "winningTrades": 52,
+    "losingTrades": 17,
+    "winRate": 0.7536,
+    "avgWin": 15.89,
+    "avgLoss": -48.62,
+    "profitFactor": 1.0
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-12-01",
+      "symbol": "ARTL",
+      "pnl": 94.4
+    },
+    "worstTrade": {
+      "date": "2025-12-01",
+      "symbol": "FLYE",
+      "pnl": -311.4
+    },
+    "bestDay": {
+      "date": "2025-12-03",
+      "trades": 12,
+      "pnl": 128.29,
+      "symbols": [
+        "KXIN",
+        "CAPR",
+        "IRBT",
+        "CRMG",
+        "BGLC",
+        "HTOO",
+        "TLYS"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-12-01",
+      "trades": 27,
+      "pnl": -267.47,
+      "symbols": [
+        "ARTL",
+        "TAOP",
+        "KALA",
+        "FLYE",
+        "FTEL",
+        "QTTB",
+        "AHMA",
+        "JSPR",
+        "IVF",
+        "KXIN"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 12,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "FTEL",
+        {
+          "count": 7,
+          "pnl": 94.36999999999999,
+          "win_rate": 0.8571
+        }
+      ],
+      [
+        "HTOO",
+        {
+          "count": 5,
+          "pnl": 76.30999999999999,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "FIEE",
+        {
+          "count": 3,
+          "pnl": 66.30999999999999,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "KXIN",
+        {
+          "count": 3,
+          "pnl": 62.64,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "TWG",
+        {
+          "count": 6,
+          "pnl": 57.28,
+          "win_rate": 0.8333
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 7,
+        "pnl": 128.97
+      },
+      "08": {
+        "count": 6,
+        "pnl": 38.18
+      },
+      "09": {
+        "count": 7,
+        "pnl": -7.599999999999994
+      },
+      "10": {
+        "count": 5,
+        "pnl": 6.3999999999999995
+      },
+      "11": {
+        "count": 6,
+        "pnl": 23.8
+      },
+      "12": {
+        "count": 2,
+        "pnl": -31.1
+      },
+      "13": {
+        "count": 1,
+        "pnl": -114.19
+      },
+      "14": {
+        "count": 5,
+        "pnl": -297.78999999999996
+      },
+      "15": {
+        "count": 1,
+        "pnl": 28.31
+      },
+      "16": {
+        "count": 15,
+        "pnl": 73.83
+      },
+      "17": {
+        "count": 12,
+        "pnl": 132.48000000000002
+      },
+      "18": {
+        "count": 2,
+        "pnl": 18.17
+      }
+    },
+    "tradeDurations": {
+      "5-15min": {
+        "count": 19,
+        "pnl": 90.44999999999999
+      },
+      "<5min": {
+        "count": 25,
+        "pnl": 177.48
+      },
+      "15-60min": {
+        "count": 20,
+        "pnl": 31.470000000000024
+      },
+      ">60min": {
+        "count": 5,
+        "pnl": -299.93999999999994
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-12-01",
+      "trades": 27,
+      "pnl": -267.47,
+      "symbols": [
+        "ARTL",
+        "TAOP",
+        "KALA",
+        "FLYE",
+        "FTEL",
+        "QTTB",
+        "AHMA",
+        "JSPR",
+        "IVF",
+        "KXIN"
+      ]
+    },
+    {
+      "date": "2025-12-02",
+      "trades": 16,
+      "pnl": 107.53,
+      "symbols": [
+        "FIEE",
+        "FTEL",
+        "PMAX",
+        "JSPR",
+        "FLYE",
+        "KXIN"
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "trades": 12,
+      "pnl": 128.29,
+      "symbols": [
+        "KXIN",
+        "CAPR",
+        "IRBT",
+        "CRMG",
+        "BGLC",
+        "HTOO",
+        "TLYS"
+      ]
+    },
+    {
+      "date": "2025-12-04",
+      "trades": 2,
+      "pnl": 13.7,
+      "symbols": [
+        "KITT",
+        "QCLS"
+      ]
+    },
+    {
+      "date": "2025-12-05",
+      "trades": 12,
+      "pnl": 2.72,
+      "symbols": [
+        "QCLS",
+        "HWH",
+        "TWG",
+        "JFBR",
+        "BDRX"
+      ]
+    },
+    {
+      "date": "2025-12-06",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-12-07",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
