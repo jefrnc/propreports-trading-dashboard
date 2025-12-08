@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-12-07 15:04:47",
+  "generateDate": "2025-12-08 03:34:07",
   "weekPeriod": "2025-12-01 to 2025-12-07",
   "weekNumber": 49,
   "year": 2025,
@@ -235,11 +235,11 @@
       "trades": 12,
       "pnl": 2.72,
       "symbols": [
-        "TWG",
-        "HWH",
         "QCLS",
-        "BDRX",
-        "JFBR"
+        "JFBR",
+        "HWH",
+        "TWG",
+        "BDRX"
       ]
     },
     {
