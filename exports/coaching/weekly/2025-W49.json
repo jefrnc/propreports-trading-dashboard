@@ -1,0 +1,21 @@
+{
+  "period": "Week 49, 2025",
+  "week_period": "2025-12-01 to 2025-12-07",
+  "generated_at": "2025-12-08T09:09:27.772402",
+  "performance_summary": {
+    "net_pnl": -26.35,
+    "total_trades": 69,
+    "win_rate": 0.7536,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Set and adhere to stop-loss orders and evaluate position sizing to protect capital.\n2. **Trade Review**: Analyze past trades, especially the large loss, to understand what went wrong and adjust your strategy accordingly.\n3. **Daily Trading Goals**: Establish daily trading targets to increase engagement and consistency, aiming for a manageable number of trades each day.",
+    "psychological_insights": "Focus on maintaining emotional discipline post-loss. Large losses can lead to impulsive trading decisions, so it\u2019s vital to assess trades logically rather than emotionally.\n- **Consistency in Strategy**: Ensure adherence to your trading plan, even in the face of consecutive wins or losses.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
