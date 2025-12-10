@@ -32,17 +32,22 @@
       "trades": 11,
       "pnl": -71.29,
       "winRate": 0
+    },
+    "2025-12-09": {
+      "trades": 21,
+      "pnl": 152.37,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 80,
-    "totalPnL": -86.52000000000004,
-    "winRate": 75.0,
-    "bestDay": "2025-12-03",
-    "bestDayPnL": 128.29,
+    "totalTrades": 101,
+    "totalPnL": 65.84999999999997,
+    "winRate": 77.22772277227723,
+    "bestDay": "2025-12-09",
+    "bestDayPnL": 152.37,
     "worstDay": "2025-12-01",
     "worstDayPnL": -267.47,
-    "tradingDays": 6
+    "tradingDays": 7
   },
   "topWinners": [
     {
@@ -82,6 +87,24 @@
       "price": 2.2935
     },
     {
+      "date": "2025-12-09",
+      "opened": "12/09/25 07:53:30",
+      "closed": "07:56:30",
+      "held": "00:03:00",
+      "symbol": "PBM",
+      "type": "Short",
+      "entry": 2.3178,
+      "exit": 2.2139,
+      "size": 890.0,
+      "pnl": 92.46,
+      "commission": 2.67,
+      "net": 91.35,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 890.0,
+      "price": 2.3178
+    },
+    {
       "date": "2025-12-03",
       "opened": "12/03/25 07:41:32",
       "closed": "07:58:01",
@@ -116,24 +139,6 @@
       "side": "SELL",
       "quantity": 440.0,
       "price": 2.9623
-    },
-    {
-      "date": "2025-12-03",
-      "opened": "12/03/25 16:03:39",
-      "closed": "16:06:07",
-      "held": "00:02:28",
-      "symbol": "CRMG",
-      "type": "Short",
-      "entry": 12.972,
-      "exit": 12.558,
-      "size": 100.0,
-      "pnl": 41.4,
-      "commission": 0.3,
-      "net": 41.2,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 100.0,
-      "price": 12.972
     }
   ],
   "topLosers": [
@@ -210,22 +215,22 @@
       "price": 11.828
     },
     {
-      "date": "2025-12-01",
-      "opened": "12/01/25 16:04:06",
-      "closed": "16:07:41",
-      "held": "00:03:35",
-      "symbol": "ARTL",
+      "date": "2025-12-09",
+      "opened": "12/09/25 07:21:43",
+      "closed": "07:25:36",
+      "held": "00:03:53",
+      "symbol": "SNTI",
       "type": "Short",
-      "entry": 2.0268,
-      "exit": 2.1194,
-      "size": 810.0,
-      "pnl": -75.0,
-      "commission": 2.43,
-      "net": -78.75,
+      "entry": 3.4471,
+      "exit": 3.66,
+      "size": 410.0,
+      "pnl": -87.3,
+      "commission": 1.23,
+      "net": -88.01,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 810.0,
-      "price": 2.0268
+      "quantity": 410.0,
+      "price": 3.4471
     }
   ]
 }
