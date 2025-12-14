@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-12-14 03:36:05",
+  "generateDate": "2025-12-14 15:05:05",
   "weekPeriod": "2025-12-08 to 2025-12-14",
   "weekNumber": 50,
   "year": 2025,
@@ -221,15 +221,15 @@
       "trades": 25,
       "pnl": 52.99,
       "symbols": [
-        "BBGI",
-        "NTCL",
-        "OCG",
         "PETS",
-        "AXIL",
-        "WHLR",
         "ANIX",
+        "WHLR",
+        "BBGI",
         "MIGI",
-        "HKPD"
+        "OCG",
+        "NTCL",
+        "HKPD",
+        "AXIL"
       ]
     },
     {
