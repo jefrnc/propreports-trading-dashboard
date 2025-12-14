@@ -1,0 +1,257 @@
+{
+  "generateDate": "2025-12-14 03:36:05",
+  "weekPeriod": "2025-12-08 to 2025-12-14",
+  "weekNumber": 50,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 77,
+    "grossPnL": -2.77,
+    "totalCommissions": 28.85,
+    "netPnL": -31.62,
+    "avgDailyPnL": -4.52,
+    "avgTradePerDay": 11.0,
+    "winningTrades": 62,
+    "losingTrades": 15,
+    "winRate": 0.8052,
+    "avgWin": 16.55,
+    "avgLoss": -68.59,
+    "profitFactor": 1.0
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-12-08",
+      "symbol": "XCUR",
+      "pnl": 131.87
+    },
+    "worstTrade": {
+      "date": "2025-12-08",
+      "symbol": "XCUR",
+      "pnl": -305.44
+    },
+    "bestDay": {
+      "date": "2025-12-09",
+      "trades": 21,
+      "pnl": 152.37,
+      "symbols": [
+        "TGL",
+        "VOR",
+        "OCG",
+        "ATMV",
+        "PBM",
+        "GWAV",
+        "ADVB",
+        "XCUR",
+        "RETO",
+        "SNTI",
+        "LGHL"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-12-12",
+      "trades": 8,
+      "pnl": -277.5,
+      "symbols": [
+        "OCG",
+        "AKAN"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 18,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "AKAN",
+        {
+          "count": 2,
+          "pnl": 104.4,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "PBM",
+        {
+          "count": 5,
+          "pnl": 101.35999999999999,
+          "win_rate": 0.8
+        }
+      ],
+      [
+        "ENVB",
+        {
+          "count": 4,
+          "pnl": 80.75,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "GRI",
+        {
+          "count": 1,
+          "pnl": 52.46,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "ATMV",
+        {
+          "count": 1,
+          "pnl": 45.75,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "10": {
+        "count": 11,
+        "pnl": -93.52000000000002
+      },
+      "16": {
+        "count": 15,
+        "pnl": -105.04999999999993
+      },
+      "17": {
+        "count": 5,
+        "pnl": 205.19
+      },
+      "18": {
+        "count": 2,
+        "pnl": 28.21
+      },
+      "07": {
+        "count": 4,
+        "pnl": 26.069999999999997
+      },
+      "08": {
+        "count": 6,
+        "pnl": 113.2
+      },
+      "09": {
+        "count": 11,
+        "pnl": 5.370000000000015
+      },
+      "13": {
+        "count": 3,
+        "pnl": 21.8
+      },
+      "11": {
+        "count": 4,
+        "pnl": -42.35
+      },
+      "12": {
+        "count": 2,
+        "pnl": -247.14
+      },
+      "14": {
+        "count": 9,
+        "pnl": 46.449999999999996
+      },
+      "15": {
+        "count": 5,
+        "pnl": 39.0
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 33,
+        "pnl": 147.15000000000003
+      },
+      ">60min": {
+        "count": 5,
+        "pnl": -293.85
+      },
+      "5-15min": {
+        "count": 20,
+        "pnl": 291.82000000000005
+      },
+      "15-60min": {
+        "count": 19,
+        "pnl": -147.89
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-12-08",
+      "trades": 11,
+      "pnl": -71.29,
+      "symbols": [
+        "TGL",
+        "TWG",
+        "NCPL",
+        "XCUR",
+        "IOTR"
+      ]
+    },
+    {
+      "date": "2025-12-09",
+      "trades": 21,
+      "pnl": 152.37,
+      "symbols": [
+        "TGL",
+        "VOR",
+        "OCG",
+        "ATMV",
+        "PBM",
+        "GWAV",
+        "ADVB",
+        "XCUR",
+        "RETO",
+        "SNTI",
+        "LGHL"
+      ]
+    },
+    {
+      "date": "2025-12-10",
+      "trades": 12,
+      "pnl": 130.5,
+      "symbols": [
+        "CV",
+        "ENVB",
+        "BEAT",
+        "PAPL",
+        "BBGI",
+        "GRI"
+      ]
+    },
+    {
+      "date": "2025-12-11",
+      "trades": 25,
+      "pnl": 52.99,
+      "symbols": [
+        "BBGI",
+        "NTCL",
+        "OCG",
+        "PETS",
+        "AXIL",
+        "WHLR",
+        "ANIX",
+        "MIGI",
+        "HKPD"
+      ]
+    },
+    {
+      "date": "2025-12-12",
+      "trades": 8,
+      "pnl": -277.5,
+      "symbols": [
+        "OCG",
+        "AKAN"
+      ]
+    },
+    {
+      "date": "2025-12-13",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-12-14",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
