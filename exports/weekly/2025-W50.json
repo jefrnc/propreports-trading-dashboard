@@ -1,23 +1,23 @@
 {
-  "generateDate": "2025-12-15 03:37:45",
+  "generateDate": "2025-12-15 15:07:53",
   "weekPeriod": "2025-12-08 to 2025-12-14",
   "weekNumber": 50,
   "year": 2025,
   "account": "ZI*******64",
   "summary": {
     "totalTradingDays": 7,
-    "totalTrades": 77,
-    "grossPnL": -2.77,
-    "totalCommissions": 28.85,
-    "netPnL": -31.62,
-    "avgDailyPnL": -4.52,
-    "avgTradePerDay": 11.0,
-    "winningTrades": 62,
+    "totalTrades": 80,
+    "grossPnL": 69.93,
+    "totalCommissions": 30.29,
+    "netPnL": 39.64,
+    "avgDailyPnL": 5.66,
+    "avgTradePerDay": 11.43,
+    "winningTrades": 65,
     "losingTrades": 15,
-    "winRate": 0.8052,
-    "avgWin": 16.55,
+    "winRate": 0.8125,
+    "avgWin": 16.9,
     "avgLoss": -68.59,
-    "profitFactor": 1.0
+    "profitFactor": 1.07
   },
   "extremes": {
     "bestTrade": {
@@ -50,11 +50,12 @@
     },
     "worstDay": {
       "date": "2025-12-12",
-      "trades": 8,
-      "pnl": -277.5,
+      "trades": 11,
+      "pnl": -205.35,
       "symbols": [
+        "OCG",
         "AKAN",
-        "OCG"
+        "ASTC"
       ]
     }
   },
@@ -87,18 +88,18 @@
         }
       ],
       [
-        "GRI",
+        "ASTC",
         {
-          "count": 1,
-          "pnl": 52.46,
+          "count": 3,
+          "pnl": 72.7,
           "win_rate": 1.0
         }
       ],
       [
-        "ATMV",
+        "GRI",
         {
           "count": 1,
-          "pnl": 45.75,
+          "pnl": 52.46,
           "win_rate": 1.0
         }
       ]
@@ -109,8 +110,8 @@
         "pnl": -93.52000000000002
       },
       "16": {
-        "count": 15,
-        "pnl": -105.04999999999993
+        "count": 18,
+        "pnl": -32.34999999999993
       },
       "17": {
         "count": 5,
@@ -155,16 +156,16 @@
     },
     "tradeDurations": {
       "<5min": {
-        "count": 33,
-        "pnl": 147.15000000000003
+        "count": 35,
+        "pnl": 217.45000000000005
       },
       ">60min": {
         "count": 5,
         "pnl": -293.85
       },
       "5-15min": {
-        "count": 20,
-        "pnl": 291.82000000000005
+        "count": 21,
+        "pnl": 294.22
       },
       "15-60min": {
         "count": 19,
@@ -234,11 +235,12 @@
     },
     {
       "date": "2025-12-12",
-      "trades": 8,
-      "pnl": -277.5,
+      "trades": 11,
+      "pnl": -205.35,
       "symbols": [
+        "OCG",
         "AKAN",
-        "OCG"
+        "ASTC"
       ]
     },
     {

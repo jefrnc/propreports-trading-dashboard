@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-15 03:37:45",
+  "exportDate": "2025-12-15 15:07:53",
   "account": "ZI*******64",
   "date": "2025-12-12",
   "trades": [
@@ -146,22 +146,77 @@
       "side": "SELL",
       "quantity": 100.0,
       "price": 1.43
+    },
+    {
+      "date": "2025-12-12",
+      "opened": "12/12/25 16:46:15",
+      "closed": "16:50:24",
+      "held": "00:04:09",
+      "symbol": "ASTC",
+      "type": "Short",
+      "entry": 5.1706,
+      "exit": 5.0103,
+      "size": 330.0,
+      "pnl": 52.9,
+      "commission": 0.99,
+      "net": 52.43,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 330.0,
+      "price": 5.1706
+    },
+    {
+      "date": "2025-12-12",
+      "opened": "12/12/25 16:51:09",
+      "closed": "16:55:40",
+      "held": "00:04:31",
+      "symbol": "ASTC",
+      "type": "Short",
+      "entry": 4.7062,
+      "exit": 4.5723,
+      "size": 130.0,
+      "pnl": 17.4,
+      "commission": 0.39,
+      "net": 17.41,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 130.0,
+      "price": 4.7062
+    },
+    {
+      "date": "2025-12-12",
+      "opened": "12/12/25 16:56:39",
+      "closed": "17:04:12",
+      "held": "00:07:33",
+      "symbol": "ASTC",
+      "type": "Short",
+      "entry": 4.55,
+      "exit": 4.43,
+      "size": 20.0,
+      "pnl": 2.4,
+      "commission": 0.06,
+      "net": 2.31,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 20.0,
+      "price": 4.55
     }
   ],
   "summary": {
-    "totalTrades": 8,
-    "totalPnL": -273.53,
-    "totalCommissions": 11.04,
-    "netPnL": -277.5,
-    "winningTrades": 4,
+    "totalTrades": 11,
+    "totalPnL": -200.83,
+    "totalCommissions": 12.48,
+    "netPnL": -205.35,
+    "winningTrades": 7,
     "losingTrades": 4,
     "symbols": [
+      "OCG",
       "AKAN",
-      "OCG"
+      "ASTC"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-15 03:37:45"
+    "processedAt": "2025-12-15 15:07:53"
   }
 }
