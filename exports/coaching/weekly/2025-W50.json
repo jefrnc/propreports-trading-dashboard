@@ -1,0 +1,21 @@
+{
+  "period": "Week 50, 2025",
+  "week_period": "2025-12-08 to 2025-12-14",
+  "generated_at": "2025-12-15T09:10:59.124056",
+  "performance_summary": {
+    "net_pnl": -31.62,
+    "total_trades": 77,
+    "win_rate": 0.8052,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Conduct post-trade analyses for both winning and losing trades to learn and refine your strategy.\n2. **Refine Risk Management**: Establish a solid risk management framework that includes stop-loss orders and position sizing aligned with your trading capital.\n3. **Consistent Trading Schedule**: Set a commitment to engage in trading regularly throughout the week to enhance your experience and capitalize on market conditions.",
+    "psychological_insights": "The significant loss may have caused emotional reactions that could lead to overtrading or hesitance in future trades. Maintain a disciplined approach.\n2. **Confidence Boost from Wins**: Use the momentum from your high win rate to build confidence, but balance it with caution against complacency.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
