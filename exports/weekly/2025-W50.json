@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-12-14 15:05:05",
+  "generateDate": "2025-12-15 03:37:45",
   "weekPeriod": "2025-12-08 to 2025-12-14",
   "weekNumber": 50,
   "year": 2025,
@@ -53,8 +53,8 @@
       "trades": 8,
       "pnl": -277.5,
       "symbols": [
-        "OCG",
-        "AKAN"
+        "AKAN",
+        "OCG"
       ]
     }
   },
@@ -237,8 +237,8 @@
       "trades": 8,
       "pnl": -277.5,
       "symbols": [
-        "OCG",
-        "AKAN"
+        "AKAN",
+        "OCG"
       ]
     },
     {
