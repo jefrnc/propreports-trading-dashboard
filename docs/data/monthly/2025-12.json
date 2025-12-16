@@ -52,17 +52,22 @@
       "trades": 11,
       "pnl": -205.35,
       "winRate": 0
+    },
+    "2025-12-15": {
+      "trades": 23,
+      "pnl": 295.85,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 149,
-    "totalPnL": 43.98999999999998,
-    "winRate": 77.85234899328859,
-    "bestDay": "2025-12-09",
-    "bestDayPnL": 152.37,
+    "totalTrades": 172,
+    "totalPnL": 339.84000000000003,
+    "winRate": 78.48837209302324,
+    "bestDay": "2025-12-15",
+    "bestDayPnL": 295.85,
     "worstDay": "2025-12-01",
     "worstDayPnL": -267.47,
-    "tradingDays": 10
+    "tradingDays": 11
   },
   "topWinners": [
     {
@@ -120,6 +125,24 @@
       "price": 2.3178
     },
     {
+      "date": "2025-12-15",
+      "opened": "12/15/25 09:51:53",
+      "closed": "10:10:05",
+      "held": "00:18:12",
+      "symbol": "RADX",
+      "type": "Short",
+      "entry": 11.23,
+      "exit": 10.8156,
+      "size": 180.0,
+      "pnl": 74.6,
+      "commission": 0.54,
+      "net": 74.39,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 180.0,
+      "price": 11.23
+    },
+    {
       "date": "2025-12-03",
       "opened": "12/03/25 07:41:32",
       "closed": "07:58:01",
@@ -136,24 +159,6 @@
       "side": "SELL",
       "quantity": 441.0,
       "price": 4.6523
-    },
-    {
-      "date": "2025-12-02",
-      "opened": "12/02/25 16:19:03",
-      "closed": "16:23:21",
-      "held": "00:04:18",
-      "symbol": "FIEE",
-      "type": "Short",
-      "entry": 2.9623,
-      "exit": 2.8361,
-      "size": 440.0,
-      "pnl": 55.51,
-      "commission": 1.32,
-      "net": 55.02,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 440.0,
-      "price": 2.9623
     }
   ],
   "topLosers": [
