@@ -1,19 +1,96 @@
 {
-  "exportDate": "2025-12-17 03:33:13",
+  "exportDate": "2025-12-17 15:06:27",
   "account": "ZI*******64",
   "date": "2025-12-16",
-  "trades": [],
+  "trades": [
+    {
+      "date": "2025-12-16",
+      "opened": "12/16/25 08:05:04",
+      "closed": "08:08:07",
+      "held": "00:03:03",
+      "symbol": "AZI",
+      "type": "Short",
+      "entry": 2.49,
+      "exit": 2.3625,
+      "size": 40.0,
+      "pnl": 5.1,
+      "commission": 0.12,
+      "net": 5.12,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 40.0,
+      "price": 2.49
+    },
+    {
+      "date": "2025-12-16",
+      "opened": "12/16/25 09:39:04",
+      "closed": "10:09:13",
+      "held": "00:30:09",
+      "symbol": "AZI",
+      "type": "Short",
+      "entry": 2.1501,
+      "exit": 2.01,
+      "size": 90.0,
+      "pnl": 12.61,
+      "commission": 0.27,
+      "net": 12.2,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 90.0,
+      "price": 2.1501
+    },
+    {
+      "date": "2025-12-16",
+      "opened": "12/16/25 09:47:46",
+      "closed": "11:17:50",
+      "held": "01:30:04",
+      "symbol": "SRXH",
+      "type": "Short",
+      "entry": 0.6248,
+      "exit": 0.6009,
+      "size": 420.0,
+      "pnl": 10.06,
+      "commission": 1.26,
+      "net": 8.95,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 420.0,
+      "price": 0.6248
+    },
+    {
+      "date": "2025-12-16",
+      "opened": "12/16/25 17:14:03",
+      "closed": "18:54:16",
+      "held": "01:40:13",
+      "symbol": "ADTX",
+      "type": "Short",
+      "entry": 1.9625,
+      "exit": 2.0404,
+      "size": 240.0,
+      "pnl": -18.7,
+      "commission": 0.72,
+      "net": -18.91,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 240.0,
+      "price": 1.9625
+    }
+  ],
   "summary": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommissions": 0,
-    "netPnL": 0,
-    "winningTrades": 0,
-    "losingTrades": 0,
-    "symbols": []
+    "totalTrades": 4,
+    "totalPnL": 9.07,
+    "totalCommissions": 2.37,
+    "netPnL": 7.36,
+    "winningTrades": 3,
+    "losingTrades": 1,
+    "symbols": [
+      "SRXH",
+      "AZI",
+      "ADTX"
+    ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-17 03:33:13"
+    "processedAt": "2025-12-17 15:06:27"
   }
 }
