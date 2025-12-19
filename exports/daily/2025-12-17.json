@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-19 03:34:27",
+  "exportDate": "2025-12-19 15:05:50",
   "account": "ZI*******64",
   "date": "2025-12-17",
   "trades": [
@@ -210,17 +210,17 @@
     "winningTrades": 9,
     "losingTrades": 2,
     "symbols": [
-      "ISPO",
-      "ELAB",
-      "ASNS",
-      "TGL",
-      "YCBD",
       "MBRX",
-      "SBDS"
+      "ASNS",
+      "ISPO",
+      "SBDS",
+      "YCBD",
+      "ELAB",
+      "TGL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-19 03:34:27"
+    "processedAt": "2025-12-19 15:05:50"
   }
 }
