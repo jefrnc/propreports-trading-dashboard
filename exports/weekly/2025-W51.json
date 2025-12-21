@@ -1,0 +1,251 @@
+{
+  "generateDate": "2025-12-21 03:35:48",
+  "weekPeriod": "2025-12-15 to 2025-12-21",
+  "weekNumber": 51,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 68,
+    "grossPnL": 359.39,
+    "totalCommissions": 36.6,
+    "netPnL": 322.79,
+    "avgDailyPnL": 46.11,
+    "avgTradePerDay": 9.71,
+    "winningTrades": 50,
+    "losingTrades": 18,
+    "winRate": 0.7353,
+    "avgWin": 16.48,
+    "avgLoss": -25.82,
+    "profitFactor": 1.77
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-12-15",
+      "symbol": "RADX",
+      "pnl": 74.6
+    },
+    "worstTrade": {
+      "date": "2025-12-15",
+      "symbol": "IMG",
+      "pnl": -124.05
+    },
+    "bestDay": {
+      "date": "2025-12-15",
+      "trades": 23,
+      "pnl": 295.85,
+      "symbols": [
+        "RADX",
+        "VERO",
+        "IMG",
+        "NAMI",
+        "ARTV",
+        "AMCI"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-12-19",
+      "trades": 24,
+      "pnl": -99.93,
+      "symbols": [
+        "XTKG",
+        "INFY",
+        "HEPS",
+        "PAVS",
+        "MIMI",
+        "NBY",
+        "AZI",
+        "DJT",
+        "SOS"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 17,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "RADX",
+        {
+          "count": 7,
+          "pnl": 125.69999999999999,
+          "win_rate": 0.8571
+        }
+      ],
+      [
+        "VERO",
+        {
+          "count": 2,
+          "pnl": 75.30000000000001,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "PAVS",
+        {
+          "count": 3,
+          "pnl": 66.81,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "ASNS",
+        {
+          "count": 1,
+          "pnl": 49.75,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "ARTV",
+        {
+          "count": 1,
+          "pnl": 36.71,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 2,
+        "pnl": 45.0
+      },
+      "08": {
+        "count": 10,
+        "pnl": -35.129999999999995
+      },
+      "09": {
+        "count": 18,
+        "pnl": 122.55999999999997
+      },
+      "10": {
+        "count": 9,
+        "pnl": -4.219999999999999
+      },
+      "11": {
+        "count": 7,
+        "pnl": 51.89
+      },
+      "12": {
+        "count": 5,
+        "pnl": 23.2
+      },
+      "13": {
+        "count": 3,
+        "pnl": 29.540000000000003
+      },
+      "16": {
+        "count": 5,
+        "pnl": 99.68
+      },
+      "17": {
+        "count": 3,
+        "pnl": 14.220000000000002
+      },
+      "14": {
+        "count": 2,
+        "pnl": -11.59
+      },
+      "15": {
+        "count": 4,
+        "pnl": 24.240000000000002
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 27,
+        "pnl": 154.37999999999997
+      },
+      "5-15min": {
+        "count": 22,
+        "pnl": -83.92999999999999
+      },
+      "15-60min": {
+        "count": 15,
+        "pnl": 215.34000000000003
+      },
+      ">60min": {
+        "count": 4,
+        "pnl": 73.6
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-12-15",
+      "trades": 23,
+      "pnl": 295.85,
+      "symbols": [
+        "RADX",
+        "VERO",
+        "IMG",
+        "NAMI",
+        "ARTV",
+        "AMCI"
+      ]
+    },
+    {
+      "date": "2025-12-16",
+      "trades": 4,
+      "pnl": 7.36,
+      "symbols": [
+        "SRXH",
+        "AZI",
+        "ADTX"
+      ]
+    },
+    {
+      "date": "2025-12-17",
+      "trades": 11,
+      "pnl": 86.28,
+      "symbols": [
+        "ASNS",
+        "YCBD",
+        "MBRX",
+        "ELAB",
+        "ISPO",
+        "SBDS",
+        "TGL"
+      ]
+    },
+    {
+      "date": "2025-12-18",
+      "trades": 6,
+      "pnl": 55.83,
+      "symbols": [
+        "YCBD",
+        "PAVS",
+        "JBDI",
+        "ATHA"
+      ]
+    },
+    {
+      "date": "2025-12-19",
+      "trades": 24,
+      "pnl": -99.93,
+      "symbols": [
+        "XTKG",
+        "INFY",
+        "HEPS",
+        "PAVS",
+        "MIMI",
+        "NBY",
+        "AZI",
+        "DJT",
+        "SOS"
+      ]
+    },
+    {
+      "date": "2025-12-20",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-12-21",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
