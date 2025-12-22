@@ -1,0 +1,21 @@
+{
+  "period": "Week 51, 2025",
+  "week_period": "2025-12-15 to 2025-12-21",
+  "generated_at": "2025-12-22T09:09:46.619842",
+  "performance_summary": {
+    "net_pnl": 322.79,
+    "total_trades": 68,
+    "win_rate": 0.7353,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "### 5. Risk Management Observations\n- Maintaining a win rate of over 70% is excellent, but the significant loss indicates a need for better risk management protocols. Ensure your maximum loss per trade does not exceed a small percentage of your total capital, generally 1-2%.",
+    "psychological_insights": "Establish clearer criteria for exiting losing trades to prevent large drawdowns.\n2. **Analyze Trade Decisions**: Conduct a detailed review of both winning and losing trades to identify patterns and refine your trading plan.\n3. **Strengthen Psychological Discipline**: Develop mental strategies to manage emotions during trading, especially in the face of losses, to maintain a consistent approach.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
