@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-12-22 03:37:10",
+  "generateDate": "2025-12-22 15:05:32",
   "weekPeriod": "2025-12-15 to 2025-12-21",
   "weekNumber": 51,
   "year": 2025,
@@ -48,15 +48,15 @@
       "trades": 24,
       "pnl": -99.93,
       "symbols": [
-        "HEPS",
-        "MIMI",
         "AZI",
         "PAVS",
-        "DJT",
-        "SOS",
+        "XTKG",
         "NBY",
         "INFY",
-        "XTKG"
+        "MIMI",
+        "SOS",
+        "HEPS",
+        "DJT"
       ]
     }
   },
@@ -224,15 +224,15 @@
       "trades": 24,
       "pnl": -99.93,
       "symbols": [
-        "HEPS",
-        "MIMI",
         "AZI",
         "PAVS",
-        "DJT",
-        "SOS",
+        "XTKG",
         "NBY",
         "INFY",
-        "XTKG"
+        "MIMI",
+        "SOS",
+        "HEPS",
+        "DJT"
       ]
     },
     {
