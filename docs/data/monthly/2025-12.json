@@ -87,19 +87,42 @@
       "trades": 21,
       "pnl": 156.41,
       "winRate": 0
+    },
+    "2025-12-24": {
+      "trades": 10,
+      "pnl": 0.24,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 251,
-    "totalPnL": 590.61,
-    "winRate": 76.89243027888446,
+    "totalTrades": 261,
+    "totalPnL": 590.85,
+    "winRate": 76.24521072796935,
     "bestDay": "2025-12-15",
     "bestDayPnL": 295.85,
     "worstDay": "2025-12-01",
     "worstDayPnL": -267.47,
-    "tradingDays": 17
+    "tradingDays": 18
   },
   "topWinners": [
+    {
+      "date": "2025-12-24",
+      "opened": "12/24/25 10:23:26",
+      "closed": "12:58:58",
+      "held": "02:35:32",
+      "symbol": "SOBR",
+      "type": "Short",
+      "entry": 2.5632,
+      "exit": 2.3275,
+      "size": 1959.0,
+      "pnl": 461.69,
+      "commission": 5.88,
+      "net": 458.68,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 1959.0,
+      "price": 2.5632
+    },
     {
       "date": "2025-12-08",
       "opened": "12/08/25 17:07:49",
@@ -171,27 +194,27 @@
       "side": "SELL",
       "quantity": 180.0,
       "price": 11.23
-    },
-    {
-      "date": "2025-12-03",
-      "opened": "12/03/25 07:41:32",
-      "closed": "07:58:01",
-      "held": "00:16:29",
-      "symbol": "HTOO",
-      "type": "Short",
-      "entry": 4.6523,
-      "exit": 4.5097,
-      "size": 441.0,
-      "pnl": 62.89,
-      "commission": 1.32,
-      "net": 62.72,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 441.0,
-      "price": 4.6523
     }
   ],
   "topLosers": [
+    {
+      "date": "2025-12-24",
+      "opened": "12/24/25 09:37:01",
+      "closed": "10:20:17",
+      "held": "00:43:16",
+      "symbol": "SOBR",
+      "type": "Short",
+      "entry": 2.3952,
+      "exit": 2.5889,
+      "size": 1812.0,
+      "pnl": -350.88,
+      "commission": 5.44,
+      "net": -353.81,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 1812.0,
+      "price": 2.3952
+    },
     {
       "date": "2025-12-01",
       "opened": "12/01/25 14:33:45",
@@ -247,40 +270,22 @@
       "price": 1.8199
     },
     {
-      "date": "2025-12-12",
-      "opened": "12/12/25 10:09:43",
-      "closed": "11:48:34",
-      "held": "01:38:51",
-      "symbol": "OCG",
+      "date": "2025-12-24",
+      "opened": "12/24/25 09:31:33",
+      "closed": "09:36:42",
+      "held": "00:05:09",
+      "symbol": "SOBR",
       "type": "Short",
-      "entry": 1.3611,
-      "exit": 1.5695,
-      "size": 860.0,
-      "pnl": -179.24,
-      "commission": 2.58,
-      "net": -179.6,
+      "entry": 2.2311,
+      "exit": 2.5706,
+      "size": 580.0,
+      "pnl": -196.92,
+      "commission": 1.74,
+      "net": -198.43,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 860.0,
-      "price": 1.3611
-    },
-    {
-      "date": "2025-12-05",
-      "opened": "12/05/25 09:31:53",
-      "closed": "10:36:22",
-      "held": "01:04:29",
-      "symbol": "QCLS",
-      "type": "Short",
-      "entry": 7.3268,
-      "exit": 7.6747,
-      "size": 380.0,
-      "pnl": -132.17,
-      "commission": 1.14,
-      "net": -132.61,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 380.0,
-      "price": 7.3268
+      "quantity": 580.0,
+      "price": 2.2311
     }
   ]
 }
