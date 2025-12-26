@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-26 03:34:45",
+  "exportDate": "2025-12-26 15:05:28",
   "account": "ZI*******64",
   "date": "2025-12-23",
   "trades": [
@@ -390,20 +390,20 @@
     "winningTrades": 19,
     "losingTrades": 2,
     "symbols": [
-      "CTXR",
-      "TIVC",
-      "OPTX",
+      "BBLG",
       "JTAI",
+      "MWG",
+      "TIVC",
+      "CETX",
+      "TRIB",
       "HIHO",
       "LNKS",
-      "TRIB",
-      "BBLG",
-      "MWG",
-      "CETX"
+      "OPTX",
+      "CTXR"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-26 03:34:45"
+    "processedAt": "2025-12-26 15:05:28"
   }
 }
