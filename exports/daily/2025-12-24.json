@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-26 15:05:28",
+  "exportDate": "2025-12-27 03:33:50",
   "account": "ZI*******64",
   "date": "2025-12-24",
   "trades": [
@@ -192,14 +192,14 @@
     "winningTrades": 7,
     "losingTrades": 3,
     "symbols": [
-      "AMCI",
       "INDP",
       "SOBR",
-      "DRMA"
+      "DRMA",
+      "AMCI"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-26 15:05:28"
+    "processedAt": "2025-12-27 03:33:50"
   }
 }
