@@ -1,0 +1,244 @@
+{
+  "generateDate": "2025-12-28 03:37:51",
+  "weekPeriod": "2025-12-22 to 2025-12-28",
+  "weekNumber": 52,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 60,
+    "grossPnL": 320.52,
+    "totalCommissions": 39.46,
+    "netPnL": 281.06,
+    "avgDailyPnL": 40.15,
+    "avgTradePerDay": 8.57,
+    "winningTrades": 48,
+    "losingTrades": 12,
+    "winRate": 0.8,
+    "avgWin": 19.87,
+    "avgLoss": -52.76,
+    "profitFactor": 1.51
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-12-24",
+      "symbol": "SOBR",
+      "pnl": 461.69
+    },
+    "worstTrade": {
+      "date": "2025-12-24",
+      "symbol": "SOBR",
+      "pnl": -350.88
+    },
+    "bestDay": {
+      "date": "2025-12-23",
+      "trades": 21,
+      "pnl": 156.41,
+      "symbols": [
+        "BBLG",
+        "JTAI",
+        "MWG",
+        "TIVC",
+        "CETX",
+        "TRIB",
+        "HIHO",
+        "LNKS",
+        "OPTX",
+        "CTXR"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-12-25",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 11,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "AMCI",
+        {
+          "count": 5,
+          "pnl": 62.4,
+          "win_rate": 0.8
+        }
+      ],
+      [
+        "TIVC",
+        {
+          "count": 6,
+          "pnl": 47.49,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "HXHX",
+        {
+          "count": 4,
+          "pnl": 46.26,
+          "win_rate": 0.75
+        }
+      ],
+      [
+        "INDP",
+        {
+          "count": 3,
+          "pnl": 42.410000000000004,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "BBLG",
+        {
+          "count": 1,
+          "pnl": 36.7,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 9,
+        "pnl": 66.38000000000001
+      },
+      "10": {
+        "count": 3,
+        "pnl": 452.08
+      },
+      "11": {
+        "count": 8,
+        "pnl": 120.28999999999999
+      },
+      "12": {
+        "count": 3,
+        "pnl": 23.939999999999998
+      },
+      "14": {
+        "count": 2,
+        "pnl": -10.499999999999998
+      },
+      "16": {
+        "count": 8,
+        "pnl": 7.130000000000002
+      },
+      "07": {
+        "count": 5,
+        "pnl": 61.3
+      },
+      "09": {
+        "count": 13,
+        "pnl": -440.64
+      },
+      "13": {
+        "count": 4,
+        "pnl": 29.82
+      },
+      "15": {
+        "count": 4,
+        "pnl": 5.63
+      },
+      "17": {
+        "count": 1,
+        "pnl": 5.09
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 17,
+        "pnl": 56.64000000000001
+      },
+      "15-60min": {
+        "count": 18,
+        "pnl": -147.13000000000002
+      },
+      "5-15min": {
+        "count": 17,
+        "pnl": -82.32
+      },
+      ">60min": {
+        "count": 8,
+        "pnl": 493.33
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-12-22",
+      "trades": 13,
+      "pnl": 44.82,
+      "symbols": [
+        "SIDU",
+        "MENS",
+        "AIRE",
+        "HXHX",
+        "CMCT",
+        "CETX"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "trades": 21,
+      "pnl": 156.41,
+      "symbols": [
+        "BBLG",
+        "JTAI",
+        "MWG",
+        "TIVC",
+        "CETX",
+        "TRIB",
+        "HIHO",
+        "LNKS",
+        "OPTX",
+        "CTXR"
+      ]
+    },
+    {
+      "date": "2025-12-24",
+      "trades": 10,
+      "pnl": 0.24,
+      "symbols": [
+        "AMCI",
+        "SOBR",
+        "INDP",
+        "DRMA"
+      ]
+    },
+    {
+      "date": "2025-12-25",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-12-26",
+      "trades": 16,
+      "pnl": 91.63,
+      "symbols": [
+        "FTEL",
+        "ECDA",
+        "BZFD",
+        "KXIN",
+        "RPGL",
+        "INHD",
+        "AMCI",
+        "ASPC",
+        "CANF"
+      ]
+    },
+    {
+      "date": "2025-12-27",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2025-12-28",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

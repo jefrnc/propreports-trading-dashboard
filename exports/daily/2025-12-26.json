@@ -1,5 +1,5 @@
 {
-  "exportDate": "2025-12-27 15:04:55",
+  "exportDate": "2025-12-28 03:37:50",
   "account": "ZI*******64",
   "date": "2025-12-26",
   "trades": [
@@ -300,19 +300,19 @@
     "winningTrades": 13,
     "losingTrades": 3,
     "symbols": [
-      "KXIN",
       "FTEL",
-      "CANF",
-      "INHD",
-      "RPGL",
+      "ECDA",
       "BZFD",
-      "ASPC",
+      "KXIN",
+      "RPGL",
+      "INHD",
       "AMCI",
-      "ECDA"
+      "ASPC",
+      "CANF"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2025-12-27 15:04:55"
+    "processedAt": "2025-12-28 03:37:50"
   }
 }
