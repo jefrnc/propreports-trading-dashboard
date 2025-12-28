@@ -1,5 +1,5 @@
 {
-  "generateDate": "2025-12-28 03:37:51",
+  "generateDate": "2025-12-28 15:05:11",
   "weekPeriod": "2025-12-22 to 2025-12-28",
   "weekNumber": 52,
   "year": 2025,
@@ -217,15 +217,15 @@
       "trades": 16,
       "pnl": 91.63,
       "symbols": [
-        "FTEL",
-        "ECDA",
+        "AMCI",
         "BZFD",
+        "ECDA",
+        "CANF",
+        "INHD",
+        "FTEL",
         "KXIN",
         "RPGL",
-        "INHD",
-        "AMCI",
-        "ASPC",
-        "CANF"
+        "ASPC"
       ]
     },
     {
