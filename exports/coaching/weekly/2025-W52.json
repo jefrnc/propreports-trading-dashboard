@@ -1,0 +1,21 @@
+{
+  "period": "Week 52, 2025",
+  "week_period": "2025-12-22 to 2025-12-28",
+  "generated_at": "2025-12-29T09:10:28.616861",
+  "performance_summary": {
+    "net_pnl": 281.06,
+    "total_trades": 60,
+    "win_rate": 0.8,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "** Set a minimum number of trades per day to enhance market engagement and consistency.\n2. **Refine Risk Management:** Review and adjust your risk management strategies to ensure that no single trade can significantly harm your account, especially on volatile assets.\n3. **Analyze Trade Decisions:** Conduct a detailed review of trades, especially the high loss, to identify any patterns or mistakes in decision-making that can be corrected.",
+    "psychological_insights": "** With an 80% win rate, it's vital to maintain focus and not let wins lead to overconfidence, which can skew trade decisions. \n- **Handling Drawdowns:** The two consecutive losses indicate that you may need to solidify your strategy for handling drawdowns more effectively without impacting your trading psychology.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
