@@ -102,17 +102,22 @@
       "trades": 15,
       "pnl": 48.16,
       "winRate": 0
+    },
+    "2025-12-30": {
+      "trades": 12,
+      "pnl": 47.34,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 292,
-    "totalPnL": 730.64,
-    "winRate": 76.02739726027397,
+    "totalTrades": 304,
+    "totalPnL": 777.98,
+    "winRate": 76.31578947368422,
     "bestDay": "2025-12-15",
     "bestDayPnL": 295.85,
     "worstDay": "2025-12-01",
     "worstDayPnL": -267.47,
-    "tradingDays": 20
+    "tradingDays": 21
   },
   "topWinners": [
     {
