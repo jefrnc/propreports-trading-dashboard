@@ -19,10 +19,10 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 1 (partial)** | 27 | **+$95.50** | 74.1% |
+| **Week 1 (partial)** | 55 | **-$11.44** | 70.9% |
 | Week 52 | 60 | **+$281.06** | 80.0% |
 | **January (partial)** | 0 | $0.00 | 0% |
-| December | 304 | **+$711.53** | 77.3% |
+| December | 332 | **+$601.96** | 76.5% |
 
 #### 📈 Yearly Projection
 
@@ -33,7 +33,7 @@ This is a live example of:
 
 *Based on current performance with 364 days remaining*
 
-*Last updated: 2026-01-01 03:39 UTC*
+*Last updated: 2026-01-01 15:05 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
