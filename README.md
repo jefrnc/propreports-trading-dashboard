@@ -21,58 +21,42 @@ This is a live example of:
 |--------|--------|-----|----------|
 | **Week 1 (partial)** | 27 | **+$95.50** | 74.1% |
 | Week 52 | 60 | **+$281.06** | 80.0% |
-| **December (partial)** | 304 | **+$777.98** | 77.3% |
-| November | 357 | **+$937.21** | 73.1% |
+| **January (partial)** | 0 | $0.00 | 0% |
+| December | 304 | **+$711.53** | 77.3% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 2,371 | 2,371 |
-| **P&L** | **+$626.68** | **+$626.68** |
+| **Trades** | 0 | 0 |
+| **P&L** | $0.00 | $0.00 |
 
-*Based on current performance with 0 days remaining*
+*Based on current performance with 364 days remaining*
 
-*Last updated: 2025-12-31 15:05 UTC*
+*Last updated: 2026-01-01 03:39 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
-## 📅 2025 Trading Calendar
+## 📅 2026 Trading Calendar
 
-![Trading Calendar](.github/assets/calendar-2025.svg)
+![Trading Calendar](.github/assets/calendar-2026.svg)
 
 ### Legend
 🟩 Profit Day | 🟨 Break Even | 🟥 Loss Day | ⬜ No Trades
 
-### 📊 2025 Statistics
+### 📊 2026 Statistics
 
 | Metric | Value |
 |--------|-------|
-| **Total Trading Days** | 146 |
-| **Total Trades** | 2,554 |
-| **Total P&L** | $439.29 |
-| **Win Rate** | 72.6% |
-| **Profit Days** | 106 (72.6%) |
-| **Loss Days** | 40 (27.4%) |
-| **Best Day** | $442.02 (2025-09-22) |
-| **Worst Day** | $-1017.36 (2025-09-18) |
-| **Daily Average** | $3.01 |
-
-### 📈 Monthly Breakdown
-
-| Month | Trades | P&L | Win Rate |
-|-------|--------|-----|----------|
-| January | 0 | **$0.00** | 0.0% |
-| February | 0 | **$0.00** | 0.0% |
-| March | 0 | **$0.00** | 0.0% |
-| April | 0 | **$0.00** | 0.0% |
-| May | 74 | **$-115.97** | 66.2% |
-| June | 117 | **$-56.20** | 59.0% |
-| July | 246 | **$+253.84** | 71.1% |
-| August | 383 | **$+56.19** | 67.4% |
-| September | 428 | **$-993.38** | 74.3% |
-| October | 462 | **$-232.99** | 75.5% |
-| November | 357 | **$+937.21** | 73.1% |
+| **Total Trading Days** | 0 |
+| **Total Trades** | 0 |
+| **Total P&L** | $0.00 |
+| **Win Rate** | 0.0% |
+| **Profit Days** | 0 (0.0%) |
+| **Loss Days** | 0 (0.0%) |
+| **Best Day** | $0.00 (N/A) |
+| **Worst Day** | $0.00 (N/A) |
+| **Daily Average** | $0.00 |
 
 <!-- CALENDAR_END -->
 
