@@ -3,11 +3,11 @@ December 2025
 ==================================================
 
 RESUMEN GENERAL:
-  Total de trades: 304
-  P&L Neto: $711.53
-  Win Rate: 77.3%
-  Profit Factor: 1.28
-  Expectancy: $2.8
+  Total de trades: 332
+  P&L Neto: $601.96
+  Win Rate: 76.5%
+  Profit Factor: 1.21
+  Expectancy: $2.28
 
 DESGLOSE SEMANAL:
   Semana 49: 69 trades, $-26.35, WR: 75.4%
@@ -17,4 +17,4 @@ DESGLOSE SEMANAL:
 
 RECOMENDACIONES:
   🔴 [Risk Management] Drawdown elevado (34.4%). Implementar stops más ajustados.
-  🔵 [Symbol Selection] Revisar estrategia para: OCG, FLYE, QCLS (pérdidas consistentes)
+  🔵 [Symbol Selection] Revisar estrategia para: OCG, FLYE, INBS (pérdidas consistentes)

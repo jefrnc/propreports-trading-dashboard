@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-01 03:39:04",
+  "exportDate": "2026-01-01 15:05:23",
   "account": "ZI*******64",
   "date": "2025-12-29",
   "trades": [
@@ -282,16 +282,16 @@
     "winningTrades": 10,
     "losingTrades": 5,
     "symbols": [
-      "XHLD",
-      "WOK",
       "BNAI",
-      "TDIC",
+      "XHLD",
       "DRMA",
-      "RPGL"
+      "TDIC",
+      "RPGL",
+      "WOK"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-01 03:39:04"
+    "processedAt": "2026-01-01 15:05:23"
   }
 }
