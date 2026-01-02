@@ -31,9 +31,9 @@ This is a live example of:
 | **Trades** | 0 | 0 |
 | **P&L** | $0.00 | $0.00 |
 
-*Based on current performance with 364 days remaining*
+*Based on current performance with 363 days remaining*
 
-*Last updated: 2026-01-01 15:05 UTC*
+*Last updated: 2026-01-02 03:36 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
