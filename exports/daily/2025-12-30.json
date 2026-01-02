@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-02 03:36:21",
+  "exportDate": "2026-01-02 15:05:36",
   "account": "ZI*******64",
   "date": "2025-12-30",
   "trades": [
@@ -228,15 +228,15 @@
     "winningTrades": 10,
     "losingTrades": 2,
     "symbols": [
-      "SOPA",
-      "EKSO",
       "AEHL",
+      "EKSO",
       "ASTI",
+      "SOPA",
       "AMIX"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-02 03:36:21"
+    "processedAt": "2026-01-02 15:05:36"
   }
 }
