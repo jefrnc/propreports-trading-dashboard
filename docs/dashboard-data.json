@@ -1,8 +1,13 @@
 {
-  "lastUpdate": "2026-01-01 15:05:39",
+  "lastUpdate": "2026-01-02 03:36:22",
   "year": 2026,
   "yearData": {
     "2026-01-01": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
+    },
+    "2026-01-02": {
       "trades": 0,
       "pnl": 0,
       "winRate": 0
