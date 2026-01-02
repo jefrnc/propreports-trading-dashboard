@@ -1,0 +1,20 @@
+{
+  "period": "December 2025",
+  "generated_at": "2026-01-02T09:03:39.789000",
+  "performance_summary": {
+    "net_pnl": 601.96,
+    "total_trades": 332,
+    "win_rate": 0.7651,
+    "profit_factor": 1.21
+  },
+  "coaching": {
+    "overall_performance": "332, which indicates an active trading month.\n- **Net P&L**: $601.96, showing a positive return but relatively modest given the number of trades.\n- **Win Rate**: 76.5%, which is a strong indicator of skill and strategy effectiveness.\n- **Profit Factor**: 1.21, suggesting that for every dollar lost, $1.21 is gained. However, this is slightly below the ideal threshold of 1.5.\n- **Average Win vs. Average Loss**: Significant disparity, with average wins at $17.09 and average losses at $-45.94. This indicates that while winning trades are frequent, losing trades are more substantial.",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Evaluate your stop-loss placement. Ensure that losses are capped at a level that is manageable relative to your overall portfolio.\n- **Diversification**: Look into diversifying your trades across different symbols or sectors to reduce concentrated risk.\n- **Max Consecutive Losses**: Having a maximum of three consecutive losses indicates that drawdowns can happen quickly. Implement a rule to pause trading or reassess strategy after consecutive losses.",
+    "psychological_insights": "High win rates may lead to overconfidence. Ensure that you are not ignoring the potential for losses due to past successes.\n- **Dealing with Losses**: The emotional impact of larger losses can lead to revenge trading or poor decision-making. Develop a plan for emotional resilience during losing streaks.\n- **Reflect and Adapt**: Maintain a trading journal to reflect on trades, decisions made, and emotional states to foster learning and growth.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
