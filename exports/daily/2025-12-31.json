@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-02 15:05:36",
+  "exportDate": "2026-01-03 03:33:41",
   "account": "ZI*******64",
   "date": "2025-12-31",
   "trades": [
@@ -516,16 +516,16 @@
     "winningTrades": 19,
     "losingTrades": 9,
     "symbols": [
-      "SIDU",
       "ANGH",
-      "WFF",
       "INBS",
+      "DJT",
+      "SIDU",
       "WTO",
-      "DJT"
+      "WFF"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-02 15:05:36"
+    "processedAt": "2026-01-03 03:33:41"
   }
 }
