@@ -1,0 +1,241 @@
+{
+  "generateDate": "2026-01-04 03:38:35",
+  "weekPeriod": "2025-12-29 to 2026-01-04",
+  "weekNumber": 1,
+  "year": 2025,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 65,
+    "grossPnL": 118.12,
+    "totalCommissions": 29.16,
+    "netPnL": 88.96,
+    "avgDailyPnL": 12.71,
+    "avgTradePerDay": 9.29,
+    "winningTrades": 48,
+    "losingTrades": 17,
+    "winRate": 0.7385,
+    "avgWin": 15.81,
+    "avgLoss": -37.68,
+    "profitFactor": 1.18
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2025-12-31",
+      "symbol": "INBS",
+      "pnl": 192.9
+    },
+    "worstTrade": {
+      "date": "2025-12-31",
+      "symbol": "INBS",
+      "pnl": -290.79
+    },
+    "bestDay": {
+      "date": "2026-01-02",
+      "trades": 10,
+      "pnl": 105.79,
+      "symbols": [
+        "LVRO",
+        "PRZO",
+        "PAVS",
+        "SDOT",
+        "GPUS",
+        "PAPL"
+      ]
+    },
+    "worstDay": {
+      "date": "2025-12-31",
+      "trades": 28,
+      "pnl": -106.94,
+      "symbols": [
+        "SIDU",
+        "INBS",
+        "WFF",
+        "DJT",
+        "ANGH",
+        "WTO"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 7,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "WTO",
+        {
+          "count": 3,
+          "pnl": 58.6,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "PAVS",
+        {
+          "count": 4,
+          "pnl": 56.1,
+          "win_rate": 0.75
+        }
+      ],
+      [
+        "AMIX",
+        {
+          "count": 1,
+          "pnl": 33.07,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "DRMA",
+        {
+          "count": 2,
+          "pnl": 32.53,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SDOT",
+        {
+          "count": 1,
+          "pnl": 22.0,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 4,
+        "pnl": 41.669999999999995
+      },
+      "09": {
+        "count": 10,
+        "pnl": 23.81
+      },
+      "11": {
+        "count": 9,
+        "pnl": -359.51000000000005
+      },
+      "12": {
+        "count": 4,
+        "pnl": 14.850000000000001
+      },
+      "14": {
+        "count": 4,
+        "pnl": 174.46
+      },
+      "15": {
+        "count": 6,
+        "pnl": 34.45
+      },
+      "16": {
+        "count": 15,
+        "pnl": 280.78999999999996
+      },
+      "10": {
+        "count": 6,
+        "pnl": 52.57
+      },
+      "13": {
+        "count": 5,
+        "pnl": -165.17000000000002
+      },
+      "17": {
+        "count": 1,
+        "pnl": 20.0
+      },
+      "18": {
+        "count": 1,
+        "pnl": 0.2
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 24,
+        "pnl": 22.67
+      },
+      "15-60min": {
+        "count": 17,
+        "pnl": -232.57000000000002
+      },
+      "5-15min": {
+        "count": 15,
+        "pnl": -26.020000000000014
+      },
+      ">60min": {
+        "count": 9,
+        "pnl": 354.03999999999996
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2025-12-29",
+      "trades": 15,
+      "pnl": 48.16,
+      "symbols": [
+        "BNAI",
+        "XHLD",
+        "DRMA",
+        "TDIC",
+        "RPGL",
+        "WOK"
+      ]
+    },
+    {
+      "date": "2025-12-30",
+      "trades": 12,
+      "pnl": 47.34,
+      "symbols": [
+        "AEHL",
+        "EKSO",
+        "ASTI",
+        "SOPA",
+        "AMIX"
+      ]
+    },
+    {
+      "date": "2025-12-31",
+      "trades": 28,
+      "pnl": -106.94,
+      "symbols": [
+        "SIDU",
+        "INBS",
+        "WFF",
+        "DJT",
+        "ANGH",
+        "WTO"
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-01-02",
+      "trades": 10,
+      "pnl": 105.79,
+      "symbols": [
+        "LVRO",
+        "PRZO",
+        "PAVS",
+        "SDOT",
+        "GPUS",
+        "PAPL"
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-01-04",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
