@@ -1,0 +1,23 @@
+{
+  "period": "Week 1, 2025",
+  "week_period": "2025-12-29 to 2026-01-04",
+  "generated_at": "2026-01-05T09:11:29.075353",
+  "performance_summary": {
+    "net_pnl": 88.96,
+    "total_trades": 65,
+    "win_rate": 0.7385,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [
+      "Specific Mistakes or Areas to Improve:**\n- **High Impact of Worst Trade:** The worst trade resulted in a substantial loss, which suggests a need to re-evaluate your strategy on this particular asset or during volatile market conditions.\n- **Infrequent Trading:** With an average of 0.0 trades per day, it could indicate either hesitancy or missed opportunities. Increasing the frequency of well-analyzed trades could enhance profitability."
+    ],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "**\n1. **Risk Management:** Implement tighter stop-loss orders to minimize the impact of losing trades.\n2. **Trade Analysis:** Conduct a thorough review of your trades, especially the worst performer, to refine your strategy.\n3. **Trading Frequency:** Work on identifying and executing more trading opportunities to increase your average trades per day, taking care not to compromise the quality of your setups.",
+    "psychological_insights": "**\n- The occurrence of 3 consecutive losses indicates potential emotional strain. It's crucial to remain detached from individual trades to avoid chasing losses or overtrading. Confidence in your strategy must be balanced with discipline.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
