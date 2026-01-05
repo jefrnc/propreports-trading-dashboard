@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-01-04 15:05:03",
+  "generateDate": "2026-01-05 03:41:11",
   "weekPeriod": "2025-12-29 to 2026-01-04",
   "weekNumber": 1,
   "year": 2025,
@@ -35,12 +35,12 @@
       "trades": 10,
       "pnl": 105.79,
       "symbols": [
-        "SDOT",
-        "GPUS",
-        "LVRO",
-        "PRZO",
         "PAPL",
-        "PAVS"
+        "SDOT",
+        "PAVS",
+        "GPUS",
+        "PRZO",
+        "LVRO"
       ]
     },
     "worstDay": {
@@ -217,12 +217,12 @@
       "trades": 10,
       "pnl": 105.79,
       "symbols": [
-        "SDOT",
-        "GPUS",
-        "LVRO",
-        "PRZO",
         "PAPL",
-        "PAVS"
+        "SDOT",
+        "PAVS",
+        "GPUS",
+        "PRZO",
+        "LVRO"
       ]
     },
     {
