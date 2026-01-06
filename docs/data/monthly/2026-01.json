@@ -7,19 +7,42 @@
       "trades": 10,
       "pnl": 105.79,
       "winRate": 0
+    },
+    "2026-01-05": {
+      "trades": 12,
+      "pnl": 77.08,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 10,
-    "totalPnL": 105.79,
-    "winRate": 80.0,
+    "totalTrades": 22,
+    "totalPnL": 182.87,
+    "winRate": 72.72727272727273,
     "bestDay": "2026-01-02",
     "bestDayPnL": 105.79,
-    "worstDay": "2026-01-02",
-    "worstDayPnL": 105.79,
-    "tradingDays": 1
+    "worstDay": "2026-01-05",
+    "worstDayPnL": 77.08,
+    "tradingDays": 2
   },
   "topWinners": [
+    {
+      "date": "2026-01-05",
+      "opened": "01/05/26 10:03:41",
+      "closed": "10:08:57",
+      "held": "00:05:16",
+      "symbol": "TMDE",
+      "type": "Short",
+      "entry": 1.2423,
+      "exit": 1.1248,
+      "size": 600.0,
+      "pnl": 70.51,
+      "commission": 1.8,
+      "net": 68.03,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 600.0,
+      "price": 1.2423
+    },
     {
       "date": "2026-01-02",
       "opened": "01/02/26 10:43:57",
@@ -91,24 +114,6 @@
       "side": "SELL",
       "quantity": 480.0,
       "price": 1.1429
-    },
-    {
-      "date": "2026-01-02",
-      "opened": "01/02/26 12:12:32",
-      "closed": "12:24:49",
-      "held": "00:12:17",
-      "symbol": "PAPL",
-      "type": "Short",
-      "entry": 2.1025,
-      "exit": 1.835,
-      "size": 40.0,
-      "pnl": 10.7,
-      "commission": 0.12,
-      "net": 10.69,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 40.0,
-      "price": 2.1025
     }
   ],
   "topLosers": [
@@ -131,22 +136,76 @@
       "price": 2.03
     },
     {
-      "date": "2026-01-02",
-      "opened": "01/02/26 16:07:54",
-      "closed": "16:11:32",
-      "held": "00:03:38",
-      "symbol": "GPUS",
+      "date": "2026-01-05",
+      "opened": "01/05/26 10:11:30",
+      "closed": "10:19:02",
+      "held": "00:07:32",
+      "symbol": "MNTS",
       "type": "Short",
-      "entry": 0.3011,
-      "exit": 0.2976,
+      "entry": 9.085,
+      "exit": 9.2799,
+      "size": 40.0,
+      "pnl": -7.8,
+      "commission": 0.12,
+      "net": -8.02,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 40.0,
+      "price": 9.085
+    },
+    {
+      "date": "2026-01-05",
+      "opened": "01/05/26 08:43:46",
+      "closed": "08:53:00",
+      "held": "00:09:14",
+      "symbol": "VRME",
+      "type": "Short",
+      "entry": 1.0029,
+      "exit": 1.09,
       "size": 80.0,
-      "pnl": 0.28,
+      "pnl": -6.97,
       "commission": 0.24,
-      "net": -0.14,
+      "net": -7.2,
       "account": "ZIMDASE9C64",
       "side": "SELL",
       "quantity": 80.0,
-      "price": 0.3011
+      "price": 1.0029
+    },
+    {
+      "date": "2026-01-05",
+      "opened": "01/05/26 09:32:33",
+      "closed": "09:52:29",
+      "held": "00:19:56",
+      "symbol": "VRME",
+      "type": "Short",
+      "entry": 0.9818,
+      "exit": 1.1,
+      "size": 20.0,
+      "pnl": -2.36,
+      "commission": 0.06,
+      "net": -2.49,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 20.0,
+      "price": 0.9818
+    },
+    {
+      "date": "2026-01-05",
+      "opened": "01/05/26 07:26:13",
+      "closed": "07:29:31",
+      "held": "00:03:18",
+      "symbol": "RDHL",
+      "type": "Short",
+      "entry": 1.4303,
+      "exit": 1.4433,
+      "size": 30.0,
+      "pnl": -0.39,
+      "commission": 0.09,
+      "net": -0.4,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 30.0,
+      "price": 1.4303
     }
   ]
 }
