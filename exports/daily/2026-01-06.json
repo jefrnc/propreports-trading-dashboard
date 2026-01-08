@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-08 03:36:06",
+  "exportDate": "2026-01-08 15:07:21",
   "account": "ZI*******64",
   "date": "2026-01-06",
   "trades": [
@@ -156,17 +156,17 @@
     "winningTrades": 7,
     "losingTrades": 1,
     "symbols": [
-      "ELAB",
-      "CYCN",
-      "RNAZ",
       "SLV",
+      "ELAB",
       "EVTV",
       "BFRG",
-      "OPTT"
+      "OPTT",
+      "CYCN",
+      "RNAZ"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-08 03:36:06"
+    "processedAt": "2026-01-08 15:07:21"
   }
 }

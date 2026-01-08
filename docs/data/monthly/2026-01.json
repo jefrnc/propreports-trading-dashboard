@@ -17,17 +17,22 @@
       "trades": 8,
       "pnl": 96.82,
       "winRate": 0
+    },
+    "2026-01-07": {
+      "trades": 5,
+      "pnl": -16.08,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 30,
-    "totalPnL": 279.69,
-    "winRate": 76.66666666666667,
+    "totalTrades": 35,
+    "totalPnL": 263.61,
+    "winRate": 71.42857142857143,
     "bestDay": "2026-01-02",
     "bestDayPnL": 105.79,
-    "worstDay": "2026-01-05",
-    "worstDayPnL": 77.08,
-    "tradingDays": 3
+    "worstDay": "2026-01-07",
+    "worstDayPnL": -16.08,
+    "tradingDays": 4
   },
   "topWinners": [
     {
@@ -123,6 +128,24 @@
   ],
   "topLosers": [
     {
+      "date": "2026-01-07",
+      "opened": "01/07/26 16:03:08",
+      "closed": "16:14:21",
+      "held": "00:11:13",
+      "symbol": "NVVE",
+      "type": "Short",
+      "entry": 3.4713,
+      "exit": 3.64,
+      "size": 80.0,
+      "pnl": -13.5,
+      "commission": 0.24,
+      "net": -13.61,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 80.0,
+      "price": 3.4713
+    },
+    {
       "date": "2026-01-02",
       "opened": "01/02/26 10:14:12",
       "closed": "10:43:40",
@@ -177,40 +200,22 @@
       "price": 1.0029
     },
     {
-      "date": "2026-01-06",
-      "opened": "01/06/26 07:35:52",
-      "closed": "07:49:11",
-      "held": "00:13:19",
-      "symbol": "BFRG",
+      "date": "2026-01-07",
+      "opened": "01/07/26 16:02:00",
+      "closed": "16:07:36",
+      "held": "00:05:36",
+      "symbol": "LUCY",
       "type": "Short",
-      "entry": 1.1175,
-      "exit": 1.1467,
-      "size": 120.0,
-      "pnl": -3.5,
-      "commission": 0.36,
-      "net": -3.76,
+      "entry": 1.7564,
+      "exit": 1.81,
+      "size": 110.0,
+      "pnl": -5.9,
+      "commission": 0.33,
+      "net": -6.22,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 120.0,
-      "price": 1.1175
-    },
-    {
-      "date": "2026-01-05",
-      "opened": "01/05/26 09:32:33",
-      "closed": "09:52:29",
-      "held": "00:19:56",
-      "symbol": "VRME",
-      "type": "Short",
-      "entry": 0.9818,
-      "exit": 1.1,
-      "size": 20.0,
-      "pnl": -2.36,
-      "commission": 0.06,
-      "net": -2.49,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 20.0,
-      "price": 0.9818
+      "quantity": 110.0,
+      "price": 1.7564
     }
   ]
 }
