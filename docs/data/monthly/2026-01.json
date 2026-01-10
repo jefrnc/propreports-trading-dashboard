@@ -27,17 +27,22 @@
       "trades": 25,
       "pnl": 303.32,
       "winRate": 0
+    },
+    "2026-01-09": {
+      "trades": 6,
+      "pnl": 41.08,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 60,
-    "totalPnL": 566.9300000000001,
-    "winRate": 70.0,
+    "totalTrades": 66,
+    "totalPnL": 608.0100000000001,
+    "winRate": 72.72727272727273,
     "bestDay": "2026-01-08",
     "bestDayPnL": 303.32,
     "worstDay": "2026-01-07",
     "worstDayPnL": -16.08,
-    "tradingDays": 5
+    "tradingDays": 6
   },
   "topWinners": [
     {
