@@ -1,0 +1,231 @@
+{
+  "generateDate": "2026-01-11 03:38:17",
+  "weekPeriod": "2026-01-05 to 2026-01-11",
+  "weekNumber": 2,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 56,
+    "grossPnL": 514.71,
+    "totalCommissions": 15.87,
+    "netPnL": 498.84,
+    "avgDailyPnL": 71.26,
+    "avgTradePerDay": 8.0,
+    "winningTrades": 40,
+    "losingTrades": 16,
+    "winRate": 0.7143,
+    "avgWin": 18.47,
+    "avgLoss": -14.01,
+    "profitFactor": 3.3
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-01-08",
+      "symbol": "SXTC",
+      "pnl": 388.39
+    },
+    "worstTrade": {
+      "date": "2026-01-08",
+      "symbol": "FLYX",
+      "pnl": -68.04
+    },
+    "bestDay": {
+      "date": "2026-01-08",
+      "trades": 25,
+      "pnl": 303.32,
+      "symbols": [
+        "SXTC",
+        "ACON",
+        "CETX",
+        "FLYX",
+        "MNTS",
+        "RGC",
+        "NVVE",
+        "JTAI",
+        "CGTL"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-01-07",
+      "trades": 5,
+      "pnl": -16.08,
+      "symbols": [
+        "NVVE",
+        "LUCY"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 7,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "SXTC",
+        {
+          "count": 1,
+          "pnl": 388.39,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "TMDE",
+        {
+          "count": 1,
+          "pnl": 70.51,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SLV",
+        {
+          "count": 2,
+          "pnl": 34.6,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "OPTT",
+        {
+          "count": 1,
+          "pnl": 26.25,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "PAVS",
+        {
+          "count": 2,
+          "pnl": 22.2,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 9,
+        "pnl": 37.300000000000004
+      },
+      "08": {
+        "count": 14,
+        "pnl": 21.000000000000004
+      },
+      "09": {
+        "count": 9,
+        "pnl": 25.909999999999997
+      },
+      "10": {
+        "count": 8,
+        "pnl": 461.01
+      },
+      "15": {
+        "count": 4,
+        "pnl": 3.5700000000000003
+      },
+      "16": {
+        "count": 10,
+        "pnl": -43.10000000000001
+      },
+      "11": {
+        "count": 2,
+        "pnl": 9.02
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 14,
+        "pnl": 33.13000000000001
+      },
+      "15-60min": {
+        "count": 17,
+        "pnl": -8.420000000000003
+      },
+      "5-15min": {
+        "count": 16,
+        "pnl": 30.14000000000001
+      },
+      ">60min": {
+        "count": 9,
+        "pnl": 459.86
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-01-05",
+      "trades": 12,
+      "pnl": 77.08,
+      "symbols": [
+        "MNTS",
+        "VRME",
+        "SOWG",
+        "RDHL",
+        "CYCN",
+        "TMDE"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "trades": 8,
+      "pnl": 96.82,
+      "symbols": [
+        "ELAB",
+        "EVTV",
+        "SLV",
+        "OPTT",
+        "CYCN",
+        "RNAZ",
+        "BFRG"
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "trades": 5,
+      "pnl": -16.08,
+      "symbols": [
+        "NVVE",
+        "LUCY"
+      ]
+    },
+    {
+      "date": "2026-01-08",
+      "trades": 25,
+      "pnl": 303.32,
+      "symbols": [
+        "SXTC",
+        "ACON",
+        "CETX",
+        "FLYX",
+        "MNTS",
+        "RGC",
+        "NVVE",
+        "JTAI",
+        "CGTL"
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "trades": 6,
+      "pnl": 41.08,
+      "symbols": [
+        "GP",
+        "PAVS",
+        "MLTX",
+        "OPAD",
+        "ROLR"
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-01-11",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

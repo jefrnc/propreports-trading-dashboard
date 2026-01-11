@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-10 15:05:06",
+  "exportDate": "2026-01-11 03:38:16",
   "account": "ZI*******64",
   "date": "2026-01-08",
   "trades": [
@@ -462,19 +462,19 @@
     "winningTrades": 17,
     "losingTrades": 8,
     "symbols": [
-      "MNTS",
       "SXTC",
-      "FLYX",
-      "CETX",
       "ACON",
-      "CGTL",
-      "NVVE",
+      "CETX",
+      "FLYX",
+      "MNTS",
       "RGC",
-      "JTAI"
+      "NVVE",
+      "JTAI",
+      "CGTL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-10 15:05:06"
+    "processedAt": "2026-01-11 03:38:16"
   }
 }
