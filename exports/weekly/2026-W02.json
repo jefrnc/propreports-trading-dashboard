@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-01-11 03:38:17",
+  "generateDate": "2026-01-11 15:05:04",
   "weekPeriod": "2026-01-05 to 2026-01-11",
   "weekNumber": 2,
   "year": 2026,
@@ -35,15 +35,15 @@
       "trades": 25,
       "pnl": 303.32,
       "symbols": [
-        "SXTC",
+        "CGTL",
         "ACON",
-        "CETX",
-        "FLYX",
-        "MNTS",
-        "RGC",
-        "NVVE",
         "JTAI",
-        "CGTL"
+        "CETX",
+        "MNTS",
+        "NVVE",
+        "SXTC",
+        "RGC",
+        "FLYX"
       ]
     },
     "worstDay": {
@@ -192,15 +192,15 @@
       "trades": 25,
       "pnl": 303.32,
       "symbols": [
-        "SXTC",
+        "CGTL",
         "ACON",
-        "CETX",
-        "FLYX",
-        "MNTS",
-        "RGC",
-        "NVVE",
         "JTAI",
-        "CGTL"
+        "CETX",
+        "MNTS",
+        "NVVE",
+        "SXTC",
+        "RGC",
+        "FLYX"
       ]
     },
     {
@@ -208,11 +208,11 @@
       "trades": 6,
       "pnl": 41.08,
       "symbols": [
-        "GP",
+        "OPAD",
+        "ROLR",
         "PAVS",
         "MLTX",
-        "OPAD",
-        "ROLR"
+        "GP"
       ]
     },
     {
