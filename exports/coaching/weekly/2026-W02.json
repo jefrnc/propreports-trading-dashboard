@@ -1,0 +1,21 @@
+{
+  "period": "Week 2, 2026",
+  "week_period": "2026-01-05 to 2026-01-11",
+  "generated_at": "2026-01-12T09:11:27.781093",
+  "performance_summary": {
+    "net_pnl": 498.84,
+    "total_trades": 56,
+    "win_rate": 0.7143,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Set a goal for the number of trades to execute, focusing on consistent market engagement.\n2. **Post-Trade Analysis**: Develop a routine to analyze all trades to learn from both wins and losses.\n3. **Risk Management Strategy**: Reassess your risk exposure on each trade to ensure that losses do not significantly impact your overall performance.",
+    "psychological_insights": "#### 6. Psychological/Discipline Observations\n- The ability to execute 7 consecutive wins suggests strong discipline. However, the occurrence of 2 consecutive losses indicates a potential emotional response. Work on maintaining composure and sticking to your trading plan during losses.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
