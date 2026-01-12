@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-01-11 15:05:04",
+  "generateDate": "2026-01-12 03:38:51",
   "weekPeriod": "2026-01-05 to 2026-01-11",
   "weekNumber": 2,
   "year": 2026,
@@ -208,11 +208,11 @@
       "trades": 6,
       "pnl": 41.08,
       "symbols": [
-        "OPAD",
         "ROLR",
         "PAVS",
-        "MLTX",
-        "GP"
+        "OPAD",
+        "GP",
+        "MLTX"
       ]
     },
     {
