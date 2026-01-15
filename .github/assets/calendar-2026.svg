@@ -47,8 +47,8 @@
 <rect x="56" y="33" width="11" height="11" fill="#f44336" class="day" data-date="2026-01-13" data-trades="29" data-pnl="-235.03">
 <title>2026-01-13: 29 trades, P&L: $-235.03</title>
 </rect>
-<rect x="56" y="46" width="11" height="11" fill="#ebedf0" class="day" data-date="2026-01-14" data-trades="0" data-pnl="0.00">
-<title>2026-01-14: 0 trades, P&L: $0.00</title>
+<rect x="56" y="46" width="11" height="11" fill="#239a3b" class="day" data-date="2026-01-14" data-trades="8" data-pnl="50.20">
+<title>2026-01-14: 8 trades, P&L: $50.20</title>
 </rect>
 <rect x="56" y="59" width="11" height="11" fill="#ebedf0" class="day" data-date="2026-01-15" data-trades="0" data-pnl="0.00">
 <title>2026-01-15: 0 trades, P&L: $0.00</title>
