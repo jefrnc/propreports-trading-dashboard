@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-14 15:07:38",
+  "exportDate": "2026-01-15 03:36:57",
   "account": "ZI*******64",
   "date": "2026-01-13",
   "trades": [
@@ -535,19 +535,19 @@
     "losingTrades": 7,
     "symbols": [
       "AHMA",
-      "YYAI",
-      "XAIR",
-      "EDBL",
-      "SPRC",
+      "GELS",
       "ATON",
-      "EVTV",
-      "BOXL",
       "SLV",
-      "GELS"
+      "SPRC",
+      "EDBL",
+      "XAIR",
+      "YYAI",
+      "BOXL",
+      "EVTV"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-14 15:07:38"
+    "processedAt": "2026-01-15 03:36:57"
   }
 }
