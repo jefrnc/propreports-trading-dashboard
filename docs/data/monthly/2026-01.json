@@ -47,17 +47,22 @@
       "trades": 8,
       "pnl": 50.2,
       "winRate": 0
+    },
+    "2026-01-15": {
+      "trades": 16,
+      "pnl": 143.86,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 117,
-    "totalPnL": 340.8200000000001,
-    "winRate": 68.37606837606837,
+    "totalTrades": 133,
+    "totalPnL": 484.6800000000001,
+    "winRate": 70.67669172932331,
     "bestDay": "2026-01-08",
     "bestDayPnL": 303.32,
     "worstDay": "2026-01-13",
     "worstDayPnL": -235.03,
-    "tradingDays": 9
+    "tradingDays": 10
   },
   "topWinners": [
     {
@@ -115,6 +120,24 @@
       "price": 3.3878
     },
     {
+      "date": "2026-01-15",
+      "opened": "01/15/26 16:43:59",
+      "closed": "17:58:38",
+      "held": "01:14:39",
+      "symbol": "VERO",
+      "type": "Short",
+      "entry": 2.6584,
+      "exit": 2.5932,
+      "size": 910.0,
+      "pnl": 59.25,
+      "commission": 2.73,
+      "net": 58.88,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 910.0,
+      "price": 2.6584
+    },
+    {
       "date": "2026-01-13",
       "opened": "01/13/26 16:17:23",
       "closed": "17:34:36",
@@ -131,24 +154,6 @@
       "side": "SELL",
       "quantity": 1320.0,
       "price": 1.4957
-    },
-    {
-      "date": "2026-01-02",
-      "opened": "01/02/26 10:43:57",
-      "closed": "11:37:29",
-      "held": "00:53:32",
-      "symbol": "PAVS",
-      "type": "Short",
-      "entry": 2.3653,
-      "exit": 2.24,
-      "size": 340.0,
-      "pnl": 42.6,
-      "commission": 1.02,
-      "net": 41.84,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 340.0,
-      "price": 2.3653
     }
   ],
   "topLosers": [

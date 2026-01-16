@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-16 03:36:22",
+  "exportDate": "2026-01-16 15:07:03",
   "account": "ZI*******64",
   "date": "2026-01-14",
   "trades": [
@@ -157,14 +157,14 @@
     "losingTrades": 3,
     "symbols": [
       "FEED",
-      "SLV",
       "JTAI",
+      "SLV",
       "DEVS",
       "EVTV"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-16 03:36:22"
+    "processedAt": "2026-01-16 15:07:03"
   }
 }
