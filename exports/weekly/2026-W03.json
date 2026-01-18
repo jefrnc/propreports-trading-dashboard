@@ -1,0 +1,269 @@
+{
+  "generateDate": "2026-01-18 03:37:22",
+  "weekPeriod": "2026-01-12 to 2026-01-18",
+  "weekNumber": 3,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 86,
+    "grossPnL": -245.87,
+    "totalCommissions": 40.68,
+    "netPnL": -286.55,
+    "avgDailyPnL": -40.94,
+    "avgTradePerDay": 12.29,
+    "winningTrades": 58,
+    "losingTrades": 28,
+    "winRate": 0.6744,
+    "avgWin": 25.02,
+    "avgLoss": -60.62,
+    "profitFactor": 0.86
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-01-16",
+      "symbol": "ICON",
+      "pnl": 472.75
+    },
+    "worstTrade": {
+      "date": "2026-01-16",
+      "symbol": "ICON",
+      "pnl": -329.69
+    },
+    "bestDay": {
+      "date": "2026-01-15",
+      "trades": 16,
+      "pnl": 143.86,
+      "symbols": [
+        "BNKK",
+        "CGTL",
+        "VERO",
+        "CJMB",
+        "AUID",
+        "RAYA",
+        "MLEC"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-01-13",
+      "trades": 29,
+      "pnl": -235.03,
+      "symbols": [
+        "SPRC",
+        "GELS",
+        "AHMA",
+        "XAIR",
+        "BOXL",
+        "ATON",
+        "EDBL",
+        "SLV",
+        "YYAI",
+        "EVTV"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 9,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "ICON",
+        {
+          "count": 3,
+          "pnl": 149.06,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "LCFY",
+        {
+          "count": 4,
+          "pnl": 98.80000000000001,
+          "win_rate": 0.75
+        }
+      ],
+      [
+        "EVTV",
+        {
+          "count": 9,
+          "pnl": 74.49000000000001,
+          "win_rate": 0.5556
+        }
+      ],
+      [
+        "VERO",
+        {
+          "count": 1,
+          "pnl": 59.25,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "GELS",
+        {
+          "count": 2,
+          "pnl": 48.01,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 8,
+        "pnl": -57.96
+      },
+      "09": {
+        "count": 14,
+        "pnl": 97.0
+      },
+      "10": {
+        "count": 7,
+        "pnl": -56.030000000000015
+      },
+      "13": {
+        "count": 5,
+        "pnl": 54.86
+      },
+      "14": {
+        "count": 6,
+        "pnl": -8.079999999999998
+      },
+      "15": {
+        "count": 6,
+        "pnl": -176.64
+      },
+      "16": {
+        "count": 15,
+        "pnl": -73.56000000000006
+      },
+      "08": {
+        "count": 12,
+        "pnl": -56.00999999999996
+      },
+      "11": {
+        "count": 2,
+        "pnl": 18.330000000000002
+      },
+      "17": {
+        "count": 3,
+        "pnl": -412.39
+      },
+      "06": {
+        "count": 3,
+        "pnl": -11.03
+      },
+      "12": {
+        "count": 3,
+        "pnl": -43.11
+      },
+      "18": {
+        "count": 2,
+        "pnl": 478.75
+      }
+    },
+    "tradeDurations": {
+      "15-60min": {
+        "count": 28,
+        "pnl": -7.920000000000016
+      },
+      "5-15min": {
+        "count": 18,
+        "pnl": -508.64
+      },
+      "<5min": {
+        "count": 26,
+        "pnl": -125.41
+      },
+      ">60min": {
+        "count": 14,
+        "pnl": 396.1
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-01-12",
+      "trades": 14,
+      "pnl": -82.36,
+      "symbols": [
+        "LVLU",
+        "ATON",
+        "BDSX",
+        "HGBL",
+        "EVTV",
+        "ZNTL"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "trades": 29,
+      "pnl": -235.03,
+      "symbols": [
+        "SPRC",
+        "GELS",
+        "AHMA",
+        "XAIR",
+        "BOXL",
+        "ATON",
+        "EDBL",
+        "SLV",
+        "YYAI",
+        "EVTV"
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "trades": 8,
+      "pnl": 50.2,
+      "symbols": [
+        "DEVS",
+        "EVTV",
+        "SLV",
+        "FEED",
+        "JTAI"
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "trades": 16,
+      "pnl": 143.86,
+      "symbols": [
+        "BNKK",
+        "CGTL",
+        "VERO",
+        "CJMB",
+        "AUID",
+        "RAYA",
+        "MLEC"
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "trades": 19,
+      "pnl": -152.99,
+      "symbols": [
+        "NPT",
+        "PRFX",
+        "JAGX",
+        "EVTV",
+        "DXF",
+        "ICON",
+        "IVF",
+        "LCFY",
+        "CDT"
+      ]
+    },
+    {
+      "date": "2026-01-17",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-01-18",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
