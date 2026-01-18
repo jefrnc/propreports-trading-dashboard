@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-18 03:37:22",
+  "exportDate": "2026-01-18 15:04:55",
   "account": "ZI*******64",
   "date": "2026-01-15",
   "trades": [
@@ -300,17 +300,17 @@
     "winningTrades": 14,
     "losingTrades": 2,
     "symbols": [
-      "BNKK",
-      "CGTL",
-      "VERO",
       "CJMB",
-      "AUID",
       "RAYA",
-      "MLEC"
+      "BNKK",
+      "MLEC",
+      "VERO",
+      "CGTL",
+      "AUID"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-18 03:37:22"
+    "processedAt": "2026-01-18 15:04:55"
   }
 }
