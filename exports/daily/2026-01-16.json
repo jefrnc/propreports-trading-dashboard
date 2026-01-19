@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-18 15:04:55",
+  "exportDate": "2026-01-19 03:39:02",
   "account": "ZI*******64",
   "date": "2026-01-16",
   "trades": [
@@ -354,19 +354,19 @@
     "winningTrades": 12,
     "losingTrades": 7,
     "symbols": [
-      "LCFY",
-      "JAGX",
-      "IVF",
-      "ICON",
-      "DXF",
-      "PRFX",
-      "CDT",
       "EVTV",
-      "NPT"
+      "NPT",
+      "JAGX",
+      "LCFY",
+      "PRFX",
+      "ICON",
+      "IVF",
+      "CDT",
+      "DXF"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-18 15:04:55"
+    "processedAt": "2026-01-19 03:39:02"
   }
 }
