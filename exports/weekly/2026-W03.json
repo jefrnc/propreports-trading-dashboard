@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-01-19 03:39:02",
+  "generateDate": "2026-01-19 15:07:54",
   "weekPeriod": "2026-01-12 to 2026-01-18",
   "weekNumber": 3,
   "year": 2026,
@@ -242,15 +242,15 @@
       "trades": 19,
       "pnl": -152.99,
       "symbols": [
-        "EVTV",
-        "NPT",
-        "JAGX",
-        "LCFY",
-        "PRFX",
+        "CDT",
+        "DXF",
         "ICON",
         "IVF",
-        "CDT",
-        "DXF"
+        "NPT",
+        "JAGX",
+        "PRFX",
+        "LCFY",
+        "EVTV"
       ]
     },
     {
