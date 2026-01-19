@@ -1,0 +1,23 @@
+{
+  "period": "Week 3, 2026",
+  "week_period": "2026-01-12 to 2026-01-18",
+  "generated_at": "2026-01-19T09:12:46.396679",
+  "performance_summary": {
+    "net_pnl": -286.55,
+    "total_trades": 86,
+    "win_rate": 0.6744,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [
+      "Specific Mistakes or Areas to Improve:**\n   - **Profit and Loss Management:** The disparity between your best ($472.75) and worst ($-329.69) trades indicates a need for better risk management and profit-taking strategies. Consider reassessing your stop-loss and take-profit levels.\n   - **Trade Volume:** An average of 0.0 trades per day suggests inconsistent trading frequency. This could mean missing opportunities or overtrading without a solid plan."
+    ],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "**\n   - **Risk Management:** Prioritize setting and adhering to defined stop-loss and take-profit levels.\n   - **Trade Consistency:** Increase your average trades per day by setting a target number of trades aligned with your strategy. Aim for consistency without forcing trades.\n   - **Performance Analysis:** Conduct a thorough review of your trades to identify common factors in both winning and losing trades. Utilize this analysis to refine your strategies.",
+    "psychological_insights": "**\n   - The ability to maintain a strong win rate could indicate confidence, but the losses suggest a potential lack of discipline in following your trading plan. Ensure you stick to your strategy and avoid revenge trading after losses.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
