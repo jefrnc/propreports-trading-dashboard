@@ -62,17 +62,22 @@
       "trades": 11,
       "pnl": 2.24,
       "winRate": 0
+    },
+    "2026-01-21": {
+      "trades": 23,
+      "pnl": -235.27,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 163,
-    "totalPnL": 333.9300000000001,
-    "winRate": 69.32515337423312,
+    "totalTrades": 186,
+    "totalPnL": 98.66000000000011,
+    "winRate": 65.59139784946237,
     "bestDay": "2026-01-08",
     "bestDayPnL": 303.32,
-    "worstDay": "2026-01-13",
-    "worstDayPnL": -235.03,
-    "tradingDays": 12
+    "worstDay": "2026-01-21",
+    "worstDayPnL": -235.27,
+    "tradingDays": 13
   },
   "topWinners": [
     {
@@ -148,22 +153,22 @@
       "price": 1.4532
     },
     {
-      "date": "2026-01-05",
-      "opened": "01/05/26 10:03:41",
-      "closed": "10:08:57",
-      "held": "00:05:16",
-      "symbol": "TMDE",
+      "date": "2026-01-21",
+      "opened": "01/21/26 13:34:04",
+      "closed": "15:17:20",
+      "held": "01:43:16",
+      "symbol": "PAVM",
       "type": "Short",
-      "entry": 1.2423,
-      "exit": 1.1248,
-      "size": 600.0,
-      "pnl": 70.51,
-      "commission": 1.8,
-      "net": 68.03,
+      "entry": 17.21,
+      "exit": 13.67,
+      "size": 20.0,
+      "pnl": 70.8,
+      "commission": 0.06,
+      "net": 70.74,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 600.0,
-      "price": 1.2423
+      "quantity": 20.0,
+      "price": 17.21
     }
   ],
   "topLosers": [
