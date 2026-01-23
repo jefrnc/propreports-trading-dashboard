@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-23 03:37:00",
+  "exportDate": "2026-01-23 15:08:06",
   "account": "ZI*******64",
   "date": "2026-01-20",
   "trades": [
@@ -210,17 +210,17 @@
     "winningTrades": 7,
     "losingTrades": 4,
     "symbols": [
-      "AVR",
-      "IVF",
-      "IBRX",
-      "IBG",
       "SLGB",
       "TWG",
-      "ERNA"
+      "IVF",
+      "IBRX",
+      "ERNA",
+      "AVR",
+      "IBG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-23 03:37:00"
+    "processedAt": "2026-01-23 15:08:06"
   }
 }
