@@ -1,0 +1,234 @@
+{
+  "generateDate": "2026-01-25 03:40:24",
+  "weekPeriod": "2026-01-19 to 2026-01-25",
+  "weekNumber": 4,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 40,
+    "grossPnL": -188.07,
+    "totalCommissions": 14.59,
+    "netPnL": -202.66,
+    "avgDailyPnL": -28.95,
+    "avgTradePerDay": 5.71,
+    "winningTrades": 21,
+    "losingTrades": 19,
+    "winRate": 0.525,
+    "avgWin": 16.47,
+    "avgLoss": -28.1,
+    "profitFactor": 0.65
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-01-21",
+      "symbol": "PAVM",
+      "pnl": 70.8
+    },
+    "worstTrade": {
+      "date": "2026-01-21",
+      "symbol": "PAVM",
+      "pnl": -72.95
+    },
+    "bestDay": {
+      "date": "2026-01-23",
+      "trades": 3,
+      "pnl": 50.23,
+      "symbols": [
+        "NAMM",
+        "BATL",
+        "LXEH"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-01-21",
+      "trades": 23,
+      "pnl": -235.27,
+      "symbols": [
+        "INTC",
+        "PAVM",
+        "AREB",
+        "VEEE",
+        "NAMM",
+        "SLV",
+        "FRGT"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 5,
+    "maxConsecutiveLosses": 5,
+    "topSymbols": [
+      [
+        "VEEE",
+        {
+          "count": 1,
+          "pnl": 27.22,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "IBG",
+        {
+          "count": 1,
+          "pnl": 21.1,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "TWG",
+        {
+          "count": 2,
+          "pnl": 20.150000000000002,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "FRGT",
+        {
+          "count": 2,
+          "pnl": 13.199999999999996,
+          "win_rate": 0.5
+        }
+      ],
+      [
+        "SLGB",
+        {
+          "count": 1,
+          "pnl": 10.65,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "09": {
+        "count": 15,
+        "pnl": -192.76999999999998
+      },
+      "16": {
+        "count": 9,
+        "pnl": 48.64999999999999
+      },
+      "17": {
+        "count": 4,
+        "pnl": 22.810000000000002
+      },
+      "08": {
+        "count": 1,
+        "pnl": -72.95
+      },
+      "10": {
+        "count": 1,
+        "pnl": 22.2
+      },
+      "11": {
+        "count": 4,
+        "pnl": -19.299999999999997
+      },
+      "12": {
+        "count": 2,
+        "pnl": -20.650000000000002
+      },
+      "13": {
+        "count": 1,
+        "pnl": 70.8
+      },
+      "14": {
+        "count": 1,
+        "pnl": -59.9
+      },
+      "15": {
+        "count": 1,
+        "pnl": 9.5
+      },
+      "18": {
+        "count": 1,
+        "pnl": 3.54
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 12,
+        "pnl": -86.71
+      },
+      "15-60min": {
+        "count": 10,
+        "pnl": -72.85
+      },
+      "5-15min": {
+        "count": 12,
+        "pnl": -169.22
+      },
+      ">60min": {
+        "count": 6,
+        "pnl": 140.70999999999998
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-01-19",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-01-20",
+      "trades": 11,
+      "pnl": 2.24,
+      "symbols": [
+        "SLGB",
+        "TWG",
+        "IVF",
+        "IBRX",
+        "ERNA",
+        "AVR",
+        "IBG"
+      ]
+    },
+    {
+      "date": "2026-01-21",
+      "trades": 23,
+      "pnl": -235.27,
+      "symbols": [
+        "INTC",
+        "PAVM",
+        "AREB",
+        "VEEE",
+        "NAMM",
+        "SLV",
+        "FRGT"
+      ]
+    },
+    {
+      "date": "2026-01-22",
+      "trades": 3,
+      "pnl": -20.64,
+      "symbols": [
+        "DRCT"
+      ]
+    },
+    {
+      "date": "2026-01-23",
+      "trades": 3,
+      "pnl": 50.23,
+      "symbols": [
+        "NAMM",
+        "BATL",
+        "LXEH"
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-01-25",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
