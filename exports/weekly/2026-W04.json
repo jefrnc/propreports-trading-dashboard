@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-01-26 03:42:56",
+  "generateDate": "2026-01-26 15:08:55",
   "weekPeriod": "2026-01-19 to 2026-01-25",
   "weekNumber": 4,
   "year": 2026,
@@ -35,9 +35,9 @@
       "trades": 3,
       "pnl": 50.23,
       "symbols": [
-        "LXEH",
         "NAMM",
-        "BATL"
+        "BATL",
+        "LXEH"
       ]
     },
     "worstDay": {
@@ -213,9 +213,9 @@
       "trades": 3,
       "pnl": 50.23,
       "symbols": [
-        "LXEH",
         "NAMM",
-        "BATL"
+        "BATL",
+        "LXEH"
       ]
     },
     {
