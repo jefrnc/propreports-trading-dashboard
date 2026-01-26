@@ -1,0 +1,21 @@
+{
+  "period": "Week 4, 2026",
+  "week_period": "2026-01-19 to 2026-01-25",
+  "generated_at": "2026-01-26T09:12:51.529527",
+  "performance_summary": {
+    "net_pnl": -202.66,
+    "total_trades": 40,
+    "win_rate": 0.525,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "### Risk Management Observations\n- The max loss of $72.95 should prompt a reassessment of stop-loss orders. Ensure that each trade has a clear exit strategy based on a predetermined loss threshold.",
+    "psychological_insights": "### Psychological/Discipline Observations\n- The ability to achieve five consecutive wins suggests strong trading skills. However, experiencing five consecutive losses indicates that emotional responses may be influencing decision-making during downturns. Consider implementing a cooldown period after losses to regain composure.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
