@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-27 15:10:46",
+  "exportDate": "2026-01-28 03:37:26",
   "account": "ZI*******64",
   "date": "2026-01-26",
   "trades": [
@@ -229,15 +229,15 @@
     "losingTrades": 2,
     "symbols": [
       "BNAI",
-      "EVTV",
       "USBC",
-      "SLGB",
       "MBAI",
+      "SLGB",
+      "EVTV",
       "NUWE"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-27 15:10:46"
+    "processedAt": "2026-01-28 03:37:26"
   }
 }
