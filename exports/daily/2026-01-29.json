@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-01-30 15:12:39",
+  "exportDate": "2026-01-31 03:48:10",
   "account": "ZI*******64",
   "date": "2026-01-29",
   "trades": [
@@ -426,17 +426,17 @@
     "winningTrades": 18,
     "losingTrades": 5,
     "symbols": [
-      "NAMM",
       "SER",
-      "XHLD",
       "GCTS",
-      "BATL",
       "VIVS",
-      "FEED"
+      "XHLD",
+      "NAMM",
+      "FEED",
+      "BATL"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-01-30 15:12:39"
+    "processedAt": "2026-01-31 03:48:10"
   }
 }
