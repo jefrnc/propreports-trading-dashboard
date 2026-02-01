@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-02-01 04:01:04",
+  "generateDate": "2026-02-01 15:07:11",
   "weekPeriod": "2026-01-26 to 2026-02-01",
   "weekNumber": 5,
   "year": 2026,
@@ -48,12 +48,12 @@
       "trades": 13,
       "pnl": -0.73,
       "symbols": [
+        "DULL",
         "FEED",
-        "DKI",
         "SLV",
         "ELPW",
+        "DKI",
         "YJ",
-        "DULL",
         "INLF"
       ]
     }
@@ -216,11 +216,11 @@
       "trades": 23,
       "pnl": 32.37,
       "symbols": [
-        "SER",
-        "BATL",
-        "FEED",
         "XHLD",
+        "FEED",
         "GCTS",
+        "BATL",
+        "SER",
         "VIVS",
         "NAMM"
       ]
@@ -230,12 +230,12 @@
       "trades": 13,
       "pnl": -0.73,
       "symbols": [
+        "DULL",
         "FEED",
-        "DKI",
         "SLV",
         "ELPW",
+        "DKI",
         "YJ",
-        "DULL",
         "INLF"
       ]
     },
