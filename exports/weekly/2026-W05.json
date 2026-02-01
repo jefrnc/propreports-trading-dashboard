@@ -1,0 +1,255 @@
+{
+  "generateDate": "2026-02-01 04:01:04",
+  "weekPeriod": "2026-01-26 to 2026-02-01",
+  "weekNumber": 5,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 69,
+    "grossPnL": 143.52,
+    "totalCommissions": 10.73,
+    "netPnL": 132.79,
+    "avgDailyPnL": 18.97,
+    "avgTradePerDay": 9.86,
+    "winningTrades": 54,
+    "losingTrades": 15,
+    "winRate": 0.7826,
+    "avgWin": 6.55,
+    "avgLoss": -14.01,
+    "profitFactor": 1.68
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-01-28",
+      "symbol": "GRI",
+      "pnl": 31.12
+    },
+    "worstTrade": {
+      "date": "2026-01-30",
+      "symbol": "SLV",
+      "pnl": -49.5
+    },
+    "bestDay": {
+      "date": "2026-01-26",
+      "trades": 12,
+      "pnl": 46.56,
+      "symbols": [
+        "USBC",
+        "BNAI",
+        "MBAI",
+        "EVTV",
+        "SLGB",
+        "NUWE"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-01-30",
+      "trades": 13,
+      "pnl": -0.73,
+      "symbols": [
+        "FEED",
+        "DKI",
+        "SLV",
+        "ELPW",
+        "YJ",
+        "DULL",
+        "INLF"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 8,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "GRI",
+        {
+          "count": 1,
+          "pnl": 31.12,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "HIND",
+        {
+          "count": 3,
+          "pnl": 27.45,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "FEED",
+        {
+          "count": 11,
+          "pnl": 22.559999999999995,
+          "win_rate": 0.7273
+        }
+      ],
+      [
+        "EVTV",
+        {
+          "count": 2,
+          "pnl": 20.96,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "SLGB",
+        {
+          "count": 2,
+          "pnl": 19.8,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 9,
+        "pnl": 76.47000000000001
+      },
+      "09": {
+        "count": 9,
+        "pnl": 38.53999999999999
+      },
+      "10": {
+        "count": 10,
+        "pnl": 45.43
+      },
+      "12": {
+        "count": 2,
+        "pnl": 12.360000000000001
+      },
+      "13": {
+        "count": 3,
+        "pnl": -41.9
+      },
+      "15": {
+        "count": 4,
+        "pnl": 19.080000000000002
+      },
+      "16": {
+        "count": 16,
+        "pnl": 20.45
+      },
+      "17": {
+        "count": 4,
+        "pnl": -12.209999999999999
+      },
+      "07": {
+        "count": 1,
+        "pnl": 3.06
+      },
+      "11": {
+        "count": 7,
+        "pnl": -13.560000000000002
+      },
+      "14": {
+        "count": 2,
+        "pnl": 3.7
+      },
+      "18": {
+        "count": 2,
+        "pnl": -7.9
+      }
+    },
+    "tradeDurations": {
+      "5-15min": {
+        "count": 12,
+        "pnl": 5.899999999999999
+      },
+      ">60min": {
+        "count": 17,
+        "pnl": 118.59
+      },
+      "15-60min": {
+        "count": 16,
+        "pnl": 41.86999999999999
+      },
+      "<5min": {
+        "count": 24,
+        "pnl": -22.84000000000001
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-01-26",
+      "trades": 12,
+      "pnl": 46.56,
+      "symbols": [
+        "USBC",
+        "BNAI",
+        "MBAI",
+        "EVTV",
+        "SLGB",
+        "NUWE"
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "trades": 9,
+      "pnl": 45.65,
+      "symbols": [
+        "XHLD",
+        "CYN",
+        "IVF",
+        "PHGE",
+        "HIND"
+      ]
+    },
+    {
+      "date": "2026-01-28",
+      "trades": 12,
+      "pnl": 9.05,
+      "symbols": [
+        "SER",
+        "SEGG",
+        "XPON",
+        "FEED",
+        "GRI",
+        "TIRX"
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "trades": 23,
+      "pnl": 32.37,
+      "symbols": [
+        "SER",
+        "BATL",
+        "FEED",
+        "XHLD",
+        "GCTS",
+        "VIVS",
+        "NAMM"
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "trades": 13,
+      "pnl": -0.73,
+      "symbols": [
+        "FEED",
+        "DKI",
+        "SLV",
+        "ELPW",
+        "YJ",
+        "DULL",
+        "INLF"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-02-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

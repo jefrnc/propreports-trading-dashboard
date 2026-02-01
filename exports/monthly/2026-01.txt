@@ -1,0 +1,21 @@
+RESUMEN MENSUAL DE TRADING
+January 2026
+==================================================
+
+RESUMEN GENERAL:
+  Total de trades: 261
+  P&L Neto: $246.56
+  Win Rate: 69.7%
+  Profit Factor: 1.12
+  Expectancy: $1.28
+
+DESGLOSE SEMANAL:
+  Semana 2: 56 trades, $498.84, WR: 71.4%
+  Semana 3: 86 trades, $-286.55, WR: 67.4%
+  Semana 4: 40 trades, $-202.66, WR: 52.5%
+  Semana 5: 69 trades, $132.79, WR: 78.3%
+
+RECOMENDACIONES:
+  🔴 [Risk Management] Drawdown elevado (87.2%). Implementar stops más ajustados.
+  🔵 [Symbol Selection] Revisar estrategia para: IVF, ATON, AHMA (pérdidas consistentes)
+  🟡 [Consistency] Solo 41.9% de días rentables. Buscar mayor consistencia.

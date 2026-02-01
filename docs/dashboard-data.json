@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-31 15:07:00",
+  "lastUpdate": "2026-02-01 04:01:04",
   "year": 2026,
   "yearData": {
     "2026-01-01": {
@@ -156,6 +156,11 @@
       "trades": 0,
       "pnl": 0,
       "winRate": 0
+    },
+    "2026-02-01": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
     }
   },
   "yearStats": {
@@ -181,7 +186,15 @@
     "current_streak": 4,
     "current_streak_type": "win"
   },
-  "monthlyData": [],
+  "monthlyData": [
+    {
+      "month": 1,
+      "monthName": "January",
+      "trades": 261,
+      "pnl": 246.56,
+      "winRate": 0.6973
+    }
+  ],
   "weeklyData": [
     {
       "week": 2,
@@ -203,6 +216,13 @@
       "trades": 40,
       "pnl": -202.66,
       "winRate": 0.525
+    },
+    {
+      "week": 5,
+      "period": "2026-01-26 to 2026-02-01",
+      "trades": 69,
+      "pnl": 132.79,
+      "winRate": 0.7826
     }
   ]
 }
