@@ -1,0 +1,23 @@
+{
+  "period": "Week 5, 2026",
+  "week_period": "2026-01-26 to 2026-02-01",
+  "generated_at": "2026-02-02T09:20:32.610580",
+  "performance_summary": {
+    "net_pnl": 132.79,
+    "total_trades": 69,
+    "win_rate": 0.7826,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [
+      "Specific Mistakes or Areas to Improve:**\n   - **Large Losses:** The worst trade resulted in a loss of $49.50, which significantly impacted overall profitability. Evaluating the decision-making process for this trade is crucial.\n   - **Low Average Daily Trades:** With an average of 0.0 trades per day, it indicates underutilization of trading opportunities."
+    ],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "**\n   - Ensure that stop-loss levels are strategically placed to prevent large losses like the one on SLV. A review of risk-reward ratios for each trade can help minimize the impact of losing trades.",
+    "psychological_insights": "**\n   - The ability to maintain a high win rate suggests strong discipline in following trading rules. However, the significant loss may indicate emotional responses to market conditions. Staying calm and sticking to the trading plan during losses is essential.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
