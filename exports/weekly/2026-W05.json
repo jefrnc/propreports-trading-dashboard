@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-02-02 03:55:13",
+  "generateDate": "2026-02-02 15:17:07",
   "weekPeriod": "2026-01-26 to 2026-02-01",
   "weekNumber": 5,
   "year": 2026,
@@ -48,13 +48,13 @@
       "trades": 13,
       "pnl": -0.73,
       "symbols": [
-        "DULL",
-        "INLF",
-        "YJ",
         "SLV",
-        "DKI",
+        "INLF",
+        "DULL",
+        "ELPW",
         "FEED",
-        "ELPW"
+        "YJ",
+        "DKI"
       ]
     }
   },
@@ -230,13 +230,13 @@
       "trades": 13,
       "pnl": -0.73,
       "symbols": [
-        "DULL",
-        "INLF",
-        "YJ",
         "SLV",
-        "DKI",
+        "INLF",
+        "DULL",
+        "ELPW",
         "FEED",
-        "ELPW"
+        "YJ",
+        "DKI"
       ]
     },
     {
