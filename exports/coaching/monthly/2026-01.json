@@ -1,0 +1,20 @@
+{
+  "period": "January 2026",
+  "generated_at": "2026-02-02T09:13:26.854398",
+  "performance_summary": {
+    "net_pnl": 246.56,
+    "total_trades": 261,
+    "win_rate": 0.6973,
+    "profit_factor": 1.12
+  },
+  "coaching": {
+    "overall_performance": "$246.56 is a positive outcome, but given the number of trades (261), the profit per trade is relatively low.\n- **Win Rate**: At 69.7%, you demonstrate a strong ability to select winning trades.\n- **Profit Factor**: At 1.12, this is slightly above break-even, indicating that your losses are disproportionately larger than your wins.\n- **Max Drawdown**: $529.99 with a severity of 87.2% is concerning, indicating volatility and potential risk in your strategy.\n  \n### Key Strengths Demonstrated This Month\n- **High Win Rate**: A 69.7% win rate is commendable and suggests proficiency in trade selection.\n- **Top Performers**: The success of certain trades (e.g., SXTC) indicates your ability to capitalize on high-performing stocks.",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Focus on reducing average loss and managing drawdowns through better stop-loss strategies.\n2. **Analyze Losers**: Conduct a thorough review of losing trades to identify any common factors and adjust your strategy accordingly.\n3. **Maintain Psychological Discipline**: Develop techniques to manage emotions, especially after a series of losses, to avoid revenge trading or impulsive decisions.",
+    "psychological_insights": "Experiencing multiple consecutive losses can lead to emotional decision-making. Focus on maintaining discipline and adhering to your trading plan.\n- **Confidence in Winning Trades**: The strong win rate suggests confidence in your trading abilities, but ensure that this confidence does not lead to overtrading or ignoring risk management.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
