@@ -1,7 +1,7 @@
 {
-  "exportDate": "2026-02-03 03:51:10",
+  "exportDate": "2026-02-03 03:51:11",
   "account": "ZI*******64",
-  "date": "2026-02-01",
+  "date": "2026-02-03",
   "trades": [],
   "summary": {
     "totalTrades": 0,
@@ -14,6 +14,6 @@
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-03 03:51:10"
+    "processedAt": "2026-02-03 03:51:11"
   }
 }
