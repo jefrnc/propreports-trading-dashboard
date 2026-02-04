@@ -1,19 +1,78 @@
 {
-  "exportDate": "2026-02-04 03:50:38",
+  "exportDate": "2026-02-04 15:17:41",
   "account": "ZI*******64",
   "date": "2026-02-03",
-  "trades": [],
+  "trades": [
+    {
+      "date": "2026-02-03",
+      "opened": "02/03/26 07:24:48",
+      "closed": "13:33:32",
+      "held": "06:08:44",
+      "symbol": "CYN",
+      "type": "Short",
+      "entry": 2.1563,
+      "exit": 2.0537,
+      "size": 467.0,
+      "pnl": 47.92,
+      "commission": 1.4,
+      "net": 47.09,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 467.0,
+      "price": 2.1563
+    },
+    {
+      "date": "2026-02-03",
+      "opened": "02/03/26 16:18:34",
+      "closed": "16:39:57",
+      "held": "00:21:23",
+      "symbol": "EGHT",
+      "type": "Short",
+      "entry": 2.292,
+      "exit": 2.19,
+      "size": 50.0,
+      "pnl": 5.1,
+      "commission": 0.15,
+      "net": 5.07,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 50.0,
+      "price": 2.292
+    },
+    {
+      "date": "2026-02-03",
+      "opened": "02/03/26 16:34:34",
+      "closed": "17:15:44",
+      "held": "00:41:10",
+      "symbol": "WTO",
+      "type": "Short",
+      "entry": 0.8964,
+      "exit": 0.8746,
+      "size": 67.0,
+      "pnl": 1.46,
+      "commission": 0.2,
+      "net": 1.16,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 67.0,
+      "price": 0.8964
+    }
+  ],
   "summary": {
-    "totalTrades": 0,
-    "totalPnL": 0,
-    "totalCommissions": 0,
-    "netPnL": 0,
-    "winningTrades": 0,
+    "totalTrades": 3,
+    "totalPnL": 54.48,
+    "totalCommissions": 1.75,
+    "netPnL": 53.32,
+    "winningTrades": 3,
     "losingTrades": 0,
-    "symbols": []
+    "symbols": [
+      "CYN",
+      "WTO",
+      "EGHT"
+    ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-04 03:50:38"
+    "processedAt": "2026-02-04 15:17:41"
   }
 }

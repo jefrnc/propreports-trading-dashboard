@@ -7,19 +7,42 @@
       "trades": 5,
       "pnl": 24.35,
       "winRate": 0
+    },
+    "2026-02-03": {
+      "trades": 3,
+      "pnl": 53.32,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 5,
-    "totalPnL": 24.35,
-    "winRate": 80.0,
-    "bestDay": "2026-02-02",
-    "bestDayPnL": 24.35,
+    "totalTrades": 8,
+    "totalPnL": 77.67,
+    "winRate": 87.5,
+    "bestDay": "2026-02-03",
+    "bestDayPnL": 53.32,
     "worstDay": "2026-02-02",
     "worstDayPnL": 24.35,
-    "tradingDays": 1
+    "tradingDays": 2
   },
   "topWinners": [
+    {
+      "date": "2026-02-03",
+      "opened": "02/03/26 07:24:48",
+      "closed": "13:33:32",
+      "held": "06:08:44",
+      "symbol": "CYN",
+      "type": "Short",
+      "entry": 2.1563,
+      "exit": 2.0537,
+      "size": 467.0,
+      "pnl": 47.92,
+      "commission": 1.4,
+      "net": 47.09,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 467.0,
+      "price": 2.1563
+    },
     {
       "date": "2026-02-02",
       "opened": "02/02/26 11:43:13",
@@ -75,40 +98,22 @@
       "price": 0.8885
     },
     {
-      "date": "2026-02-02",
-      "opened": "02/02/26 11:43:23",
-      "closed": "13:16:26",
-      "held": "01:33:03",
-      "symbol": "NAMM",
+      "date": "2026-02-03",
+      "opened": "02/03/26 16:18:34",
+      "closed": "16:39:57",
+      "held": "00:21:23",
+      "symbol": "EGHT",
       "type": "Short",
-      "entry": 4.3501,
-      "exit": 4.18,
-      "size": 10.0,
-      "pnl": 1.7,
-      "commission": 0.03,
-      "net": 1.66,
+      "entry": 2.292,
+      "exit": 2.19,
+      "size": 50.0,
+      "pnl": 5.1,
+      "commission": 0.15,
+      "net": 5.07,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 10.0,
-      "price": 4.3501
-    },
-    {
-      "date": "2026-02-02",
-      "opened": "02/02/26 10:31:03",
-      "closed": "10:43:48",
-      "held": "00:12:45",
-      "symbol": "FUSE",
-      "type": "Short",
-      "entry": 2.765,
-      "exit": 2.91,
-      "size": 20.0,
-      "pnl": -2.9,
-      "commission": 0.06,
-      "net": -2.91,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 20.0,
-      "price": 2.765
+      "quantity": 50.0,
+      "price": 2.292
     }
   ],
   "topLosers": [
