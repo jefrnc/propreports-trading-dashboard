@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-02-08 04:02:33",
+  "generateDate": "2026-02-08 15:08:02",
   "weekPeriod": "2026-02-02 to 2026-02-08",
   "weekNumber": 6,
   "year": 2026,
@@ -210,11 +210,11 @@
       "pnl": 49.36,
       "symbols": [
         "JZXN",
-        "CISS",
+        "WTO",
         "GWAV",
+        "CISS",
         "MSTR",
-        "AMZN",
-        "WTO"
+        "AMZN"
       ]
     },
     {
@@ -223,10 +223,10 @@
       "pnl": 36.5,
       "symbols": [
         "JZXN",
-        "WHLR",
-        "CMND",
         "FLYE",
-        "SMX"
+        "CMND",
+        "SMX",
+        "WHLR"
       ]
     },
     {
