@@ -1,0 +1,245 @@
+{
+  "generateDate": "2026-02-08 04:02:33",
+  "weekPeriod": "2026-02-02 to 2026-02-08",
+  "weekNumber": 6,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 41,
+    "grossPnL": 162.34,
+    "totalCommissions": 9.29,
+    "netPnL": 153.05,
+    "avgDailyPnL": 21.86,
+    "avgTradePerDay": 5.86,
+    "winningTrades": 35,
+    "losingTrades": 6,
+    "winRate": 0.8537,
+    "avgWin": 6.95,
+    "avgLoss": -13.48,
+    "profitFactor": 3.01
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-02-03",
+      "symbol": "CYN",
+      "pnl": 47.92
+    },
+    "worstTrade": {
+      "date": "2026-02-04",
+      "symbol": "LIMN",
+      "pnl": -36.3
+    },
+    "bestDay": {
+      "date": "2026-02-03",
+      "trades": 3,
+      "pnl": 53.32,
+      "symbols": [
+        "EGHT",
+        "WTO",
+        "CYN"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-02-04",
+      "trades": 17,
+      "pnl": -6.65,
+      "symbols": [
+        "ZCMD",
+        "DHX",
+        "LIMN",
+        "GOOGL",
+        "FEED",
+        "BOXL",
+        "CISS",
+        "GDTC",
+        "SUNE"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 10,
+    "maxConsecutiveLosses": 1,
+    "topSymbols": [
+      [
+        "CYN",
+        {
+          "count": 1,
+          "pnl": 47.92,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "CISS",
+        {
+          "count": 3,
+          "pnl": 36.739999999999995,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "JZXN",
+        {
+          "count": 5,
+          "pnl": 21.54,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "WHLR",
+        {
+          "count": 3,
+          "pnl": 18.22,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "GWAV",
+        {
+          "count": 1,
+          "pnl": 11.7,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "10": {
+        "count": 3,
+        "pnl": 7.0
+      },
+      "11": {
+        "count": 3,
+        "pnl": 4.109999999999999
+      },
+      "17": {
+        "count": 4,
+        "pnl": 13.23
+      },
+      "07": {
+        "count": 6,
+        "pnl": 86.67999999999999
+      },
+      "16": {
+        "count": 9,
+        "pnl": 38.78
+      },
+      "09": {
+        "count": 3,
+        "pnl": 24.7
+      },
+      "12": {
+        "count": 4,
+        "pnl": -46.08
+      },
+      "13": {
+        "count": 1,
+        "pnl": 5.8
+      },
+      "15": {
+        "count": 4,
+        "pnl": 18.4
+      },
+      "18": {
+        "count": 2,
+        "pnl": 4.3
+      },
+      "08": {
+        "count": 2,
+        "pnl": 5.42
+      }
+    },
+    "tradeDurations": {
+      "15-60min": {
+        "count": 11,
+        "pnl": 52.059999999999995
+      },
+      "5-15min": {
+        "count": 6,
+        "pnl": -25.77
+      },
+      ">60min": {
+        "count": 15,
+        "pnl": 134.89
+      },
+      "<5min": {
+        "count": 9,
+        "pnl": 1.159999999999997
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-02-02",
+      "trades": 5,
+      "pnl": 24.35,
+      "symbols": [
+        "INLF",
+        "NAMM",
+        "FUSE"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "trades": 3,
+      "pnl": 53.32,
+      "symbols": [
+        "EGHT",
+        "WTO",
+        "CYN"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "trades": 17,
+      "pnl": -6.65,
+      "symbols": [
+        "ZCMD",
+        "DHX",
+        "LIMN",
+        "GOOGL",
+        "FEED",
+        "BOXL",
+        "CISS",
+        "GDTC",
+        "SUNE"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "trades": 8,
+      "pnl": 49.36,
+      "symbols": [
+        "JZXN",
+        "CISS",
+        "GWAV",
+        "MSTR",
+        "AMZN",
+        "WTO"
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "trades": 8,
+      "pnl": 36.5,
+      "symbols": [
+        "JZXN",
+        "WHLR",
+        "CMND",
+        "FLYE",
+        "SMX"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-02-08",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
