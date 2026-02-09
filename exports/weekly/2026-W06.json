@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-02-09 03:57:16",
+  "generateDate": "2026-02-09 15:22:25",
   "weekPeriod": "2026-02-02 to 2026-02-08",
   "weekNumber": 6,
   "year": 2026,
@@ -224,9 +224,9 @@
       "symbols": [
         "FLYE",
         "CMND",
+        "SMX",
         "JZXN",
-        "WHLR",
-        "SMX"
+        "WHLR"
       ]
     },
     {
