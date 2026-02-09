@@ -1,0 +1,21 @@
+{
+  "period": "Week 6, 2026",
+  "week_period": "2026-02-02 to 2026-02-08",
+  "generated_at": "2026-02-09T09:24:22.179508",
+  "performance_summary": {
+    "net_pnl": 153.05,
+    "total_trades": 41,
+    "win_rate": 0.8537,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "### 5. Risk Management Observations\nYour risk management appears sound, but the significant loss in the worst trade suggests a need for tighter stop-loss strategies. Consider implementing a stricter risk-reward ratio to better protect your capital.",
+    "psychological_insights": "### 6. Psychological/Discipline Observations\nYour ability to maintain a high win rate reflects strong discipline. However, the lack of trades could indicate hesitation or fear of loss. Work on building confidence in your trading strategy to enhance your trading frequency.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
