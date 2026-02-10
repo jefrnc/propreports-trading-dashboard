@@ -27,17 +27,22 @@
       "trades": 8,
       "pnl": 36.5,
       "winRate": 0
+    },
+    "2026-02-09": {
+      "trades": 10,
+      "pnl": 49.99,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 41,
-    "totalPnL": 156.88,
-    "winRate": 85.36585365853658,
+    "totalTrades": 51,
+    "totalPnL": 206.87,
+    "winRate": 84.31372549019608,
     "bestDay": "2026-02-03",
     "bestDayPnL": 53.32,
     "worstDay": "2026-02-04",
     "worstDayPnL": -6.65,
-    "tradingDays": 5
+    "tradingDays": 6
   },
   "topWinners": [
     {
@@ -77,6 +82,24 @@
       "price": 2.2014
     },
     {
+      "date": "2026-02-09",
+      "opened": "02/09/26 10:45:02",
+      "closed": "11:58:22",
+      "held": "01:13:20",
+      "symbol": "LIMN",
+      "type": "Short",
+      "entry": 2.586,
+      "exit": 2.478,
+      "size": 125.0,
+      "pnl": 13.5,
+      "commission": 0.38,
+      "net": 13.53,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 125.0,
+      "price": 2.586
+    },
+    {
       "date": "2026-02-06",
       "opened": "02/06/26 15:30:02",
       "closed": "17:03:01",
@@ -95,40 +118,22 @@
       "price": 1.8717
     },
     {
-      "date": "2026-02-02",
-      "opened": "02/02/26 11:43:13",
-      "closed": "16:48:18",
-      "held": "05:05:05",
-      "symbol": "FUSE",
+      "date": "2026-02-09",
+      "opened": "02/09/26 09:06:20",
+      "closed": "11:19:43",
+      "held": "02:13:23",
+      "symbol": "MNTS",
       "type": "Short",
-      "entry": 2.7133,
-      "exit": 2.505,
-      "size": 60.0,
-      "pnl": 12.5,
-      "commission": 0.18,
-      "net": 12.42,
+      "entry": 7.6167,
+      "exit": 7.195,
+      "size": 30.0,
+      "pnl": 12.65,
+      "commission": 0.09,
+      "net": 12.61,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 60.0,
-      "price": 2.7133
-    },
-    {
-      "date": "2026-02-06",
-      "opened": "02/06/26 09:10:17",
-      "closed": "11:35:59",
-      "held": "02:25:42",
-      "symbol": "WHLR",
-      "type": "Short",
-      "entry": 2.9078,
-      "exit": 2.6444,
-      "size": 45.0,
-      "pnl": 11.85,
-      "commission": 0.14,
-      "net": 11.83,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 45.0,
-      "price": 2.9078
+      "quantity": 30.0,
+      "price": 7.6167
     }
   ],
   "topLosers": [
@@ -169,6 +174,24 @@
       "price": 1.8569
     },
     {
+      "date": "2026-02-09",
+      "opened": "02/09/26 12:31:02",
+      "closed": "12:36:40",
+      "held": "00:05:38",
+      "symbol": "LIMN",
+      "type": "Long",
+      "entry": 2.07,
+      "exit": 1.8401,
+      "size": 60.0,
+      "pnl": -13.79,
+      "commission": 0.18,
+      "net": -14.21,
+      "account": "ZIMDASE9C64",
+      "side": "BUY",
+      "quantity": 60.0,
+      "price": 2.07
+    },
+    {
       "date": "2026-02-06",
       "opened": "02/06/26 11:20:51",
       "closed": "12:35:14",
@@ -203,24 +226,6 @@
       "side": "SELL",
       "quantity": 1.0,
       "price": 102.58
-    },
-    {
-      "date": "2026-02-02",
-      "opened": "02/02/26 10:31:03",
-      "closed": "10:43:48",
-      "held": "00:12:45",
-      "symbol": "FUSE",
-      "type": "Short",
-      "entry": 2.765,
-      "exit": 2.91,
-      "size": 20.0,
-      "pnl": -2.9,
-      "commission": 0.06,
-      "net": -2.91,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 20.0,
-      "price": 2.765
     }
   ]
 }
