@@ -37,17 +37,22 @@
       "trades": 21,
       "pnl": -356.45,
       "winRate": 0
+    },
+    "2026-02-11": {
+      "trades": 11,
+      "pnl": 99.79,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 72,
-    "totalPnL": -149.57999999999998,
-    "winRate": 81.94444444444444,
-    "bestDay": "2026-02-03",
-    "bestDayPnL": 53.32,
+    "totalTrades": 83,
+    "totalPnL": -49.78999999999998,
+    "winRate": 81.92771084337349,
+    "bestDay": "2026-02-11",
+    "bestDayPnL": 99.79,
     "worstDay": "2026-02-10",
     "worstDayPnL": -356.45,
-    "tradingDays": 7
+    "tradingDays": 8
   },
   "topWinners": [
     {
@@ -67,6 +72,42 @@
       "side": "SELL",
       "quantity": 467.0,
       "price": 2.1563
+    },
+    {
+      "date": "2026-02-11",
+      "opened": "02/11/26 09:30:22",
+      "closed": "10:05:48",
+      "held": "00:35:26",
+      "symbol": "QNCX",
+      "type": "Short",
+      "entry": 0.7173,
+      "exit": 0.6732,
+      "size": 890.0,
+      "pnl": 39.25,
+      "commission": 2.67,
+      "net": 35.88,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 890.0,
+      "price": 0.7173
+    },
+    {
+      "date": "2026-02-11",
+      "opened": "02/11/26 11:26:59",
+      "closed": "11:29:03",
+      "held": "00:02:04",
+      "symbol": "NCI",
+      "type": "Short",
+      "entry": 1.8462,
+      "exit": 1.689,
+      "size": 210.0,
+      "pnl": 33.0,
+      "commission": 0.63,
+      "net": 32.81,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 210.0,
+      "price": 1.8462
     },
     {
       "date": "2026-02-10",
@@ -103,42 +144,6 @@
       "side": "SELL",
       "quantity": 449.0,
       "price": 2.2014
-    },
-    {
-      "date": "2026-02-10",
-      "opened": "02/10/26 15:37:42",
-      "closed": "16:01:19",
-      "held": "00:23:37",
-      "symbol": "QNCX",
-      "type": "Long",
-      "entry": 0.5481,
-      "exit": 0.5669,
-      "size": 1370.0,
-      "pnl": 25.76,
-      "commission": 4.11,
-      "net": 20.65,
-      "account": "ZIMDASE9C64",
-      "side": "BUY",
-      "quantity": 1370.0,
-      "price": 0.5481
-    },
-    {
-      "date": "2026-02-10",
-      "opened": "02/10/26 07:44:17",
-      "closed": "07:54:50",
-      "held": "00:10:33",
-      "symbol": "AZI",
-      "type": "Short",
-      "entry": 2.1691,
-      "exit": 2.1103,
-      "size": 320.0,
-      "pnl": 18.8,
-      "commission": 0.96,
-      "net": 17.83,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 320.0,
-      "price": 2.1691
     }
   ],
   "topLosers": [
