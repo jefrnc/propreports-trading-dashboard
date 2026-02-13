@@ -42,17 +42,22 @@
       "trades": 11,
       "pnl": 99.79,
       "winRate": 0
+    },
+    "2026-02-12": {
+      "trades": 18,
+      "pnl": 37.36,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 83,
-    "totalPnL": -49.78999999999998,
-    "winRate": 81.92771084337349,
+    "totalTrades": 101,
+    "totalPnL": -12.429999999999978,
+    "winRate": 78.21782178217822,
     "bestDay": "2026-02-11",
     "bestDayPnL": 99.79,
     "worstDay": "2026-02-10",
     "worstDayPnL": -356.45,
-    "tradingDays": 8
+    "tradingDays": 9
   },
   "topWinners": [
     {
@@ -128,22 +133,22 @@
       "price": 1.3041
     },
     {
-      "date": "2026-02-05",
-      "opened": "02/05/26 07:11:36",
-      "closed": "16:31:58",
-      "held": "09:20:22",
-      "symbol": "CISS",
+      "date": "2026-02-12",
+      "opened": "02/12/26 09:31:05",
+      "closed": "10:00:38",
+      "held": "00:29:33",
+      "symbol": "PMI",
       "type": "Short",
-      "entry": 2.2014,
-      "exit": 2.1446,
-      "size": 449.0,
-      "pnl": 25.52,
-      "commission": 1.35,
-      "net": 25.25,
+      "entry": 2.2736,
+      "exit": 2.085,
+      "size": 140.0,
+      "pnl": 26.4,
+      "commission": 0.42,
+      "net": 26.08,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 449.0,
-      "price": 2.2014
+      "quantity": 140.0,
+      "price": 2.2736
     }
   ],
   "topLosers": [
