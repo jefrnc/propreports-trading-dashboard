@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-02-15 03:55:12",
+  "generateDate": "2026-02-15 15:07:45",
   "weekPeriod": "2026-02-09 to 2026-02-15",
   "weekNumber": 7,
   "year": 2026,
@@ -212,20 +212,20 @@
       "trades": 18,
       "pnl": 37.36,
       "symbols": [
-        "JZXN",
+        "GNLN",
+        "MGRT",
+        "JDZG",
         "QNCX",
+        "PMI",
+        "CRSR",
+        "JZXN",
+        "HXHX",
+        "MIMI",
         "IBIT",
         "PINS",
-        "MIMI",
-        "CRSR",
-        "MGRT",
-        "FSLY",
-        "PMI",
-        "HXHX",
-        "JDZG",
-        "GNLN",
-        "VRME",
         "TSLA",
+        "VRME",
+        "FSLY",
         "SMU"
       ]
     },
@@ -234,14 +234,14 @@
       "trades": 33,
       "pnl": -307.37,
       "symbols": [
-        "JZXN",
-        "RAYA",
-        "FRGT",
-        "MLEC",
-        "VVPR",
-        "JDZG",
         "RIME",
-        "GP"
+        "RAYA",
+        "JDZG",
+        "FRGT",
+        "JZXN",
+        "GP",
+        "VVPR",
+        "MLEC"
       ]
     },
     {

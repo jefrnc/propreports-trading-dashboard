@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-02-15 03:55:11",
+  "exportDate": "2026-02-15 15:07:44",
   "account": "ZI*******64",
   "date": "2026-02-12",
   "trades": [
@@ -336,25 +336,25 @@
     "winningTrades": 11,
     "losingTrades": 7,
     "symbols": [
-      "JZXN",
+      "GNLN",
+      "MGRT",
+      "JDZG",
       "QNCX",
+      "PMI",
+      "CRSR",
+      "JZXN",
+      "HXHX",
+      "MIMI",
       "IBIT",
       "PINS",
-      "MIMI",
-      "CRSR",
-      "MGRT",
-      "FSLY",
-      "PMI",
-      "HXHX",
-      "JDZG",
-      "GNLN",
-      "VRME",
       "TSLA",
+      "VRME",
+      "FSLY",
       "SMU"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-15 03:55:11"
+    "processedAt": "2026-02-15 15:07:44"
   }
 }
