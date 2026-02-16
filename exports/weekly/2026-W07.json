@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-02-16 03:55:44",
+  "generateDate": "2026-02-16 15:17:01",
   "weekPeriod": "2026-02-09 to 2026-02-15",
   "weekNumber": 7,
   "year": 2026,
@@ -235,13 +235,13 @@
       "pnl": -307.37,
       "symbols": [
         "JDZG",
-        "MLEC",
-        "RAYA",
-        "FRGT",
         "RIME",
         "GP",
+        "MLEC",
         "VVPR",
-        "JZXN"
+        "FRGT",
+        "JZXN",
+        "RAYA"
       ]
     },
     {
