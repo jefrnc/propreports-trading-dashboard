@@ -1,0 +1,21 @@
+{
+  "period": "Week 7, 2026",
+  "week_period": "2026-02-09 to 2026-02-15",
+  "generated_at": "2026-02-16T09:22:37.116264",
+  "performance_summary": {
+    "net_pnl": -470.8,
+    "total_trades": 93,
+    "win_rate": 0.7097,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Focus on implementing and adhering to a strict risk management plan, including stop-loss and position sizing.\n2. **Trade Review Process**: Establish a routine for reviewing both winning and losing trades to learn from outcomes and improve strategies.\n3. **Consistency in Trading**: Aim for a more consistent trading frequency, ensuring that trades are based on solid analysis rather than sporadic opportunities.",
+    "psychological_insights": "### Psychological/Discipline Observations\n- A high win rate could lead to overconfidence, possibly impacting your decision-making. Remain vigilant and disciplined, especially after a streak of wins.\n- Be wary of emotional trading during high volatility periods. Stick to your trading plan and avoid impulsive decisions.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
