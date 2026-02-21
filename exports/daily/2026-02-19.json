@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-02-21 03:48:29",
+  "exportDate": "2026-02-21 15:07:33",
   "account": "ZI*******64",
   "date": "2026-02-19",
   "trades": [
@@ -354,21 +354,21 @@
     "winningTrades": 12,
     "losingTrades": 7,
     "symbols": [
-      "BATL",
-      "GXAI",
-      "DRMA",
-      "RUBI",
-      "BANL",
-      "ENVB",
-      "BOXL",
       "SKYQ",
       "CDIO",
-      "CISS",
-      "AIOS"
+      "GXAI",
+      "BANL",
+      "BOXL",
+      "AIOS",
+      "RUBI",
+      "BATL",
+      "ENVB",
+      "DRMA",
+      "CISS"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-21 03:48:29"
+    "processedAt": "2026-02-21 15:07:33"
   }
 }

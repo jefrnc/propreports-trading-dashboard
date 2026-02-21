@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-02-21 03:48:29",
+  "exportDate": "2026-02-21 15:07:33",
   "account": "ZI*******64",
   "date": "2026-02-18",
   "trades": [
@@ -300,19 +300,19 @@
     "winningTrades": 12,
     "losingTrades": 4,
     "symbols": [
+      "WBUY",
       "MNDR",
-      "JDZG",
+      "CDIO",
+      "AUUD",
+      "RXT",
+      "YIBO",
       "TMDE",
       "BENF",
-      "RXT",
-      "CDIO",
-      "YIBO",
-      "AUUD",
-      "WBUY"
+      "JDZG"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-21 03:48:29"
+    "processedAt": "2026-02-21 15:07:33"
   }
 }
