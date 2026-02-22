@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-02-22 03:51:23",
+  "exportDate": "2026-02-22 15:07:35",
   "account": "ZI*******64",
   "date": "2026-02-20",
   "trades": [
@@ -300,19 +300,19 @@
     "winningTrades": 12,
     "losingTrades": 4,
     "symbols": [
+      "IVF",
+      "ABTS",
       "RXT",
       "CDT",
-      "RCT",
-      "ABTS",
-      "OLOX",
-      "IPW",
       "EVTV",
-      "CDIO",
-      "IVF"
+      "OLOX",
+      "RCT",
+      "IPW",
+      "CDIO"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-22 03:51:23"
+    "processedAt": "2026-02-22 15:07:35"
   }
 }
