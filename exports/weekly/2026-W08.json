@@ -1,0 +1,270 @@
+{
+  "generateDate": "2026-02-22 03:51:23",
+  "weekPeriod": "2026-02-16 to 2026-02-22",
+  "weekNumber": 8,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 74,
+    "grossPnL": 109.8,
+    "totalCommissions": 12.5,
+    "netPnL": 97.3,
+    "avgDailyPnL": 13.9,
+    "avgTradePerDay": 10.57,
+    "winningTrades": 54,
+    "losingTrades": 20,
+    "winRate": 0.7297,
+    "avgWin": 6.85,
+    "avgLoss": -12.99,
+    "profitFactor": 1.42
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-02-18",
+      "symbol": "JDZG",
+      "pnl": 33.34
+    },
+    "worstTrade": {
+      "date": "2026-02-17",
+      "symbol": "RIME",
+      "pnl": -94.18
+    },
+    "bestDay": {
+      "date": "2026-02-18",
+      "trades": 16,
+      "pnl": 68.39,
+      "symbols": [
+        "WBUY",
+        "MNDR",
+        "CDIO",
+        "AUUD",
+        "RXT",
+        "YIBO",
+        "TMDE",
+        "BENF",
+        "JDZG"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-02-17",
+      "trades": 23,
+      "pnl": -30.27,
+      "symbols": [
+        "MYNZ",
+        "RIME",
+        "GXAI",
+        "BDMD",
+        "OLB",
+        "GVH",
+        "JDZG"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 8,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "JDZG",
+        {
+          "count": 2,
+          "pnl": 39.64,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "MYNZ",
+        {
+          "count": 1,
+          "pnl": 30.28,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "GVH",
+        {
+          "count": 5,
+          "pnl": 23.0,
+          "win_rate": 0.8
+        }
+      ],
+      [
+        "OLB",
+        {
+          "count": 10,
+          "pnl": 20.070000000000004,
+          "win_rate": 0.9
+        }
+      ],
+      [
+        "ENVB",
+        {
+          "count": 2,
+          "pnl": 16.54,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "07": {
+        "count": 4,
+        "pnl": -14.429999999999996
+      },
+      "08": {
+        "count": 8,
+        "pnl": 94.38
+      },
+      "09": {
+        "count": 13,
+        "pnl": -55.72000000000002
+      },
+      "11": {
+        "count": 4,
+        "pnl": 14.28
+      },
+      "13": {
+        "count": 3,
+        "pnl": 2.0999999999999996
+      },
+      "14": {
+        "count": 4,
+        "pnl": 7.84
+      },
+      "15": {
+        "count": 8,
+        "pnl": 24.950000000000003
+      },
+      "16": {
+        "count": 12,
+        "pnl": 46.7
+      },
+      "06": {
+        "count": 2,
+        "pnl": 17.849999999999998
+      },
+      "10": {
+        "count": 4,
+        "pnl": 10.91
+      },
+      "12": {
+        "count": 6,
+        "pnl": -41.71
+      },
+      "05": {
+        "count": 1,
+        "pnl": -0.18
+      },
+      "17": {
+        "count": 1,
+        "pnl": -0.8
+      },
+      "04": {
+        "count": 4,
+        "pnl": 3.6300000000000003
+      }
+    },
+    "tradeDurations": {
+      "15-60min": {
+        "count": 22,
+        "pnl": -47.910000000000004
+      },
+      "5-15min": {
+        "count": 13,
+        "pnl": 48.72
+      },
+      ">60min": {
+        "count": 23,
+        "pnl": 107.44
+      },
+      "<5min": {
+        "count": 16,
+        "pnl": 1.550000000000003
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-02-16",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-02-17",
+      "trades": 23,
+      "pnl": -30.27,
+      "symbols": [
+        "MYNZ",
+        "RIME",
+        "GXAI",
+        "BDMD",
+        "OLB",
+        "GVH",
+        "JDZG"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "trades": 16,
+      "pnl": 68.39,
+      "symbols": [
+        "WBUY",
+        "MNDR",
+        "CDIO",
+        "AUUD",
+        "RXT",
+        "YIBO",
+        "TMDE",
+        "BENF",
+        "JDZG"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "trades": 19,
+      "pnl": 41.55,
+      "symbols": [
+        "CISS",
+        "AIOS",
+        "ENVB",
+        "BANL",
+        "BOXL",
+        "RUBI",
+        "DRMA",
+        "GXAI",
+        "BATL",
+        "SKYQ",
+        "CDIO"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "trades": 16,
+      "pnl": 16.0,
+      "symbols": [
+        "RXT",
+        "CDT",
+        "RCT",
+        "ABTS",
+        "OLOX",
+        "IPW",
+        "EVTV",
+        "CDIO",
+        "IVF"
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-02-22",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-21 15:07:34",
+  "lastUpdate": "2026-02-22 03:51:23",
   "year": 2026,
   "yearData": {
     "2026-01-01": {
@@ -261,6 +261,11 @@
       "trades": 0,
       "pnl": 0,
       "winRate": 0
+    },
+    "2026-02-22": {
+      "trades": 0,
+      "pnl": 0,
+      "winRate": 0
     }
   },
   "yearStats": {
@@ -337,6 +342,13 @@
       "trades": 93,
       "pnl": -470.8,
       "winRate": 0.7097
+    },
+    {
+      "week": 8,
+      "period": "2026-02-16 to 2026-02-22",
+      "trades": 74,
+      "pnl": 97.3,
+      "winRate": 0.7297
     }
   ]
 }
