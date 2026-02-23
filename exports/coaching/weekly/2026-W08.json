@@ -1,0 +1,21 @@
+{
+  "period": "Week 8, 2026",
+  "week_period": "2026-02-16 to 2026-02-22",
+  "generated_at": "2026-02-23T09:22:27.849177",
+  "performance_summary": {
+    "net_pnl": 97.3,
+    "total_trades": 74,
+    "win_rate": 0.7297,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "1 ratio.",
+    "psychological_insights": "### Psychological/Discipline Observations\n- The psychological impact of consecutive wins may lead to overconfidence, while the loss may cause hesitation. Maintain a disciplined approach and stick to your trading plan regardless of recent outcomes.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
