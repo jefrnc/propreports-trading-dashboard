@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-02-24 15:22:22",
+  "exportDate": "2026-02-25 03:52:04",
   "account": "ZI*******64",
   "date": "2026-02-23",
   "trades": [
@@ -156,15 +156,15 @@
     "winningTrades": 5,
     "losingTrades": 2,
     "symbols": [
+      "PBM",
       "GNPX",
       "SGN",
-      "PBM",
-      "IKT",
-      "SILO"
+      "SILO",
+      "IKT"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-24 15:22:22"
+    "processedAt": "2026-02-25 03:52:04"
   }
 }
