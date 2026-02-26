@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-02-25 15:22:40",
+  "exportDate": "2026-02-26 03:51:33",
   "account": "ZI*******64",
   "date": "2026-02-24",
   "trades": [
@@ -355,23 +355,23 @@
     "losingTrades": 7,
     "symbols": [
       "RIME",
-      "INGN",
-      "XWEL",
-      "LRMR",
-      "TJGC",
       "RETO",
+      "NFLX",
+      "INGN",
+      "GITS",
       "HIMS",
+      "TJGC",
       "GANX",
       "ANPA",
-      "GITS",
-      "GNPX",
       "FRGT",
-      "NFLX",
+      "LRMR",
+      "XWEL",
+      "GNPX",
       "EDSA"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-02-25 15:22:40"
+    "processedAt": "2026-02-26 03:51:33"
   }
 }
