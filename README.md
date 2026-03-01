@@ -19,21 +19,21 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 9 (partial)** | 60 | **-$298.28** | 58.3% |
+| **Week 9** | 60 | **-$295.38** | 58.3% |
 | Week 8 | 74 | **+$97.30** | 73.0% |
-| **February (partial)** | 268 | **-$522.41** | 70.9% |
-| January | 261 | **+$246.56** | 69.7% |
+| **March (partial)** | 0 | $0.00 | 0% |
+| February | 268 | **-$515.83** | 70.9% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 529 | 3,272 |
-| **P&L** | **-$275.85** | **-$1,706.53** |
+| **Trades** | 529 | 3,218 |
+| **P&L** | **-$269.27** | **-$1,638.06** |
 
-*Based on current performance with 306 days remaining*
+*Based on current performance with 305 days remaining*
 
-*Last updated: 2026-02-28 15:05 UTC*
+*Last updated: 2026-03-01 03:55 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -63,6 +63,7 @@ This is a live example of:
 | Month | Trades | P&L | Win Rate |
 |-------|--------|-----|----------|
 | January | 261 | **$+246.56** | 69.7% |
+| February | 268 | **$-515.83** | 70.9% |
 
 <!-- CALENDAR_END -->
 
