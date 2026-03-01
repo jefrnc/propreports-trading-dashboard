@@ -1,0 +1,22 @@
+RESUMEN MENSUAL DE TRADING
+February 2026
+==================================================
+
+RESUMEN GENERAL:
+  Total de trades: 268
+  P&L Neto: $-515.83
+  Win Rate: 70.9%
+  Profit Factor: 0.83
+  Expectancy: $-1.52
+
+DESGLOSE SEMANAL:
+  Semana 5: 69 trades, $132.79, WR: 78.3%
+  Semana 6: 41 trades, $153.05, WR: 85.4%
+  Semana 7: 93 trades, $-470.8, WR: 71.0%
+  Semana 8: 74 trades, $97.3, WR: 73.0%
+  Semana 9: 60 trades, $-295.38, WR: 58.3%
+
+RECOMENDACIONES:
+  🔴 [Risk Management] Drawdown elevado (352.5%). Implementar stops más ajustados.
+  🔵 [Symbol Selection] Revisar estrategia para: BATL, RIME, QNCX (pérdidas consistentes)
+  🟡 [Consistency] Solo 46.4% de días rentables. Buscar mayor consistencia.

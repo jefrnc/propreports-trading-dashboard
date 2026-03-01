@@ -1,0 +1,267 @@
+{
+  "generateDate": "2026-03-01 03:55:29",
+  "weekPeriod": "2026-02-23 to 2026-03-01",
+  "weekNumber": 9,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 60,
+    "grossPnL": -279.86,
+    "totalCommissions": 15.52,
+    "netPnL": -295.38,
+    "avgDailyPnL": -42.2,
+    "avgTradePerDay": 8.57,
+    "winningTrades": 35,
+    "losingTrades": 24,
+    "winRate": 0.5833,
+    "avgWin": 9.84,
+    "avgLoss": -26.02,
+    "profitFactor": 0.55
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-02-27",
+      "symbol": "CDIO",
+      "pnl": 126.08
+    },
+    "worstTrade": {
+      "date": "2026-02-27",
+      "symbol": "BATL",
+      "pnl": -186.78
+    },
+    "bestDay": {
+      "date": "2026-02-26",
+      "trades": 15,
+      "pnl": 83.97,
+      "symbols": [
+        "EDSA",
+        "IMTE",
+        "BTOC",
+        "AEHL",
+        "SMJF",
+        "SBEV",
+        "INSP",
+        "BGL",
+        "HCTI",
+        "ALBT",
+        "ZTEK"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-02-27",
+      "trades": 17,
+      "pnl": -397.81,
+      "symbols": [
+        "EDSA",
+        "XWEL",
+        "BATL",
+        "CDIO",
+        "ONMD"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 11,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "HCTI",
+        {
+          "count": 2,
+          "pnl": 48.86,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "EDSA",
+        {
+          "count": 8,
+          "pnl": 33.080000000000005,
+          "win_rate": 0.5
+        }
+      ],
+      [
+        "AEHL",
+        {
+          "count": 1,
+          "pnl": 15.53,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "IMTE",
+        {
+          "count": 1,
+          "pnl": 14.07,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "PBM",
+        {
+          "count": 2,
+          "pnl": 11.2,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "04": {
+        "count": 5,
+        "pnl": 23.04
+      },
+      "08": {
+        "count": 8,
+        "pnl": -171.82
+      },
+      "09": {
+        "count": 11,
+        "pnl": -121.54999999999998
+      },
+      "10": {
+        "count": 8,
+        "pnl": -85.13000000000001
+      },
+      "15": {
+        "count": 4,
+        "pnl": 2.6
+      },
+      "16": {
+        "count": 9,
+        "pnl": 28.060000000000002
+      },
+      "11": {
+        "count": 4,
+        "pnl": 37.02
+      },
+      "12": {
+        "count": 4,
+        "pnl": -20.86
+      },
+      "13": {
+        "count": 2,
+        "pnl": 8.95
+      },
+      "17": {
+        "count": 2,
+        "pnl": 5.42
+      },
+      "18": {
+        "count": 1,
+        "pnl": 2.7
+      },
+      "05": {
+        "count": 1,
+        "pnl": 5.94
+      },
+      "14": {
+        "count": 1,
+        "pnl": 5.77
+      }
+    },
+    "tradeDurations": {
+      ">60min": {
+        "count": 26,
+        "pnl": 112.98999999999998
+      },
+      "5-15min": {
+        "count": 7,
+        "pnl": -22.4
+      },
+      "15-60min": {
+        "count": 16,
+        "pnl": -185.45
+      },
+      "<5min": {
+        "count": 11,
+        "pnl": -185.0
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-02-23",
+      "trades": 8,
+      "pnl": 10.32,
+      "symbols": [
+        "SGN",
+        "SILO",
+        "IKT",
+        "PBM",
+        "GNPX"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "trades": 19,
+      "pnl": -0.6,
+      "symbols": [
+        "HIMS",
+        "TJGC",
+        "GITS",
+        "GANX",
+        "NFLX",
+        "RETO",
+        "FRGT",
+        "INGN",
+        "RIME",
+        "XWEL",
+        "LRMR",
+        "ANPA",
+        "EDSA",
+        "GNPX"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "trades": 1,
+      "pnl": 5.84,
+      "symbols": [
+        "WHLR"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "trades": 15,
+      "pnl": 83.97,
+      "symbols": [
+        "EDSA",
+        "IMTE",
+        "BTOC",
+        "AEHL",
+        "SMJF",
+        "SBEV",
+        "INSP",
+        "BGL",
+        "HCTI",
+        "ALBT",
+        "ZTEK"
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "trades": 17,
+      "pnl": -397.81,
+      "symbols": [
+        "EDSA",
+        "XWEL",
+        "BATL",
+        "CDIO",
+        "ONMD"
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-03-01",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
