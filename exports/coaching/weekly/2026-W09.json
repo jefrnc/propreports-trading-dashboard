@@ -1,0 +1,21 @@
+{
+  "period": "Week 9, 2026",
+  "week_period": "2026-02-23 to 2026-03-01",
+  "generated_at": "2026-03-02T09:20:42.264733",
+  "performance_summary": {
+    "net_pnl": -295.38,
+    "total_trades": 60,
+    "win_rate": 0.5833,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "### 5. Risk Management Observations\n- Your maximum consecutive losses (3) indicates that you may need to reassess your stop-loss strategies. Consider implementing tighter stop-loss orders to manage risk better and avoid significant drawdowns.",
+    "psychological_insights": "### 6. Psychological/Discipline Observations\n- The high number of trades may reflect a lack of patience or discipline in waiting for ideal setups. Work on maintaining discipline to avoid impulsive trading decisions, especially after a series of wins or losses.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
