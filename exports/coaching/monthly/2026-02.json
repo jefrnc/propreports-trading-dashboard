@@ -1,0 +1,20 @@
+{
+  "period": "February 2026",
+  "generated_at": "2026-03-02T09:13:07.773771",
+  "performance_summary": {
+    "net_pnl": -515.83,
+    "total_trades": 268,
+    "win_rate": 0.709,
+    "profit_factor": 0.83
+  },
+  "coaching": {
+    "overall_performance": "** The loss of $-515.83 indicates that while you are executing a high number of trades, the overall profitability is lacking.\n- **Win Rate:** A win rate of 70.9% is commendable; however, it is crucial to analyze the quality of wins versus losses.\n- **Profit Factor:** At 0.83, this suggests that for every dollar lost, only 83 cents are gained, highlighting the need for improvement in loss management.",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "** Focus on post-trade analysis to understand what works and what doesn\u2019t, particularly on the losing trades.\n2. **Refine Trading Strategy:** Develop a robust strategy that emphasizes a favorable risk-to-reward ratio to improve the profit factor.\n3. **Risk Management Practices:** Prioritize risk management techniques to reduce drawdown and improve overall capital preservation.",
+    "psychological_insights": "** The occurrence of max consecutive losses (3) suggests potential emotional strain. Ensure to take breaks and avoid revenge trading during downswings.\n- **Confidence vs. Overtrading:** A high win rate may lead to overconfidence, prompting excessive trades. Maintain a disciplined approach and stick to well-defined setups.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
