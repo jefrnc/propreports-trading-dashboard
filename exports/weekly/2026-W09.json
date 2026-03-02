@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-03-01 15:05:55",
+  "generateDate": "2026-03-02 03:50:49",
   "weekPeriod": "2026-02-23 to 2026-03-01",
   "weekNumber": 9,
   "year": 2026,
@@ -53,11 +53,11 @@
       "trades": 17,
       "pnl": -397.81,
       "symbols": [
+        "CDIO",
+        "ONMD",
         "EDSA",
         "XWEL",
-        "BATL",
-        "CDIO",
-        "ONMD"
+        "BATL"
       ]
     }
   },
@@ -244,11 +244,11 @@
       "trades": 17,
       "pnl": -397.81,
       "symbols": [
+        "CDIO",
+        "ONMD",
         "EDSA",
         "XWEL",
-        "BATL",
-        "CDIO",
-        "ONMD"
+        "BATL"
       ]
     },
     {
