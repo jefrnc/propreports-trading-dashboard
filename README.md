@@ -19,21 +19,21 @@ This is a live example of:
 
 | Period | Trades | P&L | Win Rate |
 |--------|--------|-----|----------|
-| **Week 10 (partial)** | 15 | **-$53.22** | 73.3% |
+| **Week 10 (partial)** | 22 | **-$43.19** | 68.2% |
 | Week 9 | 60 | **-$295.38** | 58.3% |
-| **March (partial)** | 15 | **-$53.22** | 73.3% |
+| **March (partial)** | 22 | **-$43.19** | 68.2% |
 | February | 268 | **-$515.83** | 70.9% |
 
 #### 📈 Yearly Projection
 
 | Metric | Actual YTD | Projected EOY |
 |--------|------------|---------------|
-| **Trades** | 544 | 3,102 |
-| **P&L** | **-$322.49** | **-$1,839.20** |
+| **Trades** | 551 | 3,142 |
+| **P&L** | **-$312.46** | **-$1,782.00** |
 
 *Based on current performance with 301 days remaining*
 
-*Last updated: 2026-03-05 03:50 UTC*
+*Last updated: 2026-03-05 15:20 UTC*
 <!-- STATS_END -->
 
 <!-- CALENDAR_START -->
@@ -48,15 +48,15 @@ This is a live example of:
 
 | Metric | Value |
 |--------|-------|
-| **Total Trading Days** | 41 |
-| **Total Trades** | 544 |
-| **Total P&L** | $-314.48 |
-| **Win Rate** | 65.9% |
-| **Profit Days** | 27 (65.9%) |
-| **Loss Days** | 14 (34.1%) |
+| **Total Trading Days** | 42 |
+| **Total Trades** | 551 |
+| **Total P&L** | $-304.45 |
+| **Win Rate** | 66.7% |
+| **Profit Days** | 28 (66.7%) |
+| **Loss Days** | 14 (33.3%) |
 | **Best Day** | $303.32 (2026-01-08) |
 | **Worst Day** | $-397.81 (2026-02-27) |
-| **Daily Average** | $-7.67 |
+| **Daily Average** | $-7.25 |
 
 ### 📈 Monthly Breakdown
 
