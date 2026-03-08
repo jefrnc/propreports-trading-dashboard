@@ -1,0 +1,242 @@
+{
+  "generateDate": "2026-03-08 03:50:05",
+  "weekPeriod": "2026-03-02 to 2026-03-08",
+  "weekNumber": 10,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 38,
+    "grossPnL": -49.83,
+    "totalCommissions": 6.47,
+    "netPnL": -56.3,
+    "avgDailyPnL": -8.04,
+    "avgTradePerDay": 5.43,
+    "winningTrades": 21,
+    "losingTrades": 17,
+    "winRate": 0.5526,
+    "avgWin": 6.4,
+    "avgLoss": -10.84,
+    "profitFactor": 0.73
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-03-04",
+      "symbol": "ADVB",
+      "pnl": 22.49
+    },
+    "worstTrade": {
+      "date": "2026-03-03",
+      "symbol": "DLXY",
+      "pnl": -84.4
+    },
+    "bestDay": {
+      "date": "2026-03-02",
+      "trades": 10,
+      "pnl": 27.28,
+      "symbols": [
+        "BATL",
+        "TURB",
+        "TPET",
+        "INDO",
+        "RPGL"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-03-03",
+      "trades": 5,
+      "pnl": -80.5,
+      "symbols": [
+        "SVRN",
+        "BATL",
+        "DLXY",
+        "TMDE",
+        "TPET"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 7,
+    "maxConsecutiveLosses": 6,
+    "topSymbols": [
+      [
+        "ADVB",
+        {
+          "count": 1,
+          "pnl": 22.49,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "TURB",
+        {
+          "count": 3,
+          "pnl": 17.71,
+          "win_rate": 0.6667
+        }
+      ],
+      [
+        "CDTG",
+        {
+          "count": 1,
+          "pnl": 10.22,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "BTAI",
+        {
+          "count": 1,
+          "pnl": 7.13,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "OLOX",
+        {
+          "count": 1,
+          "pnl": 6.27,
+          "win_rate": 1.0
+        }
+      ]
+    ],
+    "tradingHours": {
+      "08": {
+        "count": 8,
+        "pnl": -36.58
+      },
+      "09": {
+        "count": 10,
+        "pnl": 54.33
+      },
+      "10": {
+        "count": 6,
+        "pnl": 18.11
+      },
+      "11": {
+        "count": 2,
+        "pnl": 6.4
+      },
+      "16": {
+        "count": 4,
+        "pnl": -74.76
+      },
+      "07": {
+        "count": 3,
+        "pnl": 7.510000000000001
+      },
+      "12": {
+        "count": 1,
+        "pnl": -5.0
+      },
+      "13": {
+        "count": 1,
+        "pnl": -5.32
+      },
+      "04": {
+        "count": 2,
+        "pnl": -9.52
+      },
+      "06": {
+        "count": 1,
+        "pnl": -5.0
+      }
+    },
+    "tradeDurations": {
+      "15-60min": {
+        "count": 17,
+        "pnl": -23.19
+      },
+      "5-15min": {
+        "count": 2,
+        "pnl": -17.27
+      },
+      ">60min": {
+        "count": 7,
+        "pnl": 20.1
+      },
+      "<5min": {
+        "count": 12,
+        "pnl": -29.47
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-03-02",
+      "trades": 10,
+      "pnl": 27.28,
+      "symbols": [
+        "BATL",
+        "TURB",
+        "TPET",
+        "INDO",
+        "RPGL"
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "trades": 5,
+      "pnl": -80.5,
+      "symbols": [
+        "SVRN",
+        "BATL",
+        "DLXY",
+        "TMDE",
+        "TPET"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "trades": 7,
+      "pnl": 10.03,
+      "symbols": [
+        "AIFF",
+        "ADVB",
+        "VCIG",
+        "CCHH",
+        "CDTG"
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "trades": 7,
+      "pnl": -12.58,
+      "symbols": [
+        "BTAI",
+        "STAK",
+        "GBR",
+        "GXAI",
+        "TPET",
+        "MTEK"
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "trades": 9,
+      "pnl": -1.11,
+      "symbols": [
+        "CRE",
+        "MOBX",
+        "JZXN",
+        "TPET",
+        "OLOX",
+        "SYNX",
+        "PRSO",
+        "IBG"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-03-08",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
