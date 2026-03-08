@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-08 03:50:05",
+  "exportDate": "2026-03-08 15:06:28",
   "account": "ZI*******64",
   "date": "2026-03-05",
   "trades": [
@@ -138,16 +138,16 @@
     "winningTrades": 2,
     "losingTrades": 5,
     "symbols": [
+      "GXAI",
       "BTAI",
+      "MTEK",
       "STAK",
       "GBR",
-      "GXAI",
-      "TPET",
-      "MTEK"
+      "TPET"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-08 03:50:05"
+    "processedAt": "2026-03-08 15:06:28"
   }
 }

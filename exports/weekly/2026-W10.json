@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-03-08 03:50:05",
+  "generateDate": "2026-03-08 15:06:29",
   "weekPeriod": "2026-03-02 to 2026-03-08",
   "weekNumber": 10,
   "year": 2026,
@@ -203,12 +203,12 @@
       "trades": 7,
       "pnl": -12.58,
       "symbols": [
+        "GXAI",
         "BTAI",
+        "MTEK",
         "STAK",
         "GBR",
-        "GXAI",
-        "TPET",
-        "MTEK"
+        "TPET"
       ]
     },
     {
@@ -216,14 +216,14 @@
       "trades": 9,
       "pnl": -1.11,
       "symbols": [
-        "CRE",
         "MOBX",
-        "JZXN",
-        "TPET",
         "OLOX",
         "SYNX",
+        "JZXN",
+        "CRE",
+        "IBG",
         "PRSO",
-        "IBG"
+        "TPET"
       ]
     },
     {
