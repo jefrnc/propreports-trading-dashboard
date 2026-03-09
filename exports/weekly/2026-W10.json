@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-03-09 03:51:43",
+  "generateDate": "2026-03-09 15:22:27",
   "weekPeriod": "2026-03-02 to 2026-03-08",
   "weekNumber": 10,
   "year": 2026,
@@ -216,14 +216,14 @@
       "trades": 9,
       "pnl": -1.11,
       "symbols": [
+        "TPET",
+        "PRSO",
         "IBG",
         "MOBX",
         "SYNX",
-        "OLOX",
-        "PRSO",
-        "JZXN",
         "CRE",
-        "TPET"
+        "JZXN",
+        "OLOX"
       ]
     },
     {
