@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-10 03:50:01",
+  "lastUpdate": "2026-03-10 15:21:26",
   "year": 2026,
   "yearData": {
     "2026-01-01": {
@@ -338,9 +338,9 @@
       "winRate": 0
     },
     "2026-03-09": {
-      "trades": 0,
-      "pnl": 0,
-      "winRate": 0
+      "trades": 10,
+      "pnl": 6.58,
+      "winRate": 0.6
     },
     "2026-03-10": {
       "trades": 0,
@@ -349,26 +349,26 @@
     }
   },
   "yearStats": {
-    "trading_days": 44,
-    "total_trades": 567,
-    "total_pnl": -318.1399999999998,
-    "win_rate": 63.63636363636363,
-    "profit_days": 28,
-    "profit_days_pct": 63.63636363636363,
+    "trading_days": 45,
+    "total_trades": 577,
+    "total_pnl": -311.55999999999983,
+    "win_rate": 64.44444444444444,
+    "profit_days": 29,
+    "profit_days_pct": 64.44444444444444,
     "loss_days": 16,
-    "loss_days_pct": 36.36363636363637,
+    "loss_days_pct": 35.55555555555556,
     "best_day": "2026-01-08",
     "best_day_pnl": 303.32,
     "worst_day": "2026-02-27",
     "worst_day_pnl": -397.81,
-    "daily_avg": -7.230454545454541,
+    "daily_avg": -6.923555555555552,
     "profit_factor": 0.98,
     "biggest_win": 473.2,
     "biggest_loss": -383.99,
-    "total_fees": 203.7,
+    "total_fees": 204.5,
     "max_win_streak": 11,
     "max_loss_streak": 6,
-    "current_streak": 3,
+    "current_streak": 2,
     "current_streak_type": "win"
   },
   "monthlyData": [
