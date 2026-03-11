@@ -32,17 +32,22 @@
       "trades": 10,
       "pnl": 6.58,
       "winRate": 0
+    },
+    "2026-03-10": {
+      "trades": 14,
+      "pnl": 47.19,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 48,
-    "totalPnL": -50.3,
-    "winRate": 54.166666666666664,
-    "bestDay": "2026-03-02",
-    "bestDayPnL": 27.28,
+    "totalTrades": 62,
+    "totalPnL": -3.1099999999999994,
+    "winRate": 58.06451612903226,
+    "bestDay": "2026-03-10",
+    "bestDayPnL": 47.19,
     "worstDay": "2026-03-03",
     "worstDayPnL": -80.5,
-    "tradingDays": 6
+    "tradingDays": 7
   },
   "topWinners": [
     {
@@ -100,6 +105,24 @@
       "price": 1.3882
     },
     {
+      "date": "2026-03-10",
+      "opened": "03/10/26 07:52:54",
+      "closed": "08:08:26",
+      "held": "00:15:32",
+      "symbol": "BIAF",
+      "type": "Short",
+      "entry": 1.34,
+      "exit": 1.15,
+      "size": 53.0,
+      "pnl": 10.07,
+      "commission": 0.16,
+      "net": 10.11,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 53.0,
+      "price": 1.34
+    },
+    {
       "date": "2026-03-04",
       "opened": "03/04/26 16:09:21",
       "closed": "16:53:47",
@@ -116,24 +139,6 @@
       "side": "SELL",
       "quantity": 341.0,
       "price": 0.546
-    },
-    {
-      "date": "2026-03-02",
-      "opened": "03/02/26 08:38:03",
-      "closed": "09:22:00",
-      "held": "00:43:57",
-      "symbol": "TURB",
-      "type": "Short",
-      "entry": 1.274,
-      "exit": 1.2166,
-      "size": 150.0,
-      "pnl": 8.61,
-      "commission": 0.45,
-      "net": 8.52,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 150.0,
-      "price": 1.274
     }
   ],
   "topLosers": [
