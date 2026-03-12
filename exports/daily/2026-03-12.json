@@ -1,0 +1,19 @@
+{
+  "exportDate": "2026-03-12 15:21:39",
+  "account": "ZI*******64",
+  "date": "2026-03-12",
+  "trades": [],
+  "summary": {
+    "totalTrades": 0,
+    "totalPnL": 0,
+    "totalCommissions": 0,
+    "netPnL": 0,
+    "winningTrades": 0,
+    "losingTrades": 0,
+    "symbols": []
+  },
+  "metadata": {
+    "reprocessed": true,
+    "processedAt": "2026-03-12 15:21:39"
+  }
+}
