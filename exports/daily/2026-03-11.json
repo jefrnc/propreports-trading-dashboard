@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-13 15:17:47",
+  "exportDate": "2026-03-14 03:49:55",
   "account": "ZI*******64",
   "date": "2026-03-11",
   "trades": [
@@ -372,22 +372,22 @@
     "winningTrades": 16,
     "losingTrades": 4,
     "symbols": [
-      "TMDE",
-      "SXTP",
-      "ATOM",
-      "CVGI",
-      "ETS",
-      "BATL",
-      "SCNX",
       "ATPC",
-      "VCIG",
+      "TENX",
+      "CVGI",
+      "BATL",
+      "ETS",
+      "SXTP",
+      "TMDE",
       "ACXP",
+      "VCIG",
+      "SCNX",
       "CYN",
-      "TENX"
+      "ATOM"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-13 15:17:47"
+    "processedAt": "2026-03-14 03:49:55"
   }
 }
