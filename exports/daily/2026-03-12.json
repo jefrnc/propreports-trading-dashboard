@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-14 03:49:55",
+  "exportDate": "2026-03-14 15:08:31",
   "account": "ZI*******64",
   "date": "2026-03-12",
   "trades": [
@@ -390,21 +390,21 @@
     "winningTrades": 13,
     "losingTrades": 8,
     "symbols": [
-      "LCUT",
-      "BATL",
-      "TMDE",
       "ACXP",
-      "POLA",
-      "ORBS",
-      "DTCK",
-      "EONR",
       "ISPC",
+      "TMDE",
+      "POLA",
+      "AGRZ",
       "NCRA",
-      "AGRZ"
+      "BATL",
+      "ORBS",
+      "LCUT",
+      "DTCK",
+      "EONR"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-14 03:49:55"
+    "processedAt": "2026-03-14 15:08:31"
   }
 }

@@ -47,17 +47,22 @@
       "trades": 21,
       "pnl": 46.31,
       "winRate": 0
+    },
+    "2026-03-13": {
+      "trades": 7,
+      "pnl": -45.08,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 103,
-    "totalPnL": 100.26,
-    "winRate": 63.10679611650486,
+    "totalTrades": 110,
+    "totalPnL": 55.18000000000001,
+    "winRate": 60.909090909090914,
     "bestDay": "2026-03-11",
     "bestDayPnL": 57.06,
     "worstDay": "2026-03-03",
     "worstDayPnL": -80.5,
-    "tradingDays": 9
+    "tradingDays": 10
   },
   "topWinners": [
     {
@@ -97,6 +102,24 @@
       "price": 3.84
     },
     {
+      "date": "2026-03-13",
+      "opened": "03/13/26 08:58:18",
+      "closed": "10:01:46",
+      "held": "01:03:28",
+      "symbol": "PRZO",
+      "type": "Short",
+      "entry": 1.4,
+      "exit": 1.21,
+      "size": 112.0,
+      "pnl": 21.28,
+      "commission": 0.34,
+      "net": 21.37,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 112.0,
+      "price": 1.4
+    },
+    {
       "date": "2026-03-12",
       "opened": "03/12/26 04:06:14",
       "closed": "13:07:39",
@@ -131,24 +154,6 @@
       "side": "SELL",
       "quantity": 60.0,
       "price": 2.52
-    },
-    {
-      "date": "2026-03-04",
-      "opened": "03/04/26 09:23:44",
-      "closed": "09:43:51",
-      "held": "00:20:07",
-      "symbol": "AIFF",
-      "type": "Short",
-      "entry": 1.26,
-      "exit": 1.09,
-      "size": 85.0,
-      "pnl": 14.45,
-      "commission": 0.26,
-      "net": 14.51,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 85.0,
-      "price": 1.26
     }
   ],
   "topLosers": [
@@ -169,6 +174,24 @@
       "side": "SELL",
       "quantity": 200.0,
       "price": 1.484
+    },
+    {
+      "date": "2026-03-13",
+      "opened": "03/13/26 08:47:25",
+      "closed": "08:53:44",
+      "held": "00:06:19",
+      "symbol": "DEVS",
+      "type": "Short",
+      "entry": 1.1,
+      "exit": 1.23,
+      "size": 140.0,
+      "pnl": -18.2,
+      "commission": 0.42,
+      "net": -19.5,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 140.0,
+      "price": 1.1
     },
     {
       "date": "2026-03-12",
@@ -207,40 +230,22 @@
       "price": 1.04
     },
     {
-      "date": "2026-03-04",
-      "opened": "03/04/26 08:28:34",
-      "closed": "08:35:34",
-      "held": "00:07:00",
-      "symbol": "AIFF",
+      "date": "2026-03-13",
+      "opened": "03/13/26 09:29:02",
+      "closed": "09:38:38",
+      "held": "00:09:36",
+      "symbol": "DEVS",
       "type": "Short",
-      "entry": 1.08,
-      "exit": 1.2097,
-      "size": 100.0,
-      "pnl": -12.97,
-      "commission": 0.3,
-      "net": -13.89,
+      "entry": 1.06,
+      "exit": 1.18,
+      "size": 140.0,
+      "pnl": -16.8,
+      "commission": 0.42,
+      "net": -17.44,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 100.0,
-      "price": 1.08
-    },
-    {
-      "date": "2026-03-11",
-      "opened": "03/11/26 07:15:49",
-      "closed": "07:38:17",
-      "held": "00:22:28",
-      "symbol": "CYN",
-      "type": "Short",
-      "entry": 1.98,
-      "exit": 2.21,
-      "size": 53.0,
-      "pnl": -12.19,
-      "commission": 0.16,
-      "net": -12.42,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 53.0,
-      "price": 1.98
+      "quantity": 140.0,
+      "price": 1.06
     }
   ]
 }
