@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-03-15 04:01:13",
+  "generateDate": "2026-03-15 15:09:14",
   "weekPeriod": "2026-03-09 to 2026-03-15",
   "weekNumber": 11,
   "year": 2026,
@@ -54,10 +54,10 @@
       "trades": 7,
       "pnl": -45.08,
       "symbols": [
-        "ELPW",
-        "DEVS",
+        "PRZO",
         "BIAF",
-        "PRZO"
+        "DEVS",
+        "ELPW"
       ]
     }
   },
@@ -235,17 +235,17 @@
       "trades": 21,
       "pnl": 46.31,
       "symbols": [
-        "NCRA",
-        "DTCK",
-        "ACXP",
-        "POLA",
-        "LCUT",
-        "EONR",
         "BATL",
+        "LCUT",
         "ORBS",
-        "TMDE",
+        "ACXP",
         "ISPC",
-        "AGRZ"
+        "EONR",
+        "NCRA",
+        "TMDE",
+        "POLA",
+        "AGRZ",
+        "DTCK"
       ]
     },
     {
@@ -253,10 +253,10 @@
       "trades": 7,
       "pnl": -45.08,
       "symbols": [
-        "ELPW",
-        "DEVS",
+        "PRZO",
         "BIAF",
-        "PRZO"
+        "DEVS",
+        "ELPW"
       ]
     },
     {
