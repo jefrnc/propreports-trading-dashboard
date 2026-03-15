@@ -1,0 +1,275 @@
+{
+  "generateDate": "2026-03-15 04:01:13",
+  "weekPeriod": "2026-03-09 to 2026-03-15",
+  "weekNumber": 11,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 72,
+    "grossPnL": 127.29,
+    "totalCommissions": 12.1,
+    "netPnL": 115.19,
+    "avgDailyPnL": 16.46,
+    "avgTradePerDay": 10.29,
+    "winningTrades": 47,
+    "losingTrades": 25,
+    "winRate": 0.6528,
+    "avgWin": 7.24,
+    "avgLoss": -8.51,
+    "profitFactor": 1.6
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-03-12",
+      "symbol": "LCUT",
+      "pnl": 21.6
+    },
+    "worstTrade": {
+      "date": "2026-03-13",
+      "symbol": "DEVS",
+      "pnl": -18.2
+    },
+    "bestDay": {
+      "date": "2026-03-11",
+      "trades": 20,
+      "pnl": 57.06,
+      "symbols": [
+        "ACXP",
+        "ATOM",
+        "CYN",
+        "SXTP",
+        "TMDE",
+        "ETS",
+        "SCNX",
+        "BATL",
+        "ATPC",
+        "CVGI",
+        "VCIG",
+        "TENX"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-03-13",
+      "trades": 7,
+      "pnl": -45.08,
+      "symbols": [
+        "ELPW",
+        "DEVS",
+        "BIAF",
+        "PRZO"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 8,
+    "maxConsecutiveLosses": 3,
+    "topSymbols": [
+      [
+        "TMDE",
+        {
+          "count": 3,
+          "pnl": 42.24,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "POLA",
+        {
+          "count": 4,
+          "pnl": 26.06,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "INKT",
+        {
+          "count": 4,
+          "pnl": 24.26,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "PRZO",
+        {
+          "count": 1,
+          "pnl": 21.28,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "LCUT",
+        {
+          "count": 2,
+          "pnl": 18.840000000000003,
+          "win_rate": 0.5
+        }
+      ]
+    ],
+    "tradingHours": {
+      "04": {
+        "count": 4,
+        "pnl": 24.809999999999995
+      },
+      "09": {
+        "count": 14,
+        "pnl": -9.18
+      },
+      "10": {
+        "count": 6,
+        "pnl": 27.85
+      },
+      "12": {
+        "count": 4,
+        "pnl": -11.809999999999999
+      },
+      "13": {
+        "count": 1,
+        "pnl": -5.8
+      },
+      "16": {
+        "count": 10,
+        "pnl": 25.979999999999997
+      },
+      "17": {
+        "count": 3,
+        "pnl": 0.40000000000000036
+      },
+      "07": {
+        "count": 9,
+        "pnl": 85.6
+      },
+      "08": {
+        "count": 12,
+        "pnl": -4.429999999999996
+      },
+      "11": {
+        "count": 5,
+        "pnl": -19.14
+      },
+      "14": {
+        "count": 1,
+        "pnl": -4.39
+      },
+      "15": {
+        "count": 2,
+        "pnl": 5.8
+      },
+      "05": {
+        "count": 1,
+        "pnl": 11.6
+      }
+    },
+    "tradeDurations": {
+      ">60min": {
+        "count": 25,
+        "pnl": 126.34000000000003
+      },
+      "15-60min": {
+        "count": 26,
+        "pnl": 0.6200000000000045
+      },
+      "<5min": {
+        "count": 13,
+        "pnl": 4.15
+      },
+      "5-15min": {
+        "count": 8,
+        "pnl": -3.8200000000000003
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-03-09",
+      "trades": 10,
+      "pnl": 6.58,
+      "symbols": [
+        "EPSM",
+        "ANTX",
+        "SEV",
+        "BIYA",
+        "POLA",
+        "USEG",
+        "ACXP",
+        "INDO"
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "trades": 14,
+      "pnl": 47.19,
+      "symbols": [
+        "TMDE",
+        "MRNO",
+        "KITT",
+        "INKT",
+        "BEAT",
+        "ACXP",
+        "VTAK",
+        "BIAF",
+        "LGVN"
+      ]
+    },
+    {
+      "date": "2026-03-11",
+      "trades": 20,
+      "pnl": 57.06,
+      "symbols": [
+        "ACXP",
+        "ATOM",
+        "CYN",
+        "SXTP",
+        "TMDE",
+        "ETS",
+        "SCNX",
+        "BATL",
+        "ATPC",
+        "CVGI",
+        "VCIG",
+        "TENX"
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "trades": 21,
+      "pnl": 46.31,
+      "symbols": [
+        "NCRA",
+        "DTCK",
+        "ACXP",
+        "POLA",
+        "LCUT",
+        "EONR",
+        "BATL",
+        "ORBS",
+        "TMDE",
+        "ISPC",
+        "AGRZ"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "trades": 7,
+      "pnl": -45.08,
+      "symbols": [
+        "ELPW",
+        "DEVS",
+        "BIAF",
+        "PRZO"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-03-15",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
