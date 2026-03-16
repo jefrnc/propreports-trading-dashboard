@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-03-15 15:09:14",
+  "generateDate": "2026-03-16 04:03:57",
   "weekPeriod": "2026-03-09 to 2026-03-15",
   "weekNumber": 11,
   "year": 2026,
@@ -55,9 +55,9 @@
       "pnl": -45.08,
       "symbols": [
         "PRZO",
-        "BIAF",
+        "ELPW",
         "DEVS",
-        "ELPW"
+        "BIAF"
       ]
     }
   },
@@ -254,9 +254,9 @@
       "pnl": -45.08,
       "symbols": [
         "PRZO",
-        "BIAF",
+        "ELPW",
         "DEVS",
-        "ELPW"
+        "BIAF"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-15 15:09:13",
+  "exportDate": "2026-03-16 04:03:56",
   "account": "ZI*******64",
   "date": "2026-03-13",
   "trades": [
@@ -139,13 +139,13 @@
     "losingTrades": 5,
     "symbols": [
       "PRZO",
-      "BIAF",
+      "ELPW",
       "DEVS",
-      "ELPW"
+      "BIAF"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-15 15:09:13"
+    "processedAt": "2026-03-16 04:03:56"
   }
 }
