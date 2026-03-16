@@ -1,0 +1,23 @@
+{
+  "period": "Week 11, 2026",
+  "week_period": "2026-03-09 to 2026-03-15",
+  "generated_at": "2026-03-16T09:28:12.905507",
+  "performance_summary": {
+    "net_pnl": 115.19,
+    "total_trades": 72,
+    "win_rate": 0.6528,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [
+      "Specific Mistakes or Areas to Improve:**\n   - **Average Trade Performance:** The disparity between your best trade ($21.60) and worst trade ($-18.20) suggests that while you can make significant profits, you are also exposing yourself to substantial losses. This indicates a need for better loss management.\n   - **Trade Frequency:** With an average of 0.0 trades per day, it seems you may not be exploiting opportunities effectively. Increasing your trading frequency while maintaining quality could enhance your net P&L."
+    ],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "**\n   - The maximum loss of $18.20 indicates a need for tighter stop-loss strategies. Implementing more disciplined stop-loss levels can help prevent significant drawdowns on losing trades.",
+    "psychological_insights": "**\n   - Your ability to maintain a high win rate suggests strong psychological resilience. However, the presence of three consecutive losses may indicate vulnerability to emotional trading. Stay disciplined and stick to your trading plan, especially after a losing streak.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
