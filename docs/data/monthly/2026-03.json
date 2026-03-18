@@ -57,19 +57,42 @@
       "trades": 15,
       "pnl": 122.79,
       "winRate": 0
+    },
+    "2026-03-17": {
+      "trades": 6,
+      "pnl": 110.35,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 125,
-    "totalPnL": 177.97000000000003,
-    "winRate": 63.2,
+    "totalTrades": 131,
+    "totalPnL": 288.32000000000005,
+    "winRate": 63.358778625954194,
     "bestDay": "2026-03-16",
     "bestDayPnL": 122.79,
     "worstDay": "2026-03-03",
     "worstDayPnL": -80.5,
-    "tradingDays": 11
+    "tradingDays": 12
   },
   "topWinners": [
+    {
+      "date": "2026-03-17",
+      "opened": "03/17/26 10:48:36",
+      "closed": "14:29:43",
+      "held": "03:41:07",
+      "symbol": "CREG",
+      "type": "Short",
+      "entry": 1.9958,
+      "exit": 1.5958,
+      "size": 242.0,
+      "pnl": 96.82,
+      "commission": 0.73,
+      "net": 96.47,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 242.0,
+      "price": 1.9958
+    },
     {
       "date": "2026-03-16",
       "opened": "03/16/26 12:08:24",
@@ -141,24 +164,6 @@
       "side": "SELL",
       "quantity": 13.0,
       "price": 8.09
-    },
-    {
-      "date": "2026-03-12",
-      "opened": "03/12/26 07:25:49",
-      "closed": "07:47:40",
-      "held": "00:21:51",
-      "symbol": "LCUT",
-      "type": "Short",
-      "entry": 3.84,
-      "exit": 3.3,
-      "size": 40.0,
-      "pnl": 21.6,
-      "commission": 0.12,
-      "net": 21.43,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 40.0,
-      "price": 3.84
     }
   ],
   "topLosers": [
@@ -217,6 +222,24 @@
       "price": 1.25
     },
     {
+      "date": "2026-03-17",
+      "opened": "03/17/26 07:46:03",
+      "closed": "09:36:13",
+      "held": "01:50:10",
+      "symbol": "BIAF",
+      "type": "Short",
+      "entry": 2.41,
+      "exit": 2.69,
+      "size": 62.0,
+      "pnl": -17.36,
+      "commission": 0.19,
+      "net": -17.63,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 62.0,
+      "price": 2.41
+    },
+    {
       "date": "2026-03-16",
       "opened": "03/16/26 12:00:20",
       "closed": "12:06:17",
@@ -233,24 +256,6 @@
       "side": "SELL",
       "quantity": 88.0,
       "price": 1.7601
-    },
-    {
-      "date": "2026-03-12",
-      "opened": "03/12/26 08:12:28",
-      "closed": "10:48:41",
-      "held": "02:36:13",
-      "symbol": "EONR",
-      "type": "Short",
-      "entry": 1.04,
-      "exit": 1.15,
-      "size": 153.0,
-      "pnl": -16.83,
-      "commission": 0.46,
-      "net": -17.54,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 153.0,
-      "price": 1.04
     }
   ]
 }
