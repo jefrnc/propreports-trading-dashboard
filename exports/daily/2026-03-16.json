@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-18 15:29:48",
+  "exportDate": "2026-03-19 03:54:44",
   "account": "ZI*******64",
   "date": "2026-03-16",
   "trades": [
@@ -282,18 +282,18 @@
     "winningTrades": 12,
     "losingTrades": 3,
     "symbols": [
-      "PRSO",
-      "KLTR",
-      "TWAV",
-      "AIRS",
-      "WNW",
       "LIDR",
-      "HCWB",
-      "VEEE"
+      "KLTR",
+      "WNW",
+      "TWAV",
+      "VEEE",
+      "PRSO",
+      "AIRS",
+      "HCWB"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-18 15:29:48"
+    "processedAt": "2026-03-19 03:54:44"
   }
 }
