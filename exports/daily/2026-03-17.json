@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-20 03:50:46",
+  "exportDate": "2026-03-20 15:17:52",
   "account": "ZI*******64",
   "date": "2026-03-17",
   "trades": [
@@ -120,15 +120,15 @@
     "winningTrades": 4,
     "losingTrades": 2,
     "symbols": [
-      "UCAR",
+      "FLYX",
       "BIAF",
-      "LIDR",
+      "UCAR",
       "CREG",
-      "FLYX"
+      "LIDR"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-20 03:50:46"
+    "processedAt": "2026-03-20 15:17:52"
   }
 }
