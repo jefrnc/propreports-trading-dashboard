@@ -72,17 +72,22 @@
       "trades": 11,
       "pnl": 45.28,
       "winRate": 0
+    },
+    "2026-03-20": {
+      "trades": 8,
+      "pnl": -9.02,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 149,
-    "totalPnL": 373.1,
-    "winRate": 64.42953020134227,
+    "totalTrades": 157,
+    "totalPnL": 364.08000000000004,
+    "winRate": 63.69426751592356,
     "bestDay": "2026-03-16",
     "bestDayPnL": 122.79,
     "worstDay": "2026-03-03",
     "worstDayPnL": -80.5,
-    "tradingDays": 14
+    "tradingDays": 15
   },
   "topWinners": [
     {
@@ -250,22 +255,22 @@
       "price": 1.25
     },
     {
-      "date": "2026-03-17",
-      "opened": "03/17/26 07:46:03",
-      "closed": "09:36:13",
-      "held": "01:50:10",
-      "symbol": "BIAF",
+      "date": "2026-03-20",
+      "opened": "03/20/26 08:55:35",
+      "closed": "09:32:28",
+      "held": "00:36:53",
+      "symbol": "MNDR",
       "type": "Short",
-      "entry": 2.41,
-      "exit": 2.69,
-      "size": 62.0,
-      "pnl": -17.36,
-      "commission": 0.19,
-      "net": -17.63,
+      "entry": 1.18,
+      "exit": 1.3129,
+      "size": 129.0,
+      "pnl": -17.15,
+      "commission": 0.39,
+      "net": -17.69,
       "account": "ZIMDASE9C64",
       "side": "SELL",
-      "quantity": 62.0,
-      "price": 2.41
+      "quantity": 129.0,
+      "price": 1.18
     }
   ]
 }
