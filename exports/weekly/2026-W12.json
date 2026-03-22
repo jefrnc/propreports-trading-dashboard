@@ -1,0 +1,264 @@
+{
+  "generateDate": "2026-03-22 03:52:53",
+  "weekPeriod": "2026-03-16 to 2026-03-22",
+  "weekNumber": 12,
+  "year": 2026,
+  "account": "ZI*******64",
+  "summary": {
+    "totalTradingDays": 7,
+    "totalTrades": 47,
+    "grossPnL": 325.76,
+    "totalCommissions": 12.76,
+    "netPnL": 313.0,
+    "avgDailyPnL": 44.71,
+    "avgTradePerDay": 6.71,
+    "winningTrades": 33,
+    "losingTrades": 14,
+    "winRate": 0.7021,
+    "avgWin": 15.38,
+    "avgLoss": -12.98,
+    "profitFactor": 2.79
+  },
+  "extremes": {
+    "bestTrade": {
+      "date": "2026-03-17",
+      "symbol": "CREG",
+      "pnl": 96.82
+    },
+    "worstTrade": {
+      "date": "2026-03-19",
+      "symbol": "SUNE",
+      "pnl": -18.48
+    },
+    "bestDay": {
+      "date": "2026-03-16",
+      "trades": 15,
+      "pnl": 122.79,
+      "symbols": [
+        "PRSO",
+        "AIRS",
+        "HCWB",
+        "LIDR",
+        "VEEE",
+        "TWAV",
+        "KLTR",
+        "WNW"
+      ]
+    },
+    "worstDay": {
+      "date": "2026-03-20",
+      "trades": 8,
+      "pnl": -9.02,
+      "symbols": [
+        "MNDR",
+        "SUNE",
+        "IBO",
+        "CURV",
+        "SER",
+        "CODX",
+        "BIAF",
+        "DRMA"
+      ]
+    }
+  },
+  "patterns": {
+    "maxConsecutiveWins": 8,
+    "maxConsecutiveLosses": 2,
+    "topSymbols": [
+      [
+        "CREG",
+        {
+          "count": 1,
+          "pnl": 96.82,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "MDAI",
+        {
+          "count": 2,
+          "pnl": 38.480000000000004,
+          "win_rate": 1.0
+        }
+      ],
+      [
+        "HCWB",
+        {
+          "count": 4,
+          "pnl": 35.980000000000004,
+          "win_rate": 0.75
+        }
+      ],
+      [
+        "VEEE",
+        {
+          "count": 2,
+          "pnl": 29.990000000000002,
+          "win_rate": 0.5
+        }
+      ],
+      [
+        "TWAV",
+        {
+          "count": 2,
+          "pnl": 26.000000000000004,
+          "win_rate": 0.5
+        }
+      ]
+    ],
+    "tradingHours": {
+      "09": {
+        "count": 12,
+        "pnl": 75.9
+      },
+      "11": {
+        "count": 2,
+        "pnl": 29.990000000000002
+      },
+      "12": {
+        "count": 5,
+        "pnl": 51.92
+      },
+      "13": {
+        "count": 1,
+        "pnl": 23.8
+      },
+      "14": {
+        "count": 2,
+        "pnl": -12.36
+      },
+      "16": {
+        "count": 7,
+        "pnl": 55.410000000000004
+      },
+      "17": {
+        "count": 1,
+        "pnl": 1.5
+      },
+      "07": {
+        "count": 2,
+        "pnl": 1.9100000000000001
+      },
+      "08": {
+        "count": 5,
+        "pnl": -17.199999999999996
+      },
+      "10": {
+        "count": 4,
+        "pnl": 109.73999999999998
+      },
+      "15": {
+        "count": 1,
+        "pnl": -10.0
+      },
+      "04": {
+        "count": 4,
+        "pnl": -3.089999999999999
+      },
+      "05": {
+        "count": 1,
+        "pnl": 18.24
+      }
+    },
+    "tradeDurations": {
+      "<5min": {
+        "count": 6,
+        "pnl": 35.46
+      },
+      ">60min": {
+        "count": 24,
+        "pnl": 237.01
+      },
+      "5-15min": {
+        "count": 5,
+        "pnl": -2.139999999999998
+      },
+      "15-60min": {
+        "count": 12,
+        "pnl": 55.43
+      }
+    }
+  },
+  "dailyBreakdown": [
+    {
+      "date": "2026-03-16",
+      "trades": 15,
+      "pnl": 122.79,
+      "symbols": [
+        "PRSO",
+        "AIRS",
+        "HCWB",
+        "LIDR",
+        "VEEE",
+        "TWAV",
+        "KLTR",
+        "WNW"
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "trades": 6,
+      "pnl": 110.35,
+      "symbols": [
+        "FLYX",
+        "BIAF",
+        "UCAR",
+        "CREG",
+        "LIDR"
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "trades": 7,
+      "pnl": 39.5,
+      "symbols": [
+        "ENSC",
+        "EONR",
+        "SWMR",
+        "TPET",
+        "MDAI",
+        "SUNE",
+        "HCWB"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "trades": 11,
+      "pnl": 45.28,
+      "symbols": [
+        "SUNE",
+        "SWMR",
+        "SER",
+        "BIAF",
+        "MDAI"
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "trades": 8,
+      "pnl": -9.02,
+      "symbols": [
+        "MNDR",
+        "SUNE",
+        "IBO",
+        "CURV",
+        "SER",
+        "CODX",
+        "BIAF",
+        "DRMA"
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    },
+    {
+      "date": "2026-03-22",
+      "trades": 0,
+      "pnl": 0,
+      "symbols": []
+    }
+  ]
+}
