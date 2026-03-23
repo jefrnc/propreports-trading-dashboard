@@ -1,5 +1,5 @@
 {
-  "generateDate": "2026-03-23 03:57:56",
+  "generateDate": "2026-03-23 15:24:41",
   "weekPeriod": "2026-03-16 to 2026-03-22",
   "weekNumber": 12,
   "year": 2026,
@@ -50,14 +50,14 @@
       "trades": 8,
       "pnl": -9.02,
       "symbols": [
-        "SER",
-        "MNDR",
-        "BIAF",
-        "SUNE",
-        "CURV",
-        "IBO",
         "DRMA",
-        "CODX"
+        "MNDR",
+        "IBO",
+        "CODX",
+        "SUNE",
+        "BIAF",
+        "CURV",
+        "SER"
       ]
     }
   },
@@ -238,14 +238,14 @@
       "trades": 8,
       "pnl": -9.02,
       "symbols": [
-        "SER",
-        "MNDR",
-        "BIAF",
-        "SUNE",
-        "CURV",
-        "IBO",
         "DRMA",
-        "CODX"
+        "MNDR",
+        "IBO",
+        "CODX",
+        "SUNE",
+        "BIAF",
+        "CURV",
+        "SER"
       ]
     },
     {

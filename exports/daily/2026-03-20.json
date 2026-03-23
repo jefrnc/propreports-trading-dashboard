@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-23 03:57:55",
+  "exportDate": "2026-03-23 15:24:40",
   "account": "ZI*******64",
   "date": "2026-03-20",
   "trades": [
@@ -156,18 +156,18 @@
     "winningTrades": 4,
     "losingTrades": 4,
     "symbols": [
-      "SER",
-      "MNDR",
-      "BIAF",
-      "SUNE",
-      "CURV",
-      "IBO",
       "DRMA",
-      "CODX"
+      "MNDR",
+      "IBO",
+      "CODX",
+      "SUNE",
+      "BIAF",
+      "CURV",
+      "SER"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-23 03:57:55"
+    "processedAt": "2026-03-23 15:24:40"
   }
 }
