@@ -1,0 +1,21 @@
+{
+  "period": "Week 12, 2026",
+  "week_period": "2026-03-16 to 2026-03-22",
+  "generated_at": "2026-03-23T09:26:17.494440",
+  "performance_summary": {
+    "net_pnl": 313.0,
+    "total_trades": 47,
+    "win_rate": 0.7021,
+    "trading_days": 7
+  },
+  "coaching": {
+    "overall_performance": "",
+    "strengths": [],
+    "areas_for_improvement": [],
+    "specific_recommendations": [],
+    "risk_management": "Aim for a minimum of 10-15 trades across the week to diversify opportunities and enhance learning experiences.\n2. **Refine Risk Management Practices**: Implement stricter stop-loss measures and consider adjusting position sizes to better control risk.\n3. **Post-Trade Analysis**: Dedicate time each day to review trades, focusing on both wins and losses to refine your strategy continuously.",
+    "psychological_insights": "The ability to leverage consecutive wins indicates strong discipline. However, the low trading frequency may signal hesitation. Consider setting daily goals to maintain trading engagement.\n- **Emotional Response to Losses**: Reflect on how you react to loss. If losses lead to reduced trading frequency, focus on maintaining a balanced perspective\u2014treat losses as opportunities for learning.",
+    "next_week_focus": [],
+    "next_month_focus": []
+  }
+}
