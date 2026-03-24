@@ -77,17 +77,22 @@
       "trades": 8,
       "pnl": -9.02,
       "winRate": 0
+    },
+    "2026-03-23": {
+      "trades": 17,
+      "pnl": 61.22,
+      "winRate": 0
     }
   },
   "summary": {
-    "totalTrades": 157,
-    "totalPnL": 364.08000000000004,
-    "winRate": 63.69426751592356,
+    "totalTrades": 174,
+    "totalPnL": 425.30000000000007,
+    "winRate": 63.793103448275865,
     "bestDay": "2026-03-16",
     "bestDayPnL": 122.79,
     "worstDay": "2026-03-03",
     "worstDayPnL": -80.5,
-    "tradingDays": 15
+    "tradingDays": 16
   },
   "topWinners": [
     {
@@ -107,6 +112,24 @@
       "side": "SELL",
       "quantity": 242.0,
       "price": 1.9958
+    },
+    {
+      "date": "2026-03-23",
+      "opened": "03/23/26 11:22:22",
+      "closed": "12:46:44",
+      "held": "01:24:22",
+      "symbol": "AHMA",
+      "type": "Short",
+      "entry": 5.7158,
+      "exit": 4.2939,
+      "size": 49.0,
+      "pnl": 69.67,
+      "commission": 0.15,
+      "net": 69.49,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 49.0,
+      "price": 5.7158
     },
     {
       "date": "2026-03-16",
@@ -161,24 +184,6 @@
       "side": "SELL",
       "quantity": 129.0,
       "price": 1.22
-    },
-    {
-      "date": "2026-03-16",
-      "opened": "03/16/26 13:00:44",
-      "closed": "13:12:09",
-      "held": "00:11:25",
-      "symbol": "HCWB",
-      "type": "Short",
-      "entry": 1.17,
-      "exit": 1.0,
-      "size": 140.0,
-      "pnl": 23.8,
-      "commission": 0.42,
-      "net": 23.91,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 140.0,
-      "price": 1.17
     }
   ],
   "topLosers": [
@@ -199,6 +204,24 @@
       "side": "SELL",
       "quantity": 200.0,
       "price": 1.484
+    },
+    {
+      "date": "2026-03-23",
+      "opened": "03/23/26 16:23:59",
+      "closed": "18:50:25",
+      "held": "02:26:26",
+      "symbol": "UGRO",
+      "type": "Short",
+      "entry": 6.55,
+      "exit": 7.929,
+      "size": 21.0,
+      "pnl": -28.96,
+      "commission": 0.06,
+      "net": -29.08,
+      "account": "ZIMDASE9C64",
+      "side": "SELL",
+      "quantity": 21.0,
+      "price": 6.55
     },
     {
       "date": "2026-03-13",
@@ -253,24 +276,6 @@
       "side": "SELL",
       "quantity": 120.0,
       "price": 1.25
-    },
-    {
-      "date": "2026-03-20",
-      "opened": "03/20/26 08:55:35",
-      "closed": "09:32:28",
-      "held": "00:36:53",
-      "symbol": "MNDR",
-      "type": "Short",
-      "entry": 1.18,
-      "exit": 1.3129,
-      "size": 129.0,
-      "pnl": -17.15,
-      "commission": 0.39,
-      "net": -17.69,
-      "account": "ZIMDASE9C64",
-      "side": "SELL",
-      "quantity": 129.0,
-      "price": 1.18
     }
   ]
 }
