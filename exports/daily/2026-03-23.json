@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-24 15:28:16",
+  "exportDate": "2026-03-25 03:52:11",
   "account": "ZI*******64",
   "date": "2026-03-23",
   "trades": [
@@ -318,19 +318,19 @@
     "winningTrades": 11,
     "losingTrades": 6,
     "symbols": [
-      "CDLX",
       "BNGO",
-      "AIFF",
       "SUNE",
       "UGRO",
-      "AHMA",
+      "AIFF",
       "PAVS",
       "BIAF",
+      "CDLX",
+      "AHMA",
       "ZYBT"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-24 15:28:16"
+    "processedAt": "2026-03-25 03:52:11"
   }
 }
