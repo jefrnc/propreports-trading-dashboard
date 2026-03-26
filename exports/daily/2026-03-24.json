@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-03-26 04:00:37",
+  "exportDate": "2026-03-26 15:31:06",
   "account": "ZI*******64",
   "date": "2026-03-24",
   "trades": [
@@ -390,21 +390,21 @@
     "winningTrades": 11,
     "losingTrades": 10,
     "symbols": [
-      "SER",
       "KPTI",
-      "ELAB",
-      "AIFF",
-      "FEED",
-      "RBNE",
-      "BZAI",
-      "CVV",
-      "QNTM",
       "PAVS",
-      "ITOC"
+      "FEED",
+      "CVV",
+      "RBNE",
+      "QNTM",
+      "SER",
+      "BZAI",
+      "ITOC",
+      "AIFF",
+      "ELAB"
     ]
   },
   "metadata": {
     "reprocessed": true,
-    "processedAt": "2026-03-26 04:00:37"
+    "processedAt": "2026-03-26 15:31:06"
   }
 }
